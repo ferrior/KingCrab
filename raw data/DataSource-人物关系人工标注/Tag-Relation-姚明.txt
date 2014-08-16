@@ -1,0 +1,2718 @@
+SENTENCE = 助理教练郭士强介绍，“姚明恢复得不错，已经确定可以参加比赛，不过具体的上场时间还是由主教练尤纳斯决定。
+POS_TAG = 助理教练/n 郭士强/nr 介绍/v ，/w “/w 姚明/nr 恢复/v 得/u 不错/a ，/w 已经/d 确定/v 可以/v 参加/v 比赛/vn ，/w 不过/c 具体/a 的/u 上场/vn 时/ng 间/f 还/d 是/v 由/p 主教练/n 尤纳斯/nr 决定/v 。/w
+CHARACTERS = 郭士强;姚明;尤纳斯;
+RELWORD = 主教练;助理教练;
+RELCOMB = 姚明,尤纳斯->主教练;郭士强,姚明->助理教练;
+-----------
+SENTENCE = 男篮领队白喜林表示：“这次钻石杯，我们不会注重名次，主要目标是进一步加强主力间的配合，增加默契。
+POS_TAG = 男篮/n 领队/n 白喜林/nr 表示/v ：/w “/w 这次/r 钻石/n 杯/ng ，/w 我们/r 不/d 会/v 注重/v 名次/n ，/w 主要/b 目标/n 是/v 进一步/d 加强/v 主力/n 间/f 的/u 配合/vn ，/w 增加/v 默契/an 。/w
+CHARACTERS = 白喜林;
+RELWORD = 领队;
+RELCOMB = 
+-----------
+SENTENCE = ”据悉，为帮助球队迅速找到比赛状态，男篮昨天完成了奥运阵容的最后一块拼图———助理教练唐尼·尼尔森昨天下午抵达北京，从现在到奥运会结束，他都会以助理教练身份亮相。
+POS_TAG = ”/w 据悉/v ，/w 为/p 帮助/v 球队/n 迅速/ad 找到/v 比赛/vn 状态/n ，/w 男篮/n 昨天/t 完成/v 了/u 奥运/j 阵容/n 的/u 最后/f 一/m 块/q 拼图/n ———/w 助理教练/n 唐尼·尼尔森/nr 昨天/t 下午/t 抵达/v 北京/ns ，/w 从/p 现在/t 到/v 奥运会/j 结束/v ，/w 他/r 都/d 会/v 以/p 助理教练/n 身份/n 亮相/v 。/w
+CHARACTERS = 唐尼·尼尔森;
+RELWORD = 助理教练;
+RELCOMB = 
+-----------
+SENTENCE = 今晚，中国男篮将对阵安哥拉这个奥运会小组赛对手，力争报此前在斯杯上１分不敌对手之仇。
+POS_TAG = 今晚/t ，/w 中国/ns 男篮/n 将/d 对阵/v 安哥拉/ns 这个/r 奥运会/j 小组/n 赛/vn 对手/n ，/w 力争/v 报/n 此前/t 在/p 斯/ 杯/ng 上/m １分/t 不/d 敌/vg 对手/n 之/u 仇/vg 。/w
+CHARACTERS = 
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 参加此次比赛的六支球队的队员和教练、官员，以及国际篮联的官员悉数出席。
+POS_TAG = 参加/v 此次/r 比赛/vn 的/u 六/m 支/q 球队/n 的/u 队员/n 和/c 教练/n 、/w 官员/n ，/w 以及/c 国际/n 篮联/j 的/b 官员/n 悉数/d 出席/v 。/w
+CHARACTERS = 
+RELWORD = 教练;
+RELCOMB = 
+-----------
+SENTENCE = 见到自己在火箭的队友，姚明热情的献上了一个“熊抱”。
+POS_TAG = 见到/v 自己/r 在/p 火箭/n 的/u 队友/n ，/w 姚明/nr 热情/a 的/u 献/v 上/m 了/u 一个/m “/w 熊抱/n ”/w 。/w
+CHARACTERS = 姚明;
+RELWORD = 队友;
+RELCOMB = 
+-----------
+SENTENCE = 虽然在火箭队是并肩作战的战友，但到了奥运会赛场却必须各自为自己的球队奋斗。
+POS_TAG = 虽然/c 在/p 火箭/n 队/n 是/v 并肩作战/l 的/u 战友/n ，/w 但/c 到/v 了/u 奥运会/j 赛场/n 却/d 必须/d 各自/r 为/p 自己/r 的/u 球队/n 奋斗/v 。/w
+CHARACTERS = 
+RELWORD = 战友;
+RELCOMB = 
+-----------
+SENTENCE = 众所周知，篮球在体育运动中属于剧烈型的运动，在比赛过程中，谁都不可能规定运动员的每一个动作，运动员受伤的事是经常会发生的，而姚明则往往是整个运动场上的焦点，是对手防御和攻击的重点，会遭遇到对方高频率的围追堵截，但凡每一次对他采取的阻截手段，都有可能给他带来意外的伤害，所以他的受伤应该是随时随地都有可能发生。
+POS_TAG = 众所周知/i ，/w 篮球/n 在/p 体育/n 运动/n 中/f 属于/v 剧烈/a 型/k 的/u 运动/vn ，/w 在/p 比赛/vn 过程/n 中/f ，/w 谁/r 都/d 不/d 可能/v 规定/n 运动员/n 的/u 每/r 一个/m 动作/n ，/w 运动员/n 受伤/v 的/u 事/n 是/v 经常/d 会/v 发生/v 的/u ，/w 而/c 姚明/nr 则/d 往往/d 是/v 整个/b 运动场/n 上/m 的/u 焦点/n ，/w 是/v 对手/n 防御/vn 和/c 攻击/v 的/u 重点/n ，/w 会/v 遭遇/n 到/v 对方/n 高/a 频率/n 的/u 围追/vn 堵截/vn ，/w 但/c 凡/d 每/r 一/m 次/q 对/p 他/r 采取/v 的/u 阻截/v 手段/n ，/w 都/d 有/v 可能/v 给/p 他/r 带/v 来/v 意外/a 的/u 伤害/vn ，/w 所以/c 他/r 的/u 受伤/vn 应该/v 是/v 随时随地/l 都/d 有/v 可能/v 发生/v 。/w
+CHARACTERS = 姚明;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 从北京到南京，他就遇到了“全场紧逼”：对他实施“紧逼”的对手既有四、五岁的小孩，也六、七十岁的老者，他们几乎是倾尽全力，对姚明紧追不放。
+POS_TAG = 从/p 北京/ns 到/v 南京/ns ，/w 他/r 就/d 遇到/v 了/y “/w 全场/n 紧逼/vd ”/w ：/w 对/p 他/r 实施/v “/w 紧/d 逼/v ”/w 的/u 对手/n 既/c 有/v 四/m 、/w 五/m 岁/q 的/u 小孩/n ，/w 也/d 六/m 、/w 七十/m 岁/q 的/u 老者/n ，/w 他们/r 几乎/d 是/v 倾/v 尽/v 全力/nz ，/w 对/p 姚明/nr 紧/d 追/v 不/d 放/v 。/w
+CHARACTERS = 姚明;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 一位与国家男篮同机的同行向记者描述了当时的情形：
+POS_TAG = 一/m 位/q 与/p 国家/n 男篮/n 同机/n 的/u 同行/n 向/p 记者/n 描述/v 了/u 当时/t 的/u 情形/n ：/w
+CHARACTERS = 
+RELWORD = 同行;
+RELCOMB = 
+-----------
+SENTENCE = ”坐在南京的的士上，司机大哥边开着车边用电台与伙伴聊着天，“到时候一定要去看看。
+POS_TAG = ”/w 坐/v 在/p 南京/ns 的/u 的士/n 上/m ，/w 司机/n 大哥/n 边/k 开/v 着/u 车/n 边/k 用/p 电台/n 与/c 伙伴/n 聊/v 着/u 天/q ，/w “/w 到/v 时候/n 一定/d 要/v 去/v 看看/v 。/w
+CHARACTERS = 
+RELWORD = 伙伴;
+RELCOMB = 
+-----------
+SENTENCE = 对于中国男篮而言，最关键的一战莫过于今天和安哥拉这个奥运小组赛对手再次碰面。
+POS_TAG = 对于/p 中国/ns 男篮/n 而言/u ，/w 最/d 关键/a 的/u 一/m 战/q 莫过于/l 今天/t 和/c 安哥拉/ns 这个/r 奥运/j 小组/n 赛/vn 对手/n 再次/d 碰面/v 。/w
+CHARACTERS = 
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 在斯杯的比赛，中国男篮有所保留以至于惜败对手，而此次钻石杯再度碰面，中国男篮显然不会再轻易示弱，毕竟如果奥运会前连负对手的话，将对队员的心理造成一定影响。
+POS_TAG = 在/p 斯/ 杯/ng 的/u 比赛/vn ，/w 中国/ns 男篮/n 有所/v 保留/v 以至于/c 惜败/v 对手/n ，/w 而/c 此次/r 钻石/n 杯/ng 再度/d 碰面/v ，/w 中国/ns 男篮/n 显然/ad 不/d 会/v 再/d 轻易/d 示弱/v ，/w 毕竟/d 如果/c 奥运会/j 前/f 连/d 负/v 对手/n 的话/u ，/w 将/d 对/p 队员/n 的/u 心理/n 造成/v 一定/b 影响/vn 。/w
+CHARACTERS = 
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 姚明虽然已经在斯杯正式复出，状态却令人担忧，和队友之间的配合也有欠默契，惟一值得高兴的是，斯杯的三场比赛，姚明的状态有缓慢的提升，相信经过了一个星期的训练，在钻石杯上，姚明的上场时间会相应增加，表现也更加值得期待。
+POS_TAG = 姚明/nr 虽然/c 已经/d 在/p 斯/ 杯/ng 正式/ad 复出/v ，/w 状态/n 却/d 令人担忧/l ，/w 和/c 队友/n 之间/f 的/u 配合/vn 也/d 有/v 欠/v 默契/an ，/w 惟一/b 值得/v 高兴/a 的/b 是/a ，/w 斯/ 杯/ng 的/u 三/m 场/q 比赛/vn ，/w 姚明/nr 的/u 状态/n 有/v 缓慢/a 的/u 提升/vn ，/w 相信/v 经过/v 了/u 一个/m 星期/n 的/u 训练/vn ，/w 在/p 钻石/n 杯/ng 上/m ，/w 姚明/nr 的/u 上场/vn 时间/n 会/v 相应/vd 增加/v ，/w 表现/v 也/d 更加/d 值得/v 期待/v 。/w
+CHARACTERS = 姚明;
+RELWORD = 队友;
+RELCOMB = 
+-----------
+SENTENCE = 7个篮板，他的状态远没到最佳，用他自己的话讲就是“只恢复了五六成”，另一方面，他跟队友的默契也还不够，主教练尤纳斯指出：“我们的球员们，尤其在内外线的配合上还显得很犹豫。
+POS_TAG = 7/m 个/q 篮板/n ，/w 他/r 的/u 状态/n 远/ad 没/v 到/v 最/d 佳/a ，/w 用/p 他/r 自己/r 的/u 话/n 讲/v 就/d 是/v “/w 只/d 恢复/v 了/u 五六/m 成/m ”/w ，/w 另一方面/c ，/w 他/r 跟/p 队友/n 的/u 默契/an 也/d 还/d 不够/a ，/w 主教练/n 尤纳斯/nr 指出/v ：/w “/w 我们/r 的/u 球员/n 们/k ，/w 尤其/d 在/p 内外线/j 的/u 配合/v 上/m 还/d 显得/v 很/d 犹豫/a 。/w
+CHARACTERS = 尤纳斯;
+RELWORD = 队友;主教练;
+RELCOMB = 
+-----------
+SENTENCE = 领队白喜林说：“姚明现在恢复得不错，状态有所回升，钻石杯正好是个检验，至于上场时间，如果没有特殊情况出现的话，肯定比斯杯打得多。
+POS_TAG = 领队/n 白喜林/nr 说/v ：/w “/w 姚明/nr 现在/t 恢复/v 得/u 不错/a ，/w 状态/n 有所/v 回升/v ，/w 钻石杯/n 正好/z 是/v 个/q 检验/vn ，/w 至于/p 上场/v 时间/n ，/w 如果/c 没有/d 特殊/a 情况/n 出现/v 的/u 话/n ，/w 肯定/v 比/p 斯杯/n 打/v 得/u 多/a 。/w
+CHARACTERS = 白喜林;姚明;
+RELWORD = 领队;
+RELCOMB = 白喜林,姚明->领队;
+-----------
+SENTENCE = 斯科拉想单挑老队友
+POS_TAG = 斯科拉/nr 想/v 单/dg 挑/v 老/h 队友/n
+CHARACTERS = 斯科拉;
+RELWORD = 队友;
+RELCOMB = 
+-----------
+SENTENCE = 昨天下午4点，斯杯在古南都酒店举行，尤纳斯并没有参加，而是由胡加时和助理教练郭士强出席，姚明的上场时间和状态自然是焦点。
+POS_TAG = 昨天/t 下午/t 4/m 点/q ，/w 斯杯/n 在/p 古南都酒店/s 举行/v ，/w 尤纳斯/nr 并/d 没有/d 参加/v ，/w 而是/c 由/p 胡加时/nr 和/c 助理教练/n 郭士强/nr 出席/v ，/w 姚明/nr 的/u 上场/vn 时间/n 和/c 状态/n 自然/d 是/v 焦点/n 。/w
+CHARACTERS = 郭士强;胡加时;姚明;尤纳斯;
+RELWORD = 助理教练;
+RELCOMB = 
+-----------
+SENTENCE = 对此郭士强表示，姚明肯定会打，“至于多少时间，这只能由主教练来决定，我没有发言权。
+POS_TAG = 对/p 此/r 郭士强/nr 表示/v ，/w 姚明/nr 肯定/d 会/v 打/v ，/w “/w 至于/p 多少/r 时间/n ，/w 这/r 只能/v 由/p 主教练/n 来/v 决定/v ，/w 我/r 没有/v 发言权/n 。/w
+CHARACTERS = 郭士强;姚明;
+RELWORD = 主教练;
+RELCOMB = 
+-----------
+SENTENCE = 今天晚上，中国男篮将再次遭遇奥运小组赛的对手安哥拉，一周前的杭州，男篮1分惜败安哥拉，不过当时只是姚明复出的第二场
+POS_TAG = 今天/t 晚上/t ，/w 中国/ns 男篮/n 将/d 再次/d 遭遇/v 奥运/j 小组/n 赛/n 的/u 对手/n 安哥拉/ns ，/w 一/m 周/q 前/f 的/u 杭州/ns ，/w 男篮/n 1分/t 惜败/v 安哥拉/ns ，/w 不过/c 当时/t 只/d 是/v 姚明/nr 复出/v 的/u 第二/m 场/q
+CHARACTERS = 姚明;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 在抵达酒店后，早就有老大娘、小朋友等在车门前索要签名了。
+POS_TAG = 在/p 抵达/v 酒店/s 后/f ，/w 早就/d 有/v 老大娘/n 、/w 小/a 朋友/n 等/u 在/p 车门/n 前/f 索要/v 签名/n 了/y 。/w
+CHARACTERS = 
+RELWORD = 朋友;
+RELCOMB = 
+-----------
+SENTENCE = 得到11分和4个篮板；第二场碰上奥运会对手安哥拉，姚明仍是替补出场
+POS_TAG = 得到/v 11分/t 和/c 4/m 个/q 篮板/n ；/w 第二/m 场/q 碰上/v 奥运会/j 对手/n 安哥拉/ns ，/w 姚明/nr 仍/d 是/v 替补/v 出场/v
+CHARACTERS = 姚明;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 由于对手的整体实力比起斯杯的比赛强了不少，所以无论是对于姚明，还是男篮其他队员来说，钻石杯都是一个难得的磨合与检验机会。
+POS_TAG = 由于/p 对手/n 的/u 整体/n 实力/n 比起/v 斯杯/n 的/u 比赛/vn 强/a 了/u 不少/m ，/w 所以/c 无论/c 是/v 对于/p 姚明/nr ，/w 还/d 是/v 男篮/n 其他/r 队员/n 来说/u ，/w 钻石杯/n 都/d 是/v 一个/m 难得/a 的/u 磨合/vn 与/c 检验/vn 机会/n 。/w
+CHARACTERS = 姚明;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 对手：实力接近奥运水平
+POS_TAG = 对手/n ：/w 实力/n 接近/v 奥运/j 水平/n
+CHARACTERS = 
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 从对手的实力来看，基本达到了奥运水平。
+POS_TAG = 从/p 对手/n 的/u 实力/n 来看/v ，/w 基本/ad 达到/v 了/u 奥运/j 水平/n 。/w
+CHARACTERS = 
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 对于中国男篮主教练尤纳斯来说，斯杯的比赛除了迎回“姚核心”，还肩负着考查年轻队员的使命，而到了钻石杯，老尤除了研究对手外，只需一心一意演练“姚核心”战术。
+POS_TAG = 对于/p 中国/ns 男篮/n 主教练/n 尤纳斯/nr 来说/u ，/w 斯杯/n 的/u 比赛/vn 除了/p 迎回/v “/w 姚核心/n ”/w ，/w 还/d 肩负/v 着/u 考查/v 年轻/a 队员/n 的/u 使命/n ，/w 而/c 到/v 了/u 钻石杯/n ，/w 老尤/nr 除了/c 研究/v 对手/n 外/f ，/w 只/d 需/v 一心一意/i 演练/v “/w 姚核心/n ”/w 战术/n 。/w
+CHARACTERS = 老尤;尤纳斯;
+RELWORD = 对手;主教练;
+RELCOMB = 
+-----------
+SENTENCE = 在中国举行的第三届钻石杯将于江苏南京正式打响，而在今天晚上19点30分A组小组赛揭幕战中，中国队的对手将是“老朋友”安哥拉队，这也是两队在奥运会开始前的最后一次实战对垒。
+POS_TAG = 在/p 中国/ns 举行/v 的/u 第三/m 届/q 钻石杯/n 将/d 于/p 江苏/ns 南京/ns 正式/ad 打响/v ，/w 而/c 在/p 今天/t 晚上/t 19/m 点/t 30分/t A组/n 小组/n 赛/ng 揭幕/v 战/vg 中/f ，/w 中国队/nt 的/u 对手/n 将/d 是/v “/w 老/b 朋友/n ”/w 安哥拉队/nt ，/w 这/r 也/d 是/v 两/m 队/q 在/p 奥运会/j 开始/v 前/f 的/u 最后/f 一/m 次/q 实战/n 对垒/vn 。/w
+CHARACTERS = 
+RELWORD = 对手;朋友;
+RELCOMB = 
+-----------
+SENTENCE = 正当大家准备迎接紧随其后的其他球员和教练时，却发现他们都径直走向了行李传输带，而没有人尾随姚明走出来。
+POS_TAG = 正当/p 大家/r 准备/v 迎接/v 紧/d 随/v 其/r 后/f 的/u 其他/r 球员/n 和/c 教练/n 时/ng ，/w 却/d 发现/v 他们/r 都/d 径直/d 走/v 向/p 了/u 行李/n 传输/vn 带/v ，/w 而/c 没有/v 人/n 尾随/v 姚明/nr 走/v 出来/v 。/w
+CHARACTERS = 姚明;
+RELWORD = 教练;
+RELCOMB = 
+-----------
+SENTENCE = ”不仅一人率先独享各路相机的狂轰乱炸，还让众师弟负责自己的行李搬运工作。
+POS_TAG = ”/w 不仅/c 一/m 人/n 率先/d 独/d 享/vg 各路/r 相机/n 的/u 狂轰乱炸/vn ，/w 还/d 让/v 众/ag 师弟/n 负责/v 自己/r 的/u 行李/n 搬运/vn 工作/vn 。/w
+CHARACTERS = 
+RELWORD = 师弟;
+RELCOMB = 
+-----------
+SENTENCE = 姚明抬头一看，一条2米多高的大汉器宇轩昂地走了进来，此人晒的黝黑，满脸络腮胡子，正是自己的火箭队友斯科拉。
+POS_TAG = 姚明/nr 抬头/v 一/m 看/v ，/w 一/m 条/q 2/m 米/q 多/a 高/a 的/u 大汉/n 器宇轩昂/i 地/u 走/v 了/u 进来/v ，/w 此人/r 晒/v 的/u 黝黑/z ，/w 满脸/d 络腮胡子/n ，/w 正/d 是/v 自己/r 的/u 火箭/n 队友/n 斯科拉/nr 。/w
+CHARACTERS = 斯科拉;姚明;
+RELWORD = 队友;
+RELCOMB = 斯科拉,姚明->队友;
+-----------
+SENTENCE = 接着，斯科拉冲易建联打招呼，两人曾一同入寻新秀全明星赛”，做过队友，斯科拉也给易建联来了一个拥抱。
+POS_TAG = 接着/c ，/w 斯科拉/nr 冲/v 易建联/nr 打招呼/v ，/w 两/m 人/n 曾/d 一同/d 入/v 寻/v 新秀/n 全明星/n 赛/ng ”/w ，/w 做/v 过/u 队友/n ，/w 斯科拉/nr 也/d 给/v 易建联/nr 来/v 了/u 一个/m 拥抱/v 。/w
+CHARACTERS = 斯科拉;易建联;
+RELWORD = 队友;
+RELCOMB = 斯科拉,易建联->队友;
+-----------
+SENTENCE = 国家队助理教练郭世强昨日就明确表示：“现在姚明与整支球队的配合还有些欠缺！
+POS_TAG = 国家队/n 助理教练/n 郭世强/nr 昨日/t 就/d 明确/ad 表示/v ：/w “/w 现在/t 姚明/nr 与/p 整/m 支/q 球队/n 的/u 配合/vn 还/d 有/v 些/q 欠缺/an ！/w
+CHARACTERS = 郭世强;姚明;
+RELWORD = 助理教练;
+RELCOMB = 
+-----------
+SENTENCE = 姚明不是第一个进入NBA的中国球员，2001年他的国家队队友王治郅就已经加盟了达拉斯小牛，然而姚明是最成功的一个。
+POS_TAG = 姚明/nr 不/d 是/v 第一/m 个/q 进入/v NBA/nx 的/u 中国/ns 球员/n ，/w 2001年/t 他/r 的/u 国家队/n 队友/n 王治郅/nr 就/d 已经/d 加盟/v 了/u 达拉斯小牛/n ，/w 然而/c 姚明/nr 是/v 最/d 成功/a 的/u 一个/m 。/w
+CHARACTERS = 王治郅;姚明;
+RELWORD = 队友;
+RELCOMB = 王治郅,姚明->队友;
+-----------
+SENTENCE = 根据赛程，如果中国队能击败同组的两个对手，将有可能在最后的排名赛上遇到另一个小组的头名（很可能是上届奥运会男篮冠军阿根廷队）。
+POS_TAG = 根据/p 赛程/n ，/w 如果/c 中国队/nt 能/v 击败/v 同组/n 的/u 两/m 个/q 对手/n ，/w 将/d 有/v 可能/v 在/p 最后/f 的/u 排名/vn 赛/v 上/f 遇到/v 另/r 一个/m 小组/n 的/u 头名/n （/w 很/d 可能/v 是/v 上/m 届/q 奥运会/j 男篮/n 冠军/n 阿根廷队/nt ）/w 。/w
+CHARACTERS = 
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 钻石杯上，中国队的对手实力均不弱，尤纳斯无疑希望通过这样高水平的比赛来调整全队的状态。
+POS_TAG = 钻石杯/n 上/f ，/w 中国队/nt 的/u 对手/n 实力/n 均/d 不/d 弱/a ，/w 尤纳斯/nr 无疑/d 希望/v 通过/p 这样/r 高/a 水平/n 的/u 比赛/vn 来/f 调整/v 全队/n 的/u 状态/n 。/w
+CHARACTERS = 尤纳斯;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 在雅典奥运会小组赛中首战58∶83惨负西班牙队后，“姚明”曾冲冠一怒用少有地激烈言语炮轰队友不能共同挑起责任重担，虽然此后曾对此道歉，但却改变不了“一个姚明一支国家队”的现实尴尬，中国队进攻更多依靠“姚核心”，已经成为定式，也在某种程度上消磨着其他队友的意志，在绝对明星统治进攻节奏下，很少有球员肯担当“多点开花”失利的责任，信心也在定式习惯中消磨。
+POS_TAG = 在/p 雅典/ns 奥运会/j 小组赛/n 中/f 首战/n 58∶83/m 惨/ad 负/v 西班牙队/nt 后/f ，/w “/w 姚明/nr ”/w 曾/d 冲冠一怒/i 用/v 少有/a 地/u 激烈/a 言语/n 炮轰/v 队友/n 不能/d 共同/a 挑起/v 责任/n 重担/n ，/w 虽然/c 此后/t 曾/d 对/p 此/r 道歉/v ，/w 但/c 却/d 改变/v 不/d 了/y “/w 一个/m 姚明/nr 一/m 支/q 国家队/n ”/w 的/u 现实/n 尴尬/an ，/w 中国队/nt 进攻/v 更/d 多/ad 依靠/v “/w 姚核心/n ”/w ，/w 已经/d 成为/v 定/v 式/k ，/w 也/d 在/p 某种/r 程度/n 上/m 消磨/v 着/n 其他/r 队友/n 的/b 意志/n ，/w 在/p 绝对/a 明星/n 统治/vn 进攻/vn 节奏/n 下/f ，/w 很/d 少/ad 有/v 球员/n 肯/v 担当/v “/w 多/m 点/t 开/v 花/n ”/w 失利/v 的/u 责任/n ，/w 信心/n 也/d 在/p 定/v 式/k 习惯/v 中/f 消磨/v 。/w
+CHARACTERS = 姚明;
+RELWORD = 队友;
+RELCOMB = 
+-----------
+SENTENCE = 一位篮球老记说，比赛是五个人的，男篮不会因姚明的回归而一飞冲天，雅典奥运会的现实就是明证；中国男篮也不能一味依赖姚明，否则在对手的“砍姚战术”下就是死路一条。
+POS_TAG = 一/m 位/q 篮球/n 老记/n 说/v ，/w 比赛/v 是/v 五/m 个/q 人/n 的/u ，/w 男篮/n 不/d 会/v 因/c 姚明/nr 的/u 回归/vn 而/c 一飞冲天/i ，/w 雅典/ns 奥运会/j 的/u 现实/n 就/d 是/v 明证/n ；/w 中国/ns 男篮/n 也/d 不能/v 一味/d 依赖/v 姚明/nr ，/w 否则/c 在/p 对手/n 的/u “/w 砍姚战术/nz ”/w 下/f 就/d 是/v 死路一条/l 。/w
+CHARACTERS = 姚明;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 因为麦迪不是控卫，而姚明不是拥有铁肘的苦力大前，所以，火箭甚至于不能打造爵士类型的双巨星档拆＋外线投手战术（麦迪的身高和姚明永远不会去给别人黑肘的态度导致每每在档拆中防守球员不怕撞上姚明，而这些人都是对手防守麦迪的捍将，多半身高两米以上，体重２４０磅的大个子。
+POS_TAG = 因为/p 麦迪/nr 不/d 是/v 控卫/n ，/w 而/c 姚明/nr 不/d 是/v 拥有/v 铁肘/n 的/u 苦力/n 大前/n ，/w 所以/c ，/w 火箭/n 甚至于/d 不/d 能/v 打造/v 爵士/n 类型/n 的/u 双/m 巨星/n 档拆/vn ＋/m 外线/n 投手/n 战术/n （/w 麦迪/nr 的/u 身高/n 和/c 姚明/nr 永远/d 不/d 会/v 去/v 给/p 别人/r 黑肘/n 的/u 态度/n 导致/v 每每/d 在/c 档拆/n 中/f 防守/vn 球员/n 不怕/v 撞/v 上/f 姚明/nr ，/w 而/c 这些/r 人/n 都/d 是/v 对手/n 防守/v 麦迪/nr 的/u 捍将/n ，/w 多半/m 身高/n 两/m 米/q 以上/f ，/w 体重/n ２４０/m 磅/q 的/u 大个子/n 。/w
+CHARACTERS = 麦迪;姚明;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 换句话说，请范甘迪走人，找来以前火箭名宿来担任主教练，而球探和管理层都知道怎么围绕中锋去找合适的角色球员来打造冠军球队。
+POS_TAG = 换句话说/c ，/w 请/v 范甘迪/nr 走/v 人/n ，/w 找/v 来/v 以前/f 火箭/n 名宿/n 来/f 担任/v 主教练/n ，/w 而/c 球/n 探/v 和/c 管理层/n 都/d 知道/v 怎么/r 围绕/v 中锋/n 去/v 找/v 合适/a 的/u 角色/n 球员/n 来/f 打造/v 冠军/n 球队/n 。/w
+CHARACTERS = 范甘迪;
+RELWORD = 主教练;
+RELCOMB = 
+-----------
+SENTENCE = 可以说，公牛是火箭最佳的交易伙伴，而通过交易完全可以达到互补的双赢局面。
+POS_TAG = 可以/v 说/v ，/w 公牛/nz 是/v 火箭/n 最佳/z 的/u 交易/vn 伙伴/n ，/w 而/c 通过/p 交易/n 完全/ad 可以/v 达到/v 互补/v 的/u 双/m 赢/v 局面/n 。/w
+CHARACTERS = 
+RELWORD = 伙伴;
+RELCOMB = 
+-----------
+SENTENCE = 但是，在利益驱使下，科比变得不聪明，把自己的目的公开化了，而且因此跟教练以及奥尼尔闹出了矛盾，最后湖人只能贱卖。
+POS_TAG = 但是/c ，/w 在/p 利益/n 驱使/vn 下/f ，/w 科比/nr 变/v 得/u 不/d 聪明/a ，/w 把/p 自己/r 的/u 目的/n 公开化/v 了/u ，/w 而且/c 因此/c 跟/p 教练/n 以及/c 奥尼尔/nr 闹/v 出/v 了/u 矛盾/an ，/w 最后/f 湖人/n 只/d 能/v 贱卖/v 。/w
+CHARACTERS = 奥尼尔;科比;
+RELWORD = 教练;
+RELCOMB = 
+-----------
+SENTENCE = 前面提到过，姚明的经纪人，肯定不会想看到姚明老是替麦迪做挡拆。
+POS_TAG = 前面/f 提到/v 过/u ，/w 姚明/nr 的/u 经纪人/n ，/w 肯定/d 不/d 会/v 想/v 看到/v 姚明/nr 老/d 是/v 替/p 麦迪/nr 做/v 挡/v 拆/v 。/w
+CHARACTERS = 麦迪;姚明;
+RELWORD = 经纪人;
+RELCOMB = 
+-----------
+SENTENCE = 本就处于劣势的骑士也因为赛程更是雪上加霜，尽管有小皇帝詹姆斯的率领，他们还是像狼王一样没有攻陷丰田中心，他们只能遗憾的看着火箭从他们身边升起！
+POS_TAG = 本/r 就/d 处于/v 劣势/n 的/u 骑士/n 也/d 因为/p 赛程/n 更/d 是/v 雪上加霜/i ，/w 尽管/c 有/v 小/a 皇帝/n 詹姆斯/nr 的/u 率领/vn ，/w 他们/r 还/d 是/v 像/p 狼王/n 一样/u 没有/v 攻陷/v 丰田/nz 中心/f ，/w 他们/r 只能/v 遗憾/a 的/u 看/v 着/u 火箭/n 从/p 他们/r 身边/s 升起/v ！/w
+CHARACTERS = 詹姆斯;
+RELWORD = 皇帝;
+RELCOMB = 
+-----------
+SENTENCE = 火箭漂亮的赢球与詹姆斯的低迷发挥有很大的关系，疲惫是影响小皇帝状态的原因，巴蒂尔的紧逼才是詹姆斯低迷的关键因素，21分的得分还是说得过去，但很少看到他犀利的突破和飞身暴扣，也难见他和队员的配合，相反防守他的巴蒂尔在紧张的防守之余还不是的有得分进账！
+POS_TAG = 火箭/n 漂亮/a 的/u 赢/vn 球/n 与/p 詹姆斯/nr 的/u 低迷/an 发挥/v 有/v 很/d 大/a 的/u 关系/n ，/w 疲惫/ad 是/v 影响/v 小/a 皇帝/n 状态/n 的/u 原因/n ，/w 巴蒂尔/nr 的/u 紧逼/vd 才/d 是/v 詹姆斯/nr 低迷/v 的/u 关键/n 因素/n ，/w 21分/t 的/u 得分/n 还/d 是/v 说得过去/l ，/w 但/c 很/d 少/ad 看到/v 他/r 犀利/a 的/u 突破/vn 和/c 飞/v 身/ng 暴/ad 扣/v ，/w 也/d 难/ad 见/v 他/r 和/c 队员/n 的/u 配合/vn ，/w 相反/vd 防守/v 他/r 的/u 巴蒂尔/nr 在/p 紧张/a 的/u 防守/vn 之/u 余/ng 还/d 不/d 是/v 的/u 有/v 得分/n 进账/n ！/w
+CHARACTERS = 巴蒂尔;詹姆斯;
+RELWORD = 皇帝;
+RELCOMB = 
+-----------
+SENTENCE = 在没有小麦的比赛里，海德和阿尔斯通成了姚明的左膀右臂，在姚明支持下，三分是他们猎杀对手的最好武器，海德的持续发挥已成了火箭的第六人，在加上巴蒂尔的护驾，球迷完全有理由相信他们能走的更远，火箭也完全应该坚持今天鲜明的战术打法！
+POS_TAG = 在/p 没有/v 小麦/nr 的/u 比赛/vn 里/f ，/w 海德/nr 和/ag 阿尔斯通/nr 成/v 了/u 姚明/nr 的/u 左膀右臂/l ，/w 在/p 姚明/nr 支持/v 下/f ，/w 三分/t 是/v 他们/r 猎杀/v 对手/n 的/u 最/d 好/a 武器/n ，/w 海德/nr 的/u 持续/a 发挥/vn 已/d 成/v 了/u 火箭/n 的/u 第六/m 人/n ，/w 在/p 加上/v 巴蒂尔/nr 的/u 护驾/n ，/w 球迷/n 完全/ad 有/v 理由/n 相信/v 他们/r 能/v 走/v 的/u 更/d 远/a ，/w 火箭/n 也/d 完全/ad 应该/v 坚持/v 今天/t 鲜明/a 的/u 战术/n 打法/n ！/w
+CHARACTERS = 阿尔斯通;巴蒂尔;海德;小麦;姚明;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 姚明1980年9月12日诞生在当时著名的以篮球为职业的“亚洲第一夫妻”家里。
+POS_TAG = 姚明/nr 1980年/t 9月/t 12日/t 诞生/v 在/p 当时/t 著名/a 的/u 以/p 篮球/n 为/p 职业/n 的/u “/w 亚洲/ns 第一/m 夫妻/n ”/w 家里/s 。/w
+CHARACTERS = 姚明;
+RELWORD = 夫妻;
+RELCOMB = 
+-----------
+SENTENCE = 第一夫妻指的是身高：父亲姚志源身高2.
+POS_TAG = 第一/m 夫妻/n 指/v 的/u 是/v 身高/n ：/w 父亲/n 姚志源/nr 身高/n 2/m ./w
+CHARACTERS = 姚志源;
+RELWORD = 夫妻;父亲;
+RELCOMB = 
+-----------
+SENTENCE = 08米，母亲方凤娣身高1.
+POS_TAG = 08/m 米/q ，/w 母亲/n 方凤娣/nr 身高/n 1/m ./w
+CHARACTERS = 方凤娣;
+RELWORD = 母亲;
+RELCOMB = 
+-----------
+SENTENCE = 但如果说姚明的成功都得益于身高，得益于父母的职业遗传，那就错了。
+POS_TAG = 但/c 如果/c 说/v 姚明/nr 的/u 成功/an 都/d 得益/v 于/p 身高/n ，/w 得益/v 于/p 父母/n 的/u 职业/n 遗传/vn ，/w 那/r 就/d 错/v 了/y 。/w
+CHARACTERS = 姚明;
+RELWORD = 父母;
+RELCOMB = 
+-----------
+SENTENCE = 是父母对姚明既顺其自然又积极引导，不急于求成，不拔苗助长，尊重他的职业选择，到顺其成长的一系列的科学培养，才让这颗体坛明星冉冉升起——
+POS_TAG = 是/v 父母/n 对/p 姚明/nr 既/c 顺/v 其/r 自然/d 又/d 积极/ad 引导/v ，/w 不/d 急于求成/l ，/w 不/d 拔苗助长/i ，/w 尊重/v 他/r 的/u 职业/n 选择/vn ，/w 到/v 顺/v 其/r 成长/v 的/u 一/m 系列/q 的/u 科学/n 培养/v ，/w 才/d 让/v 这/r 颗/q 体坛/n 明星/n 冉冉/d 升起/v ——/w
+CHARACTERS = 姚明;
+RELWORD = 父母;
+RELCOMB = 
+-----------
+SENTENCE = 一次邻家孩子向姚明母亲告状，说姚明欺侮他。
+POS_TAG = 一/m 次/q 邻家/n 孩子/n 向/p 姚明/nr 母亲/n 告状/v ，/w 说/v 姚明/nr 欺侮/v 他/r 。/w
+CHARACTERS = 姚明;
+RELWORD = 母亲;
+RELCOMB = 
+-----------
+SENTENCE = 母亲便批评儿子，姚明也不解释。
+POS_TAG = 母亲/n 便/d 批评/v 儿子/n ，/w 姚明/nr 也/d 不/d 解释/v 。/w
+CHARACTERS = 姚明;
+RELWORD = 儿子;母亲;
+RELCOMB = 
+-----------
+SENTENCE = 后经过了解母亲知道不是这么回事。
+POS_TAG = 后/f 经过/v 了解/v 母亲/n 知道/v 不/d 是/v 这么/r 回/v 事/n 。/w
+CHARACTERS = 
+RELWORD = 母亲;
+RELCOMB = 
+-----------
+SENTENCE = ”母亲则说：“我相信姚明以诚待人，别人也会对他好的。
+POS_TAG = ”/w 母亲/n 则/d 说/v ：/w “/w 我/r 相信/v 姚明/nr 以/p 诚/dg 待人/v ，/w 别人/r 也/d 会/v 对/p 他/r 好/a 的/u 。/w
+CHARACTERS = 姚明;
+RELWORD = 母亲;
+RELCOMB = 
+-----------
+SENTENCE = ”以后母亲碰到什么事就都先问清楚。
+POS_TAG = ”/w 以后/f 母亲/n 碰到/v 什么/r 事/n 就/d 都/d 先/d 问/v 清楚/a 。/w
+CHARACTERS = 
+RELWORD = 母亲;
+RELCOMB = 
+-----------
+SENTENCE = 为篮球事业拼搏一生的父母，身上带有伤病
+POS_TAG = 为/p 篮球/n 事业/n 拼搏/v 一生/n 的/u 父母/n ，/w 身上/s 带有/v 伤病/n
+CHARACTERS = 
+RELWORD = 父母;
+RELCOMB = 
+-----------
+SENTENCE = 父母还是想让他读个好学校，考重点中学。
+POS_TAG = 父母/n 还是/c 想/v 让/v 他/r 读/v 个/q 好/a 学校/n ，/w 考/v 重点/n 中学/n 。/w
+CHARACTERS = 
+RELWORD = 父母;
+RELCOMB = 
+-----------
+SENTENCE = 可以说父母在儿子九岁那年送他去徐汇区少体校练篮球无非是想沾打球的光考学校时加几分。
+POS_TAG = 可以/v 说/v 父母/n 在/p 儿子/n 九/m 岁/q 那年/t 送/v 他/r 去/v 徐汇区/ns 少/a 体校/n 练/v 篮球/n 无非/d 是/a 想/v 沾/v 打球/v 的/b 光/a 考学/v 校/j 时/d 加/j 几分/t 。/w
+CHARACTERS = 
+RELWORD = 儿子;父母;
+RELCOMB = 
+-----------
+SENTENCE = 从此，每当休息天或课余时，父亲在宿舍前的旧车棚边与孩子玩篮球，做了个篮球网，投进了便买小玩艺儿奖励。
+POS_TAG = 从此/d ，/w 每当/p 休息/v 天/n 或/c 课余/b 时/ng ，/w 父亲/n 在/p 宿舍/n 前/f 的/u 旧/a 车棚/n 边/k 与/p 孩子/n 玩/v 篮球/n ，/w 做/v 了/u 个/q 篮球/n 网/n ，/w 投/v 进/v 了/u 便/d 买/v 小/a 玩艺/n 儿/k 奖励/n 。/w
+CHARACTERS = 
+RELWORD = 父亲;
+RELCOMB = 
+-----------
+SENTENCE = 因此，父亲也着意对儿子进行培养。
+POS_TAG = 因此/c ，/w 父亲/n 也/d 着意/d 对/p 儿子/n 进行/v 培养/v 。/w
+CHARACTERS = 
+RELWORD = 儿子;父亲;
+RELCOMB = 
+-----------
+SENTENCE = 人高马大的篮球队员对父母的经济压力是很大的。
+POS_TAG = 人高马大/i 的/b 篮球/n 队员/n 对/a 父母/n 的/b 经济/a 压力/n 是/a 很/d 大/a 的/b 。/w
+CHARACTERS = 
+RELWORD = 父母;
+RELCOMB = 
+-----------
+SENTENCE = 父母二人收入只有100元，只能节衣缩食省给儿子。
+POS_TAG = 父母/n 二/m 人/n 收入/n 只/d 有/v 100/m 元/q ，/w 只能/v 节衣缩食/i 省/a 给/p 儿子/n 。/w
+CHARACTERS = 
+RELWORD = 儿子;父母;
+RELCOMB = 
+-----------
+SENTENCE = 姑姑带来鸡，他一下子能吃一只，蛋一口气能吃六个。
+POS_TAG = 姑姑/n 带来/v 鸡/n ，/w 他/r 一下子/d 能/v 吃/v 一/m 只/q ，/w 蛋/n 一口气/d 能/v 吃/v 六/m 个/q 。/w
+CHARACTERS = 
+RELWORD = 姑姑;
+RELCOMB = 
+-----------
+SENTENCE = 为了给儿子加补运动量需要的营养，父母到处托人弄牛奶票。
+POS_TAG = 为了/p 给/p 儿子/n 加/v 补/v 运动量/n 需要/v 的/u 营养/n ，/w 父母/n 到处/d 托/v 人/n 弄/v 牛奶/n 票/n 。/w
+CHARACTERS = 
+RELWORD = 儿子;父母;
+RELCOMB = 
+-----------
+SENTENCE = 父母对姚明比较低调。
+POS_TAG = 父母/n 对/p 姚明/nr 比较/v 低调/n 。/w
+CHARACTERS = 姚明;
+RELWORD = 父母;
+RELCOMB = 
+-----------
+SENTENCE = 母亲说，你要学学这种动作，要学会利用自己的身体。
+POS_TAG = 母亲/n 说/v ，/w 你/r 要/v 学学/v 这种/r 动作/n ，/w 要/v 学/v 会/v 利用/v 自己/r 的/u 身体/n 。/w
+CHARACTERS = 
+RELWORD = 母亲;
+RELCOMB = 
+-----------
+SENTENCE = 后来姚明回忆说：“母亲的话提醒了我，至少我会用肘了。
+POS_TAG = 后来/t 姚明/nr 回忆/v 说/v ：/w “/w 母亲/n 的/u 话/n 提醒/v 了/u 我/r ，/w 至少/d 我会/r 用/v 肘/ng 了/u 。/w
+CHARACTERS = 姚明;
+RELWORD = 母亲;
+RELCOMB = 
+-----------
+SENTENCE = ”父母经常指点姚明。
+POS_TAG = ”/w 父母/n 经常/d 指点/v 姚明/nr 。/w
+CHARACTERS = 姚明;
+RELWORD = 父母;
+RELCOMB = 
+-----------
+SENTENCE = 东方男篮主场比赛，父母每场都去，在球场可以与儿子聊一会儿，探讨球艺。
+POS_TAG = 东方/s 男篮/n 主场/n 比赛/vn ，/w 父母/n 每场/r 都/d 去/v ，/w 在/p 球场/n 可以/v 与/p 儿子/n 聊/v 一会儿/m ，/w 探讨/v 球艺/n 。/w
+CHARACTERS = 
+RELWORD = 儿子;父母;
+RELCOMB = 
+-----------
+SENTENCE = 从儿子防守、进攻、打球态度一一细评。
+POS_TAG = 从/p 儿子/n 防守/vn 、/w 进攻/vn 、/w 打球/v 态度/n 一一/m 细/ad 评/v 。/w
+CHARACTERS = 
+RELWORD = 儿子;
+RELCOMB = 
+-----------
+SENTENCE = 2001年北京世界大学生运动会期间，前几场姚明发挥得不好，父母便在电话里安慰他鼓励他。
+POS_TAG = 2001年/t 北京/ns 世界/n 大/a 学生/n 运动会/n 期间/f ，/w 前/h 几/m 场/q 姚明/nr 发挥/v 得/u 不好/a ，/w 父母/n 便/d 在/p 电话/n 里/f 安慰/v 他/r 鼓励/v 他/r 。/w
+CHARACTERS = 姚明;
+RELWORD = 父母;学生;
+RELCOMB = 
+-----------
+SENTENCE = 每年就几天在家里，他不要父母休假陪他，而一个人在家睡觉。
+POS_TAG = 每年/r 就/d 几/m 天/q 在/p 家里/s ，/w 他/r 不/d 要/v 父母/n 休假/v 陪/v 他/r ，/w 而/c 一个/m 人/n 在家/vd 睡觉/v 。/w
+CHARACTERS = 
+RELWORD = 父母;
+RELCOMB = 
+-----------
+SENTENCE = 母亲知道儿子最需要的是睡眠也就由他去。
+POS_TAG = 母亲/n 知道/v 儿子/n 最/d 需要/v 的/u 是/v 睡眠/v 也/d 就/d 由/p 他/r 去/v 。/w
+CHARACTERS = 
+RELWORD = 儿子;母亲;
+RELCOMB = 
+-----------
+SENTENCE = 可以说姚明的每一步成长，都有父母的心血。
+POS_TAG = 可以/v 说/v 姚明/nr 的/u 每/r 一/m 步/q 成长/vn ，/w 都/d 有/v 父母/n 的/u 心血/n 。/w
+CHARACTERS = 姚明;
+RELWORD = 父母;
+RELCOMB = 
+-----------
+SENTENCE = 新娘叶莉出嫁探访：姚明竟未现身加长奔驰做婚车北京时间8月6日上海消息，休斯顿火箭队球星姚明和女友叶莉正式举行婚礼。
+POS_TAG = 新娘/n 叶莉/nr 出嫁/v 探访/v ：/w 姚明/nr 竟/d 未/d 现身/v 加长/n 奔驰/n 做/v 婚车/n 北京/ns 时间/n 8月/t 6日/t 上海/ns 消息/n ，/w 休斯顿/ns 火箭/n 队/n 球星/n 姚明/nr 和/c 女友/n 叶莉/nr 正式/a 举行/v 婚礼/n 。/w
+CHARACTERS = 姚明;叶莉;
+RELWORD = 女友;
+RELCOMB = 姚明,叶莉->女友;
+-----------
+SENTENCE = 当记者问邻居们是否有收到姚明和叶莉送来的喜糖时，邻居们表示叶莉的母亲过两天会亲自送喜糖过来。
+POS_TAG = 当/p 记者/n 问/v 邻居/n 们/k 是否/v 有/v 收到/v 姚明/nr 和/c 叶莉/nr 送来/v 的/u 喜糖/n 时/d ，/w 邻居/n 们/k 表示/v 叶莉/nr 的/u 母亲/n 过/u 两/m 天/q 会/v 亲自/d 送/v 喜糖/n 过来/v 。/w
+CHARACTERS = 姚明;叶莉;
+RELWORD = 母亲;
+RELCOMB = 
+-----------
+SENTENCE = 当记者来到这家理发店后，得知那位为姚明理发的师傅正好轮休。
+POS_TAG = 当/p 记者/n 来到/v 这/r 家/q 理发店/n 后/f ，/w 得知/v 那位/r 为/p 姚明/nr 理发/v 的/u 师傅/n 正好/z 轮休/v 。/w
+CHARACTERS = 姚明;
+RELWORD = 师傅;
+RELCOMB = 
+-----------
+SENTENCE = 其他的工作人员介绍，当时姚明是和母亲一起来的，姚明只是做了简单的理发和修面，而且也把之前下巴的胡子给剃掉了，似乎是说要为拍摄婚纱照做准备，姚明的母亲则是做了一个烫发。
+POS_TAG = 其他/r 的/u 工作/vn 人员/n 介绍/v ，/w 当时/t 姚明/nr 是/v 和/c 母亲/n 一/m 起来/v 的/u ，/w 姚明/nr 只是/d 做/v 了/u 简单/a 的/u 理发/vn 和/c 修/v 面/n ，/w 而且/c 也/d 把/p 之前/f 下巴/n 的/b 胡子/n 给/p 剃/v 掉/v 了/u ，/w 似乎/d 是/v 说/v 要/v 为/p 拍摄/v 婚纱照/n 做/v 准备/d ，/w 姚明/nr 的/u 母亲/n 则/d 是/v 做/v 了/u 一个/m 烫发/v 。/w
+CHARACTERS = 姚明;
+RELWORD = 母亲;
+RELCOMB = 
+-----------
+SENTENCE = 以下是姚明对马刺3名主要攻防对手的全场数据：
+POS_TAG = 以下/f 是/v 姚明/nr 对/p 马/n 刺/o 3/m 名/q 主要/b 攻防/vn 对手/n 的/u 全场/n 数据/n ：/w
+CHARACTERS = 姚明;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = “弗老大是我一个值得一辈子去交的朋友，我尊敬他。
+POS_TAG = “/w 弗老大/nr 是/a 我/r 一个/m 值得/v 一/m 辈子/n 去/v 交/ng 的/b 朋友/n ，/w 我/r 尊敬/v 他/r 。/w
+CHARACTERS = 弗老大;
+RELWORD = 朋友;
+RELCOMB = 
+-----------
+SENTENCE = 和魔术比赛的前一晚，姚明在火箭体能教练法尔松的陪伴下，进行着一次计划之外的力量训练。
+POS_TAG = 和/c 魔术/n 比赛/vn 的/u 前/f 一/m 晚/tg ，/w 姚明/nr 在/p 火箭/n 体能/n 教练/n 法尔松/nr 的/u 陪伴/vn 下/f ，/w 进行/v 着/u 一/m 次/q 计划/n 之外/f 的/u 力量/n 训练/vn 。/w
+CHARACTERS = 法尔松;姚明;
+RELWORD = 教练;
+RELCOMB = 
+-----------
+SENTENCE = 在姚明的心里，弗朗西斯不仅仅是火箭更衣室里的老大，更是他生活中的兄弟。
+POS_TAG = 在/p 姚明/nr 的/u 心里/s ，/w 弗朗西斯/nr 不仅仅/d 是/v 火箭/n 更衣室/n 里/f 的/u 老大/a ，/w 更/d 是/v 他/r 生活/vn 中/f 的/u 兄弟/n 。/w
+CHARACTERS = 弗朗西斯;姚明;
+RELWORD = 兄弟;
+RELCOMB = 弗朗西斯,姚明->兄弟;
+-----------
+SENTENCE = 失去弗朗西斯，并不仅仅意味着失去了一名朋友，更是失去了一个生活上的精神支柱。
+POS_TAG = 失去/v 弗朗西斯/nr ，/w 并/d 不仅仅/d 意味着/v 失去/v 了/u 一/m 名/q 朋友/n ，/w 更/d 是/v 失去/v 了/u 一个/m 生活/v 上/f 的/u 精神/n 支柱/n 。/w
+CHARACTERS = 弗朗西斯;
+RELWORD = 朋友;
+RELCOMB = 
+-----------
+SENTENCE = 弗朗西斯是姚明和火箭其他球员交流的桥梁，但现在姚明和队友之间缺少交流已经成为一个不争的事实。
+POS_TAG = 弗朗西斯/nr 是/v 姚明/nr 和/c 火箭/n 其他/r 球员/n 交流/v 的/u 桥梁/n ，/w 但/c 现在/t 姚明/nr 和/c 队友/n 之间/f 缺少/v 交流/vn 已经/d 成为/v 一个/m 不争/n 的/u 事实/n 。/w
+CHARACTERS = 弗朗西斯;姚明;
+RELWORD = 队友;
+RELCOMB = 
+-----------
+SENTENCE = 一天后，姚明走进水屋体育中心，小巨人当时的心情难以形容，“不瞒你说，和他成为对手，还真的让我有些压力。
+POS_TAG = 一/m 天/q 后/f ，/w 姚明/nr 走进/v 水屋体育中心/s ，/w 小/a 巨人/n 当时/t 的/u 心情/n 难以/d 形容/v ，/w “/w 不/d 瞒/v 你/r 说/v ，/w 和/c 他/r 成为/v 对手/n ，/w 还/d 真/a 的/u 让/v 我/r 有些/r 压力/n 。/w
+CHARACTERS = 姚明;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 弗朗西斯依旧在比赛中指挥着队友，这样的声音姚明似曾相识，姚明一时有些恍惚。
+POS_TAG = 弗朗西斯/nr 依旧/z 在/p 比赛/vn 中/f 指挥/v 着/u 队友/n ，/w 这样/r 的/u 声音/n 姚明/nr 似曾相识/i ，/w 姚明/nr 一时/t 有些/r 恍惚/a 。/w
+CHARACTERS = 弗朗西斯;姚明;
+RELWORD = 队友;
+RELCOMB = 
+-----------
+SENTENCE = 他们期待的是场下真正朋友间的交流。
+POS_TAG = 他们/r 期待/v 的/u 是/v 场下/s 真正/b 朋友/n 间/f 的/u 交流/vn 。/w
+CHARACTERS = 
+RELWORD = 朋友;
+RELCOMB = 
+-----------
+SENTENCE = “兄弟，多保重，有空常联系。
+POS_TAG = “/w 兄弟/n ，/w 多/ad 保重/v ，/w 有空/v 常/d 联系/v 。/w
+CHARACTERS = 
+RELWORD = 兄弟;
+RELCOMB = 
+-----------
+SENTENCE = 虽然大胜塞尔维亚U20不足喜，甚至无法肯定现时的姚明能给男篮带来多大的提升，但比赛中看的出来，姚明的归来，明显给予了队友刺激和信心，刘炜等人在场上的高度兴奋是一个明证。
+POS_TAG = 虽然/c 大胜/v 塞尔维亚/ns U20/nx 不足/v 喜/a ，/w 甚至/d 无法/v 肯定/v 现时/t 的/u 姚明/nr 能/v 给/p 男篮/n 带来/v 多/m 大/a 的/u 提升/vn ，/w 但/c 比赛/vn 中/f 看/v 的/u 出来/v ，/w 姚明/nr 的/u 归来/vn ，/w 明显/ad 给予/v 了/u 队友/n 刺激/vn 和/c 信心/n ，/w 刘炜/nr 等/u 人/n 在/p 场上/s 的/u 高度/d 兴奋/vn 是/v 一个/m 明证/n 。/w
+CHARACTERS = 刘炜;姚明;
+RELWORD = 队友;
+RELCOMB = 刘炜,姚明->队友;
+-----------
+SENTENCE = 12分钟11分3帽足够高效，但这跟对手的实力不济有关。
+POS_TAG = 12/m 分钟/q 11分/t 3/m 帽/ng 足够/v 高效/b ，/w 但/c 这/r 跟/p 对手/n 的/u 实力/n 不济/a 有关/vn 。/w
+CHARACTERS = 
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 在NBA，一个球员受伤后能否重返赛场需要医生来决定，主教练和俱乐部官员甚至球员本人都没有决定权，在这一点上，上赛季的湖人做出了最好的榜样，置总冠军于不顾，将拜纳姆的复出一拖再拖。
+POS_TAG = 在/p NBA/nx ，/w 一个/m 球员/n 受伤/v 后/f 能否/v 重返/v 赛场/n 需要/v 医生/n 来/f 决定/v ，/w 主教练/n 和/c 俱乐部/n 官员/n 甚至/c 球员/n 本人/r 都/d 没有/v 决定权/n ，/w 在/p 这/r 一点/t 上/m ，/w 上/m 赛季/n 的/u 湖/n 人/n 做出/v 了/u 最/d 好/a 的/u 榜样/n ，/w 置/v 总/b 冠军/n 于/p 不顾/v ，/w 将/p 拜纳姆/nr 的/u 复出/v 一/m 拖/v 再/d 拖/v 。/w
+CHARACTERS = 拜纳姆;
+RELWORD = 医生;主教练;
+RELCOMB = 
+-----------
+SENTENCE = 火箭赢球是没有悬念的，因为对于对手来说，现在的火箭太强了，阿德尔曼也是一位优秀的“公关先生”，他在麦迪手风很顺的前提之下，重用姚明而控制麦迪的出手机会，目前的火箭无论是麦迪还是姚明掌握出手机会，得分的机率都很高，只是由谁来主宰球队进攻的问题，在麦迪手风很顺，而又大量占据出手主动权的时候，姚明在“普林斯顿体系”中的中锋作用反而减弱了，现在的火箭不再需要站在篮下一对一，或者一对二的单打，更多的是在跑动，在传球，在穿插，在投篮，姚明这样一个运动能力稍弱的中锋，如果没人传球，他的得分是必然要下降的，这已经从前三场比赛当中可以看出一些端倪。
+POS_TAG = 火箭/n 赢/v 球/n 是/v 没有/d 悬念/n 的/u ，/w 因为/c 对于/p 对手/n 来说/u ，/w 现在/t 的/u 火箭/n 太/d 强/a 了/y ，/w 阿德尔曼/nr 也/d 是/v 一/m 位/q 优秀/a 的/u “/w 公关/n 先生/n ”/w ，/w 他/r 在/p 麦迪/nr 手风/n 很/d 顺/a 的/u 前提/n 之下/f ，/w 重用/v 姚明/nr 而/c 控制/v 麦迪/nr 的/u 出手/n 机会/n ，/w 目前/t 的/u 火箭/n 无论/c 是/v 麦迪/nr 还/d 是/v 姚明/nr 掌握/v 出手/n 机会/n ，/w 得分/vn 的/u 机率/n 都/d 很/d 高/a ，/w 只是/v 由/p 谁/r 来/v 主宰/v 球队/n 进攻/vn 的/u 问题/n ，/w 在/p 麦迪/nr 手风/n 很/d 顺/a ，/w 而/c 又/d 大量/m 占据/v 出手/n 主动权/n 的/u 时候/n ，/w 姚明/nr 在/p “/w 普林斯顿/ns 体系/n ”/w 中/f 的/u 中锋/n 作用/n 反而/d 减弱/v 了/y ，/w 现在/t 的/u 火箭/n 不再/d 需要/v 站/v 在/p 篮下/s 一对一/l ，/w 或者/c 一对二/l 的/u 单打/v ，/w 更/d 多/a 的/u 是/v 在/p 跑动/v ，/w 在/p 传球/v ，/w 在/p 穿插/v ，/w 在/p 投篮/v ，/w 姚明/nr 这样/r 一个/m 运动/n 能力/n 稍/d 弱/a 的/u 中锋/n ，/w 如果/c 没人/r 传球/v ，/w 他/r 的/u 得分/n 是/v 必然/d 要/v 下降/v 的/u ，/w 这/r 已经/d 从/p 前/f 三/m 场/q 比赛/vn 当中/f 可以/v 看出/v 一些/m 端倪/n 。/w
+CHARACTERS = 阿德尔曼;麦迪;姚明;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 他们后面的4场比赛都在主场进行,对手分别是奇才、灰熊、掘金、步行者，而且没有背靠背。
+POS_TAG = 他们/r 后面/f 的/u 4/m 场/q 比赛/vn 都/d 在/p 主场/n 进行/v ,/w 对手/n 分别/d 是/v 奇才/n 、/w 灰/ag 熊/n 、/w 掘/v 金/ng 、/w 步行/v 者/k ，/w 而且/c 没有/d 背靠背/v 。/w
+CHARACTERS = 
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 所以从八字来看，其父母对他一生影响甚大，帮助甚大，得益于父母的教导、培养。
+POS_TAG = 所以/c 从/p 八字/n 来看/v ，/w 其/r 父母/n 对/p 他/r 一生/n 影响/v 甚/dg 大/a ，/w 帮助/v 甚/dg 大/a ，/w 得益/v 于/p 父母/n 的/u 教/v 导/vg 、/w 培养/v 。/w
+CHARACTERS = 
+RELWORD = 父母;
+RELCOMB = 
+-----------
+SENTENCE = 或可以说，其父母是姚明一生中最大的贵人，最大的源泉！
+POS_TAG = 或/c 可以/v 说/v ，/w 其/r 父母/n 是/v 姚明/nr 一生/n 中/f 最/d 大/a 的/u 贵人/n ，/w 最/d 大/a 的/u 源泉/n ！/w
+CHARACTERS = 姚明;
+RELWORD = 父母;
+RELCOMB = 
+-----------
+SENTENCE = 我并不认为火箭队主教练阿德尔曼过度使用了姚明。
+POS_TAG = 我/r 并/d 不/d 认为/v 火箭/n 队/n 主教练/n 阿德尔曼/nr 过度/d 使用/v 了/u 姚明/nr 。/w
+CHARACTERS = 阿德尔曼;姚明;
+RELWORD = 主教练;
+RELCOMB = 阿德尔曼,姚明->主教练;
+-----------
+SENTENCE = 我相信任何一个主教练都不会单为姚明准备一块秒表，以计算他的上场时间，范甘迪对姚明的使用也并没有精确到需要以秒来衡量的地步，那样的话，篮球就不是篮球了，就变成田径了。
+POS_TAG = 我/r 相信/v 任何/r 一个/m 主教练/n 都/d 不/d 会/v 单/dg 为/p 姚明/nr 准备/v 一/m 块/q 秒表/n ，/w 以/p 计算/v 他/r 的/u 上场/vn 时间/n ，/w 范甘迪/nr 对/p 姚明/nr 的/u 使用/vn 也/d 并/d 没有/d 精确/ad 到/v 需要/v 以/p 秒/q 来/v 衡量/v 的/u 地步/n ，/w 那样/r 的/u 话/u ，/w 篮球/n 就/d 不/d 是/v 篮球/n 了/y ，/w 就/d 变成/v 田径/n 了/y 。/w
+CHARACTERS = 范甘迪;姚明;
+RELWORD = 主教练;
+RELCOMB = 范甘迪,姚明->主教练;
+-----------
+SENTENCE = 火箭开始了连续5个客场的西征之旅，客场第一站就是金州，对手是勇士.
+POS_TAG = 火箭/n 开始/v 了/u 连续/a 5/m 个/q 客场/n 的/u 西征/n 之/u 旅/n ，/w 客场/n 第一/m 站/q 就/d 是/v 金州/ns ，/w 对手/n 是/v 勇士/n ./w
+CHARACTERS = 
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 火箭战湖人，在比赛间歇出现这样一个场景：场上两大对手姚明和科比在私语，场这边站着气急败坏的范甘地，那边则是气定神闲的禅师----杰克逊。
+POS_TAG = 火箭/n 战/v 湖/n 人/n ，/w 在/p 比赛/vn 间歇/n 出现/v 这样/r 一个/m 场景/n ：/w 场上/s 两/m 大/a 对手/n 姚明/nr 和/c 科比/nr 在/p 私语/v ，/w 场/s 这边/r 站/v 着/u 气急败坏/i 的/u 范甘地/nr ，/w 那边/r 则/c 是/a 气定神闲/i 的/u 禅师/n ----/m 杰克逊/nr 。/w
+CHARACTERS = 范甘地;杰克逊;科比;姚明;
+RELWORD = 对手;
+RELCOMB = 科比,姚明->对手;
+-----------
+SENTENCE = 姚明很幸运，这种幸运不仅是因为他的天份和努力，还在于他以中锋的身份出现在这样的一个历史时刻：禁区内没有了张伯伦、贾巴尔，也走了奥拉朱旺和尤因，只有一个已经老去的奥尼尔，放眼全联盟已看不到谁是姚明真正的对手，数据比较最能说明问题:上一次出现连续两场比赛砍下35+15的故事，已经是六年了。
+POS_TAG = 姚明/nr 很/d 幸运/a ，/w 这种/r 幸运/an 不仅/d 是/v 因为/p 他/r 的/u 天份/n 和/c 努力/an ，/w 还/d 在于/v 他/r 以/p 中锋/n 的/u 身份/n 出现/v 在/p 这样/r 的/u 一个/m 历史/n 时刻/n ：/w 禁区/n 内/f 没有/v 了/u 张伯伦/nr 、/w 贾巴尔/nr ，/w 也/d 走/v 了/u 奥拉朱旺/nr 和/c 尤因/nr ，/w 只/d 有/v 一个/m 已经/d 老去/v 的/u 奥尼尔/nr ，/w 放眼/v 全/a 联盟/n 已/d 看不到/v 谁/r 是/v 姚明/nr 真正/b 的/u 对手/n ，/w 数据/n 比较/n 最/d 能/v 说明/v 问题/n :/w 上/f 一/m 次/q 出现/v 连续/a 两/m 场/q 比赛/vn 砍下/v 35/m +15/m 的/u 故事/n ，/w 已经/d 是/v 六/m 年/q 了/y 。/w
+CHARACTERS = 奥拉朱旺;奥尼尔;贾巴尔;姚明;尤因;张伯伦;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 在最教练的选任上当断不断，是火箭高层败笔之二。
+POS_TAG = 在/p 最/d 教练/n 的/u 选任/v 上/m 当断不断/i ，/w 是/v 火箭/n 高层/n 败笔/n 之/a 二/m 。/w
+CHARACTERS = 
+RELWORD = 教练;
+RELCOMB = 
+-----------
+SENTENCE = 同一个对手，同一个敌人，同一个丰田中心，去年首战涉险过关，今年两战大败而回。
+POS_TAG = 同/p 一个/m 对手/n ，/w 同/p 一个/m 敌人/n ，/w 同/p 一个/m 丰田/nz 中心/n ，/w 去年/t 首/m 战/vg 涉险/v 过关/v ，/w 今年/t 两/m 战/vg 大败/v 而/c 回/j 。/w
+CHARACTERS = 
+RELWORD = 敌人;对手;
+RELCOMB = 
+-----------
+SENTENCE = “你的队友曾经对我说，你在移动时拿球有些困难。
+POS_TAG = “/w 你/r 的/u 队友/n 曾经/d 对/p 我/r 说/v ，/w 你/r 在/p 移动/v 时/ng 拿/v 球/n 有/v 些/q 困难/an 。/w
+CHARACTERS = 
+RELWORD = 队友;
+RELCOMB = 
+-----------
+SENTENCE = 姚明回答，“我们新赛季有一个新教练，新的战术，队员们需要时间去熟悉。
+POS_TAG = 姚明/nr 回答/v ，/w “/w 我们/r 新/a 赛季/n 有/v 一个/m 新/a 教练/n ，/w 新/a 的/u 战术/n ，/w 队员/n 们/k 需要/v 时间/n 去/v 熟悉/v 。/w
+CHARACTERS = 姚明;
+RELWORD = 教练;
+RELCOMB = 
+-----------
+SENTENCE = 姚明笑着说，“我听有朋友说过，我也希望得到机会，见识一下到时候是怎么回事。
+POS_TAG = 姚明/nr 笑/v 着/u 说/v ，/w “/w 我/r 听/v 有/v 朋友/n 说/v 过/u ，/w 我/r 也/d 希望/v 得到/v 机会/n ，/w 见识/v 一/m 下/f 到/v 时候/n 是/v 怎么/r 回/v 事/n 。/w
+CHARACTERS = 姚明;
+RELWORD = 朋友;
+RELCOMB = 
+-----------
+SENTENCE = 他刻苦,他每天可以坚持3000次投篮练习,而受伤时不仅关注录象,还时刻关注比赛;他无私,在有机会时都会帮助队友得分,尽量帮助团队取胜;他虚心,在接受采访时,他通常都不会拒绝,而且勇于承担责任.
+POS_TAG = 他/r 刻苦/a ,/w 他/r 每天/r 可/v 以/p 坚持/v 3000/m 次/q 投篮/vn 练习/vn ,/w 而/c 受伤/v 时/ng 不仅/c 关注/v 录/v 象/ng ,/w 还/d 时刻/d 关注/v 比赛/v ;/nx 他/r 无私/z ,/w 在/p 有/v 机会/n 时/ng 都/d 会/v 帮助/v 队友/n 得分/n ,/w 尽量/d 帮助/v 团队/n 取胜/v ;/nx 他/r 虚心/a ,/w 在/p 接受/v 采访/v 时/ng ,/w 他/r 通常/d 都/d 不/d 会/v 拒绝/v ,/w 而且/c 勇于/v 承担/v 责任/n ./w
+CHARACTERS = 
+RELWORD = 队友;
+RELCOMB = 
+-----------
+SENTENCE = 虽然他有时年轻气盛地冷幽默,但很多时候都是不惜将贡献分散给队友;他赚钱,无论是个人收入,或是"姚餐厅",还是广告代言,他都可以算是富翁,但大多他都去掉自己明星的光环,不断地去帮助和服务这个曾经沧海的社会!
+POS_TAG = 虽然/c 他/r 有时/d 年轻气盛/l 地/u 冷/a 幽默/a ,/w 但/c 很多/m 时候/n 都/d 是/v 不惜/v 将/p 贡献/n 分散/v 给/v 队友/n ;/nx 他/r 赚钱/v ,/w 无论/c 是/v 个人/n 收入/n ,/w 或是/c "/w 姚餐厅/n "/w ,/w 还/d 是/v 广告/n 代/v 言/vg ,/w 他/r 都/d 可以/v 算是/v 富翁/n ,/w 但/c 大多/d 他/r 都/d 去掉/v 自己/r 明星/n 的/u 光环/n ,/w 不断/d 地/u 去/v 帮助/v 和/c 服务/v 这个/r 曾经沧海/i 的/b 社会/n !/w
+CHARACTERS = 
+RELWORD = 队友;
+RELCOMB = 
+-----------
+SENTENCE = 刘翔接着说：“改110米栏确实是觉得自己在跳高上没有什么大的发展，另外是因为我碰到一个很好的师傅，所以就改练跨栏了。
+POS_TAG = 刘翔/nr 接着/vd 说/v ：/w “/w 改/v 110/m 米/q 栏/n 确实/ad 是/v 觉得/v 自己/r 在/p 跳高/v 上/m 没有/v 什么/r 大/a 的/u 发展/vn ，/w 另外/c 是/v 因为/p 我/r 碰到/v 一/m 个/q 很/d 好/a 的/u 师傅/n ，/w 所以/c 就/d 改/v 练/v 跨栏/v 了/u 。/w
+CHARACTERS = 刘翔;
+RELWORD = 师傅;
+RELCOMB = 
+-----------
+SENTENCE = 其实我想还是让孩子自己去选择比较好，最起码我父母一开始也没有想要让我去打职业篮球，他们想让我去上大学，打篮球不过是作为一个业余爱好，我也不知道自己最终会走上这条路。
+POS_TAG = 其实/d 我/r 想/v 还/d 是/v 让/v 孩子/n 自己/r 去/v 选择/v 比较/d 好/a ，/w 最/d 起码/d 我/r 父母/n 一/m 开始/v 也/d 没有/d 想/v 要/v 让/v 我/r 去/v 打/v 职业/n 篮球/n ，/w 他们/r 想/v 让/v 我/r 去/v 上/m 大学/n ，/w 打/v 篮球/n 不过/c 是/v 作为/v 一个/m 业余/b 爱好/n ，/w 我/r 也/d 不/d 知道/v 自己/r 最终/d 会/v 走/v 上/m 这/r 条/q 路/n 。/w
+CHARACTERS = 
+RELWORD = 父母;
+RELCOMB = 
+-----------
+SENTENCE = 记者在采访过程中还得到了一个有趣的消息，就在姚明拍摄婚纱照的前一天，姚明和自己的母亲来到了位于石门一路、南京西路附近一家名叫“南京美发”的理发店理发，当时姚明正在理发，姚妈妈则在烫发。
+POS_TAG = 记者/n 在/p 采访/v 过程/n 中/f 还/d 得到/v 了/u 一个/m 有趣/a 的/u 消息/n ，/w 就/d 在/p 姚明/nr 拍摄/v 婚纱照/n 的/b 前/f 一/m 天/n ，/w 姚明/nr 和/c 自己/r 的/u 母亲/n 来到/v 了/u 位于/v 石门/ns 一/m 路/q 、/w 南京/ns 西路/ns 附近/f 一/m 家/q 名叫/v “/w 南京/ns 美发/vn ”/w 的/u 理发店/n 理发/v ，/w 当时/t 姚明/nr 正/d 在/p 理发/v ，/w 姚妈妈/n 则/d 在/p 烫发/v 。/w
+CHARACTERS = 姚明;
+RELWORD = 母亲;
+RELCOMB = 
+-----------
+SENTENCE = 火箭一度领先对手11分之多，前两节通过非常有针对性的防守，火箭只让森林狼分别得到17分和14分。
+POS_TAG = 火箭/n 一度/d 领先/v 对手/n 11分/t 之/u 多/a ，/w 前/h 两/m 节/q 通过/p 非常/d 有/v 针对性/n 的/u 防守/vn ，/w 火箭/n 只/d 让/v 森林/n 狼/n 分别/d 得到/v 17分/t 和/c 14分/t 。/w
+CHARACTERS = 
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 姚明：没听说过姚明和谁闹出过绯闻，他只有一个女友：叶莉。
+POS_TAG = 姚明/nr ：/w 没/d 听说/v 过/u 姚明/nr 和/c 谁/r 闹/v 出/v 过/u 绯闻/n ，/w 他/r 只/d 有/v 一个/m 女友/n ：/w 叶莉/nr 。/w
+CHARACTERS = 姚明;叶莉;
+RELWORD = 女友;
+RELCOMB = 姚明,叶莉->女友;
+-----------
+SENTENCE = ;斯特恩、骑士小皇帝詹姆斯、NBA球员工会、ESPN总经理乔治?
+POS_TAG = ;/nx 斯特恩/nr 、/w 骑士/n 小/h 皇帝/n 詹姆斯/nr 、/w NBA/nx 球员/n 工会/n 、/w ESPN/nx 总经理/n 乔/ag 治/v ?/w
+CHARACTERS = 斯特恩;詹姆斯;
+RELWORD = 皇帝;
+RELCOMB = 
+-----------
+SENTENCE = 赛后姚明接受了记者的采访，姚明首先对自己在第一节的表现表示了不满，他说：“我们第一节的投篮不好，我自己也投丢了几个容易的投篮，我应该把球投进，对手也因此取得了领先优势。
+POS_TAG = 赛后/t 姚明/nr 接受/v 了/u 记者/n 的/u 采访/vn ，/w 姚明/nr 首先/d 对/p 自己/r 在/p 第一/m 节/q 的/u 表现/vn 表示/v 了/u 不满/a ，/w 他/r 说/v ：/w “/w 我们/r 第一/m 节/q 的/u 投篮/vn 不好/a ，/w 我/r 自己/r 也/d 投/v 丢/v 了/u 几/m 个/q 容易/a 的/u 投篮/vn ，/w 我/r 应该/v 把/p 球/n 投/v 进/v ，/w 对手/n 也/d 因此/c 取得/v 了/u 领先/vn 优势/n 。/w
+CHARACTERS = 姚明;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 在最近几年中，我们已经与我们在中国的朋友们形成了强有力的纽带关系，看到他们在这次天灾中所经历的一切，让我们非常难受。
+POS_TAG = 在/p 最近/t 几/m 年/q 中/f ，/w 我们/r 已经/d 与/p 我们/r 在/p 中国/ns 的/u 朋友/n 们/k 形成/v 了/u 强有力/l 的/u 纽带/n 关系/n ，/w 看到/v 他们/r 在/p 这次/r 天/q 灾/n 中/f 所/u 经历/n 的/u 一切/r ，/w 让/v 我们/r 非常/d 难受/a 。/w
+CHARACTERS = 
+RELWORD = 朋友;
+RELCOMB = 
+-----------
+SENTENCE = 姚明的进攻过于依仗外线队友的火力供给，火箭队传球意图太为明显，这就给对手包夹和绕前提供了条件，姚明在得球后已经深入陷阱，只能再将球传出去或者勉强出手，总之根本没有办法形成直接面对篮筐的机会。
+POS_TAG = 姚明/nr 的/u 进攻/vn 过于/d 依仗/v 外线/n 队友/n 的/b 火力/n 供给/v ，/w 火箭/n 队/n 传球/vn 意图/n 太/d 为/v 明显/a ，/w 这/r 就/d 给/p 对手/n 包/v 夹/v 和/c 绕/v 前/f 提供/v 了/u 条件/n ，/w 姚明/nr 在/p 得/v 球/n 后/f 已经/d 深入/v 陷阱/n ，/w 只/d 能/v 再/d 将/p 球/n 传出/v 去/v 或者/c 勉强/vd 出/v 手/n ，/w 总之/c 根本/d 没有/v 办法/n 形成/v 直接/ad 面对/v 篮筐/n 的/u 机会/n 。/w
+CHARACTERS = 姚明;
+RELWORD = 队友;对手;
+RELCOMB = 
+-----------
+SENTENCE = 姚明在扯出和插入方面缺乏创意，也要不到很好的位置，队友只能循规蹈矩的把球传给他，起不到出敌不意、攻敌不备的效果。
+POS_TAG = 姚明/nr 在/p 扯/v 出/v 和/c 插入/v 方面/c 缺乏/v 创意/n ，/w 也/d 要/v 不/d 到/v 很/d 好/a 的/u 位置/n ，/w 队友/n 只能/v 循规蹈矩/i 的/u 把/p 球/n 传/v 给/p 他/r ，/w 起/v 不/d 到/v 出敌不意/i 、/w 攻/v 敌/ng 不/d 备/v 的/u 效果/n 。/w
+CHARACTERS = 姚明;
+RELWORD = 队友;
+RELCOMB = 
+-----------
+SENTENCE = 而姚明本来这个赛季手感就不算太好，再加上手指挂彩，强打篮下造对手犯规才是聪明的选择，可事实上小巨人却打得并不坚决。
+POS_TAG = 而/c 姚明/nr 本来/d 这个/r 赛季/n 手感/n 就/c 不/a 算/d 太/a 好/a ，/w 再/d 加上/v 手指/n 挂彩/v ，/w 强/ng 打/v 篮下/s 造/v 对手/n 犯规/v 才/d 是/v 聪明/a 的/u 选择/vn ，/w 可/v 事实上/l 小/a 巨人/n 却/d 打/v 得/u 并/d 不/d 坚决/a 。/w
+CHARACTERS = 姚明;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 两人要分工明确，什么时候由谁来主攻，前三节两人应交替发力，第四节才是两人联手发力的最佳时机，那时两人都有体力和能力率领球队去解决战斗；当然前三节就搞定对手，那是再好不过了，那时姚明恐怕已经把戒指送给女朋友当定婚礼物了，麦迪或许已经把戒指送给儿子当玩具了；到时我们又有了更高的目标，姚明、麦迪到底能拿几枚？
+POS_TAG = 两/m 人/n 要/v 分工/vd 明确/a ，/w 什么/r 时候/n 由/p 谁/r 来/v 主攻/v ，/w 前/h 三节/n 两/m 人/n 应/d 交替/d 发力/v ，/w 第四/m 节/q 才/d 是/v 两/m 人/n 联手/vd 发力/v 的/u 最佳/z 时机/n ，/w 那时/r 两/m 人/n 都/d 有/v 体力/n 和/c 能力/n 率领/v 球队/n 去/v 解决/v 战斗/vn ；/w 当然/d 前/f 三节/n 就/d 搞定/v 对手/n ，/w 那/r 是/v 再好不过/l 了/y ，/w 那时/r 姚明/nr 恐怕/d 已经/d 把/p 戒指/n 送给/v 女朋友/n 当/v 定婚/vn 礼物/n 了/u ，/w 麦迪/nr 或许/c 已经/d 把/p 戒指/n 送给/v 儿子/n 当/v 玩具/n 了/u ；/w 到时/t 我们/r 又/d 有/v 了/u 更/d 高/a 的/u 目标/n ，/w 姚明/nr 、/w 麦迪/nr 到底/d 能/v 拿/v 几/m 枚/q ？/w
+CHARACTERS = 麦迪;姚明;
+RELWORD = 对手;儿子;女朋友;
+RELCOMB = 
+-----------
+SENTENCE = 不可否认，中国体育制度确实存在不健全的地方，有关领导也在不断的促成改革提案，但是把举国体制说成扼杀天才的黑洞，就未免过于危言耸听了。
+POS_TAG = 不可/v 否认/v ，/w 中国/ns 体育/n 制度/n 确实/ad 存在/v 不/d 健全/a 的/u 地方/n ，/w 有关/vn 领导/n 也/d 在/p 不断/d 的/u 促成/vn 改革/vn 提案/n ，/w 但是/c 把/p 举国体制/l 说/v 成/m 扼杀/vn 天才/n 的/u 黑洞/n ，/w 就/d 未免/d 过于/d 危言耸听/i 了/u 。/w
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 姚明除了在身高和手感上秉承了父母的篮球基因外，在其它方面都不是人们想象的那样符合篮球竞技的要求，直到现在美国著名外科专家汤姆-文特斯仍然认定2.
+POS_TAG = 姚明/nr 除了/p 在/p 身高/n 和/c 手感/n 上/m 秉承/v 了/u 父母/n 的/b 篮球/n 基因/n 外/f ，/w 在/p 其它/r 方面/n 都/d 不/d 是/v 人们/n 想象/v 的/u 那样/r 符合/v 篮球/n 竞技/n 的/u 要求/n ，/w 直到/v 现在/t 美国/ns 著名/a 外科/n 专家/n 汤/n 姆/x -/m 文特斯/ns 仍然/d 认定/v 2/m ./w
+CHARACTERS = 姚明;
+RELWORD = 父母;
+RELCOMB = 
+-----------
+SENTENCE = 小时候被老师罚站的感觉就象一个老朋友,从记忆的远方涌来.
+POS_TAG = 小时候/n 被/p 老师/n 罚/v 站/v 的/u 感觉/n 就/d 象/ng 一个/m 老/a 朋友/n ,/w 从/p 记忆/n 的/u 远方/s 涌/v 来/v ./nr
+CHARACTERS = .;
+RELWORD = 老师;朋友;
+RELCOMB = 
+-----------
+SENTENCE = 和姚明见面那天，我们一共是六个人，除了我们四个排球女将和姚明，还有一个是我的好朋友赵杰。
+POS_TAG = 和/c 姚明/nr 见面/v 那天/r ，/w 我们/r 一共/d 是/v 六/m 个/q 人/n ，/w 除/v 了/u 我们/r 四/m 个/q 排球/n 女将/n 和/c 姚明/nr ，/w 还有/v 一个/m 是/v 我/r 的/u 好/a 朋友/n 赵杰/nr 。/w
+CHARACTERS = 姚明;赵杰;
+RELWORD = 朋友;
+RELCOMB = 
+-----------
+SENTENCE = 一米九七的赵蕊蕊彷佛一下子从巨人变成了小姑娘，一下子找到了小鸟依人的感觉；就连郎平这个在球场上充满霸气的“铁榔头”，在场边让人望而生畏的铁腕教练也仰起头，笑眯眯的和姚明握手拥抱。
+POS_TAG = 一/m 米/q 九七/m 的/u 赵蕊蕊/nr 彷佛/d 一下子/d 从/p 巨人/n 变成/v 了/u 小姑娘/n ，/w 一下子/d 找到/v 了/u 小鸟依人/i 的/u 感觉/n ；/w 就/d 连/u 郎平/nr 这个/r 在/p 球场/n 上/f 充满/v 霸气/an 的/u “/w 铁榔头/n ”/w ，/w 在/p 场边/s 让/v 人/n 望而生畏/i 的/u 铁腕/n 教练/n 也/d 仰起/v 头/n ，/w 笑眯眯/z 的/u 和/c 姚明/nr 握手/v 拥抱/v 。/w
+CHARACTERS = 郎平;姚明;赵蕊蕊;
+RELWORD = 教练;
+RELCOMB = 
+-----------
+SENTENCE = 初时，姚明靠外籍状元身份一举成名，那时的巨人给人最深的印象是个子上的鹤立鸡群，甚至被人们认为是身后巨大商业市场对大洋彼岸诱惑的结果，那时的姚明是稚嫩的，正处于NBA篮球的适应期；随后两个赛季，巨人的表现犹如芝麻开花节节高，数据的提高证明了姚明的进步，也证明了姚明身上的潜质，但那时的姚明还不足以在碰撞激烈的内线像身高一样拥有绝对优势，姚明经历了成长期的磨砺；2006年，姚明在内线开始变得强大，进入20+10+俱乐部证明了自己的实力，信心倍增让巨人进入新的境界，世锦赛上巨人再次证明了在内线的强大个人实力，将个人对球队的价值尽显，而这种价值一直延续到了NBA的新赛季，至此，东方的巨人在实力上已经成为NBA赛场上让对手惧怕的内线巨人。
+POS_TAG = 初时/t ，/w 姚明/nr 靠/v 外籍/n 状元/n 身份/n 一举成名/i ，/w 那时/r 的/u 巨人/n 给/p 人/n 最/d 深/a 的/u 印象/n 是/v 个子/n 上/m 的/b 鹤立鸡群/i ，/w 甚至/d 被/p 人们/n 认为/v 是/v 身后/f 巨大/a 商业/n 市场/n 对/p 大洋/n 彼岸/n 诱惑/vn 的/u 结果/n ，/w 那时/r 的/u 姚明/nr 是/v 稚嫩/a 的/u ，/w 正/d 处于/v NBA/nx 篮球/n 的/u 适应/v 期/ng ；/w 随后/d 两/m 个/q 赛季/n ，/w 巨人/n 的/u 表现/vn 犹如/v 芝麻/n 开花/v 节节/n 高/a ，/w 数据/n 的/u 提高/vn 证明/v 了/u 姚明/nr 的/u 进步/vn ，/w 也/d 证明/v 了/u 姚明/nr 身上/s 的/u 潜质/n ，/w 但/c 那时/r 的/u 姚明/nr 还/d 不/d 足/d 以/p 在/p 碰撞/v 激烈/a 的/u 内线/n 像/v 身高/n 一样/u 拥有/v 绝对/a 优势/n ，/w 姚明/nr 经历/v 了/u 成/m 长期/b 的/u 磨砺/vn ；/w 2006年/t ，/w 姚明/nr 在/p 内线/n 开始/v 变/v 得/u 强大/a ，/w 进入/v 20/m +10/m +/w 俱乐部/n 证明/v 了/u 自己/r 的/u 实力/n ，/w 信心/n 倍增/v 让/v 巨人/n 进入/v 新/a 的/u 境界/n ，/w 世锦赛/j 上/m 巨人/n 再次/d 证明/v 了/u 在/p 内线/n 的/u 强大/a 个人/n 实力/n ，/w 将/p 个人/n 对/p 球队/n 的/u 价值/n 尽/v 显/ag ，/w 而/c 这种/r 价值/n 一直/d 延续/v 到/v 了/u NBA/nx 的/u 新/a 赛季/n ，/w 至此/d ，/w 东方/s 的/u 巨人/n 在/p 实力/n 上/m 已经/d 成为/v NBA/nx 赛场/n 上/m 让/v 对手/n 惧怕/v 的/u 内线/n 巨人/n 。/w
+CHARACTERS = 姚明;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 姚明变得强大了，个人数据大幅度攀升，无论进攻还是防守端，姚明都让对手头痛甚至是无可奈何，现役第一中锋让人无可厚非，这是喜；姚明伤病缠身，内线的挤撞和巨大的身躯体重让姚明的脚趾经常忍辱负重，岁末又遭遇腿部胫骨伤病的困扰，让人痛心不已，甚至会让人联想到对姚明职业生涯的影响，这是忧。
+POS_TAG = 姚明/nr 变/v 得/u 强大/a 了/y ，/w 个人/n 数据/n 大幅度/d 攀升/v ，/w 无论/c 进攻/vn 还/d 是/v 防守/v 端/ag ，/w 姚明/nr 都/d 让/v 对手/n 头痛/an 甚至/d 是/v 无可奈何/i ，/w 现役/b 第一/m 中锋/n 让/v 人/n 无可厚非/i ，/w 这/r 是/v 喜/ag ；/w 姚明/nr 伤病/n 缠身/v ，/w 内线/n 的/u 挤/v 撞/v 和/c 巨大/a 的/u 身躯/n 体重/n 让/v 姚明/nr 的/u 脚趾/n 经常/d 忍辱负重/i ，/w 岁末/t 又/d 遭遇/v 腿/n 部/q 胫骨/n 伤病/n 的/b 困扰/v ，/w 让/v 人/n 痛心/an 不已/v ，/w 甚至/d 会/v 让/v 人/n 联想/nz 到/v 对/p 姚明/nr 职业/n 生涯/n 的/u 影响/vn ，/w 这/r 是/v 忧/ag 。/w
+CHARACTERS = 姚明;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 但后来，大郅的几任总教练都发现，在本队对阵火箭的时候，由大郅去对付姚明，是一件非常有效的事情。
+POS_TAG = 但/c 后来/t ，/w 大郅/nr 的/u 几/m 任/q 总/a 教练/n 都/d 发现/v ，/w 在/p 本队/r 对阵/v 火箭/n 的/u 时候/n ，/w 由/p 大郅/nr 去/v 对付/v 姚明/nr ，/w 是/v 一/m 件/q 非常/d 有效/a 的/u 事情/n 。/w
+CHARACTERS = 大郅;姚明;
+RELWORD = 教练;
+RELCOMB = 
+-----------
+SENTENCE = 中国人、甚至是亚洲人都对姚明有所期待，赢了球，都说姚明是天才球员，继奥尼尔后的第一大中锋，手感好，命中率高；输了球，先是怪裁判，继尔怨球员，或者说球队磨合有问题，教练战术不合理，总尔言之，姚明没有错，“你说便是你错”。
+POS_TAG = 中国/ns 人/n 、/w 甚至/d 是/v 亚洲/ns 人/n 都/d 对/p 姚明/nr 有所/u 期待/v ，/w 赢/v 了/u 球/n ，/w 都/d 说/v 姚明/nr 是/v 天才/n 球员/n ，/w 继/vg 奥尼尔/nr 后/f 的/u 第一/m 大/a 中锋/n ，/w 手感/n 好/a ，/w 命中率/n 高/a ；/w 输/v 了/u 球/n ，/w 先是/v 怪/v 裁判/n ，/w 继尔/c 怨/v 球员/n ，/w 或者/c 说/v 球队/n 磨合/vn 有/v 问题/n ，/w 教练/n 战术/n 不/d 合理/a ，/w 总尔言之/l ，/w 姚明/nr 没有/v 错/n ，/w “/w 你/r 说/v 便/d 是/v 你/r 错/a ”/w 。/w
+CHARACTERS = 奥尼尔;姚明;
+RELWORD = 教练;
+RELCOMB = 
+-----------
+SENTENCE = 火箭为了迅速升空，聘请很多教练、陪练来帮助姚明，教给他一些怪招绝技，甚至改变他长期以来所形成的天然风格,希图通过姚明来提高球队的成绩，然而这个赛季的成绩却越来越差，整个球队人心惶惶，于是又有人说干脆把主教练换掉，还有人说不如交易“麦迪霉素”，他们却不知道姚明的心理问题正在被忽视，这种状况不解决，一切都是瞎惘然。
+POS_TAG = 火箭/n 为了/p 迅速/ad 升空/v ，/w 聘请/v 很多/m 教练/n 、/w 陪练/n 来/v 帮助/v 姚明/nr ，/w 教给/v 他/r 一些/m 怪/a 招/n 绝技/n ，/w 甚至/d 改变/v 他/r 长期以来/l 所/u 形成/v 的/u 天然/b 风格/n ,/w 希图/v 通过/p 姚明/nr 来/v 提高/v 球队/n 的/u 成绩/n ，/w 然而/c 这个/r 赛季/n 的/u 成绩/n 却/d 越来越/d 差/a ，/w 整个/b 球队/n 人心惶惶/i ，/w 于是/c 又/d 有人/r 说/v 干脆/d 把/p 主教练/n 换掉/v ，/w 还/d 有人/r 说/v 不/d 如/v 交易/n “/w 麦迪/ 霉素/n ”/w ，/w 他们/r 却/d 不/d 知道/v 姚明/nr 的/u 心理/n 问题/n 正/d 在/p 被/p 忽视/v ，/w 这种/r 状况/n 不/d 解决/v ，/w 一切/r 都/d 是/v 瞎/v 惘然/z 。/w
+CHARACTERS = 姚明;
+RELWORD = 教练;陪练;主教练;
+RELCOMB = 
+-----------
+SENTENCE = 每次比赛时姚明的心理总是被什么东西扭曲着,就象个天津大麻花,看起来并不轻松,没有稳定的心理，就没有稳定的发挥，我们希望给姚明配备一名专职的心理医生，以彻底解决姚明的心理问题，火箭升空为时不远.
+POS_TAG = 每次/r 比赛/v 时/ng 姚明/nr 的/u 心理/n 总是/d 被/p 什么/r 东西/n 扭曲/v 着/u ,/w 就/d 象/v 个/q 天津/ns 大/a 麻花/n ,/w 看/v 起来/v 并/d 不/d 轻松/a ,/w 没有/d 稳定/a 的/u 心理/n ，/w 就/d 没有/v 稳定/a 的/u 发挥/vn ，/w 我们/r 希望/v 给/p 姚明/nr 配备/v 一/m 名/q 专职/b 的/u 心理/n 医生/n ，/w 以/p 彻底/ad 解决/v 姚明/nr 的/u 心理/n 问题/n ，/w 火箭/n 升空/v 为/v 时/ng 不/d 远/a ./w
+CHARACTERS = 姚明;
+RELWORD = 医生;
+RELCOMB = 
+-----------
+SENTENCE = ”刘翔表现得“一肚子委屈”，没办法只好承认：“我后来不长个了，弹跳能力也一般，练跳高也没什么前途，正好师父又要我，于是就改练110米栏了。
+POS_TAG = ”/w 刘翔/nr 表现/v 得/u “/w 一/m 肚子/q 委屈/a ”/w ，/w 没/v 办法/n 只好/d 承认/v ：/w “/w 我/r 后来/t 不/d 长/a 个/q 了/y ，/w 弹跳/v 能力/n 也/d 一般/a ，/w 练/v 跳高/v 也/d 没什么/l 前途/n ，/w 正好/z 师父/n 又/d 要/v 我/r ，/w 于是/c 就/d 改/v 练/v 110/m 米/q 栏/n 了/y 。/w
+CHARACTERS = 刘翔;
+RELWORD = 师父;
+RELCOMB = 
+-----------
+SENTENCE = 然而姚明的回答更为绝妙：“关于结婚的问题，你也别着急，你也会有那一天，到时候自己感受一下就知道了１当事人啥都没说，还把刘翔套进去了，现在坏笑的从刘翔小弟变成了姚明大哥；而完全不顾笑成一片的现场观众，姚明很郑重其事地表示，自己的孩子以后干什么不会过多干涉，因为还是要给孩子一个宽松的环境——看起来姚明很有挺潜质成为一个温柔的好爸爸的。
+POS_TAG = 然而/c 姚明/nr 的/u 回答/vn 更为/d 绝妙/a ：/w “/w 关于/p 结婚/n 的/u 问题/n ，/w 你/r 也/d 别/d 着急/a ，/w 你/r 也/d 会/v 有/v 那/r 一/m 天/q ，/w 到时候/t 自己/r 感受/v 一下/m 就/d 知道/v 了/u １/m 当事人/n 啥/r 都/d 没/d 说/v ，/w 还/d 把/p 刘翔/nr 套/v 进去/v 了/u ，/w 现在/t 坏笑/v 的/u 从/p 刘翔/nr 小弟/n 变成/v 了/u 姚明/nr 大哥/n ；/w 而/c 完全/ad 不顾/v 笑成一片/l 的/u 现场/s 观众/n ，/w 姚明/nr 很/d 郑重其事/i 地/u 表示/v ，/w 自己/r 的/u 孩子/n 以后/f 干/v 什么/r 不/d 会/v 过多/a 干涉/v ，/w 因为/c 还是/d 要/v 给/p 孩子/n 一个/m 宽松/a 的/u 环境/n ——/w 看起来/v 姚明/nr 很/d 有/v 挺/ag 潜质/n 成为/v 一个/m 温柔/a 的/u 好/a 爸爸/n 的/u 。/w
+CHARACTERS = 刘翔;姚明;
+RELWORD = 爸爸;大哥;小弟;
+RELCOMB = 刘翔,姚明->大哥;刘翔,姚明->小弟;
+-----------
+SENTENCE = 我想了解NBA的朋友都很明白，目前NBA中优秀中锋寥寥，相反优秀锋卫摇摆人却是泛滥成灾。
+POS_TAG = 我/r 想/v 了解/v NBA/nx 的/u 朋友/n 都/d 很/d 明白/v ，/w 目前/t NBA/nx 中/f 优秀/a 中锋/n 寥寥/z ，/w 相反/v 优秀/a 锋/ag 卫/ng 摇摆/v 人/n 却/d 是/v 泛滥成灾/i 。/w
+CHARACTERS = 
+RELWORD = 朋友;
+RELCOMB = 
+-----------
+SENTENCE = 当然，史密斯教练显然更背，拥有多年NBA球员、教练经历的他，就是因为少给姚明玩了会“玩具”，就被姚明迷骂的狗血淋头！
+POS_TAG = 当然/d ，/w 史密斯/nr 教练/n 显然/ad 更/d 背/a ，/w 拥有/v 多/m 年/q NBA/nx 球员/n 、/w 教练/n 经历/n 的/u 他/r ，/w 就是/d 因为/p 少/ad 给/v 姚明/nr 玩/v 了/u 会/q “/w 玩具/n ”/w ，/w 就/d 被/p 姚明迷/n 骂/v 的/u 狗血/ 淋头/i ！/w
+CHARACTERS = 史密斯;姚明;
+RELWORD = 教练;
+RELCOMB = 
+-----------
+SENTENCE = 原因如下：1、马布里太独、并且太丑，哪里是他们全明星先发后卫的对手？
+POS_TAG = 原因/n 如下/v ：/w 1/m 、/w 马布里/nr 太/d 独/a 、/w 并且/c 太/d 丑/a ，/w 哪里/r 是/v 他们/r 全/a 明星/n 先/d 发/v 后卫/n 的/b 对手/n ？/w
+CHARACTERS = 马布里;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 2、哈德威现在三流了，不行了，哪里是他们“老猫”莫布里的对手？
+POS_TAG = 2/m 、/w 哈德威/nr 现在/t 三流/n 了/u ，/w 不行/a 了/y ，/w 哪里/r 是/v 他们/r “/w 老/h 猫/n ”/w 莫布里/nr 的/u 对手/n ？/w
+CHARACTERS = 哈德威;莫布里;
+RELWORD = 对手;
+RELCOMB = 哈德威,莫布里->对手;
+-----------
+SENTENCE = 有趣，当太阳最终闯入季后赛时，姚明身边那些优质战友突然都变得一文不名了！
+POS_TAG = 有趣/a ，/w 当/ 太阳/n 最终/d 闯入/v 季后赛/n 时/tg ，/w 姚明/nr 身边/s 那些/r 优质/b 战友/n 突然/ad 都/d 变/v 得/u 一文不名/i 了/u ！/w
+CHARACTERS = 姚明;
+RELWORD = 战友;
+RELCOMB = 
+-----------
+SENTENCE = 12分钟，显示了他对于球队的不可或缺的巨大作用，也为其他队友赢得了休息的时间。
+POS_TAG = 12/m 分钟/q ，/w 显示/v 了/u 他/r 对于/p 球队/n 的/u 不可或缺/l 的/u 巨大/a 作用/n ，/w 也/d 为/p 其他/r 队友/n 赢得/v 了/u 休息/v 的/u 时间/n 。/w
+CHARACTERS = 
+RELWORD = 队友;
+RELCOMB = 
+-----------
+SENTENCE = 赛后记者对休斯顿的教练和球员进行了独家采访.
+POS_TAG = 赛后/t 记者/n 对/p 休斯顿/ns 的/u 教练/n 和/ag 球员/n 进行/v 了/u 独家/b 采访/v ./w
+CHARACTERS = 
+RELWORD = 教练;
+RELCOMB = 
+-----------
+SENTENCE = 当问的主教练阿德关于对最后一球的判罚的看法,阿德很迷惘的说他也不知道结果,但是我们这边的人都说球还没离手,所以感谢上帝,他确实是.
+POS_TAG = 当/p 问/v 的/u 主教练/n 阿德/nr 关于/p 对/p 最后/f 一/m 球/n 的/u 判罚/n 的/u 看法/n ,/w 阿德/nr 很/d 迷惘/a 的/u 说/v 他/r 也/d 不/d 知道/v 结果/n ,/w 但是/c 我们/r 这边/s 的/u 人/n 都/d 说/v 球/n 还/d 没/d 离手/v ,/w 所以/c 感谢/v 上帝/n ,/w 他/r 确实/ad 是/v ./w
+CHARACTERS = 阿德;
+RELWORD = 主教练;
+RELCOMB = 
+-----------
+SENTENCE = 在我的记忆中，范甘迪是一位值得尊敬的教练，尽管他脾气不好，尽管他有些顽固，但是他值得尊敬。
+POS_TAG = 在/p 我/r 的/u 记忆/n 中/f ，/w 范甘迪/nr 是/v 一/m 位/q 值得/v 尊敬/v 的/u 教练/n ，/w 尽管/c 他/r 脾气/n 不好/a ，/w 尽管/c 他/r 有些/r 顽固/a ，/w 但是/c 他/r 值得/v 尊敬/vn 。/w
+CHARACTERS = 范甘迪;
+RELWORD = 教练;
+RELCOMB = 
+-----------
+SENTENCE = 范甘迪是一位好教练，每次采访，他总是强调姚明在内线进攻中的作用，在内线的统治力，也强调火箭的进攻首先必须从姚明这里开始。
+POS_TAG = 范甘迪/nr 是/v 一/m 位/q 好/a 教练/n ，/w 每次/r 采访/v ，/w 他/r 总是/d 强调/v 姚明/nr 在/p 内线/n 进攻/vn 中/f 的/u 作用/n ，/w 在/p 内线/n 的/u 统治/vn 力/n ，/w 也/d 强调/v 火箭/n 的/u 进攻/vn 首先/c 必须/d 从/p 姚明/nr 这里/r 开始/v 。/w
+CHARACTERS = 范甘迪;姚明;
+RELWORD = 教练;
+RELCOMB = 
+-----------
+SENTENCE = 但是范甘迪也是不幸的，他是一位倒霉的教练。
+POS_TAG = 但是/c 范甘迪/nr 也/d 是/v 不幸/a 的/u ，/w 他/r 是/v 一/m 位/q 倒霉/a 的/u 教练/n 。/w
+CHARACTERS = 范甘迪;
+RELWORD = 教练;
+RELCOMB = 
+-----------
+SENTENCE = 看得出来，范甘迪还是刻意在维护阿德尔曼，毕竟教练能体谅教练吧。
+POS_TAG = 看得出来/l ，/w 范甘迪/nr 还/d 是/v 刻意/d 在/p 维护/v 阿德尔曼/nr ，/w 毕竟/c 教练/n 能/v 体谅/v 教练/n 吧/y 。/w
+CHARACTERS = 阿德尔曼;范甘迪;
+RELWORD = 教练;
+RELCOMB = 
+-----------
+SENTENCE = 我曾经和同行交流过，开玩笑说，如果让范甘迪再带姚明一年最好，这样可以进一步加强姚明的统治力。
+POS_TAG = 我/r 曾经/d 和/c 同行/n 交流/v 过/u ，/w 开玩笑/v 说/v ，/w 如果/c 让/v 范甘迪/nr 再/d 带/v 姚明/nr 一/m 年/q 最/d 好/a ，/w 这样/r 可以/v 进一步/d 加强/v 姚明/nr 的/u 统治/vn 力/n 。/w
+CHARACTERS = 范甘迪;姚明;
+RELWORD = 同行;
+RELCOMB = 
+-----------
+SENTENCE = 一个在内线硬扛的姚明，才是让对手更加畏惧的。
+POS_TAG = 一个/m 在/p 内线/n 硬/d 扛/v 的/u 姚明/nr ，/w 才/d 是/v 让/v 对手/n 更加/d 畏惧/v 的/u 。/w
+CHARACTERS = 姚明;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = ”塞队主教练报料。
+POS_TAG = ”/w 塞/v 队/n 主教练/n 报/n 料/n 。/w
+CHARACTERS = 
+RELWORD = 主教练;
+RELCOMB = 
+-----------
+SENTENCE = 这三个一打一，场边观众都是屏着气在看，一个球迷拉着他朋友激动地说：“别吵！
+POS_TAG = 这/r 三/m 个/q 一/m 打/v 一/m ，/w 场/q 边/n 观众/n 都/d 是/v 屏/ng 着/n 气/a 在/c 看/a ，/w 一个/m 球迷/n 拉/v 着/u 他/r 朋友/n 激动/a 地/u 说/v ：/w “/w 别/d 吵/v ！/w
+CHARACTERS = 
+RELWORD = 朋友;
+RELCOMB = 
+-----------
+SENTENCE = 时间不同，地点也不同，对手也不一样，但是科比、姚明和王治郅都很出色，都很神奇，只是收获不一样。
+POS_TAG = 时间/n 不同/a ，/w 地/n 点/t 也/d 不同/a ，/w 对手/n 也/d 不/d 一样/a ，/w 但是/c 科比/nr 、/w 姚明/nr 和/c 王治郅/nr 都/d 很/d 出色/a ，/w 都/d 很/d 神奇/a ，/w 只/d 是/v 收获/n 不/d 一样/a 。/w
+CHARACTERS = 科比;王治郅;姚明;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 但是，球是靠队员在场上打的，就像斯隆所说的那样，“教练只能指挥比赛，但决定比赛的，只有队员自己。
+POS_TAG = 但是/c ，/w 球/n 是/v 靠/v 队员/n 在/p 场上/s 打/v 的/u ，/w 就/d 像/v 斯隆/nr 所/u 说/v 的/u 那样/r ，/w “/w 教练/n 只能/v 指挥/v 比赛/vn ，/w 但/c 决定/v 比赛/vn 的/u ，/w 只/d 有/v 队员/n 自己/r 。/w
+CHARACTERS = 斯隆;
+RELWORD = 教练;
+RELCOMB = 
+-----------
+SENTENCE = 姚明是在旧金山市郊的弗雷蒙德康复中心接受左脚踝骨刺去除手术的，主刀的是姚明的私人医生、美籍华人亚瑟-叮这也是姚明平生第一次被推上手术台。
+POS_TAG = 姚明/nr 是/v 在/p 旧金山/ns 市郊/s 的/u 弗雷蒙德康复中心/nt 接受/v 左/a 脚踝/n 骨刺/n 去除/v 手术/n 的/b ，/w 主/ 刀/n 的/u 是/v 姚明/nr 的/u 私人/n 医生/n 、/w 美籍/b 华人/n 亚/vg 瑟/ng -/m 叮/v 这/r 也/c 是/a 姚明/nr 平生/n 第一/m 次/a 被/d 推/v 上/m 手术台/n 。/w
+CHARACTERS = 姚明;
+RELWORD = 医生;
+RELCOMB = 
+-----------
+SENTENCE = 2005年6月中旬，姚明接受脚踝骨扫描之后发现，骨刺伤势情况比医生想象的要严重，于是决定立即进行手术。
+POS_TAG = 2005年/t 6月/t 中旬/t ，/w 姚明/nr 接受/v 脚/n 踝骨/n 扫描/v 之后/f 发现/n ，/w 骨刺/n 伤势/n 情况/n 比/j 医生/n 想象/v 的/b 要/ag 严重/a ，/w 于是/c 决定/v 立即/d 进行/v 手术/v 。/w
+CHARACTERS = 姚明;
+RELWORD = 医生;
+RELCOMB = 
+-----------
+SENTENCE = 7、左眉骨：姚明的左眉骨也是几次受伤，在2000-2001赛季CBA的总决赛上海和八一的比赛中，姚明在比赛中和队友乔治相撞，左眉骨受伤。
+POS_TAG = 7/m 、/w 左/a 眉/n 骨/ng ：/w 姚明/nr 的/u 左/a 眉/n 骨/ng 也/c 是/a 几/m 次/a 受伤/v ，/w 在/p 2000-2001/m 赛季/n CBA/nx 的/u 总/b 决赛/vn 上海/ns 和/c 八一/m 的/u 比赛/vn 中/f ，/w 姚明/nr 在/p 比赛/vn 中/f 和/c 队友/n 乔/ag 治/v 相撞/v ，/w 左/a 眉/n 骨/ng 受伤/v 。/w
+CHARACTERS = 姚明;
+RELWORD = 队友;
+RELCOMB = 
+-----------
+SENTENCE = 而在2003年的国家队集训中，姚明在训练中和队友王博相撞，左眉骨破裂，缝了8针。
+POS_TAG = 而/c 在/p 2003年/t 的/u 国家队/n 集训/n 中/f ，/w 姚明/nr 在/p 训练/vn 中/f 和/c 队友/n 王博/nr 相撞/v ，/w 左/a 眉骨/n 破裂/v ，/w 缝/v 了/u 8/m 针/q 。/w
+CHARACTERS = 王博;姚明;
+RELWORD = 队友;
+RELCOMB = 王博,姚明->队友;
+-----------
+SENTENCE = 虽然此后医生检查表明，姚明的伤势并不严重。
+POS_TAG = 虽然/c 此后/t 医生/n 检查/v 表明/v ，/w 姚明/nr 的/u 伤势/n 并/c 不/d 严重/a 。/w
+CHARACTERS = 姚明;
+RELWORD = 医生;
+RELCOMB = 
+-----------
+SENTENCE = 姚明可以一个人打败他们中的任何一个，但他无力抵挡对手车轮战的轮番攻击，当姚明体力透支无法跟上对手的节奏时，当他再也不能从容的跳投时，接受失败只能是他惟一的选择！
+POS_TAG = 姚明/nr 可以/v 一个/m 人/n 打败/v 他们/r 中/a 的/b 任何/d 一个/m ，/w 但/c 他/r 无力/vd 抵挡/v 对手/n 车轮战/n 的/b 轮番/d 攻击/v ，/w 当/p 姚明/nr 体力/n 透支/vd 无法/v 跟/p 上/m 对手/n 的/u 节奏/n 时/ng ，/w 当/p 他/r 再也/d 不/d 能/v 从容/a 的/u 跳/v 投/v 时/ng ，/w 接受/v 失败/v 只能/v 是/v 他/r 惟一/b 的/b 选择/v ！/w
+CHARACTERS = 姚明;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 除了姚明的神勇和麦迪还算正常的24分，火箭的没用第三点，前两场为姚麦分忧的人没用了，阿尔斯通不是，巴蒂尔也不是，海德苦练的三分也没用发挥，受伤的海耶斯成了队员和教练无比思念的人！
+POS_TAG = 除了/p 姚明/nr 的/u 神勇/a 和/c 麦迪/nr 还/d 算/v 正常/a 的/u 24分/t ，/w 火箭/n 的/u 没用/a 第三点/t ，/w 前/h 两/m 场/q 为/v 姚麦/j 分忧/v 的/u 人/n 没用/v 了/y ，/w 阿尔斯通/nr 不/d 是/v ，/w 巴蒂尔/nr 也/d 不/d 是/v ，/w 海德/nr 苦练/v 的/u 三分/t 也/d 没用/a 发挥/v ，/w 受伤/v 的/u 海耶斯/nr 成/v 了/u 队员/n 和/c 教练/n 无比/z 思念/v 的/u 人/n ！/w
+CHARACTERS = 阿尔斯通;巴蒂尔;海德;海耶斯;麦迪;姚明;
+RELWORD = 教练;
+RELCOMB = 
+-----------
+SENTENCE = 在内线难寻对手的姚明，却由于积极补防在首节连吃两次个人犯规，这也直接导致巨人在本节还剩4分30秒时便坐回板凳。
+POS_TAG = 在/p 内线/n 难/ad 寻/v 对手/n 的/u 姚明/nr ，/w 却/d 由于/p 积极/ad 补防/v 在/p 首/m 节/q 连吃/v 两/m 次/q 个人/n 犯规/v ，/w 这/r 也/d 直接/ad 导致/v 巨人/n 在/p 本节/n 还/d 剩/v 4分/t 30秒/t 时/ng 便/d 坐回/v 板凳/n 。/w
+CHARACTERS = 姚明;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 值得一提的是，本节中段，姚明在为队友挡拆时，跟防的德肖恩-史蒂文森重重撞在巨人的“大墙”之上，当即受伤直接下场
+POS_TAG = 值得一提的是/v ，/w 本节/n 中段/n ，/w 姚明/nr 在/p 为/v 队友/n 挡拆/v 时/ng ，/w 跟防/v 的/u 德肖恩-史蒂文森/nr 重重/z 撞/v 在/p 巨人/n 的/u “/w 大墙/n ”/w 之上/f ，/w 当即/d 受伤/v 直接/ad 下场/v
+CHARACTERS = 德肖恩-史蒂文森;姚明;
+RELWORD = 队友;
+RELCOMB = 
+-----------
+SENTENCE = 整场比赛，过早犯规或多或少打乱了姚明的比赛节奏，不过队友强有力的支持让巨人压力骤减。
+POS_TAG = 整/m 场/q 比赛/vn ，/w 过早/d 犯规/v 或多或少/d 打乱/v 了/u 姚明/nr 的/u 比赛/vn 节奏/n ，/w 不过/c 队友/n 强有力/l 的/u 支持/vn 让/v 巨人/n 压力/n 骤/d 减/v 。/w
+CHARACTERS = 姚明;
+RELWORD = 队友;
+RELCOMB = 
+-----------
+SENTENCE = 此外，撞伤史蒂文森撞开布莱切的姚明，也令对手有苦难言。
+POS_TAG = 此外/c ，/w 撞伤/v 史蒂文森/nr 撞开/v 布莱切/nr 的/u 姚明/nr ，/w 也/d 令/v 对手/n 有苦难言/l 。/w
+CHARACTERS = 布莱切;史蒂文森;姚明;
+RELWORD = 对手;
+RELCOMB = 布莱切,姚明->对手;史蒂文森,姚明->对手;
+-----------
+SENTENCE = 不过，相对而言，中国男篮参加这样的比赛，应该是一个锻炼，毕竟中国男篮与NBA的差距还是不校中国男篮需要和高水平的篮球对抗，中国男篮需要高水平的对抗，不能每次世界大赛，就像中学生对抗大学生一样。
+POS_TAG = 不过/c ，/w 相对/d 而言/u ，/w 中国/ns 男篮/n 参加/v 这样/r 的/u 比赛/vn ，/w 应该/v 是/v 一个/m 锻炼/vn ，/w 毕竟/d 中国/ns 男篮/n 与/p NBA/nx 的/u 差距/n 还是/c 不/d 校/ng 中国/ns 男篮/n 需要/v 和/c 高/a 水平/n 的/u 篮球/n 对抗/vn ，/w 中国/ns 男篮/n 需要/v 高/a 水平/n 的/u 对抗/vn ，/w 不能/v 每次/r 世界/n 大赛/vn ，/w 就/d 像/v 中/f 学生/n 对/p 抗/v 大/a 学生/n 一样/u 。/w
+CHARACTERS = 
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = ”21岁的学生金文辉（音）说。
+POS_TAG = ”/w 21/m 岁/q 的/u 学生/n 金文辉/nr （/w 音/n ）/w 说/v 。/w
+CHARACTERS = 金文辉;
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = 他脾气很好，在打比赛的时候，他从来没故意伤过人，”爱丁堡大学数学与经济学专业的学生朱迪（音）说。
+POS_TAG = 他/r 脾气/n 很/d 好/a ，/w 在/p 打/v 比赛/vn 的/u 时候/n ，/w 他/r 从来/d 没/v 故意/vd 伤/v 过/u 人/n ，/w ”/w 爱丁堡大学/nt 数学/n 与/c 经济学/n 专业/a 的/u 学生/n 朱迪/nr （/w 音/n ）/w 说/v 。/w
+CHARACTERS = 朱迪;
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = 这个细节是姚明的经纪人章明基亲口告诉我的,那时,章明基还嘱咐姚明要注意身体,不要再被网上的文章影响了恢复训练的进度,只是姚明不听,依然每天定时守候在电脑旁,关注着灾区最近的情况变化。
+POS_TAG = 这个/r 细节/n 是/v 姚明/nr 的/u 经纪人/n 章明基/nr 亲口/d 告诉/v 我/r 的/u ,/w 那时/r ,/w 章明基/nr 还/d 嘱咐/v 姚明/nr 要/v 注意/v 身体/n ,/w 不/d 要/v 再/d 被/p 网上/s 的/u 文章/n 影响/v 了/u 恢复/n 训练/vn 的/u 进度/n ,/w 只/d 是/v 姚明/nr 不/d 听/v ,/w 依然/d 每天/r 定时/d 守候/v 在/p 电脑/n 旁/f ,/w 关注/v 着/u 灾区/n 最近/t 的/u 情况/n 变化/vn 。/w
+CHARACTERS = 姚明;章明基;
+RELWORD = 经纪人;
+RELCOMB = 姚明,章明基->经纪人;
+-----------
+SENTENCE = 姚明说自己现在的心里很踏实,不管遇到什么对手,都要拼字诀,战斗到底。
+POS_TAG = 姚明/nr 说/v 自己/r 现在/t 的/u 心里/s 很/d 踏实/a ,/w 不管/c 遇到/v 什么/r 对手/n ,/w 都/d 要/v 拼/v 字/n 诀/ng ,/w 战斗/v 到底/v 。/w
+CHARACTERS = 姚明;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 姚明必须明白,他的身上不止有着竞技意义,男篮赢或输,他必须拖着还未完全康复的腿屹立不倒,因为,在他的身上,还有中国人凝聚起来的民族期盼,他们不渴望胜利的刺激,只求姚明在五棵松的灯光照耀下,能让“中国高度”血红烂漫地插向对手的心脏。
+POS_TAG = 姚明/nr 必须/d 明白/v ,/w 他/r 的/u 身上/s 不止/v 有着/v 竞技/n 意义/n ,/w 男篮/n 赢/v 或/c 输/v ,/w 他/r 必须/d 拖/v 着/u 还/d 未/d 完全/ad 康复/v 的/u 腿/n 屹立/v 不/d 倒/v ,/w 因为/c ,/w 在/p 他/r 的/u 身上/s ,/w 还有/v 中国/ns 人/n 凝聚/v 起来/v 的/u 民族/n 期盼/v ,/w 他们/r 不/d 渴望/v 胜利/vn 的/u 刺激/vn ,/w 只求/v 姚明/nr 在/p 五棵松/ns 的/b 灯光/n 照耀/v 下/f ,/w 能/v 让/v “/w 中国/ns 高度/n ”/w 血红/z 烂漫/z 地/j 插/v 向/dg 对手/n 的/b 心脏/n 。/w
+CHARACTERS = 姚明;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 中国篮球拥有未来，但中国篮球并不一定能够赢下未来，因为姚明和中国队将会面对更为多样的对手，虽然姚明只有一个，但可以主宰比赛进程的对手越来越多。
+POS_TAG = 中国/ns 篮球/n 拥有/v 未来/t ，/w 但/c 中国/ns 篮球/n 并/c 不/d 一定/d 能够/v 赢/v 下/v 未来/t ，/w 因为/c 姚明/nr 和/c 中国队/nt 将/d 会/v 面对/v 更为/d 多样/a 的/u 对手/n ，/w 虽然/c 姚明/nr 只/d 有/v 一个/m ，/w 但/c 可以/v 主宰/v 比赛/vn 进程/n 的/u 对手/n 越来越/d 多/a 。/w
+CHARACTERS = 姚明;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 尽管姚明用自己毫不吝啬的掌声来激励队友来证明这支球队是5个人，是12个人的球队时，但中国队依然不断的输球。
+POS_TAG = 尽管/c 姚明/nr 用/p 自己/r 毫不/d 吝啬/a 的/u 掌声/n 来/f 激励/v 队友/n 来/f 证明/v 这/r 支/q 球队/n 是/v 5/m 个/q 人/n ，/w 是/v 12/m 个人/n 的/u 球队/n 时/ng ，/w 但/c 中国队/nt 依然/d 不/d 断/v 的/u 输/v 球/n 。/w
+CHARACTERS = 姚明;
+RELWORD = 队友;
+RELCOMB = 
+-----------
+SENTENCE = 但现在我们的对手遍及5大洲，而且我们昔日的手下败将正在成为我们不可逾越的屏障，可我们的确拥有了世界最好的中锋，我们有了姚明，但我们离前八越来越远。
+POS_TAG = 但/c 现在/t 我们/r 的/u 对手/n 遍及/v 5/m 大洲/n ，/w 而且/c 我们/r 昔日/t 的/u 手/n 下/f 败将/n 正在/d 成为/v 我们/r 不可逾越/i 的/b 屏障/n ，/w 可/v 我们/r 的/u 确/d 拥有/v 了/u 世界/n 最/d 好/a 的/u 中锋/n ，/w 我们/r 有/v 了/u 姚明/nr ，/w 但/c 我们/r 离/v 前/f 八/m 越来越/d 远/a 。/w
+CHARACTERS = 姚明;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 不使政府摆正自己在大灾面前的主要义务位置，老百姓永远要承担许多没有“责任”的义务，嘿嘿，今天我就收到一个朋友的短信问候：“你捐款了吗？
+POS_TAG = 不/d 使/v 政府/n 摆正/v 自己/r 在/p 大/a 灾/n 面前/f 的/u 主要/b 义务/n 位置/n ，/w 老百姓/n 永远/d 要/v 承担/v 许多/m 没有/v “/w 责任/n ”/w 的/u 义务/n ，/w 嘿嘿/o ，/w 今天/t 我/r 就/d 收到/v 一/m 个/q 朋友/n 的/u 短/a 信/n 问候/vn ：/w “/w 你/r 捐款/v 了/y 吗/y ？/w
+CHARACTERS = 
+RELWORD = 朋友;
+RELCOMB = 
+-----------
+SENTENCE = 本就处于劣势的骑士也因为赛程更是雪上加霜，尽管有小皇帝詹姆斯的率领，他们还是像狼王一样没有攻陷丰田中心，他们只能遗憾的看着火箭从他们身边升起！
+POS_TAG = 本/d 就/d 处于/v 劣势/n 的/u 骑士/n 也/d 因为/p 赛程/n 更/d 是/v 雪上加霜/i ，/w 尽管/c 有/v 小/a 皇帝/n 詹姆斯/nr 的/u 率领/vn ，/w 他们/r 还/d 是/v 像/v 狼王/n 一样/u 没有/d 攻陷/v 丰田/nz 中心/f ，/w 他们/r 只能/v 遗憾/a 的/u 看/v 着/u 火箭/n 从/p 他们/r 身边/s 升起/v ！/w
+CHARACTERS = 詹姆斯;
+RELWORD = 皇帝;
+RELCOMB = 
+-----------
+SENTENCE = 火箭漂亮的赢球与詹姆斯的低迷发挥有很大的关系，疲惫是影响小皇帝状态的原因，巴蒂尔的紧逼才是詹姆斯低迷的关键因素，21分的得分还是说得过去，但很少看到他犀利的突破和飞身暴扣，也难见他和队员的配合，相反防守他的巴蒂尔在紧张的防守之余还不是的有得分进账！
+POS_TAG = 火箭/n 漂亮/a 的/u 赢球/n 与/p 詹姆斯/nr 的/u 低迷/an 发挥/n 有/v 很/d 大/a 的/u 关系/n ，/w 疲惫/ad 是/v 影响/v 小/a 皇帝/n 状态/n 的/u 原因/n ，/w 巴蒂尔/nr 的/u 紧逼/n 才/d 是/v 詹姆斯/nr 低迷/a 的/u 关键/n 因素/n ，/w 21分/n 的/u 得分/n 还/d 是/v 说得过去/l ，/w 但/c 很/d 少/ad 看到/v 他/r 犀利/a 的/u 突破/vn 和/c 飞身/v 暴扣/v ，/w 也/d 难/ad 见/v 他/r 和/c 队员/n 的/u 配合/vn ，/w 相反/d 防守/v 他/r 的/u 巴蒂尔/nr 在/p 紧张/a 的/u 防守/vn 之/u 余/ng 还/d 不/d 是/v 的/u 有/v 得分/n 进账/n ！/w
+CHARACTERS = 巴蒂尔;詹姆斯;
+RELWORD = 皇帝;
+RELCOMB = 
+-----------
+SENTENCE = 在没有小麦的比赛里，海德和阿尔斯通成了姚明的左膀右臂，在姚明支持下，三分是他们猎杀对手的最好武器，海德的持续发挥已成了火箭的第六人，在加上巴蒂尔的护驾，球迷完全有理由相信他们能走的更远，火箭也完全应该坚持今天鲜明的战术打法！
+POS_TAG = 在/p 没有/v 小麦/nr 的/u 比赛/vn 里/f ，/w 海德/nr 和/c 阿尔斯通/nr 成/v 了/u 姚明/nr 的/u 左膀右臂/l ，/w 在/p 姚明/nr 支持/v 下/f ，/w 三分/t 是/v 他们/r 猎杀/v 对手/n 的/u 最/d 好/a 武器/n ，/w 海德/nr 的/u 持续/a 发挥/n 已/d 成/v 了/u 火箭/n 的/u 第六/m 人/n ，/w 在/p 加上/v 巴蒂尔/nr 的/u 护驾/n ，/w 球迷/n 完全/ad 有/v 理由/n 相信/v 他们/r 能/v 走/v 的/u 更/d 远/a ，/w 火箭/n 也/d 完全/ad 应该/d 坚持/v 今天/t 鲜明/a 的/u 战术/n 打法/n ！/w
+CHARACTERS = 阿尔斯通;巴蒂尔;海德;小麦;姚明;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 海耶斯虽然篮板能力超强，但是让他和霍华德组成小个内线，火箭仍然面临被对手的篮板血洗的结局。
+POS_TAG = 海耶斯/nr 虽然/c 篮板/n 能力/n 超/h 强/a ，/w 但是/c 让/v 他/r 和/c 霍华德/nr 组成/v 小个/n 内线/n ，/w 火箭/n 仍然/d 面临/v 被/p 对手/n 的/u 篮板/n 血洗/v 的/u 结局/n 。/w
+CHARACTERS = 海耶斯;霍华德;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 也只有在遭遇网队时，他们才占据了内线的上风，因为对手同样丧失了主力中锋。
+POS_TAG = 也/d 只有/d 在/p 遭遇/n 网队/n 时/ng ，/w 他们/r 才/d 占据/v 了/u 内线/n 的/u 上风/n ，/w 因为/c 对手/n 同样/d 丧失/v 了/u 主力/n 中锋/n 。/w
+CHARACTERS = 
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 历史总在惊人的相似中轮回，2005年12月19日，在打完对快船的比赛后，姚明脚趾疼痛难忍，经医生检查，姚明大脚趾感染，必须立即动手术，姚明12月20日在休斯顿市中心的得克萨斯医学中心完成左脚大脚趾脚沟炎的手术，此次受伤让姚明休战21常时隔一年，2006年12月24日，在对快船队的比赛中姚明痛苦倒地，这次是膝盖，而更为相似的是，这都是在麦迪因伤缺阵的情况下伤的，上赛季的火箭姚麦双双高挂免战牌，让火箭的战绩一落千丈，最终无缘季候赛，而今天这一幕再度对火箭的常规赛征程蒙上了阴影。
+POS_TAG = 历史/n 总/d 在/p 惊人/a 的/u 相似/a 中/f 轮回/v ，/w 2005年/t 12月/t 19日/t ，/w 在/p 打完/v 对/p 快船/n 的/u 比赛/n 后/f ，/w 姚明/nr 脚趾/n 疼痛/an 难/ad 忍/v ，/w 经/p 医生/n 检查/v ，/w 姚明/nr 大/a 脚趾/n 感染/v ，/w 必须/d 立即/d 动手术/v ，/w 姚明/nr 12月/t 20日/t 在/p 休斯顿/ns 市中心/s 的/u 得克萨斯医学中心/ns 完成/v 左脚/n 大/a 脚趾/n 脚沟炎/n 的/u 手术/n ，/w 此次/r 受伤/n 让/v 姚明/nr 休战/v 21/m 常/ag 时隔一年/l ，/w 2006年/t 12月/t 24日/t ，/w 在/p 对/p 快船队/n 的/u 比赛/vn 中/f 姚明/nr 痛苦/ad 倒地/v ，/w 这次/r 是/v 膝盖/n ，/w 而/c 更为/d 相似/a 的/u 是/v ，/w 这/r 都/d 是/v 在/p 麦迪/nr 因/p 伤/n 缺阵/v 的/u 情况/n 下/f 伤/v 的/u ，/w 上/f 赛季/n 的/u 火箭/n 姚麦/j 双双/m 高/a 挂/v 免战牌/n ，/w 让/v 火箭/n 的/u 战绩/n 一落千丈/i ，/w 最终/d 无缘/v 季候赛/n ，/w 而/c 今天/t 这/r 一/m 幕/q 再度/d 对/p 火箭/n 的/u 常规赛/n 征程/n 蒙上/v 了/u 阴影/n 。/w
+CHARACTERS = 麦迪;姚明;
+RELWORD = 医生;
+RELCOMB = 
+-----------
+SENTENCE = 但两人因为个人原因分崩离析，奥尼尔回游东岸，来到了拥有无限潜力的小将维得身边，而科比却在自己的湖人当上了至尊无比的皇帝。
+POS_TAG = 但/c 两/m 人/n 因为/c 个人/n 原因/n 分崩离析/i ，/w 奥尼尔/nr 回游/vn 东岸/s ，/w 来到/v 了/u 拥有/v 无限/b 潜力/n 的/u 小将/n 维得/nr 身边/s ，/w 而/c 科比/nr 却/d 在/p 自己/r 的/u 湖/n 人/n 当上/v 了/u 至尊无比/z 的/u 皇帝/n 。/w
+CHARACTERS = 奥尼尔;科比;维得;
+RELWORD = 皇帝;
+RELCOMB = 
+-----------
+SENTENCE = 可我真的希望，姚andt-mac，成为永远的mm，成为永远的兄弟。
+POS_TAG = 可/v 我/r 真/a 的/u 希望/n ，/w 姚/nr andt-mac/nx ，/w 成为/v 永远/b 的/u mm/nx ，/w 成为/v 永远/b 的/u 兄弟/n 。/w
+CHARACTERS = 姚;
+RELWORD = 兄弟;
+RELCOMB = 
+-----------
+SENTENCE = 要知道，这还是姚明第一次在没有火箭队友助阵的情况下，独自打一场全明星。
+POS_TAG = 要/v 知道/v ，/w 这/r 还/d 是/v 姚明/nr 第一/m 次/q 在/p 没有/v 火箭/n 队友/n 助阵/v 的/u 情况/n 下/f ，/w 独自/d 打/v 一/m 场/q 全/a 明星/n 。/w
+CHARACTERS = 姚明;
+RELWORD = 队友;
+RELCOMB = 
+-----------
+SENTENCE = 其实也不能说奥尼尔以后再也进不了全明星，因为明年的活动在凤凰城搞，那是他的主场了，只要他能打，能搞，教练们会接到NBA的暗示把他选进去的。
+POS_TAG = 其实/d 也/d 不能/v 说/v 奥尼尔/nr 以后/f 再/d 也/d 进/v 不/d 了/u 全/a 明星/n ，/w 因为/p 明年/t 的/u 活动/vn 在/p 凤凰城/ns 搞/v ，/w 那/r 是/v 他/r 的/u 主场/n 了/y ，/w 只要/d 他/r 能/v 打/v ，/w 能/v 搞/v ，/w 教练/n 们/k 会/v 接到/v NBA/nx 的/u 暗示/vn 把/p 他/r 选/v 进去/v 的/u 。/w
+CHARACTERS = 奥尼尔;
+RELWORD = 教练;
+RELCOMB = 
+-----------
+SENTENCE = 两个赛季下来，教练没有搞清楚，MM组合没有搞明白，其他球员一头雾水。
+POS_TAG = 两/m 个/q 赛季/n 下来/v ，/w 教练/n 没有/d 搞/v 清楚/a ，/w MM/nx 组合/n 没有/d 搞/v 明白/v ，/w 其他/r 球员/n 一头/m 雾/n 水/n 。/w
+CHARACTERS = 
+RELWORD = 教练;
+RELCOMB = 
+-----------
+SENTENCE = 上一场比赛，姚明与其他队友的配合不是特别默契，效果不尽人意。
+POS_TAG = 上一/m 场/q 比赛/vn ，/w 姚明/nr 与其/c 他/r 队友/n 的/u 配合/vn 不/d 是/v 特别/d 默契/an ，/w 效果/n 不尽人意/l 。/w
+CHARACTERS = 姚明;
+RELWORD = 队友;
+RELCOMB = 
+-----------
+SENTENCE = 除了奥尼尔，目前对姚明形成威胁的中锋不多，国王的中锋米勒在传球和灵活性好方面比姚明好一些，但其他方面就不是姚明的对手了，从发展前景来看根本不能和姚明相提并论。
+POS_TAG = 除了/p 奥尼尔/nr ，/w 目前/t 对/p 姚明/nr 形成/v 威胁/vn 的/u 中锋/n 不/d 多/a ，/w 国王/n 的/u 中锋/n 米勒/nr 在/p 传球/vn 和/c 灵活性/n 好/a 方面/n 比/p 姚明/nr 好/a 一些/m ，/w 但/c 其他/r 方面/n 就/d 不/d 是/v 姚明/nr 的/u 对手/n 了/y ，/w 从/p 发展/vn 前景/n 来/v 看/v 根本/n 不/d 能/v 和/c 姚明/nr 相提并论/i 。/w
+CHARACTERS = 奥尼尔;米勒;姚明;
+RELWORD = 对手;
+RELCOMB = 米勒,姚明->对手;
+-----------
+SENTENCE = 不敢说奥尼尔过后，NBA将进入姚明时代，但有了姚明的火箭，绝对具备争夺总冠军的实力，当然这还要看他的搭档和教练的水平。
+POS_TAG = 不敢/d 说/v 奥尼尔/nr 过后/t ，/w NBA/nx 将/d 进入/v 姚明/nr 时代/n ，/w 但/c 有/v 了/u 姚明/nr 的/u 火箭/n ，/w 绝对/d 具备/v 争夺/v 总/b 冠军/n 的/u 实力/n ，/w 当然/d 这/r 还要/v 看/v 他/r 的/u 搭档/n 和/c 教练/n 的/u 水平/n 。/w
+CHARACTERS = 奥尼尔;姚明;
+RELWORD = 教练;
+RELCOMB = 奥尼尔,姚明->教练;
+-----------
+SENTENCE = 蟮倭椒Ａ街兴匠?5平，麦克代斯和穆雷分别得分，姚明拿球也被对手断掉，穆雷上篮后活塞领先了6分。
+POS_TAG = / 蟮/x 倭/ng 椒/ng Ａ/nx 街/n 兴/a /a 匠/ng ?/vg 5/m 平/a ，/w 麦克代斯/nr 和/c 穆雷/nr 分别/d 得/u 分/v ，/w 姚明/nr 拿/v 球/n 也/d 被/p 对手/n 断掉/v ，/w 穆雷/nr 上篮/v 后/f 活塞/n 领先/v 了/u 6分/t 。/w
+CHARACTERS = 麦克代斯;穆雷;姚明;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 这场比赛麦迪再次拿下38分，这是他本赛季第一次连续拿下30分以上的表现，谈到自己的表现，麦迪说，“我感觉很好，队友们给我很好的机会，在我有空位时将球给我。
+POS_TAG = 这/r 场/q 比赛/n 麦迪/nr 再次/d 拿下/v 38分/t ，/w 这/r 是/v 他/r 本/r 赛季/n 第一/m 次/q 连续/ad 拿下/v 30分/t 以上/f 的/u 表现/vn ，/w 谈到/v 自己/r 的/u 表现/vn ，/w 麦迪/nr 说/v ，/w “/w 我/r 感觉/n 很/d 好/a ，/w 队友/n 们/k 给/p 我/r 很/d 好/a 的/u 机会/n ，/w 在/p 我/r 有/v 空位/n 时/ng 将/p 球/n 给/v 我/r 。/w
+CHARACTERS = 麦迪;
+RELWORD = 队友;
+RELCOMB = 
+-----------
+SENTENCE = ”麦迪说，“我知道比赛最后时刻肯定会很接近，也知道对方会夹击我，我拿球，努力将球传到空位，让队友出手投篮。
+POS_TAG = ”/w 麦迪/nr 说/v ，/w “/w 我/r 知道/v 比赛/vn 最后/f 时刻/d 肯定/v 会/v 很/d 接近/v ，/w 也/d 知道/v 对方/n 会/v 夹击/v 我/r ，/w 我/r 拿/v 球/n ，/w 努力/ad 将/p 球/n 传/v 到/v 空位/n ，/w 让/v 队友/n 出手/v 投篮/vn 。/w
+CHARACTERS = 麦迪;
+RELWORD = 队友;
+RELCOMB = 
+-----------
+SENTENCE = 北京时间4月22日消息，今天火箭队终于迎来了他们在季后赛中的第一个对手，犹他爵士。
+POS_TAG = 北京/ns 时间/n 4月/t 22日/t 消息/n ，/w 今天/t 火箭/n 队/n 终于/d 迎来/v 了/u 他们/r 在/p 季/ng 后/f 赛/v 中/f 的/u 第一/m 个/q 对手/n ，/w 犹他/ns 爵士/n 。/w
+CHARACTERS = 
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = ”西克玛说道，“我们谈到了姚明在比赛当中应该如何给予对手重击的问题，姚明仍然需要进一步努力才能够成为我们球队的强力球员。
+POS_TAG = ”/w 西克玛/nr 说/v 道/q ，/w “/w 我们/r 谈/v 到/v 了/u 姚明/nr 在/p 比赛/vn 当中/f 应该/d 如何/r 给予/v 对手/n 重/d 击/n 的/u 问题/n ，/w 姚明/nr 仍然/d 需要/v 进一步/d 努力/an 才/d 能够/v 成为/v 我们/r 球队/n 的/u 强力/n 球员/n 。/w
+CHARACTERS = 西克玛;姚明;
+RELWORD = 对手;
+RELCOMB = 西克玛,姚明->对手;
+-----------
+SENTENCE = 过去四个赛季，西克玛一直在超音速队担任助理教练，主要负责中锋和内线球员训练工作。
+POS_TAG = 过去/t 四/m 个/q 赛季/n ，/w 西克玛/nr 一直/d 在/p 超音速/n 队/n 担任/v 助理教练/n ，/w 主要/b 负责/vn 中锋/n 和/c 内线/n 球员/n 训练/vn 工作/vn 。/w
+CHARACTERS = 西克玛;
+RELWORD = 助理教练;
+RELCOMB = 
+-----------
+SENTENCE = 下一个阶段，我们教练组将主要研究这个课题。
+POS_TAG = 下/f 一个/m 阶段/n ，/w 我们/r 教练/n 组/n 将/d 主要/d 研究/v 这个/r 课题/n 。/w
+CHARACTERS = 
+RELWORD = 教练;
+RELCOMB = 
+-----------
+SENTENCE = 即使你是最愚笨的教练，你也不敢这样子做吧？
+POS_TAG = 即使/c 你/r 是/v 最/d 愚笨/a 的/b 教练/n ，/w 你/r 也/d 不/d 敢/v 这/r 样子/n 做/v 吧/y ？/w
+CHARACTERS = 
+RELWORD = 教练;
+RELCOMB = 
+-----------
+SENTENCE = 外线的支持，对姚明的发挥举足轻重：除了三分，最容易的方式就是上篮，但在斯潘诺里斯未能融入NBA、斯耐德上场时间不够、苏拉未能复出、海德火候不够的情况下，麦迪的上篮和造成对手的犯规，是陷入困局里，火简最有效的手段。
+POS_TAG = 外线/n 的/u 支持/vn ，/w 对/p 姚明/nr 的/u 发挥/n 举足轻重/i ：/w 除了/p 三分/t ，/w 最/d 容易/a 的/u 方式/n 就/d 是/v 上篮/v ，/w 但/c 在/p 斯潘诺里斯/nr 未能/v 融入/v NBA/nx 、/w 斯耐/ 上场/n 时间/n 不够/a 、/w 苏拉/nr 未能/v 复出/v 、/w 海德/nr 火候/n 不够/a 的/u 情况/n 下/f ，/w 麦迪/nr 的/u 上篮/v 和/c 造成/v 对手/n 的/u 犯规/vn ，/w 是/v 陷入/v 困局/n 里/f ，/w 火简/n 最/d 有效/a 的/u 手段/n 。/w
+CHARACTERS = 海德;麦迪;斯潘诺里斯;苏拉;姚明;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 近几年来，印象中，只有布朗是总冠军教练中的“新人”，可这个“新人”，已经将他自己的一生奉献给了NBA和NCAA了。
+POS_TAG = 近/a 几/m 年/q 来/f ，/w 印象/n 中/f ，/w 只/d 有/v 布朗/nr 是/v 总/b 冠军/n 教练/n 中/f 的/u “/w 新/a 人/n ”/w ，/w 可/v 这个/r “/w 新/a 人/n ”/w ，/w 已经/d 将/p 他/r 自己/r 的/u 一生/n 奉献/v 给/v 了/u NBA/nx 和/c NCAA/nx 了/v 。/w
+CHARACTERS = 布朗;
+RELWORD = 教练;
+RELCOMB = 
+-----------
+SENTENCE = 35分17个篮板的“大两双”战绩、追平个人单场最高盖帽纪录的7次“火锅”，姚明在北京时间昨天上午火箭队主场与纽约尼克斯队的比赛中展现出了超强实力，率领火箭队以103比94战胜对手，取得了三连胜。
+POS_TAG = 35分/t 17/m 个/q 篮板/n 的/u “/w 大/a 两/m 双/q ”/w 战绩/n 、/w 追/v 平/a 个人/n 单/ag 场/ng 最高/a 盖/v 帽/ng 纪录/n 的/u 7/m 次/q “/w 火锅/n ”/w ，/w 姚明/nr 在/p 北京/ns 时间/n 昨天/t 上午/t 火箭/n 队/n 主场/n 与/p 纽约尼克斯队/nt 的/u 比赛/vn 中/f 展现/v 出/v 了/u 超/v 强/a 实力/n ，/w 率领/v 火箭/n 队/n 以/p 103/m 比/p 94/m 战胜/v 对手/n ，/w 取得/v 了/u 三/m 连/u 胜/v 。/w
+CHARACTERS = 姚明;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 回到主场的姚明似乎一扫上场比赛开局阶段的低迷，火箭开场后连续将球交给姚明进攻，“小巨人”则没有辜负主帅范甘迪和队友的期望，几乎弹无虚发，5分钟内6投5中拿下10分和3个篮板，并送给对方年轻中锋弗莱两记“姚氏火锅”，在看到姚明连续突破到篮下扣篮成功后，当地电视台的评论员、前火箭队著名球星马里奥·埃利兴奋地叫了起来：“多么漂亮的脚步，尼克斯内线根本无法抵挡姚明１
+POS_TAG = 回到/v 主场/n 的/u 姚明/nr 似乎/d 一扫/v 上/f 场/q 比赛/vn 开局/n 阶段/n 的/u 低迷/an ，/w 火箭/n 开场/vn 后/f 连续/ad 将/p 球/n 交给/v 姚明/nr 进攻/v ，/w “/w 小/a 巨人/n ”/w 则/d 没有/d 辜负/v 主帅/n 范甘迪/nr 和/c 队友/n 的/u 期望/vn ，/w 几乎/d 弹无虚发/i ，/w 5/m 分钟/q 内/f 6/m 投/n 5/m 中/n 拿下/v 10分/t 和/c 3/m 个/q 篮板/n ，/w 并/d 送给/v 对方/n 年轻/a 中锋/n 弗莱/nr 两/m 记/q “/w 姚氏火锅/nz ”/w ，/w 在/p 看到/v 姚明/nr 连续/ad 突破/v 到/v 篮下/s 扣篮/v 成功/an 后/f ，/w 当地/s 电视台/n 的/u 评论员/n 、/w 前/h 火箭/n 队/n 著名/a 球星/n 马里奥·埃利/nr 兴奋/a 地/u 叫/v 了/u 起来/v ：/w “/w 多么/d 漂亮/a 的/u 脚步/n ，/w 尼克斯/nr 内线/n 根本/d 无法/v 抵挡/v 姚明/nr １/m
+CHARACTERS = 范甘迪;弗莱;马里奥·埃利;尼克斯;姚明;
+RELWORD = 队友;主帅;
+RELCOMB = 范甘迪,姚明->主帅;
+-----------
+SENTENCE = 比赛结束的时候，目睹了姚明神奇表演的弗朗西斯走到场地中央与“小巨人”拥抱，这一对昔日的队友惺惺相惜。
+POS_TAG = 比赛/n 结束/v 的/u 时候/n ，/w 目睹/v 了/u 姚明/nr 神奇/a 表演/vn 的/u 弗朗西斯/nr 走到/v 场地/n 中央/n 与/c “/w 小/a 巨人/n ”/w 拥抱/v ，/w 这/r 一/m 对/q 昔日/t 的/u 队友/n 惺惺相惜/i 。/w
+CHARACTERS = 弗朗西斯;姚明;
+RELWORD = 队友;
+RELCOMB = 弗朗西斯,姚明->队友;
+-----------
+SENTENCE = 每次与网队碰面，纳赫巴就一定会是姚明在赛前必须要去聊上几句的惟一一名“对手”。
+POS_TAG = 每次/r 与/p 网队/n 碰面/v ，/w 纳赫巴/nr 就/d 一定/d 会/v 是/v 姚明/nr 在/p 赛前/t 必须/d 要/v 去/v 聊上/v 几/m 句/q 的/u 惟一/b 一/m 名/q “/w 对手/n ”/w 。/w
+CHARACTERS = 纳赫巴;姚明;
+RELWORD = 对手;
+RELCOMB = 纳赫巴,姚明->对手;
+-----------
+SENTENCE = 12月8日，姚明拉上弗朗西斯一起去跟小纳聊天，这是自从2005年纳赫巴离开火箭之后，姚明、小纳和弗老大三个好朋友第一次在同一个球场上会面回忆起当年，姚明感慨地说：“感觉很沧桑的样子，那么多年过去了，我们又在一起打球了。
+POS_TAG = 12月/t 8日/t ，/w 姚明/nr 拉上/v 弗朗西斯/nr 一起/s 去/v 跟/v 小纳/nr 聊天/v ，/w 这/r 是/v 自从/p 2005年/t 纳赫巴/nr 离开/v 火箭/n 之后/f ，/w 姚明/nr 、/w 小纳/nr 和/c 弗老大/nr 三/m 个/n 好/a 朋友/n 第一/m 次/q 在/p 同/a 一个/m 球场/n 上/f 会面/v 回忆/v 起/v 当年/t ，/w 姚明/nr 感慨/v 地/u 说/v ：/w “/w 感觉/n 很/d 沧桑/a 的/u 样子/n ，/w 那么/r 多/m 年/q 过去/v 了/y ，/w 我们/r 又/d 在/p 一起/s 打球/v 了/y 。/w
+CHARACTERS = 弗朗西斯;弗老大;纳赫巴;小纳;姚明;
+RELWORD = 朋友;
+RELCOMB = 弗朗西斯,弗老大->朋友;弗朗西斯,纳赫巴->朋友;弗朗西斯,小纳->朋友;弗朗西斯,姚明->朋友;弗老大,纳赫巴->朋友;弗老大,小纳->朋友;弗老大,姚明->朋友;纳赫巴,小纳->朋友;纳赫巴,姚明->朋友;小纳,姚明->朋友;
+-----------
+SENTENCE = ”即使纳赫巴不再陪在姚明的身边，他仍然关心姚明的生活，因为他们“有共同的生活方式，一个女朋友，一部车，简单的生活，从来不去夜总会玩……”
+POS_TAG = ”/w 即使/c 纳赫巴/nr 不再/d 陪/v 在/p 姚明/nr 的/u 身边/s ，/w 他/r 仍然/d 关心/v 姚明/nr 的/u 生活/vn ，/w 因为/p 他们/r “/w 有/v 共同/b 的/u 生活/vn 方式/n ，/w 一个/m 女朋友/n ，/w 一/m 部/q 车/n ，/w 简单/a 的/u 生活/vn ，/w 从来不/d 去/v 夜总会/n 玩/v …/w …/w ”/w
+CHARACTERS = 纳赫巴;姚明;
+RELWORD = 女朋友;
+RELCOMB = 
+-----------
+SENTENCE = 据姚明的经纪人章明基透露，姚明即使去“赌城”也不会参赛。
+POS_TAG = 据/p 姚明/nr 的/u 经纪人/n 章明基/nr 透露/v ，/w 姚明/nr 即使/d 去/v “/w 赌城/n ”/w 也/d 不/d 会/v 参赛/v 。/w
+CHARACTERS = 姚明;章明基;
+RELWORD = 经纪人;
+RELCOMB = 姚明,章明基->经纪人;
+-----------
+SENTENCE = 姚明不在，对手可以重兵防守麦迪，就像麦迪不在，姚明压力更大一样。
+POS_TAG = 姚明/nr 不在/v ，/w 对手/n 可以/v 重兵/n 防守/v 麦迪/nr ，/w 就/d 像/v 麦迪/nr 不在/v ，/w 姚明/nr 压力/n 更/d 大/a 一样/u 。/w
+CHARACTERS = 麦迪;姚明;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 尽快走出失利的阴影，备战下一个对手，才是道理。
+POS_TAG = 尽快/d 走出/v 失利/n 的/u 阴影/n ，/w 备战/v 下/f 一个/m 对手/n ，/w 才/d 是/v 道理/n 。/w
+CHARACTERS = 
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 虽然火箭现在排名第7，但在麦蒂复出还没有确定和姚明缺阵两个月的情况下凭借一帮角色队员保持住现在的优势真的有点痴人做梦，能够不让对手追上就是万幸。
+POS_TAG = 虽然/c 火箭/n 现在/t 排名/n 第7/m ，/w 但/c 在/p 麦蒂/nr 复出/n 还/d 没有/d 确定/n 和/c 姚明/nr 缺阵/v 两/m 个/q 月/n 的/u 情况/n 下/f 凭借/p 一/m 帮/q 角色/n 队员/n 保持/v 住/v 现在/t 的/u 优势/n 真/a 的/u 有点/d 痴人做梦/l ，/w 能够/v 不/d 让/v 对手/n 追上/v 就/d 是/v 万幸/n 。/w
+CHARACTERS = 麦蒂;姚明;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 但火箭真正可以指望的，还是现有的这批球员，无论谁在场上都要拼出气势，这样才能够尽量不被对手拉开差距。
+POS_TAG = 但/c 火箭/n 真正/d 可以/v 指望/v 的/u ，/w 还/d 是/v 现有/v 的/u 这/r 批/q 球员/n ，/w 无论/c 谁/r 在/p 场上/s 都/d 要/v 拼出/v 气势/n ，/w 这样/r 才/d 能够/v 尽量/d 不/d 被/p 对手/n 拉开/v 差距/n 。/w
+CHARACTERS = 
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 等凯尔特人换来加内特防他，仍然要想着打爆对手。
+POS_TAG = 等/u 凯尔特人/n 换来/v 加内特/nr 防/v 他/r ，/w 仍然/d 要/v 想/v 着/u 打爆/v 对手/n 。/w
+CHARACTERS = 加内特;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 第二，他能不能护住自己的球，不给对手抢断的机会。
+POS_TAG = 第二/m ，/w 他/r 能/v 不能/v 护/v 住/v 自己/r 的/u 球/n ，/w 不/d 给/p 对手/n 抢断/v 的/b 机会/n 。/w
+CHARACTERS = 
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 上赛季对爵士的时候，他给过对手太多下手的机会，而且没有得到裁判的同情。
+POS_TAG = 上/m 赛季/n 对/p 爵士/n 的/u 时候/n ，/w 他/r 给/v 过/u 对手/n 太/d 多/ad 下/v 手/n 的/u 机会/n ，/w 而且/c 没有/d 得到/v 裁判/n 的/u 同情/vn 。/w
+CHARACTERS = 
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 休息了两天的火箭今天主场作战，他们的对手是洛杉矶快船。
+POS_TAG = 休息/v 了/u 两/m 天/q 的/u 火箭/n 今天/t 主场/n 作战/vn ，/w 他们/r 的/u 对手/n 是/v 洛杉矶/ns 快/a 船/n 。/w
+CHARACTERS = 
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 不过在今天火箭场面上一直占据优势的情况下，篮板球数量竟然和对手持平，如何控制好篮板球确实是接下去姚明研究的一大课题。
+POS_TAG = 不过/c 在/p 今天/t 火箭/n 场面/n 上/m 一直/d 占据/v 优势/n 的/u 情况/n 下/f ，/w 篮板球/n 数量/n 竟然/d 和/c 对手/n 持平/v ，/w 如何/r 控制/v 好/a 篮板球/n 确实/ad 是/v 接/v 下去/v 姚明/nr 研究/v 的/u 一/m 大/a 课题/n 。/w
+CHARACTERS = 姚明;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 当对手夹击他的时候，姚明会把球传出来，为其他的队友创造出手机会。
+POS_TAG = 当/p 对手/n 夹击/v 他/r 的/u 时候/n ，/w 姚明/nr 会/v 把/p 球/n 传/v 出来/v ，/w 为/p 其他/r 的/u 队友/n 创造/v 出/v 手/n 机会/n 。/w
+CHARACTERS = 姚明;
+RELWORD = 队友;对手;
+RELCOMB = 
+-----------
+SENTENCE = 开场之后，快船用兰多夫来防姚明，面对比他矮了一头的对手，姚明的得非常轻松，首次出手就命中。
+POS_TAG = 开场/v 之后/f ，/w 快船/n 用/v 兰多夫/nr 来/v 防/v 姚明/nr ，/w 面对/v 比/p 他/r 矮/a 了/u 一/m 头/q 的/u 对手/n ，/w 姚明/nr 的/u 得/n 非常/d 轻松/a ，/w 首/m 次/q 出手/n 就/d 命中/v 。/w
+CHARACTERS = 兰多夫;姚明;
+RELWORD = 对手;
+RELCOMB = 兰多夫,姚明->对手;
+-----------
+SENTENCE = ”阿德尔曼说：“他们不断地打出小高潮，但是第四节的时候我们打得很不错，努力地去攻击对手的篮筐。
+POS_TAG = ”/w 阿德尔曼/nr 说/v ：/w “/w 他们/r 不断/d 地/u 打/v 出/v 小/a 高潮/n ，/w 但是/c 第四/m 节/q 的/u 时候/n 我们/r 打/v 得/u 很/d 不错/a ，/w 努力/a 地/u 去/v 攻击/v 对手/n 的/u 篮筐/n 。/w
+CHARACTERS = 阿德尔曼;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 当对手夹击他的时候，姚明会把球传出来，为其他的队友创造出手机会。
+POS_TAG = 当/p 对手/n 夹击/v 他/r 的/u 时候/n ，/w 姚明/nr 会/v 把/p 球/n 传/v 出来/v ，/w 为/p 其他/r 的/u 队友/n 创造/v 出/v 手/n 机会/n 。/w
+CHARACTERS = 姚明;
+RELWORD = 队友;对手;
+RELCOMB = 
+-----------
+SENTENCE = 赛前，火箭队主教练阿德尔曼在主队更衣室门前接受了记者的采访。
+POS_TAG = 赛前/t ，/w 火箭/n 队/n 主教练/n 阿德尔曼/nr 在/p 主队/n 更衣室/n 门前/s 接受/v 了/u 记者/n 的/b 采访/v 。/w
+CHARACTERS = 阿德尔曼;
+RELWORD = 主教练;
+RELCOMB = 
+-----------
+SENTENCE = 而弗朗西斯只是参加了一个半的训练，这并不意味着他已经达到了队友们的水平。
+POS_TAG = 而/c 弗朗西斯/nr 只/d 是/v 参加/v 了/u 一个/m 半/m 的/u 训练/vn ，/w 这/r 并/d 不/d 意味着/v 他/r 已经/d 达到/v 了/u 队友/n 们/k 的/u 水平/n 。/w
+CHARACTERS = 弗朗西斯;
+RELWORD = 队友;
+RELCOMB = 
+-----------
+SENTENCE = 队友们每天都在那里，就像海德一样。
+POS_TAG = 队友/n 们/k 每天/r 都/d 在/p 那里/r ，/w 就/d 像/v 海德/nr 一样/a 。/w
+CHARACTERS = 海德;
+RELWORD = 队友;
+RELCOMB = 
+-----------
+SENTENCE = 麦迪说：“本来我就不该这么早复出的，医生的建议是让我休息6-8个月，现在刚6个月。
+POS_TAG = 麦迪/nr 说/v ：/w “/w 本来/d 我/r 就/d 不/d 该/v 这么/r 早/ad 复出/v 的/u ，/w 医生/n 的/u 建议/n 是/v 让/v 我/r 休息/v 6-8/m 个/q 月/n ，/w 现在/t 刚/d 6/m 个/q 月/n 。/w
+CHARACTERS = 麦迪;
+RELWORD = 医生;
+RELCOMB = 
+-----------
+SENTENCE = 落后7分的快船队在下半场开始后，在兰多夫的带领下，加快比赛节奏，向软绵绵绵、慢悠悠的火箭队发起了反攻，加强了对篮板球的控制，第三节还剩2分15秒时，连续四次在火箭队的人丛中，冲抢到进攻篮板，无奈的火箭队只能通过犯规才阻止住了对手，快船队也将分差缩小至1分。
+POS_TAG = 落后/a 7分/t 的/u 快/a 船队/n 在下/r 半/m 场/k 开始/n 后/f ，/w 在/p 兰多夫/nr 的/u 带领/vn 下/f ，/w 加快/v 比赛/vn 节奏/n ，/w 向/p 软绵绵/z 绵/vg 、/w 慢悠悠/z 的/b 火箭/n 队/n 发起/v 了/u 反攻/v ，/w 加强/v 了/u 对/p 篮板球/n 的/u 控制/vn ，/w 第/m 三节/n 还/c 剩/v 2分/t 15秒/t 时/d ，/w 连续/a 四/m 次/q 在/p 火箭/n 队/n 的/u 人丛/n 中/a ，/w 冲/v 抢/vd 到/v 进攻/vn 篮板/n ，/w 无奈/a 的/u 火箭/n 队/n 只/d 能/v 通过/p 犯规/v 才/d 阻止/v 住/v 了/u 对手/n ，/w 快/a 船队/n 也/d 将/d 分/v 差/dg 缩小/v 至/p 1分/t 。/w
+CHARACTERS = 兰多夫;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 但是进攻组织上，火箭队在对方的紧逼防守下，显得非常生涩，全场仅仅获得了76次投篮机会命中31个，而对手快船队则得到91次投篮机会，命中40球，抢断比火箭队多4次，盖帽也以8：4超过火箭队。
+POS_TAG = 但是/c 进攻/vn 组织/n 上/m ，/w 火箭/n 队/n 在/p 对方/n 的/u 紧逼/vd 防守/v 下/f ，/w 显得/v 非常/d 生涩/an ，/w 全场/n 仅仅/d 获得/v 了/u 76/m 次/q 投篮/vn 机会/n 命中/v 31/m 个/q ，/w 而/c 对手/n 快/a 船队/n 则/d 得到/v 91/m 次/q 投篮/vn 机会/n ，/w 命中/v 40/m 球/q ，/w 抢断/v 比/j 火箭/n 队/n 多/a 4/m 次/a ，/w 盖/v 帽/ng 也/d 以/p 8/m ：/w 4/m 超过/v 火箭/n 队/n 。/w
+CHARACTERS = 
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 不过，火箭队全场共获得了39次罚球的机会得到31分，远超过对手的16罚11中，凭着罚球超过对手的20分，火箭队取得了比赛的胜利。
+POS_TAG = 不过/c ，/w 火箭/n 队/n 全场/n 共/d 获得/v 了/u 39/m 次/q 罚球/vn 的/u 机会/n 得到/v 31分/t ，/w 远/ad 超过/v 对手/n 的/u 16/m 罚/v 11/m 中/f ，/w 凭/v 着/u 罚球/v 超过/v 对手/n 的/u 20分/t ，/w 火箭/n 队/n 取得/v 了/u 比赛/vn 的/u 胜利/vn 。/w
+CHARACTERS = 
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 火箭在比赛大部分时间里都是领先快船，但是在最后一节两队的比分非常接近，这一度让人为火箭捏一把汗，因为火箭在之前的几场比赛中都是在最后时刻被对手逆转，幸亏火箭在最后打出攻击波，才得以保证比赛胜利。
+POS_TAG = 火箭/n 在/p 比赛/v 大部分/m 时间/n 里/f 都/d 是/v 领先/vd 快/a 船/n ，/w 但是/c 在/p 最后/f 一/m 节/q 两/m 队/q 的/u 比分/n 非常/d 接近/v ，/w 这/r 一度/d 让/v 人/n 为/p 火箭/n 捏一把汗/l ，/w 因为/c 火箭/n 在/p 之前/f 的/u 几/m 场/q 比赛/vn 中/f 都/d 是/v 在/p 最后/f 时刻/d 被/p 对手/n 逆转/vn ，/w 幸亏/d 火箭/n 在/p 最后/f 打/v 出/v 攻击/v 波/j ，/w 才/d 得以/v 保证/v 比赛/vn 胜利/vn 。/w
+CHARACTERS = 
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 不过我们还没有打出应该保持的一贯性，在我们领先对手的时候，我们必须忘记我们已经10分或者12了，要当成平局或者落后去打，我们这样才能保持一贯性。
+POS_TAG = 不过/c 我们/r 还/d 没有/d 打/v 出/v 应该/v 保持/v 的/u 一贯/b 性/n ，/w 在/p 我们/r 领先/vn 对手/n 的/u 时候/n ，/w 我们/r 必须/d 忘记/v 我们/r 已经/d 10分/t 或者/c 12/m 了/y ，/w 要/v 当成/v 平局/n 或者/c 落/v 后/f 去/v 打/v ，/w 我们/r 这样/r 才/d 能/v 保持/v 一贯/b 性/n 。/w
+CHARACTERS = 
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = “我们在第三节被对手曾经反超，这就是我们注意力不集中的表现。
+POS_TAG = “/w 我们/r 在/p 第/m 三节/n 被/d 对手/n 曾经/d 反/b 超/d ，/w 这/r 就/d 是/v 我们/r 注意力/n 不/d 集中/a 的/u 表现/vn 。/w
+CHARACTERS = 
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 我们每个人投篮都要集中自己的注意力，如果在场上不能聚精会神，很容易被对手打出快攻。
+POS_TAG = 我们/r 每个/r 人/n 投篮/vn 都/d 要/v 集中/v 自己/r 的/u 注意力/n ，/w 如果/c 在/p 场上/s 不能/v 聚精会神/i ，/w 很/d 容易/a 被/p 对手/n 打/v 出/v 快攻/vn 。/w
+CHARACTERS = 
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = “当对手追近比分时，我们的战术就是把球不断的给姚明，让姚明来主打，对手防不住姚明的强攻只能去犯规，他在罚球线上很值得信赖。
+POS_TAG = “/w 当/ 对手/n 追/v 近/a 比分/n 时/ng ，/w 我们/r 的/u 战术/n 就是/d 把/p 球/n 不断/d 的/u 给/p 姚明/nr ，/w 让/v 姚明/nr 来/v 主/ag 打/v ，/w 对手/n 防/v 不住/v 姚明/nr 的/u 强攻/vn 只/d 能/v 去/v 犯规/v ，/w 他/r 在/p 罚球/vn 线/n 上/m 很/d 值得/v 信赖/v 。/w
+CHARACTERS = 姚明;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 今天我们在三分线上表现还不错，当姚明在内线吸引了对手的注意力，给我们外线的球员提供了很大的空间，可以轻松去投三分，这样让对手付出了很大的代价。
+POS_TAG = 今天/t 我们/r 在/p 三分/t 线/n 上/m 表现/v 还/d 不错/a ，/w 当/p 姚明/nr 在/p 内线/n 吸引/v 了/u 对手/n 的/u 注意力/n ，/w 给/p 我们/r 外/f 线/n 的/u 球员/n 提供/v 了/u 很/d 大/a 的/u 空间/n ，/w 可以/v 轻松/ad 去/v 投/v 三分/t ，/w 这样/r 让/v 对手/n 付出/v 了/u 很/d 大/a 的/u 代价/n 。/w
+CHARACTERS = 姚明;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 对手昨天也是在最后时刻才输给了小牛，即使这样也不能大意。
+POS_TAG = 对手/n 昨天/t 也/d 是/v 在/p 最后/f 时刻/d 才/d 输给/v 了/u 小/a 牛/n ，/w 即使/c 这样/r 也/d 不能/v 大/a 意/ng 。/w
+CHARACTERS = 
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 我们全队必须全力以赴，要知道没有一个对手是好对付的。
+POS_TAG = 我们/r 全队/n 必须/d 全力以赴/i ，/w 要/v 知道/v 没有/v 一个/m 对手/n 是/v 好/a 对/p 付/v 的/u 。/w
+CHARACTERS = 
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 火箭虽然不落下风，但面对年轻的灰熊也没太多办法，未能将对手一棍子打死。
+POS_TAG = 火箭/n 虽然/c 不/d 落/v 下/f 风/n ，/w 但/c 面对/v 年轻/a 的/u 灰/ag 熊/n 也/d 没/d 太/d 多/a 办法/n ，/w 未/d 能/v 将/p 对手/n 一/m 棍子/n 打/v 死/v 。/w
+CHARACTERS = 
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 说这些话的时候姚明一脸遗憾，尽管在比赛的最后时刻他也有过绝杀的机会，但按照球队设计的战术，这个球是交给阿泰斯特处理的，只是由于阿泰斯特被对手围住了，仓促之间才把球塞给了姚明。
+POS_TAG = 说/v 这些/r 话/n 的/u 时候/n 姚明/nr 一/m 脸/q 遗憾/an ，/w 尽管/c 在/p 比赛/vn 的/u 最后/f 时刻/n 他/r 也/d 有/v 过/u 绝杀/v 的/u 机会/n ，/w 但/c 按照/p 球队/n 设计/v 的/u 战术/n ，/w 这个/r 球/n 是/v 交给/v 阿泰斯特/nr 处理/v 的/u ，/w 只是/d 由于/p 阿泰斯特/nr 被/p 对手/n 围住/v 了/y ，/w 仓促/ad 之间/f 才/d 把/p 球/n 塞给/v 了/u 姚明/nr 。/w
+CHARACTERS = 阿泰斯特;姚明;
+RELWORD = 对手;
+RELCOMB = 阿泰斯特,姚明->对手;
+-----------
+SENTENCE = 在赛后姚明也坦然地承认了自己状态不佳，有负队友的期望，但他会从这场失利中走出来，以后会尽量避免类似的情况出现。
+POS_TAG = 在/p 赛后/t 姚明/nr 也/d 坦然/a 地/u 承认/v 了/u 自己/r 状态/n 不/d 佳/a ，/w 有/v 负/b 队友/n 的/u 期望/vn ，/w 但/c 他/r 会/v 从/p 这/r 场/q 失利/v 中/f 走/v 出来/v ，/w 以后/f 会/v 尽量/d 避免/v 类似/a 的/u 情况/n 出现/v 。/w
+CHARACTERS = 姚明;
+RELWORD = 队友;
+RELCOMB = 
+-----------
+SENTENCE = “比赛的最后时刻我打得很不好，浪费了队友们创造的好机会。
+POS_TAG = “/w 比赛/n 的/u 最后/f 时刻/n 我/r 打/v 得/u 很/d 不好/a ，/w 浪费/v 了/u 队友/n 们/k 创造/v 的/u 好/a 机会/n 。/w
+CHARACTERS = 
+RELWORD = 队友;
+RELCOMB = 
+-----------
+SENTENCE = 可在姚明不断得分后，对手已经开始夹击，限制他的出手机会了。
+POS_TAG = 可/v 在/p 姚明/nr 不断/d 得分/v 后/f ，/w 对手/n 已经/d 开始/v 夹击/v ，/w 限制/v 他/r 的/u 出手/n 机会/n 了/y 。/w
+CHARACTERS = 姚明;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 火箭原本希望依靠姚明在内线的攻击力压制对手，可在科罗拉多高原上，姚明的状态并不好。
+POS_TAG = 火箭/n 原本/d 希望/v 依靠/v 姚明/nr 在/p 内线/n 的/u 攻击力/n 压制/v 对手/n ，/w 可/v 在/p 科罗拉多/ns 高原/n 上/m ，/w 姚明/nr 的/u 状态/n 并/c 不/d 好/a 。/w
+CHARACTERS = 姚明;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 阿德尔曼说：“今天的问题出在轮转防守上，我们没能及时地为彼此补位，给对手轻易得分的机会。
+POS_TAG = 阿德尔曼/nr 说/v ：/w “/w 今天/t 的/u 问题/n 出/v 在/p 轮转/vn 防守/v 上/m ，/w 我们/r 没/d 能/v 及时/a 地/u 为/p 彼此/r 补/v 位/q ，/w 给/p 对手/n 轻易/d 得/u 分/v 的/u 机会/n 。/w
+CHARACTERS = 阿德尔曼;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 我浪费了队友的努力，原本我们已经追上了。
+POS_TAG = 我/r 浪费/v 了/u 队友/n 的/u 努力/an ，/w 原本/d 我们/r 已经/d 追/v 上/m 了/y 。/w
+CHARACTERS = 
+RELWORD = 队友;
+RELCOMB = 
+-----------
+SENTENCE = 对手也打出了一些小高潮。
+POS_TAG = 对手/n 也/d 打/v 出/v 了/u 一些/m 小/a 高潮/n 。/w
+CHARACTERS = 
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 他也一直可以找到外线的队友，让对手付出代价。
+POS_TAG = 他/r 也/d 一直/d 可以/v 找/v 到/v 外/f 线/n 的/u 队友/n ，/w 让/v 对手/n 付出/v 代价/n 。/w
+CHARACTERS = 
+RELWORD = 队友;对手;
+RELCOMB = 
+-----------
+SENTENCE = 尽管他们有坎比在那里，他是很能盖帽的，但是我们依然攻击篮筐，向对手施压。
+POS_TAG = 尽管/c 他们/r 有/v 坎比/nr 在/p 那里/r ，/w 他/r 是/v 很/d 能/v 盖/v 帽/ng 的/u ，/w 但是/c 我们/r 依然/d 攻击/v 篮筐/n ，/w 向/p 对手/n 施压/vn 。/w
+CHARACTERS = 坎比;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 宫指导和陈指导也都特别关心她的伤情，让她不要太心急，慢慢恢复，可毕竟以前是主力，几乎没坐过替补席，看着队友在场上左冲右突，而自己只能在场下记比分，心里不急才怪。
+POS_TAG = 宫指导/n 和/c 陈指导/n 也/d 都/d 特别/d 关心/v 她/r 的/u 伤情/n ，/w 让/v 她/r 不要/d 太/d 心/n 急/an ，/w 慢慢/d 恢复/v ，/w 可/v 毕竟/d 以前/f 是/v 主力/n ，/w 几乎/d 没/d 坐/v 过/u 替补/v 席/ng ，/w 看/v 着/u 队友/n 在/p 场上/s 左/f 冲/v 右/f 突/vg ，/w 而/c 自己/r 只能/v 在/p 场下/s 记/v 比分/n ，/w 心里/s 不/d 急/v 才/d 怪/a 。/w
+CHARACTERS = 
+RELWORD = 队友;
+RELCOMB = 
+-----------
+SENTENCE = 在美国叶莉得到了最好的照顾，她在自己的主治医生家里借宿，两个月的借宿生活并没有让她感到身处异乡的孤独，给她治疗的医生是位美籍华人，在美国出生长大，父母都是很早就移民美国的中国人，他不大会说中文，但是叶莉很聪明，基本上能听懂医生和她讲的英文，虽然是连蒙带猜的，可她觉得很有意思，还主动要求每天学10个单词。
+POS_TAG = 在/p 美国/ns 叶莉/nr 得到/v 了/u 最/d 好/a 的/u 照顾/vn ，/w 她/r 在/p 自己/r 的/u 主治医生/n 家里/s 借宿/v ，/w 两/m 个/q 月/n 的/u 借宿/n 生活/n 并/d 没有/d 让/v 她/r 感到/v 身处/v 异乡/s 的/u 孤独/a ，/w 给/p 她/r 治疗/v 的/u 医生/n 是/v 位/q 美籍/b 华人/n ，/w 在/p 美国/ns 出生/v 长大/v ，/w 父母/n 都/d 是/v 很早/t 就/d 移民/v 美国/ns 的/u 中国/ns 人/n ，/w 他/r 不/d 大/a 会/v 说/v 中文/nz ，/w 但是/d 叶莉/nr 很/d 聪明/a ，/w 基本上/d 能/v 听懂/v 医生/n 和/c 她/r 讲/v 的/u 英文/nz ，/w 虽然/c 是/v 连蒙带猜/l 的/u ，/w 可/v 她/r 觉得/v 很/d 有意思/l ，/w 还/d 主动/ad 要求/v 每天/r 学/v 10/m 个/q 单词/n 。/w
+CHARACTERS = 叶莉;
+RELWORD = 父母;医生;
+RELCOMB = 
+-----------
+SENTENCE = 医生和她的父母也都很喜欢这个开朗、坚强的女孩，在美国的两个月里，她和这一家人相处的非常融洽，好像一家人一样。
+POS_TAG = 医生/n 和/c 她/r 的/u 父母/n 也/d 都/d 很/d 喜欢/v 这/r 个/q 开朗/a 、/w 坚强/a 的/u 女孩/n ，/w 在/p 美国/ns 的/u 两/m 个/q 月/n 里/f ，/w 她/r 和/c 这/r 一/m 家/q 人/n 相处/v 的/u 非常/d 融洽/v ，/w 好像/v 一/m 家/q 人/n 一样/u 。/w
+CHARACTERS = 
+RELWORD = 父母;医生;
+RELCOMB = 
+-----------
+SENTENCE = 在美国的手术相当成功，让医生和叶莉欣慰的是这次术后膝盖基本上没有水肿的情况发生，所以叶莉只在医院里住了一天就出院了。
+POS_TAG = 在/p 美国/ns 的/u 手术/vn 相当/d 成功/a ，/w 让/v 医生/n 和/c 叶莉/nr 欣慰/a 的/u 是/v 这次/r 术/ng 后/f 膝盖/n 基本上/d 没有/v 水肿/n 的/u 情况/n 发生/v ，/w 所以/c 叶莉/nr 只/d 在/p 医院/n 里/f 住/v 了/u 一/m 天/q 就/d 出院/v 了/y 。/w
+CHARACTERS = 叶莉;
+RELWORD = 医生;
+RELCOMB = 
+-----------
+SENTENCE = 医生不想让叶莉为自己的手术担心，因为毕竟她在中国有过一次失败的手术，心里会有障碍，医生希望叶莉对自己的病情和所做的治疗能够了解、信任，不会有无助的感觉。
+POS_TAG = 医生/n 不/d 想/v 让/v 叶莉/nr 为/p 自己/r 的/u 手术/vn 担心/vn ，/w 因为/c 毕竟/d 她/r 在/p 中国/ns 有/v 过/u 一/m 次/q 失败/v 的/u 手术/vn ，/w 心里/s 会/v 有/v 障碍/n ，/w 医生/n 希望/v 叶莉/nr 对/p 自己/r 的/u 病情/n 和/c 所/u 做/v 的/u 治疗/vn 能够/v 了解/v 、/w 信任/v ，/w 不/d 会/v 有/v 无助/a 的/u 感觉/n 。/w
+CHARACTERS = 叶莉;
+RELWORD = 医生;
+RELCOMB = 
+-----------
+SENTENCE = 还好父母从上海的电话打了进来，让叶莉心头的大石头终于落地了。
+POS_TAG = 还/d 好/a 父母/n 从/p 上海/ns 的/u 电话/n 打/v 了/u 进来/v ，/w 让/v 叶莉/nr 心头/s 的/u 大/a 石头/n 终于/d 落地/v 了/y 。/w
+CHARACTERS = 叶莉;
+RELWORD = 父母;
+RELCOMB = 
+-----------
+SENTENCE = 叶莉答应了，但是叶莉心里总觉得自己再也达不到以前那种竞技状态了，在回到国家队后，叶莉总是想快点赶上自己的队友们，毕竟她已经一年没练了，她想早日回到自己深爱的赛场上，可心里越急越是达不到想要的效果，一次训练中她的膝盖没吃住劲，在跳起落地的时候再次受伤，结果膝盖肿得像馒头一样大，又是一个星期不能参加训练。
+POS_TAG = 叶莉/nr 答应/v 了/y ，/w 但是/c 叶莉/nr 心里/s 总/d 觉得/v 自己/r 再/d 也/d 达/v 不/d 到/v 以前/f 那种/r 竞技/n 状态/n 了/y ，/w 在/p 回到/v 国家队/n 后/f ，/w 叶莉/nr 总是/d 想/v 快/a 点/t 赶上/v 自己/r 的/u 队友/n 们/k ，/w 毕竟/d 她/r 已经/d 一/m 年/q 没/d 练/v 了/y ，/w 她/r 想/v 早日/d 回到/v 自己/r 深/d 爱/v 的/u 赛场/n 上/m ，/w 可/v 心里/s 越/d 急/v 越是/d 达/v 不/d 到/v 想/v 要/v 的/u 效果/n ，/w 一/m 次/q 训练/vn 中/f 她/r 的/u 膝盖/n 没/d 吃/v 住/v 劲/ag ，/w 在/p 跳/v 起/v 落地/v 的/u 时候/n 再次/d 受伤/v ，/w 结果/n 膝盖/n 肿/v 得/u 像/v 馒头/n 一样/u 大/a ，/w 又/d 是/v 一个/m 星期/n 不能/v 参加/v 训练/vn 。/w
+CHARACTERS = 叶莉;
+RELWORD = 队友;
+RELCOMB = 
+-----------
+SENTENCE = 国家田径队的王卫星教练是中国女篮特邀的体能教练，叶莉2000年入队的时候，就是王教练带领她们做体能训练。
+POS_TAG = 国家/n 田径队/n 的/u 王卫星/nr 教练/n 是/v 中国/ns 女篮/n 特邀/v 的/u 体能/n 教练/n ，/w 叶莉/nr 2000年/t 入队/v 的/u 时候/n ，/w 就/d 是/v 王教练/n 带领/v 她们/r 做/v 体能/n 训练/vn 。/w
+CHARACTERS = 王卫星;叶莉;
+RELWORD = 教练;
+RELCOMB = 王卫星,叶莉->教练;
+-----------
+SENTENCE = 队里和篮管中心安排叶莉和胡小桃一起到北医三院的运动医学部做恢复性治疗，三院的医生说叶莉的膝盖恢复的很好，完全可以投入正常训练了，是心里的阴影让她不敢全力以赴投入训练。
+POS_TAG = 队/n 里/f 和/c 篮管中心/nt 安排/v 叶莉/nr 和/c 胡小桃/nr 一起/s 到/v 北医三院/nt 的/u 运动医学部/nt 做/v 恢复性/b 治疗/vn ，/w 三/m 院/n 的/u 医生/n 说/v 叶莉/nr 的/u 膝盖/n 恢复/v 的/u 很/d 好/a ，/w 完全/ad 可以/v 投入/v 正常/ad 训练/v 了/u ，/w 是/v 心里/s 的/u 阴影/n 让/v 她/r 不敢/v 全力以赴/i 投入/v 训练/vn 。/w
+CHARACTERS = 胡小桃;叶莉;
+RELWORD = 医生;
+RELCOMB = 
+-----------
+SENTENCE = 通过近一年的恢复性治疗，叶莉现在已经可以做些对抗性的训练了，而且跑步时的动作也越来越轻松自如，叶莉希望能够早日回到赛场上和队友们一起为中国女篮画上更辉煌的一笔，我们也希望早日看到叶莉在赛场上的英姿，重现昔日风采。
+POS_TAG = 通过/p 近/a 一/m 年/q 的/u 恢复性/b 治疗/vn ，/w 叶莉/nr 现在/t 已经/d 可以/v 做/v 些/q 对抗性/n 的/u 训练/vn 了/y ，/w 而且/c 跑步/v 时/ng 的/u 动作/n 也/d 越来越/d 轻松/a 自如/a ，/w 叶莉/nr 希望/v 能够/v 早日/d 回到/v 赛场/n 上/m 和/c 队友/n 们/k 一起/d 为/p 中国/ns 女篮/n 画/v 上/m 更/d 辉煌/a 的/u 一/m 笔/q ，/w 我们/r 也/d 希望/v 早日/d 看到/v 叶莉/nr 在/p 赛场/n 上/m 的/u 英/j 姿/ng ，/w 重现/v 昔日/t 风采/n 。/w
+CHARACTERS = 叶莉;
+RELWORD = 队友;
+RELCOMB = 
+-----------
+SENTENCE = 2007年8月3日，姚明和叶莉在一些亲属、朋友的陪同下来到上海徐汇区婚姻登记处，正式领取了结婚证书，并于2007年8月6日举办婚礼。
+POS_TAG = 2007年/t 8月/t 3日/t ，/w 姚明/nr 和/c 叶莉/nr 在/p 一些/m 亲属/n 、/w 朋友/n 的/u 陪同/vn 下/f 来到/v 上海/ns 徐汇区/ns 婚姻/n 登记处/n ，/w 正式/ad 领取/v 了/u 结婚/vn 证书/n ，/w 并/c 于/p 2007年/t 8月/t 6日/t 举办/v 婚礼/n 。/w
+CHARACTERS = 姚明;叶莉;
+RELWORD = 朋友;
+RELCOMB = 
+-----------
+SENTENCE = 在上海浦东的香格里拉大酒店，这对“恋爱长跑”达7年的恋人终于在众多在场亲属和场外媒体面前互相承诺此后将互帮互助，携手走完人生道路。
+POS_TAG = 在/p 上海/ns 浦东/ns 的/u 香/a 格/n 里拉/q 大酒店/n ，/w 这/r 对/p “/w 恋爱/v 长跑/vn ”/w 达/v 7/m 年/q 的/u 恋人/n 终于/d 在/p 众多/m 在场/v 亲属/n 和/c 场/q 外/f 媒体/n 面前/f 互相/d 承诺/v 此后/t 将/d 互帮互助/l ，/w 携手/vd 走/v 完/v 人生/n 道路/n 。/w
+CHARACTERS = 
+RELWORD = 恋人;
+RELCOMB = 
+-----------
+SENTENCE = “姚之队”中方经纪人陆浩很遗憾地对记者说：“非常抱歉，姚明今晚实在是喝高了，没法出来跟大家说几句。
+POS_TAG = “/w 姚之队/n ”/w 中方/n 经纪人/n 陆浩/nr 很/d 遗憾/a 地/u 对/p 记者/n 说/v ：/w “/w 非常/d 抱歉/an ，/w 姚明/nr 今晚/t 实在/d 是/v 喝/vg 高/a 了/y ，/w 没法/d 出来/v 跟/p 大家/r 说/v 几/m 句/q 。/w
+CHARACTERS = 陆浩;姚明;
+RELWORD = 经纪人;
+RELCOMB = 
+-----------
+SENTENCE = 此次得到宴请的对象是男女篮国家队的队员和篮协的领导们。
+POS_TAG = 此次/r 得到/v 宴请/v 的/u 对象/n 是/v 男/b 女/b 篮/j 国家/n 队/n 的/u 队员/n 和/c 篮协/j 的/u 领导/n 们/k 。/w
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 酒席在下午6点正式开始，据悉整个酒席要持续3个小时左右，昨天刚刚参加了奥运会倒计时一周年活动的姚明今天显得很开心，在队友和篮协领导的“鼓舞”下，姚明今天喝得有些高。
+POS_TAG = 酒席/n 在/p 下午/t 6/m 点/t 正式/ad 开始/v ，/w 据悉/v 整个/b 酒席/n 要/v 持续/v 3/m 个/q 小时/n 左右/m ，/w 昨天/t 刚刚/d 参加/v 了/u 奥运会/j 倒/v 计时/v 一/m 周年/q 活动/vn 的/u 姚明/nr 今天/t 显得/v 很/d 开/v 心/n ，/w 在/p 队友/n 和/c 篮协/j 领导/n 的/u “/w 鼓舞/y ”/w 下/f ，/w 姚明/nr 今天/t 喝/vg 得/u 有些/r 高/a 。/w
+CHARACTERS = 姚明;
+RELWORD = 队友;领导;
+RELCOMB = 
+-----------
+SENTENCE = 9号，回到北京的姚明宴请男女篮国家队的成员和篮协的领导们。
+POS_TAG = 9/m 号/q ，/w 回到/v 北京/ns 的/u 姚明/nr 宴请/v 男/b 女/b 篮/j 国家/n 队/n 的/u 成员/n 和/c 篮协/j 的/u 领导/n 们/k 。/w
+CHARACTERS = 姚明;
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 跟自己的兄弟们在一起，这一次不胜酒力的姚明再也顶不住了。
+POS_TAG = 跟/p 自己/r 的/u 兄弟/n 们/k 在/p 一起/s ，/w 这/r 一/m 次/q 不胜/v 酒/n 力/n 的/u 姚明/nr 再/d 也/d 顶/v 不/d 住/v 了/y 。/w
+CHARACTERS = 姚明;
+RELWORD = 兄弟;
+RELCOMB = 
+-----------
+SENTENCE = 姚明的中方经纪人陆浩出来替他挡驾：“对不起大家了，姚明这一次真的喝高了，对不起，对不起！
+POS_TAG = 姚明/nr 的/u 中方/n 经纪人/n 陆浩/nr 出来/v 替/p 他/r 挡驾/v ：/w “/w 对不起/v 大家/r 了/y ，/w 姚明/nr 这/r 一/m 次/q 真/a 的/u 喝/vg 高/a 了/y ，/w 对不起/v ，/w 对不起/v ！/w
+CHARACTERS = 陆浩;姚明;
+RELWORD = 经纪人;
+RELCOMB = 陆浩,姚明->经纪人;
+-----------
+SENTENCE = 张弛在接受记者采访时也透露，姚明的伴郎是前队友、上海男篮队员沈巍
+POS_TAG = 张弛/nr 在/p 接受/v 记者/n 采访/v 时/ng 也/d 透露/v ，/w 姚明/nr 的/u 伴郎/n 是/v 前/f 队友/n 、/w 上海/ns 男篮/n 队员/n 沈巍/nr
+CHARACTERS = 沈巍;姚明;张弛;
+RELWORD = 队友;
+RELCOMB = 沈巍,姚明->队友;
+-----------
+SENTENCE = 姚明的爸爸姚志源在接受记者采访时也提到了记者工作，而且说得特别有意思。
+POS_TAG = 姚明/nr 的/u 爸爸/n 姚志源/nr 在/p 接受/v 记者/n 采访/v 时/ng 也/d 提到/v 了/u 记者/n 工作/vn ，/w 而且/c 说/v 得/u 特别/d 有/v 意思/n 。/w
+CHARACTERS = 姚明;姚志源;
+RELWORD = 爸爸;
+RELCOMB = 姚明,姚志源->爸爸;
+-----------
+SENTENCE = 姚明爸爸最后也透露，两位新人当晚就住在酒店，姚明明天就将赴北京，参加北京奥运会倒计时一周年活动。
+POS_TAG = 姚明/nr 爸爸/n 最后/f 也/d 透露/v ，/w 两/m 位/q 新人/n 当晚/t 就/d 住/v 在/p 酒店/n ，/w 姚明/nr 明天/t 就/d 将/d 赴/v 北京/ns ，/w 参加/v 北京/ns 奥运会/j 倒/v 计时/v 一/m 周年/q 活动/vn 。/w
+CHARACTERS = 姚明;
+RELWORD = 爸爸;
+RELCOMB = 
+-----------
+SENTENCE = 记者在采访过程中还得到了一个有趣的消息，就在姚明拍摄婚纱照的前一天，姚明和自己的母亲来到了位于石门一路、南京西路附近一家名叫“南京美发”的理发店理发，当时姚明正在理发，姚妈妈则在烫发。
+POS_TAG = 记者/n 在/p 采访/v 过程/n 中/f 还/d 得到/v 了/u 一个/m 有趣/a 的/u 消息/n ，/w 就/d 在/p 姚明/nr 拍摄/v 婚纱照/n 的/b 前/f 一/m 天/n ，/w 姚明/nr 和/c 自己/r 的/u 母亲/n 来到/v 了/u 位于/v 石门/ns 一/m 路/q 、/w 南京/ns 西路/ns 附近/f 一/m 家/q 名叫/v “/w 南京/ns 美发/vn ”/w 的/u 理发店/n 理发/v ，/w 当时/t 姚明/nr 正/d 在/p 理发/v ，/w 姚妈妈/n 则/d 在/p 烫发/v 。/w
+CHARACTERS = 姚明;
+RELWORD = 母亲;
+RELCOMB = 
+-----------
+SENTENCE = 陪伴叶莉的还有姚明和叶莉双方的父母，叶莉的出现引起了守候在大堂记者的一阵骚动，但保安把试图接近的记者全都拦在了外面。
+POS_TAG = 陪伴/v 叶莉/nr 的/u 还有/v 姚明/nr 和/c 叶莉/nr 双方/n 的/u 父母/n ，/w 叶莉/nr 的/u 出现/n 引起/v 了/u 守候/v 在/p 大堂/n 记者/n 的/u 一阵/m 骚动/v ，/w 但/c 保安/n 把/p 试图/v 接近/v 的/u 记者/n 全都/d 拦/v 在/p 了/u 外面/f 。/w
+CHARACTERS = 姚明;叶莉;
+RELWORD = 父母;
+RELCOMB = 
+-----------
+SENTENCE = 整整一天，姚明难觅踪影，只有姚明母亲方凤娣在中午时分有一次短暂露脸。
+POS_TAG = 整整/d 一/m 天/q ，/w 姚明/nr 难觅/v 踪影/n ，/w 只/d 有/v 姚明/nr 母亲/n 方凤娣/nr 在/p 中午/t 时分/n 有/v 一/m 次/q 短暂/ad 露脸/n 。/w
+CHARACTERS = 方凤娣;姚明;
+RELWORD = 母亲;
+RELCOMB = 方凤娣,姚明->母亲;
+-----------
+SENTENCE = 姚明和叶莉并没有在同一天入装浦东套房”，姚明为了躲避新婚当天的媒体追逐，提前一天在上周日就在这里安营扎寨，而叶莉的婚前最后一晚，则选择留在家中，陪伴自己的父母，姚明只能一个人独守空落落的大房子。
+POS_TAG = 姚明/nr 和/c 叶莉/nr 并/c 没有/d 在/p 同一天/t 入装/v 浦东/ns 套房/n ”/w ，/w 姚明/nr 为了/p 躲避/v 新婚/n 当天/t 的/u 媒体/n 追逐/n ，/w 提前/d 一/m 天/q 在/p 上/f 周日/t 就/d 在/p 这里/r 安营扎寨/i ，/w 而/c 叶莉/nr 的/u 婚前/t 最后/b 一/m 晚/q ，/w 则/d 选择/v 留/v 在/p 家中/s ，/w 陪伴/v 自己/r 的/u 父母/n ，/w 姚明/nr 只能/v 一个/m 人/n 独/d 守/v 空落落/z 的/u 大/a 房子/n 。/w
+CHARACTERS = 姚明;叶莉;
+RELWORD = 父母;
+RELCOMB = 
+-----------
+SENTENCE = 在深情曼妙的音乐声中，身材修长、身着一身白色靓丽婚纱的叶莉挽着爸爸的胳膊，缓缓走来。
+POS_TAG = 在/p 深情/n 曼妙/a 的/b 音乐声/n 中/a ，/w 身材/n 修长/a 、/w 身着/v 一身/n 白色/n 靓/g 丽/ag 婚纱/n 的/b 叶莉/nr 挽/v 着/n 爸爸/n 的/b 胳膊/n ，/w 缓缓/d 走/v 来/f 。/w
+CHARACTERS = 叶莉;
+RELWORD = 爸爸;
+RELCOMB = 
+-----------
+SENTENCE = ”叶家老人言辞简单，却寄托着天下父母的爱心。
+POS_TAG = ”/w 叶/j 家/n 老人/n 言辞/n 简单/a ，/w 却/d 寄托/v 着/u 天/q 下/f 父母/n 的/u 爱心/n 。/w
+CHARACTERS = 
+RELWORD = 父母;
+RELCOMB = 
+-----------
+SENTENCE = 叶莉爸爸把女儿交给了姚明，一个世界级篮球运动员，一个很有责任心的大个子，肯定很放心。
+POS_TAG = 叶莉/nr 爸爸/n 把/p 女儿/n 交给/v 了/u 姚明/nr ，/w 一个/m 世界级/b 篮球/n 运动员/n ，/w 一个/m 很/d 有/v 责任/n 心/n 的/u 大个子/n ，/w 肯定/d 很/d 放心/v 。/w
+CHARACTERS = 姚明;叶莉;
+RELWORD = 爸爸;女儿;
+RELCOMB = 姚明,叶莉->爸爸;姚明,叶莉->女儿;
+-----------
+SENTENCE = 姚明爸爸当然也要表达表达啊
+POS_TAG = 姚明/nr 爸爸/n 当然/d 也/d 要/v 表达/v 表达/v 啊/e
+CHARACTERS = 姚明;
+RELWORD = 爸爸;
+RELCOMB = 
+-----------
+SENTENCE = 在之后小型晚宴上，姚明叶莉两位新人向双方父母敬茶、献花，以此感谢双亲的养育之恩。
+POS_TAG = 在/p 之后/f 小型/b 晚宴/n 上/f ，/w 姚明/nr 叶莉/nr 两/m 位/q 新/a 人/n 向/p 双方/n 父母/n 敬茶/v 、/w 献花/v ，/w 以/p 此/r 感谢/v 双亲/n 的/u 养育/v 之恩/n 。/w
+CHARACTERS = 姚明;叶莉;
+RELWORD = 父母;
+RELCOMB = 
+-----------
+SENTENCE = 姚明的母亲方凤娣身高1.
+POS_TAG = 姚明/nr 的/u 母亲/n 方凤娣/nr 身高/n 1/m ./w
+CHARACTERS = 方凤娣;姚明;
+RELWORD = 母亲;
+RELCOMB = 方凤娣,姚明->母亲;
+-----------
+SENTENCE = 球员母亲在ＮＢＡ里占据重要地位，即使那些文身遍体、只受睾丸激素控制的球员也毫不吝惜地将溢美之词送给母亲，对坚强支撑整个家庭的单身母亲更是如此。
+POS_TAG = 球员/n 母亲/n 在/p ＮＢＡ/nx 里/f 占据/v 重要/a 地位/n ，/w 即使/c 那些/r 文/ng 身/ng 遍/v 体/ng 、/w 只/d 受/v 睾丸/n 激素/n 控制/v 的/b 球员/n 也/c 毫不/d 吝惜/v 地/j 将/d 溢美之词/l 送给/v 母亲/n ，/w 对/p 坚强/ad 支撑/v 整个/b 家庭/n 的/u 单身/n 母亲/n 更是/d 如此/r 。/w
+CHARACTERS = 
+RELWORD = 母亲;
+RELCOMB = 
+-----------
+SENTENCE = 但姚明是特别的，在他降临ＮＢＡ时，没几个球员像他那样和母亲住在一起——当然他们也不一定愿意，当然他们表面仍对母亲言听计从。
+POS_TAG = 但/c 姚明/nr 是/v 特别/a 的/u ，/w 在/p 他/r 降临/v ＮＢＡ/nx 时/ng ，/w 没/v 几/m 个/q 球员/n 像/p 他/r 那样/r 和/c 母亲/n 住/v 在/p 一起/s ——/w 当然/d 他们/r 也/d 不/d 一定/d 愿意/v ，/w 当然/d 他们/r 表面/n 仍/d 对/p 母亲/n 言听计从/i 。/w
+CHARACTERS = 姚明;
+RELWORD = 母亲;
+RELCOMB = 
+-----------
+SENTENCE = 姚明在众人眼中是个乖儿子，他的确也是，不过再乖的儿子也是有选择性地听妈妈的话……节选自新书《姚明计划》
+POS_TAG = 姚明/nr 在/p 众人/n 眼中/s 是/v 个/q 乖/a 儿子/n ，/w 他/r 的/u 确/d 也/d 是/v ，/w 不过/c 再/d 乖/a 的/u 儿子/n 也/d 是/v 有/v 选择性/n 地/j 听/n 妈妈/n 的/b 话/m …/w …/w 节选/v 自/p 新书/n 《/w 姚明/nr 计划/n 》/w
+CHARACTERS = 姚明;
+RELWORD = 儿子;妈妈;
+RELCOMB = 
+-----------
+SENTENCE = 姚明当选状元秀后，母亲方凤娣就决定前往美国。
+POS_TAG = 姚明/nr 当选/v 状元秀/n 后/f ，/w 母亲/n 方凤娣/nr 就/d 决定/v 前往/v 美国/ns 。/w
+CHARACTERS = 方凤娣;姚明;
+RELWORD = 母亲;
+RELCOMB = 方凤娣,姚明->母亲;
+-----------
+SENTENCE = 她的工假最终变成提前退休，而当时仍在上海港工作的父亲姚志源在赛季中段也来到休斯敦。
+POS_TAG = 她/r 的/u 工假/n 最终/d 变成/v 提前/d 退休/v ，/w 而/c 当时/t 仍/d 在/p 上海港/ns 工作/an 的/u 父亲/n 姚志源/nr 在/c 赛季/n 中/a 段/n 也/c 来到/v 休斯敦/ns 。/w
+CHARACTERS = 姚志源;
+RELWORD = 父亲;
+RELCOMB = 
+-----------
+SENTENCE = １３岁离家开始篮球训练，他已８年没和父母住在一起。
+POS_TAG = １３/m 岁/q 离家/v 开始/v 篮球/n 训练/vn ，/w 他/r 已/d ８/m 年/q 没/v 和/c 父母/n 住/v 在/p 一起/s 。/w
+CHARACTERS = 
+RELWORD = 父母;
+RELCOMB = 
+-----------
+SENTENCE = “感觉就像天高皇帝远，”姚回忆着，“父母管不着我，我已习惯。
+POS_TAG = “/w 感觉/n 就/d 像/v 天高皇帝远/l ，/w ”/w 姚/nr 回忆/v 着/u ，/w “/w 父母/n 管不着/v 我/r ，/w 我/r 已/d 习惯/v 。/w
+CHARACTERS = 姚;
+RELWORD = 父母;
+RELCOMB = 
+-----------
+SENTENCE = ”但２２岁这年，已成人的他却要再次与父母一起生活，这种团聚为这个三口之家带来了新的挑战。
+POS_TAG = ”/w 但/c ２２/m 岁/q 这/r 年/q ，/w 已/d 成人/v 的/u 他/r 却/d 要/v 再次/d 与/p 父母/n 一起/s 生活/vn ，/w 这种/r 团聚/v 为/p 这个/r 三/m 口/q 之/u 家/n 带来/v 了/u 新/a 的/u 挑战/vn 。/w
+CHARACTERS = 
+RELWORD = 父母;
+RELCOMB = 
+-----------
+SENTENCE = 为到ＮＢＡ打球，姚经历了许多坎坷，但他走过的路却无法与５２岁的母亲相比。
+POS_TAG = 为/p 到/v ＮＢＡ/nx 打/v 球/n ，/w 姚/nr 经历/v 了/u 许多/m 坎坷/an ，/w 但/c 他/r 走过/v 的/u 路/n 却/d 无法/v 与/p ５２/m 岁/q 的/u 母亲/n 相比/v 。/w
+CHARACTERS = 姚;
+RELWORD = 母亲;
+RELCOMB = 
+-----------
+SENTENCE = 但她并不打算不懂装懂，她是个讲求实际的女人，她所经历的磨砺告诉她：一定要竭尽全力保护自己的儿子。
+POS_TAG = 但/c 她/r 并/d 不/d 打算/v 不懂装懂/i ，/w 她/r 是/v 个/q 讲求/v 实际/a 的/u 女人/n ，/w 她/r 所/u 经历/n 的/u 磨砺/vn 告诉/v 她/r ：/w 一定/d 要/v 竭尽全力/i 保护/v 自己/r 的/u 儿子/n 。/w
+CHARACTERS = 
+RELWORD = 儿子;
+RELCOMB = 
+-----------
+SENTENCE = 几经辗转，房产经纪人把她带到休斯敦以西３２公里的温莎湖畔，这是个在牧场基础上改造的全新社区。
+POS_TAG = 几/m 经/p 辗转/v ，/w 房产/n 经纪人/n 把/p 她/r 带/v 到/v 休斯敦/n 以西/f ３２/m 公里/q 的/u 温莎/ns 湖/n 畔/ng ，/w 这/r 是/v 个/q 在/p 牧场/n 基础/n 上/m 改造/v 的/u 全新/b 社区/n 。/w
+CHARACTERS = 
+RELWORD = 经纪人;
+RELCOMB = 
+-----------
+SENTENCE = 从此，操心儿子成了方凤娣的全职工作。
+POS_TAG = 从此/d ，/w 操心/v 儿子/n 成/m 了/u 方凤娣/nr 的/u 全/a 职工/n 作/v 。/w
+CHARACTERS = 方凤娣;
+RELWORD = 儿子;
+RELCOMB = 
+-----------
+SENTENCE = 大方为儿子整理房间、为儿子洗衣服、为儿子打气、为儿子做饭……姚打完客场回到家时已是深夜两三点，方凤娣总会熬夜煲上鸡汤，烧上几个精美的菜，等着儿子。
+POS_TAG = 大方/a 为/p 儿子/n 整理/v 房间/n 、/w 为/p 儿子/n 洗/v 衣服/n 、/w 为/p 儿子/n 打气/v 、/w 为/p 儿子/n 做饭/v …/w …/w 姚/nr 打完/v 客场/n 回到/v 家/s 时/ng 已/d 是/v 深夜/t 两三点/t ，/w 方凤娣/nr 总会/d 熬夜/v 煲上/v 鸡汤/n ，/w 烧上/v 几/m 个/q 精美/a 的/u 菜/n ，/w 等/v 着/u 儿子/n 。/w
+CHARACTERS = 方凤娣;姚;
+RELWORD = 儿子;
+RELCOMB = 方凤娣,姚->儿子;
+-----------
+SENTENCE = “我儿子打球不惜力，如果吃得不好，哪来力气啊
+POS_TAG = “/w 我/r 儿子/n 打球/v 不惜/v 力/ng ，/w 如果/c 吃/v 得/u 不好/a ，/w 哪/r 来/v 力气/n 啊/e
+CHARACTERS = 
+RELWORD = 儿子;
+RELCOMB = 
+-----------
+SENTENCE = 但为了让儿子吃上正宗的中国菜，多吸点油烟算不了什么。
+POS_TAG = 但/c 为了/p 让/v 儿子/n 吃/v 上/m 正宗/b 的/u 中国/ns 菜/n ，/w 多/ad 吸/v 点/t 油烟/n 算/d 不/a 了/u 什么/r 。/w
+CHARACTERS = 
+RELWORD = 儿子;
+RELCOMB = 
+-----------
+SENTENCE = 姚明的前翻译潘克伦曾开着自己租来的车带着姚明一家四处转悠，但当姚和潘克伦离家训练或者打客场比赛时，姚爸妈的生活又仅限于那座“豪华孤岛”之中。
+POS_TAG = 姚明/nr 的/u 前/h 翻译/n 潘克伦/nr 曾/d 开/v 着/u 自己/r 租来/v 的/u 车/n 带/v 着/u 姚明/nr 一家/n 四处/a 转悠/v ，/w 但/c 当/p 姚/nr 和/c 潘克伦/nr 离家/v 训练/v 或者/c 打/v 客场/n 比赛/vn 时/ng ，/w 姚/nr 爸妈/n 的/u 生活/vn 又/d 仅/d 限于/v 那/r 座/q “/w 豪华/a 孤岛/n ”/w 之中/f 。/w
+CHARACTERS = 潘克伦;姚;姚明;
+RELWORD = 爸妈;
+RELCOMB = 
+-----------
+SENTENCE = 方凤娣竭力想克制自己的激动，说：“我已快半年没见到儿子了，因为自夏天中国联赛结束后，姚明就一直在外面打球。
+POS_TAG = 方凤娣/nr 竭力/d 想/v 克制/v 自己/r 的/u 激动/a ，/w 说/v ：/w “/w 我/r 已/d 快/a 半/m 年/q 没/d 见到/v 儿子/n 了/y ，/w 因为/c 自/p 夏天/t 中国/ns 联赛/n 结束/v 后/f ，/w 姚明/nr 就/d 一直/d 在/p 外面/f 打球/v 。/w
+CHARACTERS = 方凤娣;姚明;
+RELWORD = 儿子;
+RELCOMB = 方凤娣,姚明->儿子;
+-----------
+SENTENCE = ”果然在三十米远处的出关人群中，身材硕长的姚明赫然出现，身边是比他矮一个头的父亲姚志源。
+POS_TAG = ”/w 果然/d 在/p 三十/m 米/q 远处/s 的/u 出关/vn 人群/n 中/f ，/w 身材/n 硕长/a 的/u 姚明/nr 赫然/z 出现/v ，/w 身边/s 是/v 比/p 他/r 矮/a 一个/m 头/q 的/u 父亲/n 姚志源/nr 。/w
+CHARACTERS = 姚明;姚志源;
+RELWORD = 父亲;
+RELCOMB = 姚明,姚志源->父亲;
+-----------
+SENTENCE = 几乎在同时，她和姚明互相挥了挥手，母亲急不可耐地快步向前走去，走在姚明前面的其他旅客都面带笑容，望着扑过来的方凤娣和电视记者们，自觉地让出一条通道，于是人们面前出现了一个经典的母子重逢镜头：
+POS_TAG = 几乎/d 在/p 同时/n ，/w 她/r 和/c 姚明/nr 互相/d 挥/v 了/u 挥手/v ，/w 母亲/n 急不可耐/i 地/u 快步/d 向前/v 走/ 去/v ，/w 走/v 在/p 姚明/nr 前面/f 的/u 其他/r 旅客/n 都/d 面带笑容/l ，/w 望/v 着/u 扑过来/v 的/u 方凤娣/nr 和/c 电视/n 记者/n 们/k ，/w 自觉/a 地/u 让出/v 一/m 条/q 通道/n ，/w 于是/c 人们/n 面前/f 出现/v 了/u 一个/m 经典/n 的/u 母子/n 重逢/vn 镜头/n ：/w
+CHARACTERS = 方凤娣;姚明;
+RELWORD = 母亲;母子;
+RELCOMB = 方凤娣,姚明->母亲;方凤娣,姚明->母子;
+-----------
+SENTENCE = 方凤娣紧紧地抱住儿子，头埋在儿子的喉结下，整整五秒钟不肯松手。
+POS_TAG = 方凤娣/nr 紧紧/d 地/u 抱/v 住/v 儿子/n ，/w 头/n 埋/v 在/p 儿子/n 的/u 喉结/n 下/f ，/w 整整/d 五/m 秒钟/q 不/d 肯/v 松手/v 。/w
+CHARACTERS = 方凤娣;
+RELWORD = 儿子;
+RELCOMB = 
+-----------
+SENTENCE = 她抬头看了一下儿子，对姚志源说：“他看上去很吃力（沪语‘累’的意思）。
+POS_TAG = 她/r 抬头/vd 看/v 了/u 一下/m 儿子/n ，/w 对/p 姚志源/nr 说/v ：/w “/w 他/r 看上去/v 很/d 吃力/a （/w 沪/j 语/ng ‘/w 累/an ’/w 的/u 意思/n ）/w 。/w
+CHARACTERS = 姚志源;
+RELWORD = 儿子;
+RELCOMB = 
+-----------
+SENTENCE = 父亲说：“是啊
+POS_TAG = 父亲/n 说/v ：/w “/w 是/v 啊/e
+CHARACTERS = 
+RELWORD = 父亲;
+RELCOMB = 
+-----------
+SENTENCE = 姚明上前时，方凤娣拉住儿子，替儿子把Ｔ恤上的一颗扣子扣好，领子翻好。
+POS_TAG = 姚明/nr 上前/v 时/ng ，/w 方凤娣/nr 拉/v 住/v 儿子/n ，/w 替/p 儿子/n 把/p Ｔ恤/n 上/f 的/u 一/m 颗/q 扣子/n 扣/v 好/a ，/w 领子/n 翻/v 好/a 。/w
+CHARACTERS = 方凤娣;姚明;
+RELWORD = 儿子;
+RELCOMB = 方凤娣,姚明->儿子;
+-----------
+SENTENCE = 方凤娣和姚志源并肩走在姚明后面，父亲直说“真高兴”，而方凤娣在被问及“作为一个中国母亲却在美国迎接凯旋般的儿子时作何感想时”，淡淡地说：“以后会有更多的中国母亲和我今日一样。
+POS_TAG = 方凤娣/nr 和/c 姚志源/nr 并肩/d 走/v 在/p 姚明/nr 后面/f ，/w 父亲/n 直说/v “/w 真/d 高兴/a ”/w ，/w 而/c 方凤娣/nr 在/p 被/p 问及/v “/w 作为/v 一个/m 中国/ns 母亲/n 却/d 在/p 美国/ns 迎接/v 凯旋/nz 般/u 的/u 儿子/n 时/ng 作/v 何/r 感想/n 时/ng ”/w ，/w 淡淡/z 地/u 说/n ：/w “/w 以后/f 会/v 有/v 更/d 多/a 的/u 中国/ns 母亲/n 和/c 我/r 今日/t 一样/u 。/w
+CHARACTERS = 方凤娣;姚明;姚志源;
+RELWORD = 儿子;父亲;母亲;
+RELCOMB = 方凤娣,姚明->儿子;姚明,姚志源->儿子;姚明,姚志源->父亲;方凤娣,姚明->母亲;
+-----------
+SENTENCE = ”两人的目光始终没离开儿子。
+POS_TAG = ”/w 两/m 人/n 的/u 目光/n 始终/d 没/d 离开/v 儿子/n 。/w
+CHARACTERS = 
+RELWORD = 儿子;
+RELCOMB = 
+-----------
+SENTENCE = 众人离开候机大厅，乘自动扶梯往底层的行李认领处，几位学生模样的女孩子快步奔至扶梯上请姚明签字，四周响起了掌声。
+POS_TAG = 众人/n 离开/v 候机/v 大厅/n ，/w 乘/v 自动/b 扶梯/n 往/p 底层/n 的/u 行李/n 认领/v 处/j ，/w 几/m 位/q 学生/n 模样/n 的/u 女孩子/n 快步/d 奔/v 至/p 扶梯/n 上/m 请/v 姚明/nr 签字/v ，/w 四周/s 响起/v 了/u 掌声/n 。/w
+CHARACTERS = 姚明;
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = 方凤娣和姚志源走到姚明身旁，叫儿子先上门外等候的专车，他们来等行李。
+POS_TAG = 方凤娣/nr 和/c 姚志源/nr 走到/v 姚明/nr 身旁/s ，/w 叫/v 儿子/n 先/d 上/v 门外/s 等候/v 的/u 专车/n ，/w 他们/r 来/v 等/v 行李/n 。/w
+CHARACTERS = 方凤娣;姚明;姚志源;
+RELWORD = 儿子;
+RELCOMB = 方凤娣,姚明->儿子;姚明,姚志源->儿子;
+-----------
+SENTENCE = 走到门口，他回头向父母的方向望了一下，才进入门外的“林肯航行者”加长轿车，火箭队运营主管也钻了进去，汤姆贾诺维奇则随后进入另一架林肯车。
+POS_TAG = 走到/v 门口/s ，/w 他/r 回头/v 向/p 父母/n 的/u 方向/n 望/v 了/u 一下/m ，/w 才/d 进入/v 门外/s 的/u “/w 林肯航行者/nz ”/w 加长/n 轿车/n ，/w 火箭/n 队/n 运营/vn 主管/vn 也/d 钻/v 了/u 进去/v ，/w 汤姆贾诺维奇/nr 则/d 随后/d 进入/v 另/r 一/m 架/q 林肯/nz 车/n 。/w
+CHARACTERS = 汤姆贾诺维奇;
+RELWORD = 父母;
+RELCOMB = 
+-----------
+SENTENCE = 她是最普通的一个母亲，很疼我，很爱我，当然，也像所有的母亲一样啰嗦。
+POS_TAG = 她/r 是/v 最/d 普通/a 的/u 一个/m 母亲/n ，/w 很/d 疼/v 我/r ，/w 很/d 爱/v 我/r ，/w 当然/d ，/w 也/d 像/v 所有/b 的/u 母亲/n 一样/u 啰/u 嗦/x 。/w
+CHARACTERS = 
+RELWORD = 母亲;
+RELCOMB = 
+-----------
+SENTENCE = 如果我回家很晚，妈妈一定会给我准备好吃的，她也可以在两分钟里３次走进我的房间，分别告诉我牙刷、牙膏和毛巾都放在哪儿。
+POS_TAG = 如果/c 我/r 回/v 家/n 很/d 晚/tg ，/w 妈妈/n 一定/d 会/v 给/p 我/r 准备/v 好吃/a 的/u ，/w 她/r 也/d 可以/v 在/p 两/m 分钟/q 里/f ３/m 次/q 走/v 进/v 我/r 的/u 房间/n ，/w 分别/d 告诉/v 我/r 牙刷/n 、/w 牙膏/n 和/ag 毛巾/n 都/d 放在/v 哪儿/r 。/w
+CHARACTERS = 
+RELWORD = 妈妈;
+RELCOMB = 
+-----------
+SENTENCE = ”这是姚明对母亲方凤娣的评价。
+POS_TAG = ”/w 这/r 是/v 姚明/nr 对/p 母亲/n 方凤娣/nr 的/u 评价/vn 。/w
+CHARACTERS = 方凤娣;姚明;
+RELWORD = 母亲;
+RELCOMB = 方凤娣,姚明->母亲;
+-----------
+SENTENCE = 而评价起儿子，方凤娣永远只有一句话：“他很孝顺。
+POS_TAG = 而/c 评价/v 起/v 儿子/n ，/w 方凤娣/nr 永远/d 只/d 有/v 一/m 句/q 话/n ：/w “/w 他/r 很/d 孝顺/an 。/w
+CHARACTERS = 方凤娣;
+RELWORD = 儿子;
+RELCOMB = 
+-----------
+SENTENCE = ”今年母亲节，这句话多了七个字——结婚后，他更孝顺。
+POS_TAG = ”/w 今年/t 母亲/n 节/vg ，/w 这/r 句/q 话/n 多/a 了/u 七/m 个/q 字/n ——/w 结婚/v 后/f ，/w 他/r 更/d 孝顺/an 。/w
+CHARACTERS = 
+RELWORD = 母亲;
+RELCOMB = 
+-----------
+SENTENCE = 身为母亲的她，只想全力保护自己的儿子姚明。
+POS_TAG = 身/ng 为/p 母亲/n 的/u 她/r ，/w 只/d 想/v 全力/d 保护/v 自己/r 的/u 儿子/n 姚明/nr 。/w
+CHARACTERS = 姚明;
+RELWORD = 儿子;母亲;
+RELCOMB = 
+-----------
+SENTENCE = 几经辗转，房产经纪人把她带到休斯敦向西３２公里的温莎湖畔，这是个在牧场基础上改造的新社区。
+POS_TAG = 几/m 经/p 辗转/v ，/w 房产/n 经纪人/n 把/p 她/r 带/v 到/v 休斯敦/n 向/p 西/f ３２/m 公里/q 的/u 温莎/ns 湖/n 畔/ng ，/w 这/r 是/v 个/q 在/p 牧场/n 基础/n 上/m 改造/v 的/u 新/a 社区/n 。/w
+CHARACTERS = 
+RELWORD = 经纪人;
+RELCOMB = 
+-----------
+SENTENCE = 从此，操心儿子成了方凤娣的全职工作。
+POS_TAG = 从此/d ，/w 操心/v 儿子/n 成/m 了/u 方凤娣/nr 的/u 全/a 职工/n 作/v 。/w
+CHARACTERS = 方凤娣;
+RELWORD = 儿子;
+RELCOMB = 
+-----------
+SENTENCE = 她为儿子整理房间、为儿子洗衣服、为儿子加油鼓劲、为儿子做饭。
+POS_TAG = 她/r 为/p 儿子/n 整理/vn 房间/n 、/w 为/p 儿子/n 洗/v 衣服/n 、/w 为/p 儿子/n 加油/v 鼓劲/v 、/w 为/p 儿子/n 做饭/v 。/w
+CHARACTERS = 
+RELWORD = 儿子;
+RELCOMB = 
+-----------
+SENTENCE = 姚明打完客场回到家时已是深夜两三点，方凤娣总会熬夜煲上鸡汤，烧上几个精美的菜，等着儿子。
+POS_TAG = 姚明/nr 打完/v 客场/n 回到/v 家/n 时/ng 已/d 是/v 深夜/t 两三点/t ，/w 方凤娣/nr 总会/d 熬夜/v 煲上/v 鸡汤/n ，/w 烧上/v 几/m 个/q 精美/a 的/u 菜/n ，/w 等/v 着/u 儿子/n 。/w
+CHARACTERS = 方凤娣;姚明;
+RELWORD = 儿子;
+RELCOMB = 方凤娣,姚明->儿子;
+-----------
+SENTENCE = “我儿子打球不惜力，如果吃得不好，哪来力气啊
+POS_TAG = “/w 我/r 儿子/n 打球/v 不惜/v 力/ng ，/w 如果/c 吃/v 得/u 不好/a ，/w 哪/r 来/v 力气/n 啊/e
+CHARACTERS = 
+RELWORD = 儿子;
+RELCOMB = 
+-----------
+SENTENCE = 从２００２到２００８，六年的美国生活，早已锻造出母亲方凤娣的程式化生活：早上开车去中国城的超级市场买菜；下午打扫卫生，尽管姚明一直建议请保姆，但方凤娣坚持身体力行。
+POS_TAG = 从/p ２００２/m 到/v ２００８/m ，/w 六/m 年/q 的/u 美国/ns 生活/vn ，/w 早已/d 锻造/v 出/v 母亲/n 方凤娣/nr 的/u 程式化/n 生活/n ：/w 早上/t 开车/v 去/v 中国城/ns 的/u 超级市场/n 买菜/v ；/w 下午/t 打扫/v 卫生/an ，/w 尽管/c 姚明/nr 一直/d 建议/v 请/v 保姆/n ，/w 但/c 方凤娣/nr 坚持/v 身体力行/i 。/w
+CHARACTERS = 方凤娣;姚明;
+RELWORD = 母亲;
+RELCOMB = 方凤娣,姚明->母亲;
+-----------
+SENTENCE = 能达到这个程度，方凤娣说她的“师傅”就是从国内带去的菜谱。
+POS_TAG = 能/v 达到/v 这个/r 程度/n ，/w 方凤娣/nr 说/v 她/r 的/u “/w 师傅/n ”/w 就是/d 从/p 国内/s 带/v 去/v 的/u 菜谱/n 。/w
+CHARACTERS = 方凤娣;
+RELWORD = 师傅;
+RELCOMB = 
+-----------
+SENTENCE = 有那么一段日子，姚明甚至还需向母亲讨零花钱。
+POS_TAG = 有/v 那么/r 一/m 段/q 日子/n ，/w 姚明/nr 甚至/d 还/d 需/v 向/p 母亲/n 讨/v 零花钱/n 。/w
+CHARACTERS = 姚明;
+RELWORD = 母亲;
+RELCOMB = 
+-----------
+SENTENCE = “那时没和父母住在一起，并没有觉得有什么不愉快。
+POS_TAG = “/w 那时/r 没/v 和/c 父母/n 住/v 在/p 一起/s ，/w 并/c 没有/d 觉得/v 有/v 什么/r 不/d 愉快/a 。/w
+CHARACTERS = 
+RELWORD = 父母;
+RELCOMB = 
+-----------
+SENTENCE = 特别在没比赛的日子，我一回到家，我妈就开始唠叨，有时候没完没了，真让人受不了１
+POS_TAG = 特别/d 在/p 没/d 比赛/v 的/u 日子/n ，/w 我/r 一/m 回/q 到/v 家/q ，/w 我/r 妈/n 就/d 开始/v 唠叨/vn ，/w 有时候/d 没完没了/l ，/w 真/d 让/v 人/n 受不了/l １/m
+CHARACTERS = 
+RELWORD = 妈;
+RELCOMB = 
+-----------
+SENTENCE = 可在美国生活里，姚明在公开场合总是对母亲大唱赞歌：母亲烧的鸡汤是世界上最棒的食物；母亲的篮球知识足够渊博，可以胜任火箭的助理教练；母亲的判断足够准确，所以大事都由母亲作主。
+POS_TAG = 可/v 在/p 美国/ns 生活/vn 里/f ，/w 姚明/nr 在/p 公开/a 场合/n 总/d 是/v 对/p 母亲/n 大/d 唱/v 赞歌/n ：/w 母亲/n 烧/v 的/u 鸡汤/n 是/v 世界/n 上/m 最/d 棒/a 的/u 食物/n ；/w 母亲/n 的/u 篮球/n 知识/n 足够/v 渊博/a ，/w 可以/v 胜任/v 火箭/n 的/u 助理教练/n ；/w 母亲/n 的/u 判断/n 足够/v 准确/a ，/w 所以/c 大事/n 都/d 由/p 母亲/n 作主/v 。/w
+CHARACTERS = 姚明;
+RELWORD = 母亲;助理教练;
+RELCOMB = 
+-----------
+SENTENCE = 她，就是姚明的母亲方凤娣。
+POS_TAG = 她/r ，/w 就/d 是/v 姚明/nr 的/u 母亲/n 方凤娣/nr 。/w
+CHARACTERS = 方凤娣;姚明;
+RELWORD = 母亲;
+RELCOMB = 方凤娣,姚明->母亲;
+-----------
+SENTENCE = 记得初到美国，方凤娣和朋友常常说笑，“我是为儿子打工的”。
+POS_TAG = 记得/v 初/f 到/v 美国/ns ，/w 方凤娣/nr 和/c 朋友/n 常常/d 说/v 笑/v ，/w “/w 我/r 是/v 为/p 儿子/n 打工/v 的/u ”/w 。/w
+CHARACTERS = 方凤娣;
+RELWORD = 儿子;朋友;
+RELCOMB = 
+-----------
+SENTENCE = 可是至少，现在的春节，她可以亲自到现场为儿子加油，能够感受主场球迷强有力的支持。
+POS_TAG = 可是/c 至少/d ，/w 现在/t 的/u 春节/t ，/w 她/r 可以/v 亲自/d 到/v 现场/s 为/v 儿子/n 加油/v ，/w 能够/v 感受/v 主场/n 球迷/n 强有力/l 的/u 支持/vn 。/w
+CHARACTERS = 
+RELWORD = 儿子;
+RELCOMB = 
+-----------
+SENTENCE = 昨天，当姚明进球时，她会握紧拳头，叫着“好球”；火箭被对手打出小高潮时，她着急地埋怨，“这球怎么打的１最后时刻，姚明成为关键先生，连续造成对手犯规，罚球精准，方凤娣和所有观众一样，站了起来，每拍一记掌，就点一下头。
+POS_TAG = 昨天/t ，/w 当/p 姚明/nr 进球/v 时/ng ，/w 她/r 会/v 握紧/v 拳头/n ，/w 叫/v 着/u “/w 好球/n ”/w ；/w 火箭/n 被/p 对手/n 打出/v 小/a 高潮/n 时/ng ，/w 她/r 着急/a 地/u 埋怨/v ，/w “/w 这/r 球/n 怎么/r 打/v 的/u １/m 最后/f 时刻/n ，/w 姚明/nr 成为/v 关键/a 先生/n ，/w 连续/ad 造成/v 对手/n 犯规/v ，/w 罚球/vn 精准/a ，/w 方凤娣/nr 和/c 所有/b 观众/n 一样/u ，/w 站/v 了/u 起来/v ，/w 每/r 拍/v 一/m 记/q 掌/n ，/w 就/p 点/v 一下/m 头/q 。/w
+CHARACTERS = 方凤娣;姚明;
+RELWORD = 对手;
+RELCOMB = 方凤娣,姚明->对手;
+-----------
+SENTENCE = 她用英语告诉他：“姚明是我的儿子１言语中，流露出无尽的自豪。
+POS_TAG = 她/r 用/v 英语/nz 告诉/v 他/r ：/w “/w 姚明/nr 是/v 我/r 的/u 儿子/n １/m 言语/n 中/f ，/w 流露/v 出/v 无尽/b 的/u 自豪/an 。/w
+CHARACTERS = 姚明;
+RELWORD = 儿子;
+RELCOMB = 
+-----------
+SENTENCE = 虽然姚明已经成家立业，但妻子叶莉学业繁忙，因此，方凤娣仍旧是家里的大厨。
+POS_TAG = 虽然/c 姚明/nr 已经/d 成家立业/i ，/w 但/c 妻子/n 叶莉/nr 学业/n 繁忙/an ，/w 因此/c ，/w 方凤娣/nr 仍旧/d 是/v 家里/s 的/u 大厨/n 。/w
+CHARACTERS = 方凤娣;姚明;叶莉;
+RELWORD = 妻子;
+RELCOMB = 姚明,叶莉->妻子;
+-----------
+SENTENCE = 6年了，方凤娣早就对附近的交通驾轻就熟，她和老伴常常
+POS_TAG = 6/m 年/q 了/y ，/w 方凤娣/nr 早就/d 对/p 附近/f 的/u 交通/n 驾轻就熟/i ，/w 她/r 和/c 老伴/n 常常/d
+CHARACTERS = 方凤娣;
+RELWORD = 老伴;
+RELCOMB = 
+-----------
+SENTENCE = 方凤娣笑着说：“儿子总归说姆妈的菜好吃。
+POS_TAG = 方凤娣/nr 笑/v 着/u 说/v ：/w “/w 儿子/n 总归/d 说/n 姆妈/n 的/u 菜/n 好吃/a 。/w
+CHARACTERS = 方凤娣;
+RELWORD = 儿子;
+RELCOMB = 
+-----------
+SENTENCE = 如果有朋友来美国拜访，问方凤娣需要带来些什么东西，她会说，“礼物不要帮我带，只要送我两本菜谱书，就可以了。
+POS_TAG = 如果/c 有/v 朋友/n 来/v 美国/ns 拜访/v ，/w 问/v 方凤娣/nr 需要/v 带来/v 些/q 什么/r 东西/n ，/w 她/r 会/v 说/v ，/w “/w 礼物/n 不要/d 帮/v 我/r 带/v ，/w 只要/c 送/v 我/r 两/m 本/q 菜谱/n 书/n ，/w 就/d 可以/v 了/y 。/w
+CHARACTERS = 方凤娣;
+RELWORD = 朋友;
+RELCOMB = 
+-----------
+SENTENCE = 母子情最深
+POS_TAG = 母子/n 情/n 最/d 深/a
+CHARACTERS = 
+RELWORD = 母子;
+RELCOMB = 
+-----------
+SENTENCE = 记者很想知道，每次赛前，方凤娣会对儿子嘱咐些什么。
+POS_TAG = 记者/n 很/d 想/v 知道/v ，/w 每次/r 赛前/t ，/w 方凤娣/nr 会/v 对/p 儿子/n 嘱咐/v 些/q 什么/r 。/w
+CHARACTERS = 方凤娣;
+RELWORD = 儿子;
+RELCOMB = 
+-----------
+SENTENCE = 她沉吟片刻，笑着反问：“小姑娘，你出门在外，你妈妈会对你说些什么呢？
+POS_TAG = 她/r 沉吟/v 片刻/m ，/w 笑/v 着/u 反/v 问/v ：/w “/w 小姑娘/n ，/w 你/r 出门在外/l ，/w 你/r 妈妈/n 会/v 对/p 你/r 说/v 些/q 什么/r 呢/y ？/w
+CHARACTERS = 
+RELWORD = 妈妈;
+RELCOMB = 
+-----------
+SENTENCE = 天底下的母亲都是一样的。
+POS_TAG = 天底下/s 的/b 母亲/n 都/d 是/a 一样/a 的/b 。/w
+CHARACTERS = 
+RELWORD = 母亲;
+RELCOMB = 
+-----------
+SENTENCE = 昨天是姚明的父亲姚志源的54岁生日，现场解说员也代表火箭队向姚爸爸表达了祝贺，“没有他，也就没有姚明的到来。
+POS_TAG = 昨天/t 是/v 姚明/nr 的/u 父亲/n 姚志源/nr 的/u 54/m 岁/q 生日/n ，/w 现场/s 解说员/n 也/c 代表/v 火箭/n 队/n 向/p 姚爸爸/n 表达/v 了/u 祝贺/n ，/w “/w 没有/v 他/r ，/w 也/d 就/d 没有/v 姚明/nr 的/u 到来/vn 。/w
+CHARACTERS = 姚明;姚志源;
+RELWORD = 父亲;
+RELCOMB = 姚明,姚志源->父亲;
+-----------
+SENTENCE = 姚明的爸爸瘦了，他说，是“忙瘦的”。
+POS_TAG = 姚明/nr 的/u 爸爸/n 瘦/a 了/y ，/w 他/r 说/v ，/w 是/v “/w 忙/v 瘦/a 的/u ”/w 。/w
+CHARACTERS = 姚明;
+RELWORD = 爸爸;
+RELCOMB = 
+-----------
+SENTENCE = 45天前，是爸爸姚志源带上大包小包，扶儿上马，陪着姚明飞赴大洋彼岸。
+POS_TAG = 45/m 天/q 前/f ，/w 是/v 爸爸/n 姚志源/nr 带上/v 大包/n 小包/n ，/w 扶儿/v 上马/v ，/w 陪/v 着/u 姚明/nr 飞赴/v 大洋/nz 彼岸/n 。/w
+CHARACTERS = 姚明;姚志源;
+RELWORD = 爸爸;
+RELCOMB = 姚明,姚志源->爸爸;
+-----------
+SENTENCE = 四间卧室，姚明一间、爸妈一间、翻译一间，还有一间作书房或客房。
+POS_TAG = 四/m 间/q 卧室/n ，/w 姚明/nr 一/m 间/q 、/w 爸妈/n 一/m 间/q 、/w 翻译/n 一/m 间/q ，/w 还有/v 一/m 间/q 作/v 书房/n 或/c 客房/n 。/w
+CHARACTERS = 姚明;
+RELWORD = 爸妈;
+RELCOMB = 
+-----------
+SENTENCE = 好在大部分事务都由充当“先遣部队”的妈妈方凤娣一手包了，省了姚明不少心。
+POS_TAG = 好在/d 大部分/m 事务/n 都/d 由/p 充当/v “/w 先遣部队/n ”/w 的/u 妈妈/n 方凤娣/nr 一手/d 包/v 了/y ，/w 省/v 了/u 姚明/nr 不少/m 心/n 。/w
+CHARACTERS = 方凤娣;姚明;
+RELWORD = 妈妈;
+RELCOMB = 方凤娣,姚明->妈妈;
+-----------
+SENTENCE = 回到家后的姚明吃过母亲准备的午餐，小睡一会儿，四点多再次出发，到主场比赛。
+POS_TAG = 回到/v 家/s 后/f 的/u 姚明/nr 吃/v 过/u 母亲/n 准备/v 的/u 午餐/n ，/w 小/ad 睡/v 一会儿/m ，/w 四点/t 多/m 再次/d 出发/v ，/w 到/v 主场/n 比赛/vn 。/w
+CHARACTERS = 姚明;
+RELWORD = 母亲;
+RELCOMB = 
+-----------
+SENTENCE = 妈妈烧的菜
+POS_TAG = 妈妈/n 烧/v 的/u 菜/n
+CHARACTERS = 
+RELWORD = 妈妈;
+RELCOMB = 
+-----------
+SENTENCE = 狂爱鳝筒烧肉、不太喜欢西餐的姚明一直都坚持“妈妈烧的菜最好吃”。
+POS_TAG = 狂/d 爱/d 鳝/d 筒/d 烧肉/n 、/w 不/d 太/d 喜欢/v 西餐/n 的/u 姚明/nr 一直/d 都/d 坚持/v “/w 妈妈/n 烧/v 的/u 菜/n 最/d 好/a 吃/v ”/w 。/w
+CHARACTERS = 姚明;
+RELWORD = 妈妈;
+RELCOMB = 
+-----------
+SENTENCE = 父母不怕姚明吃得多，就怕他累得没胃口。
+POS_TAG = 父母/n 不怕/v 姚明/nr 吃/v 得/u 多/a ，/w 就/d 怕/v 他/r 累/v 得/u 没/v 胃口/n 。/w
+CHARACTERS = 姚明;
+RELWORD = 父母;
+RELCOMB = 
+-----------
+SENTENCE = 搞笑的是姚明的翻译科林·派因，胃口比姚明还大，姚明一顿吃两块牛排，他还不止，一边吃一边一个劲地用中文拍姚明父母马屁：“好吃好吃真好吃１每顿必说，搞得姚明父母忍俊不禁，不知道他是客气还是真的觉得中国菜好吃极了。
+POS_TAG = 搞笑/a 的/u 是/v 姚明/nr 的/u 翻译/n 科林·派/nr 因/p ，/w 胃口/n 比/p 姚明/nr 还/d 大/a ，/w 姚明/nr 一/m 顿/q 吃/v 两/m 块/q 牛排/n ，/w 他/r 还/d 不止/a ，/w 一边/d 吃/v 一边/d 一个劲/d 地/u 用/v 中文/nz 拍/v 姚明/nr 父母/n 马屁/n ：/w “/w 好吃/a 好吃/a 真/d 好吃/a １/m 每/r 顿/q 必/d 说/v ，/w 搞/v 得/u 姚明/nr 父母/n 忍俊不禁/i ，/w 不/d 知道/v 他/r 是/v 客气/a 还是/c 真的/d 觉得/v 中国/ns 菜/n 好吃/a 极了/y 。/w
+CHARACTERS = 科林·派;姚明;
+RELWORD = 父母;
+RELCOMB = 
+-----------
+SENTENCE = 车子与朋友
+POS_TAG = 车子/n 与/c 朋友/n
+CHARACTERS = 
+RELWORD = 朋友;
+RELCOMB = 
+-----------
+SENTENCE = 姚爸爸担心：“车子到了也不能开啊
+POS_TAG = 姚/nr 爸爸/n 担心/v ：/w “/w 车子/n 到/v 了/u 也/d 不能/v 开/v 啊/e
+CHARACTERS = 姚;
+RELWORD = 爸爸;
+RELCOMB = 
+-----------
+SENTENCE = 除了和形影不离的派因挺“铁”以外，姚明和队友也相处得非常不错。
+POS_TAG = 除了/p 和/c 形影不离/i 的/u 派因/nr 挺/ag “/w 铁/a ”/w 以外/f ，/w 姚明/nr 和/c 队友/n 也/d 相处/v 得/u 非常/d 不错/a 。/w
+CHARACTERS = 派因;姚明;
+RELWORD = 队友;
+RELCOMB = 
+-----------
+SENTENCE = 开开玩笑、拎拎背包、买买果汁、请吃烧烤，坐在看台上的姚明父母看到儿子和队友之间常常闹着玩，不禁为儿子的适应能力和亲和力骄傲。
+POS_TAG = 开开玩笑/v 、/w 拎拎/v 背包/n 、/w 买买/v 果汁/n 、/w 请/v 吃/v 烧烤/vn ，/w 坐/v 在/p 看台/s 上/f 的/u 姚明/nr 父母/n 看/v 到/v 儿子/n 和/c 队友/n 之间/f 常常/d 闹着玩/v ，/w 不禁/d 为/v 儿子/n 的/u 适应/v 能力/n 和/c 亲和力/n 骄傲/a 。/w
+CHARACTERS = 姚明;
+RELWORD = 队友;儿子;父母;
+RELCOMB = 
+-----------
+SENTENCE = 以前，姚志源反复关照儿子不要听到别人的鼓励和欣赏就轻飘飘了；这两年来，父亲说得越来越少。
+POS_TAG = 以前/f ，/w 姚志源/nr 反复/d 关照/v 儿子/n 不要/d 听到/v 别人/r 的/u 鼓励/vn 和/c 欣赏/v 就/d 轻飘飘/z 了/u ；/w 这/r 两/m 年/q 来/f ，/w 父亲/n 说/v 得/u 越来越/d 少/a 。/w
+CHARACTERS = 姚志源;
+RELWORD = 儿子;父亲;
+RELCOMB = 
+-----------
+SENTENCE = 因为他发现，儿子大了，思路清爽了，待人处事都较为得体，更不会将别人的好话坏话都当真。
+POS_TAG = 因为/p 他/r 发现/v ，/w 儿子/n 大/a 了/y ，/w 思路/n 清爽/an 了/y ，/w 待人/v 处事/vn 都/d 较为/d 得体/a ，/w 更/d 不/d 会/v 将/p 别人/r 的/u 好话/n 坏话/n 都/d 当真/d 。/w
+CHARACTERS = 
+RELWORD = 儿子;
+RELCOMB = 
+-----------
+SENTENCE = 他曾经跟父亲说：“我宁愿少得两分，情愿多两个盖帽１姚明做到了。
+POS_TAG = 他/r 曾经/d 跟/p 父亲/n 说/v ：/w “/w 我/r 宁愿/d 少/ad 得/v 两分/t ，/w 情愿/v 多/a 两/m 个/n 盖/d 帽/n １/m 姚明/nr 做到/v 了/u 。/w
+CHARACTERS = 姚明;
+RELWORD = 父亲;
+RELCOMB = 
+-----------
+SENTENCE = 天下父母心
+POS_TAG = 天下/n 父母/n 心/n
+CHARACTERS = 
+RELWORD = 父母;
+RELCOMB = 
+-----------
+SENTENCE = 姚明的父母和天下所有的父母一样，除了希望孩子身体健康、做出成绩、生活幸福之外，不曾有过其他奢望。
+POS_TAG = 姚明/nr 的/u 父母/n 和/c 天下/n 所有/b 的/u 父母/n 一样/u ，/w 除/v 了/u 希望/v 孩子/n 身体/n 健康/an 、/w 做出/v 成绩/n 、/w 生活/vn 幸福/an 之外/f ，/w 不/d 曾/d 有/v 过/u 其他/r 奢望/vn 。/w
+CHARACTERS = 姚明;
+RELWORD = 父母;
+RELCOMB = 
+-----------
+SENTENCE = 他们的心思，全都放在爱护、保护儿子上。
+POS_TAG = 他们/r 的/u 心思/n ，/w 全都/d 放在/v 爱护/vn 、/w 保护/vn 儿子/n 上/m 。/w
+CHARACTERS = 
+RELWORD = 儿子;
+RELCOMB = 
+-----------
+SENTENCE = 叫他最为担心的是儿子的身体疲劳。
+POS_TAG = 叫/v 他/r 最为/d 担心/v 的/u 是/v 儿子/n 的/u 身体/n 疲劳/an 。/w
+CHARACTERS = 
+RELWORD = 儿子;
+RELCOMB = 
+-----------
+SENTENCE = 昨天，记者获悉国家体育总局篮管中心正式对姚明去休斯敦火箭队发放了通行证———转会证明后，独家采访了姚明的父亲姚志源。
+POS_TAG = 昨天/t ，/w 记者/n 获悉/v 国家体育总局/nt 篮管中心/nt 正式/ad 对/p 姚明/nr 去/v 休斯敦/ns 火箭/n 队/n 发放/v 了/u 通行证/n ———/w 转会/n 证明/n 后/f ，/w 独家/d 采访/v 了/u 姚明/nr 的/u 父亲/n 姚志源/nr 。/w
+CHARACTERS = 姚明;姚志源;
+RELWORD = 父亲;
+RELCOMB = 姚明,姚志源->父亲;
+-----------
+SENTENCE = 10月12日，当姚明还在釜山打亚运会时，姚明的母亲方凤娣就只身从上海虹桥国际机场飞赴美国休斯敦，为姚明加盟火箭队后的生活作准备。
+POS_TAG = 10月/t 12日/t ，/w 当/p 姚明/nr 还/d 在/p 釜山/ns 打/v 亚运会/n 时/ng ，/w 姚明/nr 的/u 母亲/n 方凤娣/nr 就/d 只身/d 从/p 上海/ns 虹桥/ns 国际/n 机场/n 飞赴/v 美国/ns 休斯敦/ns ，/w 为/p 姚明/nr 加盟/v 火箭/n 队/n 后/f 的/u 生活/vn 作/v 准备/vn 。/w
+CHARACTERS = 方凤娣;姚明;
+RELWORD = 母亲;
+RELCOMB = 方凤娣,姚明->母亲;
+-----------
+SENTENCE = ”10月15日方凤娣抽空去火箭队作客，受到了火箭队总经理道森和主教练汤姆贾诺维奇的热情接待。
+POS_TAG = ”/w 10月/t 15日/t 方凤娣/nr 抽空/vd 去/v 火箭/n 队/n 作/v 客/ng ，/w 受到/v 了/u 火箭/n 队/n 总经理/n 道森/nr 和/c 主教练/n 汤姆贾诺维奇/nr 的/u 热情/an 接待/vn 。/w
+CHARACTERS = 道森;方凤娣;汤姆贾诺维奇;
+RELWORD = 主教练;
+RELCOMB = 
+-----------
+SENTENCE = 远行前，他心里难舍留守上海的父亲。
+POS_TAG = 远行/v 前/f ，/w 他/r 心里/s 难/ad 舍/v 留守/v 上海/ns 的/u 父亲/n 。/w
+CHARACTERS = 
+RELWORD = 父亲;
+RELCOMB = 
+-----------
+SENTENCE = 父子将同行
+POS_TAG = 父子/n 将/p 同行/n
+CHARACTERS = 
+RELWORD = 父子;同行;
+RELCOMB = 
+-----------
+SENTENCE = 其实，姚明取道上海，除了携带衣物等生活细软外，主要是偕父亲同行。
+POS_TAG = 其实/d ，/w 姚明/nr 取道/v 上海/ns ，/w 除了/p 携带/v 衣物/n 等/u 生活/vn 细软/n 外/f ，/w 主要/d 是/v 偕/vg 父亲/n 同行/n 。/w
+CHARACTERS = 姚明;
+RELWORD = 父亲;同行;
+RELCOMB = 
+-----------
+SENTENCE = ”昨天晚上，他还专门给在休斯敦的妻子通了电话，征求她的意见。
+POS_TAG = ”/w 昨天/t 晚上/t ，/w 他/r 还/d 专门/d 给/v 在/p 休斯敦/ns 的/u 妻子/n 通/v 了/u 电话/n ，/w 征求/v 她/r 的/u 意见/n 。/w
+CHARACTERS = 
+RELWORD = 妻子;
+RELCOMB = 
+-----------
+SENTENCE = 他对记者说：“如果按照美国NBA状元秀的一般做法，父母应该陪同的话，那我就要去。
+POS_TAG = 他/r 对/p 记者/n 说/v ：/w “/w 如果/c 按照/p 美国/ns NBA/nx 状元/n 秀/ag 的/u 一般/a 做法/n ，/w 父母/n 应该/v 陪同/v 的/u 话/n ，/w 那/r 我/r 就要/d 去/v 。/w
+CHARACTERS = 
+RELWORD = 父母;
+RELCOMB = 
+-----------
+SENTENCE = 一方面，安顿好姚明的生活，让他在父母的温馨呵护中尽早适应新的生活环境。
+POS_TAG = 一方面/c ，/w 安顿/v 好/a 姚明/nr 的/u 生活/vn ，/w 让/v 他/r 在/p 父母/n 的/u 温馨/a 呵护/vn 中/f 尽早/d 适应/v 新/a 的/u 生活/vn 环境/n 。/w
+CHARACTERS = 姚明;
+RELWORD = 父母;
+RELCOMB = 
+-----------
+SENTENCE = 另一方面，他要在美国印第安那看火箭队与步行者队的首轮比赛，观赏儿子在NBA的处女作。
+POS_TAG = 另一方面/c ，/w 他/r 要/v 在/p 美国/ns 印第安/ns 那/r 看/v 火箭/n 队/n 与/p 步/q 行者/n 队/n 的/b 首/d 轮/n 比赛/n ，/w 观赏/v 儿子/n 在/p NBA/nx 的/u 处女作/n 。/w
+CHARACTERS = 
+RELWORD = 儿子;
+RELCOMB = 
+-----------
+SENTENCE = 不过姚明的父亲姚志源却清醒地指出了姚明身上存在的不足。
+POS_TAG = 不过/c 姚明/nr 的/u 父亲/n 姚志源/nr 却/d 清醒/a 地/u 指出/v 了/u 姚明/nr 身上/s 存在/v 的/u 不足/an 。/w
+CHARACTERS = 姚明;姚志源;
+RELWORD = 父亲;
+RELCOMB = 姚明,姚志源->父亲;
+-----------
+SENTENCE = 目前我对大家说自己的脚伤恢复了80%，其实也是照搬医生的话，医生告诉我，骨折70%——80%都会在三四个月恢复，而剩下的20%就算不运动也要起码一年时间才能彻底恢复好，具体怎么回事我不很清楚。
+POS_TAG = 目前/t 我/r 对/p 大家/r 说/v 自己/r 的/u 脚/n 伤/v 恢复/v 了/u 80%/m ，/w 其实/d 也/d 是/v 照搬/v 医生/n 的话/u ，/w 医生/n 告诉/v 我/r ，/w 骨折/v 70%/m ——/w 80%/m 都/d 会/v 在/p 三四/m 个/q 月/n 恢复/v ，/w 而/c 剩下/v 的/u 20%/m 就/d 算/v 不/d 运动/v 也/d 要/v 起码/d 一/m 年/q 时间/n 才/d 能/v 彻底/ad 恢复/v 好/a ，/w 具体/a 怎么/r 回/v 事/n 我/r 不/d 很/d 清楚/a 。/w
+CHARACTERS = 
+RELWORD = 医生;
+RELCOMB = 
+-----------
+SENTENCE = 不过我的医生给我的建议是：根据我的恢复情况，7月中下旬就可以进行全负荷对抗，也就是可以打五对五的全场比赛了。
+POS_TAG = 不过/c 我/r 的/u 医生/n 给/p 我/r 的/u 建议/n 是/v ：/w 根据/p 我/r 的/u 恢复/vn 情况/n ，/w 7月/t 中下旬/t 就/d 可以/v 进行/v 全/a 负荷/n 对抗/vn ，/w 也/d 就/d 是/v 可以/v 打/v 五/m 对/p 五/m 的/u 全场/n 比赛/vn 了/y 。/w
+CHARACTERS = 
+RELWORD = 医生;
+RELCOMB = 
+-----------
+SENTENCE = 姚明在回答记者提问时还半开玩笑地表示：“中国男篮主帅尤纳斯是一位非常有经验的教练，曾带领立陶宛国家队夺得过两块铜牌，我希望这次可以为尤纳斯夺得第三块。
+POS_TAG = 姚明/nr 在/p 回答/v 记者/n 提问/vn 时/ng 还/d 半开玩笑/v 地/u 表示/v ：/w “/w 中国/ns 男篮/n 主帅/n 尤纳斯/nr 是/v 一/m 位/q 非常/d 有/v 经验/n 的/u 教练/n ，/w 曾/d 带领/v 立陶宛/ns 国家队/n 夺得/v 过/u 两/m 块/q 铜牌/n ，/w 我/r 希望/v 这次/r 可以/v 为/p 尤纳斯/nr 夺得/v 第三/m 块/q 。/w
+CHARACTERS = 姚明;尤纳斯;
+RELWORD = 教练;主帅;
+RELCOMB = 姚明,尤纳斯->教练;姚明,尤纳斯->主帅;
+-----------
+SENTENCE = 目前，姚明的训练内容依然以力量和投篮为主，训练时他的周围依然围绕着他的训练团队——体能教练法尔松、基思·加内特和杰克·西格玛。
+POS_TAG = 目前/t ，/w 姚明/nr 的/u 训练/vn 内容/n 依然/d 以/p 力量/n 和/c 投篮/vn 为主/v ，/w 训练/v 时/ng 他/r 的/u 周围/f 依然/d 围绕/v 着/u 他/r 的/u 训练/vn 团队/n ——/w 体能/n 教练/n 法尔松/nr 、/w 基思·加内特/nr 和/c 杰克·西格玛/nr 。/w
+CHARACTERS = 法尔松;基思·加内特;杰克·西格玛;姚明;
+RELWORD = 教练;
+RELCOMB = 法尔松,姚明->教练;基思·加内特,姚明->教练;杰克·西格玛,姚明->教练;
+-----------
+SENTENCE = ”姚明在会上算了一笔账，“在四川灾区，一所能容纳300名学生的学校需要17万美元，而只有全世界爱心人士的捐赠才能累积起这无数个17万美元。
+POS_TAG = ”/w 姚明/nr 在/p 会上/t 算/v 了/u 一/m 笔/q 账/n ，/w “/w 在/p 四川/ns 灾区/n ，/w 一/m 所/q 能/v 容纳/v 300/m 名/q 学生/n 的/u 学校/n 需要/v 17万/m 美元/q ，/w 而/c 只/d 有/v 全世界/n 爱心/n 人士/n 的/u 捐赠/vn 才/d 能/v 累积/vd 起/v 这/r 无数/m 个/q 17万/m 美元/q 。/w
+CHARACTERS = 姚明;
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = 姚明的母亲方凤娣身高1.
+POS_TAG = 姚明/nr 的/u 母亲/n 方凤娣/nr 身高/n 1/m ./w
+CHARACTERS = 方凤娣;姚明;
+RELWORD = 母亲;
+RELCOMB = 方凤娣,姚明->母亲;
+-----------
+SENTENCE = 88米，比普通身材的上海男子都高出不少，父亲姚志源是个身高2.
+POS_TAG = 88/m 米/q ，/w 比/p 普通/a 身材/n 的/u 上海/ns 男子/n 都/d 高/a 出/v 不少/m ，/w 父亲/n 姚志源/nr 是/v 个/q 身高/n 2/m ./w
+CHARACTERS = 姚志源;
+RELWORD = 父亲;
+RELCOMB = 
+-----------
+SENTENCE = 已经退休的王重光教练是上海篮球界元老，上世纪70年代他曾是姚志源的队友，20年后他又成为姚明的教练。
+POS_TAG = 已经/d 退休/v 的/u 王重光/nr 教练/n 是/v 上海/ns 篮球/n 界/k 元老/n ，/w 上/m 世纪/n 70/m 年代/n 他/r 曾/d 是/v 姚志源/nr 的/u 队友/n ，/w 20/m 年/q 后/f 他/r 又/d 成为/v 姚明/nr 的/u 教练/n 。/w
+CHARACTERS = 王重光;姚明;姚志源;
+RELWORD = 队友;教练;
+RELCOMB = 王重光,姚志源->队友;王重光,姚明->教练;
+-----------
+SENTENCE = 直到比赛还剩37秒结束的时候，主教练阿德尔曼才用斯科拉替换下姚明，其实他可以早一点作出换人的决定，火箭队在第四节开始后很快用一波进攻高潮将领先扩大到了10分以上，而雷霆也没有什么翻盘的办法。
+POS_TAG = 直/d 到/v 比赛/vn 还/d 剩/v 37秒/t 结束/v 的/u 时候/n ，/w 主教练/n 阿德尔曼/nr 才/d 用/v 斯科拉/nr 替换/v 下/v 姚明/nr ，/w 其实/d 他/r 可以/v 早/tg 一点/t 作出/v 换人/v 的/u 决定/n ，/w 火箭/n 队/n 在/p 第四/m 节/q 开始/v 后/f 很快/d 用/v 一/m 波/j 进攻/vn 高潮/n 将/d 领先/vd 扩大/v 到/v 了/u 10分/t 以上/f ，/w 而/c 雷霆/nr 也/d 没有/v 什么/r 翻/v 盘/q 的/u 办法/n 。/w
+CHARACTERS = 阿德尔曼;雷霆;斯科拉;姚明;
+RELWORD = 主教练;
+RELCOMB = 阿德尔曼,斯科拉->主教练;斯科拉,姚明->主教练;
+-----------
+SENTENCE = 姚明也不知道主教练的意图究竟是什么，他说：“教练有教练的方法和尺度，如果教练点名要我上场
+POS_TAG = 姚明/nr 也/d 不/d 知道/v 主教练/n 的/u 意图/n 究竟/d 是/v 什么/r ，/w 他/r 说/v ：/w “/w 教练/n 有/v 教练/n 的/u 方法/n 和/c 尺度/n ，/w 如果/c 教练/n 点名/v 要/v 我/r 上场/v
+CHARACTERS = 姚明;
+RELWORD = 教练;主教练;
+RELCOMB = 
+-----------
+SENTENCE = “透支”姚明的真正原因也许是阿德尔曼不敢冒险，他在中锋这个位置上选择很少，要么让海耶斯或斯科拉客串，要么干脆不设中锋，但年轻的雷霆冲劲十足，全场砍下26分的杜兰特勇不可挡，姚明离场就意味着火箭篮下有大把的空间让对手突破。
+POS_TAG = “/w 透支/vd ”/w 姚明/nr 的/u 真正/b 原因/n 也许/d 是/v 阿德尔曼/nr 不敢/v 冒险/v ，/w 他/r 在/p 中锋/n 这个/r 位置/n 上/f 选择/v 很/d 少/a ，/w 要么/c 让/v 海耶斯/nr 或/c 斯科拉/nr 客串/v ，/w 要么/c 干脆/d 不/d 设/v 中锋/n ，/w 但/c 年轻/a 的/u 雷霆/nr 冲劲/n 十足/b ，/w 全场/n 砍下/v 26分/t 的/u 杜兰特/nr 勇不可挡/a ，/w 姚明/nr 离场/v 就/d 意味着/v 火箭/n 篮下/s 有/v 大/a 把/q 的/u 空间/n 让/v 对手/n 突破/vn 。/w
+CHARACTERS = 阿德尔曼;杜兰特;海耶斯;雷霆;斯科拉;姚明;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 两场比赛，火箭面对实力远逊于自己的对手，都是在第四节才确定足够的领先优势，最终赢得别别扭扭。
+POS_TAG = 两/m 场/q 比赛/vn ，/w 火箭/n 面对/v 实力/n 远/ad 逊/vg 于/p 自己/r 的/u 对手/n ，/w 都/d 是/v 在/p 第四/m 节/q 才/d 确定/v 足够/v 的/u 领先/vn 优势/n ，/w 最终/d 赢/v 得/u 别别扭扭/z 。/w
+CHARACTERS = 
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 老将巴里也十分焦急，他说：“我们的防守还可以，但在进攻上，我们仅仅是依靠球员的天分去赢得比赛，这在对付联盟中的弱队时可能有效，但遇到强队，如果整体没有执行力，你就会被对手干掉。
+POS_TAG = 老将/n 巴里/nr 也/d 十分/d 焦急/a ，/w 他/r 说/v ：/w “/w 我们/r 的/u 防守/vn 还/d 可以/v ，/w 但/c 在/p 进攻/v 上/m ，/w 我们/r 仅仅/d 是/v 依靠/v 球员/n 的/u 天分/n 去/v 赢/v 得/e 比赛/n ，/w 这/r 在/p 对付/v 联盟/n 中/f 的/u 弱/a 队/n 时/ng 可能/v 有/v 效/ng ，/w 但/c 遇到/v 强/a 队/n ，/w 如果/c 整体/n 没有/d 执行/v 力/vg ，/w 你/r 就/d 会/v 被/p 对手/n 干掉/v 。/w
+CHARACTERS = 巴里;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 没有了姚明，火箭的连胜脚步依然在继续，对于好刨根问底的美国人来说，一定要为这种“奇怪现象”找个理由，于是阿德尔曼的运筹帷幄被推上了前台，成为很多专家眼里本年度最佳教练的热门人眩
+POS_TAG = 没有/v 了/u 姚明/nr ，/w 火箭/n 的/u 连/u 胜/v 脚步/n 依然/d 在/p 继续/v ，/w 对于/p 好/a 刨根问底/i 的/b 美国/n 人/n 来说/c ，/w 一定/d 要/v 为/p 这种/r “/w 奇怪/a 现象/n ”/w 找/v 个/q 理由/n ，/w 于是/c 阿德尔曼/nr 的/u 运筹帷幄/i 被/p 推/v 上/m 了/u 前/f 台/q ，/w 成为/v 很/d 多/a 专家/n 眼里/s 本/n 年度/n 最佳/z 教练/n 的/u 热门/a 人/n 眩/vg
+CHARACTERS = 阿德尔曼;姚明;
+RELWORD = 教练;
+RELCOMB = 
+-----------
+SENTENCE = 风口浪尖上的阿德尔曼自然对这桩八字还没一撇的荣誉一笑置之，然而如果我们查看历年来的最佳教练，就不得不对阿德尔曼说一声：您别低调过了头，这个奖项您真的是大有希望。
+POS_TAG = 风口浪尖/l 上/f 的/u 阿德尔曼/nr 自然/a 对/a 这/r 桩/n 八字/n 还/c 没/d 一/m 撇/n 的/b 荣誉/n 一笑置之/i ，/w 然而/c 如果/c 我们/r 查看/v 历年来/l 的/u 最佳/z 教练/n ，/w 就/d 不/d 得/u 不/d 对/p 阿德尔曼/nr 说/v 一/m 声/q ：/w 您/r 别/d 低调/n 过/v 了/u 头/n ，/w 这个/r 奖项/n 您/r 真的/d 是/v 大/a 有/v 希望/v 。/w
+CHARACTERS = 阿德尔曼;
+RELWORD = 教练;
+RELCOMB = 
+-----------
+SENTENCE = 在开始长篇大论的分析之前，我们先弄清楚这个最佳教练奖项是如何评选出来的，它是由联盟邀请美国及加拿大124位著名体育记者或者主持人共同选出，每名选举人按照第一名到第五名的顺序填写5位教练，名列第一的教练得5分，第二名得4分，依此类推，最终总分最高的教练获得联盟颁发的“年度最佳教练”奖杯。
+POS_TAG = 在/p 开始/v 长篇大论/i 的/u 分析/vn 之前/f ，/w 我们/r 先/d 弄/v 清楚/v 这/r 个/q 最佳/z 教练/n 奖项/n 是/v 如何/r 评选/v 出来/v 的/u ，/w 它/r 是/v 由/p 联盟/n 邀请/v 美国/ns 及/c 加拿大/ns 124/m 位/q 著名/a 体育/n 记者/n 或者/c 主持人/n 共同/d 选/v 出/v ，/w 每/r 名/q 选举/v 人/n 按照/p 第一/m 名/q 到/v 第五/m 名/q 的/u 顺序/n 填写/v 5/m 位/q 教练/n ，/w 名列/v 第一/m 的/u 教练/n 得/v 5分/t ，/w 第二/m 名/q 得/v 4分/t ，/w 依此类推/l ，/w 最终/b 总分/n 最高/a 的/u 教练/n 获得/v 联盟/n 颁发/v 的/u “/w 年度/n 最佳/z 教练/n ”/w 奖杯/n 。/w
+CHARACTERS = 
+RELWORD = 教练;
+RELCOMB = 
+-----------
+SENTENCE = 以2005-06赛季为例，小牛队主教练约翰逊获得了63张首选票，29张第二名和17张第三名，以419分的总得分击败德安东尼和里弗斯成功登顶。
+POS_TAG = 以/p 2005-06/m 赛季/n 为/p 例/n ，/w 小牛/n 队/n 主教练/n 约翰逊/nr 获得/v 了/u 63/m 张/q 首选票/n ，/w 29/m 张/q 第二名/n 和/c 17/m 张/q 第三名/n ，/w 以/p 419分/t 的/u 总/b 得分/n 击败/v 德安东尼/nr 和/c 里弗斯/nr 成功/ad 登顶/v 。/w
+CHARACTERS = 德安东尼;里弗斯;约翰逊;
+RELWORD = 主教练;
+RELCOMB = 
+-----------
+SENTENCE = 既然最佳教练的决定权在媒体而不是篮球专家手中，那么就肯定会打上重重的媒体特色：感性大于理性、偏爱新鲜事物、对爆发性的事件印象深刻。
+POS_TAG = 既然/c 最佳/z 教练/n 的/u 决定权/n 在/p 媒体/n 而/c 不/d 是/v 篮球/n 专家/n 手中/s ，/w 那么/r 就/d 肯定/v 会/v 打/v 上/m 重重/z 的/u 媒体/n 特色/n ：/w 感性/n 大于/v 理性/n 、/w 偏爱/v 新鲜/a 事物/n 、/w 对/p 爆发/v 性/k 的/u 事件/n 印象/n 深刻/a 。/w
+CHARACTERS = 
+RELWORD = 教练;
+RELCOMB = 
+-----------
+SENTENCE = 纵观2000年以来历年的最佳教练，除了2002-03赛季的马刺队主教练波波维奇之外，没有在同一支球队执教多年、战绩一直顺风顺水的教练的身影，往往是那些刚刚走马上任、球队战绩突飞猛进的主帅更能吸引北美记者的眼球，比如2004-05赛季的德安东尼、2003-04赛季的胡比·布朗，以及2001-02赛季的卡莱尔。
+POS_TAG = 纵观/v 2000年/t 以来/f 历年/n 的/u 最佳/z 教练/n ，/w 除/v 了/u 2002-03/m 赛季/n 的/u 马/n 刺/o 队/n 主教练/n 波波维奇/nr 之外/f ，/w 没有/d 在/p 同一/b 支/q 球队/n 执教/v 多/m 年/q 、/w 战绩/n 一直/d 顺风/v 顺/a 水/n 的/u 教练/n 的/u 身影/n ，/w 往往/d 是/v 那些/r 刚刚/d 走马上任/i 、/w 球队/n 战绩/n 突飞猛进/i 的/u 主帅/n 更/d 能/v 吸引/v 北美/ns 记者/n 的/u 眼球/n ，/w 比如/v 2004-05/m 赛季/n 的/u 德安东尼/nr 、/w 2003-04/m 赛季/n 的/u 胡比·布朗/nr ，/w 以及/c 2001-02/m 赛季/n 的/u 卡莱尔/nr 。/w
+CHARACTERS = 波波维奇;德安东尼;胡比·布朗;卡莱尔;
+RELWORD = 教练;主教练;主帅;
+RELCOMB = 
+-----------
+SENTENCE = 如果考量球队战绩，凯尔特人队主帅里弗斯和湖人队主帅“禅师”杰克逊当仁不让，如果以“黑马”的“黑度”为最佳教练的标准，黄蜂队的斯科特和开拓者队的麦克米兰当为其中的佼佼者；如果把选择范围缩小到刚上任的新帅身上，魔术队的斯坦·范甘迪可以称得上称职的新官。
+POS_TAG = 如果/c 考量/v 球队/n 战绩/n ，/w 凯尔特人队/n 主帅/n 里弗斯/nr 和/c 湖人队/n 主帅/n “/w 禅师/n ”/w 杰克逊/nr 当仁不让/i ，/w 如果/c 以/p “/w 黑马/n ”/w 的/u “/w 黑度/n ”/w 为/v 最佳/z 教练/n 的/u 标准/n ，/w 黄蜂队/n 的/u 斯科特/nr 和/c 开拓者队/n 的/u 麦克米兰/nr 当/d 为/v 其中/r 的/u 佼佼者/n ；/w 如果/c 把/p 选择/n 范围/n 缩小/v 到/v 刚/d 上任/v 的/u 新帅/n 身上/s ，/w 魔术队/n 的/u 斯坦·范甘迪/nr 可以/v 称得上/v 称职/a 的/u 新/a 官/n 。/w
+CHARACTERS = 杰克逊;里弗斯;麦克米兰;斯科特;斯坦·范甘迪;
+RELWORD = 教练;主帅;
+RELCOMB = 
+-----------
+SENTENCE = 火箭队上一次获得最佳教练的前辈唐·切尼的经历可以用来增强阿德尔曼的信心，1990-91赛季，联盟最炙手可热的球队是61胜21负的芝加哥公牛队和63胜19负的波特兰开拓者队，火箭队52胜30负的成绩在西部只排名可怜的第六位，然而最终记者们没有选择公牛队的杰克逊或者开拓者队的阿德尔曼，而把最佳教练的荣誉给予了切尼，最大的原因就是那个赛季，火箭队有足足两个月的时间失去了他们的核心奥拉朱旺，而他们却比奥拉朱旺全勤的上一个赛季多赢了11场球。
+POS_TAG = 火箭队/n 上/f 一/m 次/q 获得/v 最佳/z 教练/n 的/u 前辈/n 唐·切尼/nr 的/u 经历/n 可以/v 用来/v 增强/v 阿德尔曼/nr 的/u 信心/n ，/w 1990-91/m 赛季/n ，/w 联盟/n 最/d 炙手可热/i 的/u 球队/n 是/v 61/m 胜/n 21/m 负/n 的/u 芝加哥公牛队/n 和/c 63/m 胜/n 19/m 负/n 的/u 波特兰开拓者队/n ，/w 火箭队/n 52/m 胜/n 30/m 负/n 的/u 成绩/n 在/p 西部/f 只/d 排名/v 可怜/a 的/u 第六/m 位/q ，/w 然而/c 最终/b 记者/n 们/k 没有/d 选择/v 公牛队/n 的/u 杰克逊/nr 或者/c 开拓者队/n 的/u 阿德尔曼/nr ，/w 而/c 把/p 最佳/z 教练/n 的/u 荣誉/n 给予/v 了/u 切尼/nr ，/w 最/d 大/a 的/u 原因/n 就/d 是/v 那个/r 赛季/n ，/w 火箭队/n 有/v 足足/d 两/m 个/q 月/n 的/u 时间/n 失去/v 了/u 他们/r 的/u 核心/n 奥拉朱旺/nr ，/w 而/c 他们/r 却/d 比/p 奥拉朱旺/nr 全勤/n 的/u 上/f 一个/m 赛季/n 多/a 赢/v 了/u 11/m 场/k 球/n 。/w
+CHARACTERS = 阿德尔曼;奥拉朱旺;杰克逊;切尼;唐·切尼;
+RELWORD = 教练;
+RELCOMB = 奥拉朱旺,切尼->教练;奥拉朱旺,唐·切尼->教练;
+-----------
+SENTENCE = 上个赛季，范甘迪曾经因为率队在失去姚明时的杰出表现成为最佳教练的热门人选
+POS_TAG = 上/f 个/q 赛季/n ，/w 范甘迪/nr 曾经/d 因为/p 率队/v 在/p 失去/v 姚明/nr 时/ng 的/u 杰出/a 表现/vn 成为/v 最佳/z 教练/n 的/u 热门/a 人选/n
+CHARACTERS = 范甘迪;姚明;
+RELWORD = 教练;
+RELCOMB = 范甘迪,姚明->教练;
+-----------
+SENTENCE = 没有了姚明，火箭的连胜脚步依然在继续，对于好刨根问底的美国人来说，一定要为这种“奇怪现象”找个理由，于是阿德尔曼的运筹帷幄被推上了前台，成为很多专家眼里本年度最佳教练的热门人眩
+POS_TAG = 没有/v 了/u 姚明/nr ，/w 火箭/n 的/u 连胜/n 脚步/n 依然/d 在/p 继续/v ，/w 对于/p 好/a 刨根问底/i 的/u 美国/n 人/n 来说/v ，/w 一定/d 要/v 为/p 这种/r “/w 奇怪/a 现象/n ”/w 找/v 个/q 理由/n ，/w 于是/c 阿德尔曼/nr 的/u 运筹帷幄/i 被/p 推上/v 了/u 前台/s ，/w 成为/v 很/d 多/a 专家/n 眼里/s 本/r 年度/n 最佳/z 教练/n 的/u 热门/a 人眩/n
+CHARACTERS = 阿德尔曼;姚明;
+RELWORD = 教练;
+RELCOMB = 阿德尔曼,姚明->教练;
+-----------
+SENTENCE = 风口浪尖上的阿德尔曼自然对这桩八字还没一撇的荣誉一笑置之，然而如果我们查看历年来的最佳教练，就不得不对阿德尔曼说一声：您别低调过了头，这个奖项您真的是大有希望。
+POS_TAG = 风口浪尖/l 上/m 的/b 阿德尔曼/nr 自然/a 对/a 这/r 桩/n 八字/n 还/c 没/d 一/m 撇/n 的/b 荣誉/n 一笑置之/i ，/w 然而/c 如果/c 我们/r 查看/v 历年来/l 的/u 最佳/z 教练/n ，/w 就/d 不/d 得/u 不/d 对/p 阿德尔曼/nr 说/v 一/m 声/q ：/w 您/r 别/d 低调/n 过/v 了/u 头/n ，/w 这个/r 奖项/n 您/r 真的/d 是/v 大/a 有/v 希望/v 。/w
+CHARACTERS = 阿德尔曼;
+RELWORD = 教练;
+RELCOMB = 
+-----------
+SENTENCE = 在开始长篇大论的分析之前，我们先弄清楚这个最佳教练奖项是如何评选出来的，它是由联盟邀请美国及加拿大124位著名体育记者或者主持人共同选出，每名选举人按照第一名到第五名的顺序填写5位教练，名列第一的教练得5分，第二名得4分，依此类推，最终总分最高的教练获得联盟颁发的“年度最佳教练”奖杯。
+POS_TAG = 在/p 开始/v 长篇大论/i 的/u 分析/vn 之前/f ，/w 我们/r 先/d 弄/v 清楚/v 这/r 个/q 最佳/z 教练/n 奖项/n 是/v 如何/r 评选/v 出来/v 的/u ，/w 它/r 是/v 由/p 联盟/n 邀请/v 美国/ns 及/c 加拿大/ns 124/m 位/q 著名/a 体育/n 记者/n 或者/c 主持人/n 共同/d 选/v 出/v ，/w 每/r 名/q 选举/v 人/n 按照/p 第一/m 名/q 到/v 第五/m 名/q 的/u 顺序/n 填写/v 5/m 位/q 教练/n ，/w 名列/v 第一/m 的/u 教练/n 得/v 5分/t ，/w 第二/m 名/q 得/v 4分/t ，/w 依此类推/l ，/w 最终/b 总分/n 最高/a 的/u 教练/n 获得/v 联盟/n 颁发/v 的/u “/w 年度/n 最佳/z 教练/n ”/w 奖杯/n 。/w
+CHARACTERS = 
+RELWORD = 教练;
+RELCOMB = 
+-----------
+SENTENCE = 以2005-06赛季为例，小牛队主教练约翰逊获得了63张首选票，29张第二名和17张第三名，以419分的总得分击败德安东尼和里弗斯成功登顶。
+POS_TAG = 以/p 2005-06/m 赛季/n 为/p 例/n ，/w 小牛/n 队/n 主教练/n 约翰逊/nr 获得/v 了/u 63/m 张/q 首选票/n ，/w 29/m 张/q 第二/m 名/q 和/c 17/m 张/q 第三/m 名/q ，/w 以/p 419分/t 的/u 总/b 得分/n 击败/v 德安东尼/nr 和/c 里弗斯/nr 成功/ad 登顶/v 。/w
+CHARACTERS = 德安东尼;里弗斯;约翰逊;
+RELWORD = 主教练;
+RELCOMB = 
+-----------
+SENTENCE = 既然最佳教练的决定权在媒体而不是篮球专家手中，那么就肯定会打上重重的媒体特色：感性大于理性、偏爱新鲜事物、对爆发性的事件印象深刻。
+POS_TAG = 既然/c 最佳/z 教练/n 的/u 决定权/n 在/p 媒体/n 而/c 不/d 是/v 篮球/n 专家/n 手中/s ，/w 那么/r 就/d 肯定/v 会/v 打/v 上/m 重重/z 的/u 媒体/n 特色/n ：/w 感性/n 大于/v 理性/n 、/w 偏爱/v 新鲜/a 事物/n 、/w 对/p 爆发/v 性/k 的/u 事件/n 印象/n 深刻/a 。/w
+CHARACTERS = 
+RELWORD = 教练;
+RELCOMB = 
+-----------
+SENTENCE = 纵观2000年以来历年的最佳教练，除了2002-03赛季的马刺队主教练波波维奇之外，没有在同一支球队执教多年、战绩一直顺风顺水的教练的身影，往往是那些刚刚走马上任、球队战绩突飞猛进的主帅更能吸引北美记者的眼球，比如2004-05赛季的德安东尼、2003-04赛季的胡比·布朗，以及2001-02赛季的卡莱尔。
+POS_TAG = 纵观/v 2000年/t 以来/f 历年/n 的/u 最佳/z 教练/n ，/w 除了/v 2002-03/m 赛季/n 的/u 马刺队/n 主教练/n 波波维奇/nr 之外/f ，/w 没有/d 在/p 同一支/q 球队/n 执教/v 多/m 年/q 、/w 战绩/n 一直/d 顺风顺水/a 的/u 教练/n 的/u 身影/n ，/w 往往/d 是/v 那些/r 刚刚/d 走马上任/i 、/w 球队/n 战绩/n 突飞猛进/i 的/u 主帅/n 更/d 能/v 吸引/v 北美/ns 记者/n 的/u 眼球/n ，/w 比如/v 2004-05/m 赛季/n 的/u 德安东尼/nr 、/w 2003-04/m 赛季/n 的/u 胡比·布朗/nr ，/w 以及/c 2001-02/m 赛季/n 的/u 卡莱尔/nr 。/w
+CHARACTERS = 波波维奇;德安东尼;胡比·布朗;卡莱尔;
+RELWORD = 教练;主教练;主帅;
+RELCOMB = 
+-----------
+SENTENCE = 如果考量球队战绩，凯尔特人队主帅里弗斯和湖人队主帅“禅师”杰克逊当仁不让，如果以“黑马”的“黑度”为最佳教练的标准，黄蜂队的斯科特和开拓者队的麦克米兰当为其中的佼佼者；如果把选择范围缩小到刚上任的新帅身上，魔术队的斯坦·范甘迪可以称得上称职的新官。
+POS_TAG = 如果/c 考量/v 球队/n 战绩/n ，/w 凯尔特人队/n 主帅/n 里弗斯/nr 和/c 湖人队/n 主帅/n “/w 禅师/n ”/w 杰克逊/nr 当仁不让/i ，/w 如果/c 以/p “/w 黑马/n ”/w 的/u “/w 黑度/n ”/w 为/v 最佳/z 教练/n 的/u 标准/n ，/w 黄蜂队/n 的/u 斯科特/nr 和/c 开拓者队/n 的/u 麦克米兰/nr 当/d 为/v 其中/r 的/u 佼佼者/n ；/w 如果/c 把/p 选择/n 范围/n 缩小/v 到/v 刚/d 上任/v 的/u 新帅/n 身上/s ，/w 魔术队/n 的/u 斯坦·范甘迪/nr 可以/v 称得上/v 称职/a 的/u 新官/n 。/w
+CHARACTERS = 杰克逊;里弗斯;麦克米兰;斯科特;斯坦·范甘迪;
+RELWORD = 教练;主帅;
+RELCOMB = 
+-----------
+SENTENCE = 火箭队上一次获得最佳教练的前辈唐·切尼的经历可以用来增强阿德尔曼的信心，1990-91赛季，联盟最炙手可热的球队是61胜21负的芝加哥公牛队和63胜19负的波特兰开拓者队，火箭队52胜30负的成绩在西部只排名可怜的第六位，然而最终记者们没有选择公牛队的杰克逊或者开拓者队的阿德尔曼，而把最佳教练的荣誉给予了切尼，最大的原因就是那个赛季，火箭队有足足两个月的时间失去了他们的核心奥拉朱旺，而他们却比奥拉朱旺全勤的上一个赛季多赢了11场球。
+POS_TAG = 火箭队/n 上一/m 次/q 获得/v 最佳/z 教练/n 的/u 前辈/n 唐·切尼/nr 的/u 经历/n 可以/v 用来/v 增强/v 阿德尔曼/nr 的/u 信心/n ，/w 1990-91/m 赛季/n ，/w 联盟/n 最/d 炙手可热/i 的/u 球队/n 是/v 61/m 胜/n 21/m 负/n 的/u 芝加哥公牛队/n 和/c 63/m 胜/n 19/m 负/n 的/u 波特兰开拓者队/n ，/w 火箭队/n 52/m 胜/n 30/m 负/n 的/u 成绩/n 在/p 西部/f 只/d 排名/v 可怜/a 的/u 第六/m 位/q ，/w 然而/c 最终/b 记者/n 们/k 没有/d 选择/v 公牛队/n 的/u 杰克逊/nr 或者/c 开拓者队/n 的/u 阿德尔曼/nr ，/w 而/c 把/p 最佳/z 教练/n 的/u 荣誉/n 给予/v 了/u 切尼/nr ，/w 最/d 大/a 的/u 原因/n 就/d 是/v 那个/r 赛季/n ，/w 火箭队/n 有/v 足足/d 两/m 个/q 月/n 的/u 时间/n 失去/v 了/u 他们/r 的/u 核心/n 奥拉朱旺/nr ，/w 而/c 他们/r 却/d 比/p 奥拉朱旺/nr 全勤/n 的/u 上/f 一个/m 赛季/n 多/a 赢/v 了/u 11/m 场/q 球/n 。/w
+CHARACTERS = 阿德尔曼;奥拉朱旺;杰克逊;切尼;唐·切尼;
+RELWORD = 教练;
+RELCOMB = 奥拉朱旺,切尼->教练;奥拉朱旺,唐·切尼->教练;
+-----------
+SENTENCE = 上个赛季，范甘迪曾经因为率队在失去姚明时的杰出表现成为最佳教练的热门人选
+POS_TAG = 上/f 个/q 赛季/n ，/w 范甘迪/nr 曾经/d 因为/p 率队/v 在/p 失去/v 姚明/nr 时/ng 的/u 杰出/a 表现/vn 成为/v 最佳/z 教练/n 的/u 热门/a 人选/n
+CHARACTERS = 范甘迪;姚明;
+RELWORD = 教练;
+RELCOMB = 范甘迪,姚明->教练;
+-----------
+SENTENCE = 北京时间5月24日，阿德尔曼正式走马上任，成为火箭的新主帅。
+POS_TAG = 北京/ns 时间/n 5月/t 24日/t ，/w 阿德尔曼/nr 正式/ad 走马上任/i ，/w 成为/v 火箭/n 的/u 新/a 主帅/n 。/w
+CHARACTERS = 阿德尔曼;
+RELWORD = 主帅;
+RELCOMB = 
+-----------
+SENTENCE = 阿德尔曼的执教经历：1983-1989年担任开拓者助理教练；1989-1993年担任开拓者主教练；1995-1997年担任勇士主教练；1998-2006年担任国王主教练；2003年执教西部全明星队；2007年-担任火箭主教练。
+POS_TAG = 阿德尔曼/nr 的/u 执教/vn 经历/n ：/w 1983-1989/m 年/q 担任/v 开拓者/n 助理教练/n ；/w 1989-1993/m 年/q 担任/v 开拓者/n 主教练/n ；/w 1995-1997/m 年/q 担任/v 勇士/n 主教练/n ；/w 1998-2006/m 年/q 担任/v 国王/n 主教练/n ；/w 2003年/t 执教/v 西部/f 全/a 明星/n 队/n ；/w 2007年/t -/m 担任/v 火箭/n 主教练/n 。/w
+CHARACTERS = 阿德尔曼;
+RELWORD = 主教练;助理教练;
+RELCOMB = 
+-----------
+SENTENCE = 在休养一个赛季之后他于1998年9月17日重新出山，他开始执教萨克拉门托国王队，他也是国王队历史上的第19任主帅。
+POS_TAG = 在/p 休养/v 一个/m 赛季/n 之后/f 他/r 于/p 1998年/t 9月/t 17日/t 重新/d 出山/v ，/w 他/r 开始/v 执教/v 萨克拉门托国王队/n ，/w 他/r 也/d 是/v 国王/n 队/n 历史/n 上/m 的/u 第/m 19/m 任/q 主帅/n 。/w
+CHARACTERS = 
+RELWORD = 主帅;
+RELCOMB = 
+-----------
+SENTENCE = 阿德尔曼仅用了468场比赛就让取胜场次达到300胜，他在NBA教练中排名第七位，只有帕特-雷利、菲尔-杰克逊、卡宁哈姆、琼斯、卡斯特罗和昆德拉排在他的前面。
+POS_TAG = 阿德尔曼/nr 仅/d 用/v 了/u 468/m 场/q 比赛/vn 就/d 让/v 取胜/n 场次/n 达到/v 300/m 胜/n ，/w 他/r 在/p NBA/nx 教练/n 中/f 排名/v 第七/m 位/q ，/w 只/d 有/v 帕特-雷利/nr 、/w 菲尔-杰克逊/nr 、/w 卡宁哈姆/nr 、/w 琼斯/nr 、/w 卡斯特罗/nr 和/c 昆德拉/nr 排/v 在/p 他/r 的/u 前面/f 。/w
+CHARACTERS = 阿德尔曼;菲尔-杰克逊;卡宁哈姆;卡斯特罗;昆德拉;帕特-雷利;琼斯;
+RELWORD = 教练;
+RELCOMB = 
+-----------
+SENTENCE = 在1968年阿德尔曼以后卫身份加盟NBA，他曾在开拓者队效力14个赛季，其中包括三年出任球员，五年担任教练，六年作为球队的主帅。
+POS_TAG = 在/p 1968年/t 阿德尔曼/nr 以/p 后卫/n 身份/n 加盟/v NBA/nx ，/w 他/r 曾/d 在/p 开拓者队/n 效力/v 14/m 个/q 赛季/n ，/w 其中/r 包括/v 三/m 年/q 出任/v 球员/n ，/w 五/m 年/q 担任/v 教练/n ，/w 六/m 年/q 作为/v 球队/n 的/u 主帅/n 。/w
+CHARACTERS = 阿德尔曼;
+RELWORD = 教练;主帅;
+RELCOMB = 
+-----------
+SENTENCE = 2007年5月23日，他接过范甘迪的教鞭成为火箭队主教练。
+POS_TAG = 2007年/t 5月/t 23日/t ，/w 他/r 接/v 过/u 范甘迪/nr 的/u 教鞭/n 成为/v 火箭/n 队/n 主教练/n 。/w
+CHARACTERS = 范甘迪;
+RELWORD = 主教练;
+RELCOMB = 
+-----------
+SENTENCE = 根据国内媒体驻美记者报道，前国王主帅阿德尔曼将成为姚明的下一任主教练。
+POS_TAG = 根据/p 国内/s 媒体/n 驻/v 美/j 记者/n 报道/v ，/w 前/h 国王/n 主帅/n 阿德尔曼/nr 将/d 成为/v 姚明/nr 的/u 下/f 一/m 任/q 主教练/n 。/w
+CHARACTERS = 阿德尔曼;姚明;
+RELWORD = 主教练;主帅;
+RELCOMB = 阿德尔曼,姚明->主教练;
+-----------
+SENTENCE = 谁将成为火箭的新一任主帅成为最大的悬念。
+POS_TAG = 谁/r 将/d 成为/v 火箭/n 的/u 新/a 一/m 任/q 主帅/n 成为/v 最/d 大/a 的/u 悬念/n 。/w
+CHARACTERS = 
+RELWORD = 主帅;
+RELCOMB = 
+-----------
+SENTENCE = 根据国内媒体驻美记者报道，前国王主帅阿德尔曼将成为姚明的下一任主教练。
+POS_TAG = 根据/p 国内/s 媒体/n 驻/v 美/j 记者/n 报道/v ，/w 前/h 国王/n 主帅/n 阿德尔曼/nr 将/d 成为/v 姚明/nr 的/u 下/f 一/m 任/q 主教练/n 。/w
+CHARACTERS = 阿德尔曼;姚明;
+RELWORD = 主教练;主帅;
+RELCOMB = 阿德尔曼,姚明->主教练;
+-----------
+SENTENCE = 具称，奥拉朱旺将成为姚明下一任的教练。
+POS_TAG = 具/vg 称/v ，/w 奥拉朱旺/nr 将/d 成为/v 姚明/nr 下/v 一/m 任/q 的/u 教练/n 。/w
+CHARACTERS = 奥拉朱旺;姚明;
+RELWORD = 教练;
+RELCOMB = 奥拉朱旺,姚明->教练;
+-----------
+SENTENCE = 而姚明原来的私人教练尤因则可能回到尼克斯执教。
+POS_TAG = 而/c 姚明/nr 原来/b 的/u 私人/n 教练/n 尤因/nr 则/d 可能/v 回到/v 尼克斯/ns 执教/v 。/w
+CHARACTERS = 姚明;尤因;
+RELWORD = 教练;
+RELCOMB = 姚明,尤因->教练;
+-----------
+SENTENCE = 北京时间11月7日休斯顿消息，今天火箭回到了丰田中心，继昨天对阵德州兄弟小牛之后，迎战卫冕冠军马刺。
+POS_TAG = 北京/ns 时间/n 11月/t 7日/t 休斯顿/ns 消息/n ，/w 今天/t 火箭/n 回到/v 了/u 丰田/nz 中心/n ，/w 继/dg 昨天/t 对阵/v 德州/ns 兄弟/n 小牛/n 之后/f ，/w 迎战/v 卫冕/v 冠军/n 马/n 刺/o 。/w
+CHARACTERS = 
+RELWORD = 兄弟;
+RELCOMB = 
+-----------
+SENTENCE = 赛后主教练里克-阿德尔曼接受了记者的采访。
+POS_TAG = 赛后/t 主教练/n 里克-阿德尔曼/nr 接受/v 了/u 记者/n 的/u 采访/vn 。/w
+CHARACTERS = 里克-阿德尔曼;
+RELWORD = 主教练;
+RELCOMB = 
+-----------
+SENTENCE = 对于对手马刺，阿德尔曼还是心存敬意的。
+POS_TAG = 对于/p 对手/n 马/n 刺/o ，/w 阿德尔曼/nr 还/d 是/v 心/n 存/v 敬意/n 的/u 。/w
+CHARACTERS = 阿德尔曼;
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 另外在主教练范甘迪的体系中，防守经验也至关重要。
+POS_TAG = 另外/c 在/p 主教练/n 范甘迪/nr 的/u 体系/n 中/f ，/w 防守/vn 经验/n 也/d 至关重要/l 。/w
+CHARACTERS = 范甘迪;
+RELWORD = 主教练;
+RELCOMB = 
+-----------
+SENTENCE = 接手火箭时间并不长，主教练范甘迪每天都在大量观看火箭上赛季的比赛录像，希望能够从中找出火箭目前的缺陷，此外范甘迪还在不停联系球队助理教练，当地时间周四在选秀之后，范甘迪和远在中国的姚明通了电话，但是范甘迪并没有告诉姚明谁将成为球队的助理教练。
+POS_TAG = 接手/v 火箭/n 时间/n 并/d 不/d 长/a ，/w 主教练/n 范甘迪/nr 每天/t 都/d 在/p 大量/m 观看/v 火箭/n 上/f 赛季/n 的/u 比赛/vn 录像/n ，/w 希望/v 能够/v 从/p 中/f 找出/v 火箭/n 目前/t 的/u 缺陷/n ，/w 此外/c 范甘迪/nr 还/d 在/p 不停/d 联系/v 球队/n 助理教练/n ，/w 当地/s 时间/n 周四/t 在/p 选秀/n 之后/f ，/w 范甘迪/nr 和/c 远/a 在/p 中国/ns 的/u 姚明/nr 通/v 了/u 电话/n ，/w 但是/c 范甘迪/nr 并/c 没有/d 告诉/v 姚明/nr 谁/r 将/d 成为/v 球队/n 的/u 助理教练/n 。/w
+CHARACTERS = 范甘迪;姚明;
+RELWORD = 主教练;助理教练;
+RELCOMB = 范甘迪,姚明->主教练;
+-----------
+SENTENCE = 迎来的新的主教练，火箭原本希望在下赛季大干一场
+POS_TAG = 迎来/v 的/u 新/a 的/u 主教练/n ，/w 火箭/n 原本/d 希望/v 在/p 下/f 赛季/n 大干一场/i
+CHARACTERS = 
+RELWORD = 主教练;
+RELCOMB = 
+-----------
+SENTENCE = 前尼克斯队主教练范甘迪最终接受了休斯顿火箭队总经理道奇的邀请，欣然表示愿意出任火箭队主帅。
+POS_TAG = 前/f 尼克斯队/n 主教练/n 范甘迪/nr 最终/d 接受/v 了/u 休斯顿火箭队/n 总经理/n 道奇/nr 的/u 邀请/v ，/w 欣然/d 表示/v 愿意/v 出任/v 火箭队/n 主帅/n 。/w
+CHARACTERS = 道奇;范甘迪;
+RELWORD = 主教练;主帅;
+RELCOMB = 
+-----------
+SENTENCE = 姚明昨天向火箭队和范甘迪发去一份正式的声明，声明中称：“得知教练范甘迪加入火箭队我非常兴奋。
+POS_TAG = 姚明/nr 昨天/t 向/p 火箭队/n 和/c 范甘迪/nr 发去/v 一/m 份/q 正式/a 的/u 声明/n ，/w 声明/n 中/f 称/v ：/w “/w 得知/v 教练/n 范甘迪/nr 加入/v 火箭队/n 我/r 非常/d 兴奋/a 。/w
+CHARACTERS = 范甘迪;姚明;
+RELWORD = 教练;
+RELCOMB = 范甘迪,姚明->教练;
+-----------
+SENTENCE = 我为去年能得到名人堂教练鲁迪·汤姆贾诺维奇的指导感到非常幸运。
+POS_TAG = 我/r 为/p 去年/t 能/v 得到/v 名人/n 堂/ng 教练/n 鲁迪·汤姆贾诺维奇/nr 的/u 指导/vn 感到/v 非常/d 幸运/a 。/w
+CHARACTERS = 鲁迪·汤姆贾诺维奇;
+RELWORD = 教练;
+RELCOMB = 
+-----------
+SENTENCE = 而现在我为能得到另一位最佳教练的指导同样感到幸运。
+POS_TAG = 而/c 现在/t 我/r 为/v 能/v 得到/v 另/r 一/m 位/q 最佳/z 教练/n 的/u 指导/vn 同样/d 感到/v 幸运/an 。/w
+CHARACTERS = 
+RELWORD = 教练;
+RELCOMB = 
+-----------
+SENTENCE = 我知道范甘迪在执教尼克斯队时曾帮助尤因达到职业生涯的顶点，我想他同样能帮助我和我的队友发挥出自己的最佳水平，我相信范甘迪教练将带领火箭队达到一个新的台阶。
+POS_TAG = 我/r 知道/v 范甘迪/nr 在/p 执教/v 尼克斯队/n 时/ng 曾/d 帮助/v 尤因/nr 达到/v 职业/n 生涯/n 的/u 顶点/s ，/w 我/r 想/v 他/r 同样/d 能/v 帮助/v 我/r 和/c 我/r 的/u 队友/n 发挥/v 出/v 自己/r 的/u 最佳/z 水平/n ，/w 我/r 相信/v 范甘迪/nr 教练/n 将/d 带领/v 火箭队/n 达到/v 一个/m 新/a 的/u 台阶/n 。/w
+CHARACTERS = 范甘迪;尤因;
+RELWORD = 队友;教练;
+RELCOMB = 
+-----------
+SENTENCE = “姚之队”组长、姚明的经纪人章明基透露说：“其实前几天，火箭队就这个事情征求过姚明和我们的意见了，当时我们就提出，NBA中适合姚明的教练有三人可以考虑——范甘迪、布朗和前太阳队主帅史格勒斯，其中范甘迪是首眩范甘迪拥有很强的理论基础
+POS_TAG = “/w 姚之队/n ”/w 组长/n 、/w 姚明/nr 的/u 经纪人/n 章明基/nr 透露/v 说/v ：/w “/w 其实/d 前/f 几/m 天/q ，/w 火箭队/n 就/p 这个/r 事情/n 征求/v 过/u 姚明/nr 和/c 我们/r 的/u 意见/n 了/u ，/w 当时/t 我们/r 就/d 提出/v ，/w NBA/nx 中/f 适合/v 姚明/nr 的/u 教练/n 有/v 三/m 人/n 可以/v 考虑/v ——/w 范甘迪/nr 、/w 布朗/nr 和/c 前/h 太阳队/n 主帅/n 史格勒斯/nr ，/w 其中/r 范甘迪/nr 是/v 首眩/n 范甘迪/nr 拥有/v 很/d 强/a 的/u 理论/n 基础/n
+CHARACTERS = 布朗;范甘迪;史格勒斯;姚明;章明基;
+RELWORD = 教练;经纪人;主帅;
+RELCOMB = 姚明,章明基->经纪人;
+-----------
+SENTENCE = 训练结束后在回答记者有关火箭主帅范甘迪被迫下岗的问题时，跟随了范甘迪４个赛季的姚明说：“在我生涯中他给了我最好的3年，我很感激他为我所做的一切。
+POS_TAG = 训练/v 结束/v 后/f 在/p 回答/v 记者/n 有关/vn 火箭/n 主帅/n 范甘迪/nr 被迫/d 下岗/v 的/u 问题/n 时/ng ，/w 跟随/v 了/u 范甘迪/nr ４/m 个/q 赛季/n 的/u 姚明/nr 说/v ：/w “/w 在/p 我/r 生涯/n 中/f 他/r 给/v 了/u 我/r 最/d 好/a 的/u 3/m 年/q ，/w 我/r 很/d 感激/v 他/r 为/p 我/r 所/u 做/v 的/u 一切/r 。/w
+CHARACTERS = 范甘迪;姚明;
+RELWORD = 主帅;
+RELCOMB = 范甘迪,姚明->主帅;
+-----------
+SENTENCE = 姚明今天感到格外的轻松，一方面他在今天早上接到了医生的好消息，他的脚伤并不像想象的那样严重。
+POS_TAG = 姚明/nr 今天/t 感到/v 格外/d 的/u 轻松/a ，/w 一方面/c 他/r 在/p 今天/t 早上/t 接到/v 了/u 医生/n 的/u 好/a 消息/n ，/w 他/r 的/u 脚伤/n 并/c 不/d 像/v 想象/n 的/u 那样/r 严重/a 。/w
+CHARACTERS = 姚明;
+RELWORD = 医生;
+RELCOMB = 
+-----------
+SENTENCE = 但是这场比赛有一个他很想见到人，前任火箭队主帅范甘迪。
+POS_TAG = 但是/c 这/r 场/q 比赛/vn 有/v 一个/m 他/r 很/d 想/v 见到/v 人/n ，/w 前任/b 火箭/n 队/n 主帅/n 范甘迪/nr 。/w
+CHARACTERS = 范甘迪;
+RELWORD = 主帅;
+RELCOMB = 
+-----------
+SENTENCE = 在采访中，姚明充分发挥了自己的幽默，他替医生的误诊解释为自己都会一场有3个失误，为什么不允许医生有走眼的时候呢。
+POS_TAG = 在/p 采访/v 中/f ，/w 姚明/nr 充分/ad 发挥/v 了/u 自己/r 的/u 幽默/an ，/w 他/r 替/p 医生/n 的/u 误诊/v 解释/vd 为/v 自己/r 都/d 会/v 一/m 场/q 有/v 3/m 个/q 失误/vn ，/w 为什么/r 不/d 允许/v 医生/n 有/v 走/v 眼/n 的/u 时候/n 呢/y 。/w
+CHARACTERS = 姚明;
+RELWORD = 医生;
+RELCOMB = 
+-----------
+SENTENCE = 在昨天火箭队的新闻发布会上，姚明和主帅范甘迪就表示了对对方的欣赏。
+POS_TAG = 在/p 昨天/t 火箭队/n 的/u 新闻/n 发布会/n 上/f ，/w 姚明/nr 和/c 主帅/n 范甘迪/nr 就/d 表示/v 了/u 对/p 对方/n 的/u 欣赏/vn 。/w
+CHARACTERS = 范甘迪;姚明;
+RELWORD = 主帅;
+RELCOMB = 范甘迪,姚明->主帅;
+-----------
+SENTENCE = 面对姚明表露的“誓死效忠”的心迹，火箭队主教练范甘迪自然心里很是受用，因此他在新闻发布会上也不吝对姚明的谦虚大加赞赏。
+POS_TAG = 面对/v 姚明/nr 表露/v 的/u “/w 誓死/d 效忠/v ”/w 的/u 心迹/n ，/w 火箭队/n 主教练/n 范甘迪/nr 自然/d 心里/s 很/d 是/v 受用/v ，/w 因此/c 他/r 在/p 新闻/n 发布会/n 上/f 也/d 不吝/v 对/p 姚明/nr 的/u 谦虚/an 大加/d 赞赏/v 。/w
+CHARACTERS = 范甘迪;姚明;
+RELWORD = 主教练;
+RELCOMB = 
+-----------
+SENTENCE = 如果硬要说火箭队是哪一个人的球队的话，那应该是坐在我右边的第二个人（火箭队主教练范甘迪）。
+POS_TAG = 如果/c 硬/d 要/v 说/v 火箭队/n 是/v 哪/r 一个/m 人/n 的/u 球队/n 的/u 话/n ，/w 那/r 应该/v 是/v 坐/v 在/p 我/r 右边/f 的/u 第二/m 个/q 人/n （/w 火箭/n 队/n 主教练/n 范甘迪/nr ）/w 。/w
+CHARACTERS = 范甘迪;
+RELWORD = 主教练;
+RELCOMB = 
+-----------
+SENTENCE = 火箭遭到了五连败，球队遭遇到两年来最困难的时刻，而且更重要的是球队似乎失去了他们过去五年致胜的武器--防守，为此姚明对球队表达了不满，而且矛头直指新主帅阿德尔曼。
+POS_TAG = 火箭/n 遭到/v 了/u 五连败/n ，/w 球队/n 遭遇/v 到/v 两/m 年/q 来/f 最/d 困难/a 的/u 时刻/n ，/w 而且/c 更/d 重要/a 的/u 是/v 球队/n 似乎/d 失去/v 了/u 他们/r 过去/v 五/m 年/q 致胜/v 的/u 武器/n --/m 防守/vn ，/w 为/p 此/r 姚明/nr 对/p 球队/n 表达/v 了/u 不满/a ，/w 而且/c 矛头/n 直指/v 新/a 主帅/n 阿德尔曼/nr 。/w
+CHARACTERS = 阿德尔曼;姚明;
+RELWORD = 主帅;
+RELCOMB = 阿德尔曼,姚明->主帅;
+-----------
+SENTENCE = 在过去的四个赛季，火箭在限制对手命中率方面的排名从来没有低于过第二，上个赛季他们防守效率全联盟最高。
+POS_TAG = 在/p 过去/t 的/u 四/m 个/q 赛季/n ，/w 火箭/n 在/p 限制/v 对手/n 命中率/n 方面/c 的/u 排名/v 从来/d 没有/d 低于/v 过/d 第二/m ，/w 上/m 个/q 赛季/n 他们/r 防守/vn 效率/n 全/a 联盟/n 最高/a 。/w
+CHARACTERS = 
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 但这个赛季，火箭在限制对手命中率方面已经跌倒联盟第18，限制对手三分球命中率上跌至第20。
+POS_TAG = 但/c 这个/r 赛季/n ，/w 火箭/n 在/p 限制/vn 对手/n 命中率/n 方面/c 已经/d 跌倒/v 联盟/j 第/m 18/m ，/w 限制/vn 对手/n 三分球/n 命中率/n 上/m 跌/v 至/d 第/m 20/m 。/w
+CHARACTERS = 
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 6%的三分球命中率，在第一节太阳甚至取得73%的命中率，这是火箭11年来让对手最轻松的一节，而在面对小牛的第四节，小牛拿下了60%的命中率，并砍下38分。
+POS_TAG = 6%/m 的/u 三分球/n 命中率/n ，/w 在/p 第一/m 节/q 太阳/n 甚至/d 取得/v 73%/m 的/u 命中率/n ，/w 这/r 是/v 火箭/n 11/m 年/q 来/f 让/v 对手/n 最/d 轻松/a 的/u 一/m 节/q ，/w 而/c 在/p 面对/v 小/a 牛/n 的/u 第四/m 节/q ，/w 小牛/n 拿下/v 了/u 60%/m 的/u 命中率/n ，/w 并/c 砍/v 下/v 38分/t 。/w
+CHARACTERS = 
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 在这5场连败里，火箭让对手取得49.
+POS_TAG = 在/p 这/r 5/m 场/q 连/u 败/v 里/f ，/w 火箭/n 让/v 对手/n 取得/v 49/m ./w
+CHARACTERS = 
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 说起目前的阿德尔曼执教的火箭，姚明说：“我们目前还处于磨合阶段，可能因为人员的关系，教练对他的体系做了些改变，现在要求把球攻到内线，我这儿来，打内外结合。
+POS_TAG = 说起/v 目前/t 的/u 阿德尔曼/nr 执教/v 的/u 火箭/n ，/w 姚明/nr 说/v ：/w “/w 我们/r 目前/t 还/d 处于/v 磨合/vn 阶段/n ，/w 可能/v 因为/p 人员/n 的/u 关系/n ，/w 教练/n 对/p 他/r 的/u 体系/n 做/v 了/u 些/q 改变/v ，/w 现在/t 要求/v 把/p 球/n 攻到/v 内线/s ，/w 我/r 这儿/r 来/v ，/w 打/v 内外/f 结合/v 。/w
+CHARACTERS = 阿德尔曼;姚明;
+RELWORD = 教练;
+RELCOMB = 阿德尔曼,姚明->教练;
+-----------
+SENTENCE = 当然，我们也不能总是打内线，对手采取相应的对策，所以在比赛中我们还会采取挡拆内外结合等多种打法，并且要将这些打法要结合起来。
+POS_TAG = 当然/d ，/w 我们/r 也/d 不能/v 总是/d 打/v 内/f 线/n ，/w 对手/n 采取/v 相应/v 的/u 对策/n ，/w 所以/c 在/p 比赛/vn 中/f 我们/r 还/d 会/v 采取/v 挡/v 拆/v 内外/f 结合/v 等/u 多种/m 打法/n ，/w 并且/c 要/v 将/p 这些/r 打法/n 要/v 结合/v 起来/v 。/w
+CHARACTERS = 
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 能够遇到一个欣赏自己的主教练不容易，能够遇到一个让自己成才的主教练更是难得，在范甘迪手下姚明从一名新秀成长为NBA最好的中锋，在阿德尔曼手下，姚明能够成为高举普林斯顿进攻大旗的人吗？
+POS_TAG = 能够/v 遇到/v 一/m 个/q 欣赏/v 自己/r 的/u 主教练/n 不/d 容易/a ，/w 能够/v 遇到/v 一/m 个/q 让/v 自己/r 成才/v 的/u 主教练/n 更/d 是/v 难得/a ，/w 在/p 范甘迪/nr 手下/n 姚明/nr 从/p 一/m 名/q 新秀/n 成长/v 为/v NBA/nx 最/d 好/a 的/u 中锋/n ，/w 在/p 阿德尔曼/nr 手/n 下/f ，/w 姚明/nr 能够/v 成为/v 高举/v 普林斯顿/ns 进攻/vn 大/a 旗/n 的/u 人/n 吗/y ？/w
+CHARACTERS = 阿德尔曼;范甘迪;姚明;
+RELWORD = 主教练;
+RELCOMB = 阿德尔曼,姚明->主教练;范甘迪,姚明->主教练;
+-----------
+SENTENCE = 但当有当地的朋友打通了姚明的电话，正要表达喜悦之情的时候，却听到姚明轻轻的叹了一口气。
+POS_TAG = 但/c 当/p 有/v 当地/s 的/u 朋友/n 打通/v 了/u 姚明/nr 的/u 电话/n ，/w 正要/d 表达/v 喜悦/a 之/a 情/n 的/b 时候/n ，/w 却/d 听到/v 姚明/nr 轻轻/z 的/u 叹/v 了/u 一口气/n 。/w
+CHARACTERS = 姚明;
+RELWORD = 朋友;
+RELCOMB = 
+-----------
+SENTENCE = 队会那一天，有人问姚明觉得前任主帅汤姆贾诺维奇怎么样。
+POS_TAG = 队会/n 那/r 一/m 天/q ，/w 有人/r 问/v 姚明/nr 觉得/v 前任/b 主帅/n 汤姆贾诺维奇/nr 怎么样/r 。/w
+CHARACTERS = 汤姆贾诺维奇;姚明;
+RELWORD = 主帅;
+RELCOMB = 
+-----------
+SENTENCE = 鲁迪对于我就像一位长辈，类似于父亲，范甘迪就像一位真正的教练。
+POS_TAG = 鲁迪/nr 对于/p 我/r 就/d 像/v 一/m 位/q 长辈/n ，/w 类似/v 于/p 父亲/n ，/w 范甘迪/nr 就/d 像/v 一/m 位/q 真正/b 的/u 教练/n 。/w
+CHARACTERS = 范甘迪;鲁迪;
+RELWORD = 父亲;教练;
+RELCOMB = 
+-----------
+SENTENCE = 他是一位非常狠的教练，他对我非常狠，但也让我看见了他对自己有多狠。
+POS_TAG = 他/r 是/v 一/m 位/q 非常/d 狠/a 的/u 教练/n ，/w 他/r 对/p 我/r 非常/d 狠/a ，/w 但/c 也/d 让/v 我/r 看见/v 了/u 他/r 对/p 自己/r 有/v 多/m 狠/a 。/w
+CHARACTERS = 
+RELWORD = 教练;
+RELCOMB = 
+-----------
+SENTENCE = 当你出现变化的时候，对手也会出现变化。
+POS_TAG = 当/p 你/r 出现/v 变化/vn 的/u 时候/n ，/w 对手/n 也/d 会/v 出现/v 变化/vn 。/w
+CHARACTERS = 
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 在这个联盟里，对手总是会关注你的每一点变化。
+POS_TAG = 在/p 这个/r 联盟/n 里/f ，/w 对手/n 总是/d 会/v 关注/v 你/r 的/u 每/r 一点/t 变化/vn 。/w
+CHARACTERS = 
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = “医生告诉我，如果我动手术，就会损失10%到15%的力量，而且这些力量将永远都不会再回来，”他说，“不动手术、了，并不是说就没有问题了。
+POS_TAG = “/w 医生/n 告诉/v 我/r ，/w 如果/c 我/r 动手术/v ，/w 就/d 会/v 损失/n 10%/m 到/v 15%/m 的/u 力量/n ，/w 而且/c 这些/r 力量/n 将/d 永远/d 都/d 不/d 会/v 再/d 回来/v ，/w ”/w 他/r 说/v ，/w “/w 不/d 动手术/v 、/w 了/y ，/w 并/c 不/d 是/v 说/v 就/d 没有/v 问题/n 了/y 。/w
+CHARACTERS = 
+RELWORD = 医生;
+RELCOMB = 
+-----------
+SENTENCE = 有一个人对于姚明现在的处境非常同情，并希望在最短的时间内帮助姚明摆脱困境，他就是火箭队的新任主帅范甘迪。
+POS_TAG = 有/v 一个/m 人/n 对于/p 姚明/nr 现在/t 的/u 处境/n 非常/d 同情/v ，/w 并/c 希望/v 在/p 最/d 短/a 的/u 时间/n 内/f 帮助/v 姚明/nr 摆脱/v 困境/n ，/w 他/r 就/d 是/v 火箭队/n 的/u 新任/b 主帅/n 范甘迪/nr 。/w
+CHARACTERS = 范甘迪;姚明;
+RELWORD = 主帅;
+RELCOMB = 
+-----------
+SENTENCE = 对于主教练的好意，姚明非常理解；而对于范甘迪本人，姚明也希望自己能够很快地喜欢上这位新教练。
+POS_TAG = 对于/p 主教练/n 的/u 好意/n ，/w 姚明/nr 非常/d 理解/v ；/w 而/c 对于/p 范甘迪/nr 本人/r ，/w 姚明/nr 也/d 希望/v 自己/r 能够/v 很/d 快/a 地/u 喜欢/v 上/v 这/r 位/q 新/a 教练/n 。/w
+CHARACTERS = 范甘迪;姚明;
+RELWORD = 教练;主教练;
+RELCOMB = 范甘迪,姚明->教练;范甘迪,姚明->主教练;
+-----------
+SENTENCE = 除了范甘迪之外，队中的助理教练，也是前NBA著名中锋尤因对姚明也是非常关注。
+POS_TAG = 除了/p 范甘迪/nr 之外/f ，/w 队/n 中/f 的/u 助理教练/n ，/w 也/d 是/v 前/f NBA/nx 著名/a 中锋/n 尤因/nr 对/p 姚明/nr 也/d 是/v 非常/d 关注/v 。/w
+CHARACTERS = 范甘迪;姚明;尤因;
+RELWORD = 助理教练;
+RELCOMB = 姚明,尤因->助理教练;
+-----------
+SENTENCE = “以前我和他聊过，他是一个非常有想法的孩子，”尤因希望将他打中锋的经验和技术毫无保留地倾囊相授，并且很乐意谈这么做的原因，“从他的身上我看到巨大的潜力，对于一个身高七尺六的球员而言，他拥有大量的篮球知识和技术，所以现在我的工作和其他助理教练的任务就是帮他成为一名伟大的球星。
+POS_TAG = “/w 以前/f 我/r 和/c 他/r 聊/v 过/u ，/w 他/r 是/v 一个/m 非常/d 有/v 想法/n 的/u 孩子/n ，/w ”/w 尤因/nr 希望/v 将/p 他/r 打/v 中锋/n 的/u 经验/n 和/c 技术/n 毫无/v 保留/v 地/u 倾/v 囊/ng 相/d 授/vg ，/w 并且/c 很/d 乐意/vd 谈/v 这么/r 做/v 的/u 原因/n ，/w “/w 从/p 他/r 的/u 身上/s 我/r 看到/v 巨大/a 的/u 潜力/n ，/w 对于/p 一个/m 身高/n 七/m 尺/q 六/m 的/u 球员/n 而言/u ，/w 他/r 拥有/v 大量/m 的/u 篮球/n 知识/n 和/c 技术/n ，/w 所以/c 现在/t 我/r 的/u 工作/vn 和/c 其他/r 助理教练/n 的/u 任务/n 就/d 是/v 帮/v 他/r 成为/v 一/m 名/q 伟大/a 的/u 球星/n 。/w
+CHARACTERS = 尤因;
+RELWORD = 助理教练;
+RELCOMB = 
+-----------
+SENTENCE = 结束了12年“汤帅时代”的火箭队迎来了球队历史上第10任主教练--杰夫-范甘迪，而这位前尼克斯的主帅也在上任一天很快投入到自己离开将近18个月的教练工作中去。
+POS_TAG = 结束/v 了/u 12/m 年/q “/w 汤帅/nr 时代/n ”/w 的/u 火箭队/n 迎来/v 了/u 球队/n 历史/n 上/f 第10/m 任/q 主教练/n --/m 杰夫-范甘迪/nr ，/w 而/c 这/r 位/q 前/f 尼克斯/n 的/u 主帅/n 也/d 在/p 上任/v 一/m 天/q 很快/d 投入/v 到/v 自己/r 离开/v 将近/d 18/m 个/q 月/n 的/u 教练/n 工作/vn 中/f 去/v 。/w
+CHARACTERS = 杰夫-范甘迪;汤帅;
+RELWORD = 教练;主教练;主帅;
+RELCOMB = 
+-----------
+SENTENCE = 对于范甘迪而言，目前最重要的任务是组建自己的教练班子和熟悉火箭队的队员，特别是研究火箭队的中锋姚明的进一步“启蒙”计划，让姚明提高到一个新的高度。
+POS_TAG = 对于/p 范甘迪/nr 而言/u ，/w 目前/t 最/d 重要/a 的/u 任务/n 是/v 组建/v 自己/r 的/u 教练/n 班子/n 和/c 熟悉/v 火箭队/n 的/u 队员/n ，/w 特别/d 是/v 研究/v 火箭队/n 的/u 中锋/n 姚明/nr 的/u 进一步/b “/w 启蒙/vn ”/w 计划/n ，/w 让/v 姚明/nr 提高/v 到/v 一个/m 新/a 的/u 高度/n 。/w
+CHARACTERS = 范甘迪;姚明;
+RELWORD = 教练;
+RELCOMB = 
+-----------
+SENTENCE = 范甘迪确实非常喜欢姚明，他在担任TNT的电视解说员期间多次对姚明的表现和技术表示惊奇和赞叹，而可以执教姚明也成为范甘迪能够重新出山、担任火箭队的主教练的一个重要因素，拿范甘迪的话而言，是一个“无法抗拒的诱惑”。
+POS_TAG = 范甘迪/nr 确实/d 非常/d 喜欢/v 姚明/nr ，/w 他/r 在/p 担任/v TNT/nx 的/u 电视/n 解说员/n 期间/f 多/a 次/q 对/p 姚明/nr 的/u 表现/n 和/c 技术/n 表示/v 惊奇/a 和/c 赞叹/v ，/w 而/c 可以/v 执教/v 姚明/nr 也/d 成为/v 范甘迪/nr 能够/v 重新/d 出山/v 、/w 担任/v 火箭队/n 的/u 主教练/n 的/u 一个/m 重要/a 因素/n ，/w 拿/v 范甘迪/nr 的话/u 而言/u ，/w 是/v 一个/m “/w 无法/d 抗拒/v 的/u 诱惑/n ”/w 。/w
+CHARACTERS = 范甘迪;姚明;
+RELWORD = 主教练;
+RELCOMB = 
+-----------
+SENTENCE = 两人虽然一度错过了去年纽约选秀训练营交流的机会，但终于在休斯顿再续师徒情缘。
+POS_TAG = 两/m 人/n 虽然/c 一度/d 错/vd 过/v 了/u 去年/t 纽约/ns 选/v 秀/ag 训练/v 营/n 交流/vn 的/u 机会/n ，/w 但/c 终于/d 在/p 休斯顿/ns 再/b 续/v 师徒/n 情缘/n 。/w
+CHARACTERS = 
+RELWORD = 师徒;
+RELCOMB = 
+-----------
+SENTENCE = 姚明已经公开发表了声明支持范甘迪出任火箭队主教练，对于姚明本人来说，能够再次有一位非常欣赏自己的主教练接管球队，这是非常重要的，也是火箭队的管理层考虑的问题。
+POS_TAG = 姚明/nr 已经/d 公开/ad 发表/v 了/u 声明/n 支持/v 范甘迪/nr 出任/v 火箭队/n 主教练/n ，/w 对于/p 姚明/nr 本人/r 来说/u ，/w 能够/v 再次/d 有/v 一/m 位/q 非常/d 欣赏/v 自己/r 的/u 主教练/n 接管/v 球队/n ，/w 这/r 是/v 非常/d 重要/a 的/u ，/w 也/d 是/v 火箭队/n 的/u 管理层/n 考虑/v 的/u 问题/n 。/w
+CHARACTERS = 范甘迪;姚明;
+RELWORD = 主教练;
+RELCOMB = 
+-----------
+SENTENCE = 怎么样破解熟悉自己的对手的防守？
+POS_TAG = 怎么样/r 破解/v 熟悉/a 自己/r 的/b 对手/n 的/b 防守/v ？/w
+CHARACTERS = 
+RELWORD = 对手;
+RELCOMB = 
+-----------
+SENTENCE = 范甘迪必须尽快确定自己的教练组，其中很有可能是他以前的助理教练克里福德、蒂博德乌和格里尔，当然还有尼克斯的前中锋、现在与奇才仍然有约在身的帕特里克尤因。
+POS_TAG = 范甘迪/nr 必须/d 尽快/d 确定/v 自己/r 的/u 教练/n 组/n ，/w 其中/r 很/d 有/v 可能/v 是/v 他/r 以前/f 的/u 助理教练/n 克里福德/nr 、/w 蒂博德乌/nr 和/c 格里尔/nr ，/w 当然/d 还有/v 尼克斯/n 的/u 前/h 中锋/n 、/w 现在/t 与/p 奇才/n 仍然/d 有/v 约/n 在/v 身/n 的/u 帕特里克尤因/nr 。/w
+CHARACTERS = 蒂博德乌;范甘迪;格里尔;克里福德;帕特里克尤因;
+RELWORD = 教练;助理教练;
+RELCOMB = 
+-----------
+SENTENCE = 火箭的队员会怎样去响应自己的新教练？
+POS_TAG = 火箭/n 的/u 队员/n 会/v 怎样/r 去/v 响应/v 自己/r 的/u 新/a 教练/n ？/w
+CHARACTERS = 
+RELWORD = 教练;
+RELCOMB = 
+-----------
+SENTENCE = 弗朗西斯会创造更多的机会给队友而不是利用他的个人能力吗？
+POS_TAG = 弗朗西斯/nr 会/v 创造/v 更/d 多/a 的/u 机会/n 给/p 队友/n 而/c 不/d 是/v 利/vg 用/p 他/r 的/u 个人/n 能力/n 吗/y ？/w
+CHARACTERS = 弗朗西斯;
+RELWORD = 队友;
+RELCOMB = 
+-----------
+SENTENCE = 火箭官方网站将他形容为一个更具东部球队风格的教练，强调防守，从不轻易让对手获得投篮机会。
+POS_TAG = 火箭/n 官方/n 网站/n 将/p 他/r 形容/vd 为/v 一个/m 更/d 具/vg 东部/f 球队/n 风格/n 的/u 教练/n ，/w 强调/vd 防守/v ，/w 从不/d 轻易/d 让/v 对手/n 获得/v 投篮/vn 机会/n 。/w
+CHARACTERS = 
+RELWORD = 对手;教练;
+RELCOMB = 
+-----------
+SENTENCE = 火箭官方网站在对范甘迪的访问报道中认为，范甘迪在纽约7个赛季的248胜172负的纪录证明了他知道如何去做一个NBA球队教练。
+POS_TAG = 火箭/n 官方/n 网/n 站/v 在/p 对/p 范甘迪/nr 的/u 访问/vn 报道/v 中/f 认为/v ，/w 范甘迪/nr 在/p 纽约/ns 7/m 个/q 赛季/n 的/u 248/m 胜/v 172/m 负/v 的/u 纪录/n 证明/v 了/u 他/r 知道/v 如何/r 去/v 做/v 一个/m NBA/nx 球队/n 教练/n 。/w
+CHARACTERS = 范甘迪;
+RELWORD = 教练;
+RELCOMB = 
+-----------

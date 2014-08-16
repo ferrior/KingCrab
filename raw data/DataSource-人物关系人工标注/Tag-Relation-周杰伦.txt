@@ -1,0 +1,1333 @@
+SENTENCE = ½­Óï³¿³öÆ¬£¬ËäÈ»¼«Á¦Æ²Çå×Ô¼ºÊÇ¿¿ÖÜ½ÜÂ×µÄ»¤º½£¬µ«±¾¿¯È´½Ó»ñ±¬ÁÏ£¬½­Óï³¿ËäÈ»µÍµ÷µØ½«ÖÜ½ÜÂ×ÎªËýÆ×Ð´µÄ¡´ÀËÂþ°®¡µ·ÅÔÚµÚÈýÊ×£¬µ«Êµ¼ÊÉÏËýµÄÁ½Ê×Ö÷´ò¸èÇú¡´ÎÒµÄÖ÷ÌâÇú¡µºÍ¡´ÎÒÌ«¹Ô¡µ£¬Ò²ÊÇÖÜ½ÜÂ×»¯Ãû¡°³ÂÉÙÈÙ¡±£¬Îªç³ÎÅÅ®ÓÑ´òÔìµÄÐÂ×÷¡£
+POS_TAG = ½­Óï³¿/nr ³ö/v Æ¬/q £¬/w ËäÈ»/c ¼«Á¦/d Æ²/v Çå/v ×Ô¼º/r ÊÇ/v ¿¿/v ÖÜ½ÜÂ×/nr µÄ/u »¤º½/vn £¬/w µ«/c ±¾¿¯/r È´/c ½Ó/c »ñ/v ±¬/v ÁÏ/n £¬/w ½­Óï³¿/nr ËäÈ»/c µÍµ÷/n µØ/u ½«/p ÖÜ½ÜÂ×/nr Îª/p Ëý/r Æ×Ð´/v µÄ/u ¡´/w ÀËÂþ/an °®/v ¡µ/w ·ÅÔÚ/v µÚÈý/m Ê×/q £¬/w µ«/c Êµ¼ÊÉÏ/d Ëý/r µÄ/u Á½/m Ê×/q Ö÷/ag ´ò/v ¸èÇú/n ¡´/w ÎÒ/r µÄ/u Ö÷ÌâÇú/n ¡µ/w ºÍ/c ¡´/w ÎÒ/r Ì«/d ¹Ô/a ¡µ/w £¬/w Ò²/d ÊÇ/v ÖÜ½ÜÂ×/nr »¯Ãû/v ¡°/w ³ÂÉÙÈÙ/nr ¡±/w £¬/w Îª/p ç³ÎÅ/n Å®ÓÑ/n ´ò/v Ôì/v µÄ/u ÐÂ×÷/n ¡£/w
+CHARACTERS = ³ÂÉÙÈÙ;½­Óï³¿;ÖÜ½ÜÂ×;
+RELWORD = Å®ÓÑ;
+RELCOMB = ³ÂÉÙÈÙ,½­Óï³¿->Å®ÓÑ;½­Óï³¿,ÖÜ½ÜÂ×->Å®ÓÑ;
+-----------
+SENTENCE = 12ÔÂ5ÈÕÔçÉÏ10Ê±30·Ö£¬ÖÜ½ÜÂ×ÓùÓÃÎèµ¸ÀÏÊ¦Ñ©¸â½«×ö¿ÍÐÂÃñÍø£¬³©Ì¸Æä´«ÊÚÖÜ½ÜÂ×Îèµ¸¼¼ÒÕµÄ¾­ÀúºÍÈ¤ÊÂ¡£
+POS_TAG = 12ÔÂ/t 5ÈÕ/t ÔçÉÏ/t 10Ê±/t 30·Ö/t £¬/w ÖÜ½ÜÂ×/nr ÓùÓÃ/b Îèµ¸/n ÀÏÊ¦/n Ñ©¸â/nr ½«/d ×ö¿Í/v ÐÂÃñ/ns Íø/j £¬/w ³©Ì¸/v Æä/r ´«ÊÚ/v ÖÜ½ÜÂ×/nr Îèµ¸/n ¼¼ÒÕ/n µÄ/u ¾­Àú/n ºÍ/c È¤ÊÂ/n ¡£/w
+CHARACTERS = Ñ©¸â;ÖÜ½ÜÂ×;
+RELWORD = ÀÏÊ¦;
+RELCOMB = Ñ©¸â,ÖÜ½ÜÂ×->ÀÏÊ¦;
+-----------
+SENTENCE = ËûËùÊô½ÜÍþ¶ûÐû´«Í³³ïÕÅÀ¶ÔÆ±íÊ¾£º¡°ÎÒÃÇ¹«Ë¾ÏòÀ´²»½²·ÑÓÃ£¬ÎÒÃÇÖ»ÔÚÒâ°Ñ×îºÃµÄ×÷Æ·³ÊÏÖ¸øËùÓÐÖ§³ÖµÄ¸èÃÔÅóÓÑ¡£
+POS_TAG = Ëû/r ËùÊô/n ½ÜÍþ¶û/nr Ðû´«/v Í³³ï/n ÕÅÀ¶ÔÆ/nr ±íÊ¾/v £º/w ¡°/w ÎÒÃÇ/r ¹«Ë¾/n ÏòÀ´/d ²»/d ½²/v ·ÑÓÃ/n £¬/w ÎÒÃÇ/r Ö»/d ÔÚÒâ/v °Ñ/p ×î/d ºÃ/a µÄ/u ×÷Æ·/n ³ÊÏÖ/v ¸ø/p ËùÓÐ/b Ö§³Ö/vn µÄ/u ¸èÃÔ/n ÅóÓÑ/n ¡£/w
+CHARACTERS = ½ÜÍþ¶û;ÕÅÀ¶ÔÆ;
+RELWORD = ÅóÓÑ;
+RELCOMB = ½ÜÍþ¶û,ÕÅÀ¶ÔÆ->ÅóÓÑ;
+-----------
+SENTENCE = ´Ó×î³õµÄ¡¶ÒÔ¸¸Ö®Ãû¡·µ½¡¶Å£×ÐºÜÃ¦¡·£¬ÔÙµ½ÏÖÔÚµÄ¡¶ÇÇ¿ËÊåÊå¡·£¬¶¼ÔÚ±»ÈË¼Ç×¡£
+POS_TAG = ´Ó/p ×î³õ/b µÄ/u ¡¶/w ÒÔ/p ¸¸/ng Ö®/u Ãû/ng ¡·/w µ½/v ¡¶/w Å£×Ð/n ºÜ/d Ã¦/v ¡·/w £¬/w ÔÙ/d µ½/v ÏÖÔÚ/t µÄ/u ¡¶/w ÇÇ¿Ë/nr ÊåÊå/n ¡·/w £¬/w ¶¼/d ÔÚ/p ±»/p ÈË/n ¼Ç×¡/v £/m
+CHARACTERS = ÇÇ¿Ë;
+RELWORD = ÊåÊå;
+RELCOMB = 
+-----------
+SENTENCE = ÒòÎªÖÜ½ÜÂ×ºÍ·½ÎÄÉ½£¬»Æ¿¡ÀÉÕâ¸öÃû×Ö¿ªÊ¼³öÏÖÔÚÈËÃÇµÄÊÓÒ°£¬´Ó×î³õµÄ¡¶ÒÔ¸¸Ö®Ãû¡·¡¢¡¶ÂíµÂÀï²»Ë¼Òé¡·£¬µ½Èç½ñµÄ¡¶ÇÇ¿ËÊåÊå¡·¡­¡­ÓÐÈËËµ£¬ËûµÄ¸è´ÊºÜÈÄÉà£¬ÊÊºÏÖÜ½ÜÂ×µÄµ÷µ÷£»Ò²ÓÐÈËËµ£¬ËûµÄ´Ê¿ÉÓë·½ÎÄÉ½æÇÃÀ£¬³äÂúÁË»­Ãæ¸Ð¡­¡­
+POS_TAG = ÒòÎª/p ÖÜ½ÜÂ×/nr ºÍ/c ·½ÎÄÉ½/nr £¬/w »Æ¿¡ÀÉ/nr Õâ¸ö/r Ãû×Ö/n ¿ªÊ¼/v ³öÏÖ/v ÔÚ/p ÈËÃÇ/n µÄ/u ÊÓÒ°/n £¬/w ´Ó/p ×î³õ/b µÄ/u ¡¶/w ÒÔ/p ¸¸/ng Ö®/u Ãû/ng ¡·/w ¡¢/w ¡¶/w ÂíµÂÀï/ns ²»/d Ë¼/v Òé/ng ¡·/w £¬/w µ½/v Èç½ñ/t µÄ/u ¡¶/w ÇÇ¿Ë/nr ÊåÊå/n ¡·/w ¡­/w ¡­/w ÓÐÈË/r Ëµ/v £¬/w Ëû/r µÄ/u ¸è´Ê/n ºÜ/d ÈÄÉà/v £¬/w ÊÊºÏ/v ÖÜ½ÜÂ×/nr µÄ/u µ÷µ÷/n £»/w Ò²/d ÓÐÈË/r Ëµ/v £¬/w Ëû/r µÄ/u ´Ê/n ¿É/v Óë/p ·½ÎÄÉ½/nr æÇÃÀ/v £¬/w ³äÂú/v ÁË/u »­Ãæ/n ¸Ð/vg ¡­/w ¡­/w
+CHARACTERS = ·½ÎÄÉ½;»Æ¿¡ÀÉ;ÇÇ¿Ë;ÖÜ½ÜÂ×;
+RELWORD = ÊåÊå;
+RELCOMB = 
+-----------
+SENTENCE = ÇàÄêÖÜÄ©£ºËæ×Å¡¶ÇÇ¿ËÊåÊå¡·ÕâÐ©ÐÂ¸è³öÀ´£¬ÄÚµØ¸ü¶à¸èÃÔÈÏÊ¶ÁËÄã¡£
+POS_TAG = ÇàÄê/n ÖÜÄ©/t £º/w Ëæ×Å/p ¡¶/w ÇÇ¿Ë/nr ÊåÊå/n ¡·/w ÕâÐ©/r ÐÂ/a ¸è/n ³öÀ´/v £¬/w ÄÚµØ/s ¸ü/d ¶à/a ¸èÃÔ/n ÈÏÊ¶/c ÁË/u Äã/r ¡£/w
+CHARACTERS = ÇÇ¿Ë;
+RELWORD = ÊåÊå;
+RELCOMB = 
+-----------
+SENTENCE = Ã¿Ò»¸öÈË¶ÔÄ³Ð©ÊÂÎï¶¼»áÓÐÆÚ´ý£¬ÎÒ¿´µ½ÖÜ½ÜÂ×ÆäÊµ²¢Ã»ÓÐÌ«¶àÊø¸¿£¬ÎÒ»¹ÊÇÌýµ½ÁËÒ»Ð©ÈÃÎÒ¸Ð¶¯µÄ¶«Î÷£¬±ÈÈçËµ¡¶ÇÇ¿ËÊåÊå¡·¡£
+POS_TAG = Ã¿/r Ò»¸ö/m ÈË/n ¶Ô/p Ä³Ð©/r ÊÂÎï/n ¶¼/d »á/v ÓÐ/v ÆÚ´ý/v £¬/w ÎÒ/r ¿´µ½/v ÖÜ½ÜÂ×/nr ÆäÊµ/d ²¢/d Ã»ÓÐ/v Ì«/d ¶à/a Êø¸¿/vn £¬/w ÎÒ/r »¹/d ÊÇ/v Ìýµ½/v ÁË/u Ò»Ð©/m ÈÃ/v ÎÒ/r ¸Ð¶¯/v µÄ/u ¶«Î÷/n £¬/w ±ÈÈçËµ/l ¡¶/w ÇÇ¿Ë/nr ÊåÊå/n ¡·/w ¡£/w
+CHARACTERS = ÇÇ¿Ë;ÖÜ½ÜÂ×;
+RELWORD = ÊåÊå;
+RELCOMB = 
+-----------
+SENTENCE = ËûËµ£º¡°·ÖÊÖ»¹ÊÇ¿ÉÒÔµ±ÅóÓÑ£¬Õâ¸Ð¾õ²»ÊÇºÜºÃÂð£¿
+POS_TAG = Ëû/r Ëµ/v £º/w ¡°/w ·ÖÊÖ/v »¹ÊÇ/d ¿ÉÒÔ/v µ±/ ÅóÓÑ/n £¬/w Õâ/r ¸Ð¾õ/n ²»/d ÊÇ/v ºÜ/d ºÃ/a Âð/y £¿/w
+CHARACTERS = 
+RELWORD = ÅóÓÑ;
+RELCOMB = 
+-----------
+SENTENCE = Ì¨ÍåÃ½Ìå±¨µÀ£¬ÖÜ½ÜÂ×ÏÖÔÚ¿´ÉÏÈ¥³äÂú×ÔÐÅ£¬µ«ÔÚ¸ÐÇéÂ·ÉÏ£¬ÒÔÇ°¿ÉÊÇº¦ÐßÄÐº¢£¬Ö±µ½³ÉÃûºó£¬Ì¬¶È²Å±äµÃÖ÷¶¯´ó·½£¬¡°Èç¹ûÎÒ³öÊÖ£¬¾ÍÊÇÅ®ÅóÓÑ¡±¡£
+POS_TAG = Ì¨Íå/ns Ã½Ìå/n ±¨µÀ/v £¬/w ÖÜ½ÜÂ×/nr ÏÖÔÚ/t ¿´ÉÏÈ¥/v ³äÂú/v ×ÔÐÅ/an £¬/w µ«/c ÔÚ/p ¸ÐÇé/n Â·ÉÏ/s £¬/w ÒÔÇ°/f ¿ÉÊÇ/d º¦Ðß/a ÄÐº¢/n £¬/w Ö±/d µ½/v ³ÉÃû/v ºó/f £¬/w Ì¬¶È/n ²Å/d ±ä/v µÃ/u Ö÷¶¯/a ´ó·½/a £¬/w ¡°/w Èç¹û/c ÎÒ/r ³ö/v ÊÖ/n £¬/w ¾Í/d ÊÇ/v Å®ÅóÓÑ/n ¡±/w ¡£/w
+CHARACTERS = ÖÜ½ÜÂ×;
+RELWORD = Å®ÅóÓÑ;
+RELCOMB = 
+-----------
+SENTENCE = Ð¡SÔÚ¡¶¿µÎõÀ´ÁË¡·ÔøÍ¸Â¶ºîÅåá¯¶ÔËû»³ÄîÌØ±ð¶à£¬ÖÁ½ñ»¹ÊÕµÃµ½Ëû´«¼òÑ¶¹ØÐÄ£¬ËûËµ£º¡°·ÖÊÖ»¹ÊÇ¿ÉÒÔµ±ÅóÓÑ£¬Õâ¸Ð¾õ²»ÊÇºÜºÃÂð£¿
+POS_TAG = Ð¡S/nr ÔÚ/p ¡¶/w ¿µÎõ/nr À´/v ÁË/y ¡·/w Ôø/d Í¸Â¶/v ºîÅåá¯/nr ¶Ô/p Ëû/r »³Äî/v ÌØ±ð/d ¶à/a £¬/w ÖÁ½ñ/d »¹/d ÊÕ/v µÃ/u µ½/v Ëû/r ´«/v ¼òÑ¶/n ¹ØÐÄ/a £¬/w Ëû/r Ëµ/v £º/w ¡°/w ·ÖÊÖ/v »¹ÊÇ/d ¿ÉÒÔ/v µ±/ ÅóÓÑ/n £¬/w Õâ/r ¸Ð¾õ/n ²»/d ÊÇ/v ºÜ/d ºÃ/a Âð/y £¿/w
+CHARACTERS = ºîÅåá¯;¿µÎõ;Ð¡S;
+RELWORD = ÅóÓÑ;
+RELCOMB = ºîÅåá¯,Ð¡S->ÅóÓÑ;
+-----------
+SENTENCE = ÕâÒ»½ÇÉ«ËãµÃÉÏÊÇÕÔÎÄ×¿°çÑÝµÄËÕÆò¶ùµÄÀÏÊ¦£¬ÕýÊÇÒòÎªËû°ÑËÕÆò¶ùµÄÉËÖÎºÃÁË£¬²¢ÇÒ¸øÁËËû¹¦·ò·½ÃæµÄÆô·¢£¬ËÕÆò¶ùµÄÎä¹¦²Å¸üÉÏÒ»²ãÂ¥¡£
+POS_TAG = Õâ/r Ò»/m ½ÇÉ«/n Ëã/v µÃ/u ÉÏ/m ÊÇ/v ÕÔÎÄ×¿/nr °çÑÝ/v µÄ/u ËÕÆò¶ù/nr µÄ/u ÀÏÊ¦/n £¬/w ÕýÊÇ/v ÒòÎª/p Ëû/r °Ñ/p ËÕÆò¶ù/nr µÄ/u ÉË/n ÖÎ/v ºÃ/a ÁË/y £¬/w ²¢ÇÒ/c ¸ø/v ÁË/u Ëû/r ¹¦·ò/n ·½Ãæ/n µÄ/u Æô·¢/vn £¬/w ËÕÆò¶ù/nr µÄ/u Îä¹¦/n ²Å/d ¸üÉÏÒ»²ãÂ¥/i ¡£/w
+CHARACTERS = ËÕÆò¶ù;ÕÔÎÄ×¿;
+RELWORD = ÀÏÊ¦;
+RELCOMB = 
+-----------
+SENTENCE = ÉíÎªÀÏ°åµÄËûÆäºó±íÊ¾£¬ÏëÇ©ÁíÒ»Î»ç³ÎÅÅ®ÓÑ²ÌÒÀÁÖµ½ÆìÏÂµÄ¾­ÀíÈË¹«Ë¾£¬ÈÇÀ´¾ÉÇé¸´³ãµÄ´§²â¡£
+POS_TAG = Éí/ng Îª/p ÀÏ°å/n µÄ/u Ëû/r Æä/r ºó/f ±íÊ¾/v £¬/w Ïë/v Ç©/v Áí/r Ò»/m Î»/q ç³ÎÅ/n Å®ÓÑ/n ²ÌÒÀÁÖ/nr µ½/v Æì/n ÏÂ/f µÄ/u ¾­Àí/n ÈË/n ¹«Ë¾/n £¬/w ÈÇ/v À´/v ¾ÉÇé/n ¸´/dg ³ã/ag µÄ/u ´§²â/v ¡£/w
+CHARACTERS = ²ÌÒÀÁÖ;
+RELWORD = Å®ÓÑ;
+RELCOMB = 
+-----------
+SENTENCE = ÉíÎªÖÜ½ÜÂ×µÄ¡°ÕýÓ¡Å®ÓÑ¡±µÄ½­Óï³¿£¬È´ÍêÈ«ÎÞ¾åµØÎ»²»±£¡
+POS_TAG = Éí/ng Îª/v ÖÜ½ÜÂ×/nr µÄ/u ¡°/w Õý/d Ó¡/v Å®ÓÑ/n ¡±/w µÄ/u ½­Óï³¿/nr £¬/w È´/d ÍêÈ«/ad ÎÞ/v ¾å/v µØÎ»/n ²»/d ±£/v
+CHARACTERS = ½­Óï³¿;ÖÜ½ÜÂ×;
+RELWORD = Å®ÓÑ;
+RELCOMB = ½­Óï³¿,ÖÜ½ÜÂ×->Å®ÓÑ;
+-----------
+SENTENCE = ÖÜ½ÜÂ×³ýÁËÎªÅ®ÓÑÇ£ÏßÍâ£¬ÓÖÎªËý²Ùµ¶Ð´¸è¡¶ÀËÂþ°®¡·£¬×ÝÊ¹Á¬ÈÕÀ´¶¼²»ÔÚÌ¨Íå£¬ÈÔ²»Í£´«SMS¶ÌÑ¶Î¿ÎÊÅ®ÓÑÇé¿ö£¬¿É¼ûÁ½ÈË¸ÐÇéÊ®·ÖÌðÃÛ¡£
+POS_TAG = ÖÜ½ÜÂ×/nr ³ý/v ÁË/u Îª/p Å®ÓÑ/n Ç£Ïß/v Íâ/f £¬/w ÓÖ/d Îª/p Ëý/r ²Ù/v µ¶/n Ð´/v ¸è/vg ¡¶/w ÀËÂþ/an °®/v ¡·/w £¬/w ×ÝÊ¹/c Á¬ÈÕÀ´/l ¶¼/d ²»/d ÔÚ/p Ì¨Íå/ns £¬/w ÈÔ/d ²»/d Í£/v ´«/v SMS/nx ¶ÌÑ¶/n Î¿ÎÊ/v Å®ÓÑ/n Çé¿ö/n £¬/w ¿É¼û/v Á½/m ÈË/n ¸ÐÇé/n Ê®·Ö/d ÌðÃÛ/a ¡£/w
+CHARACTERS = ÖÜ½ÜÂ×;
+RELWORD = Å®ÓÑ;
+RELCOMB = 
+-----------
+SENTENCE = ÔçÇ°ÓÐ´«½­Óï³¿¿ªµÄBMWÃû³µÊÇÖÜ½ÜÂ×ËÍµÄ£¬Ëý·ñÈÏÆäÊÂ£¬²¢³ÆÊÇÒ¯Ò¯ÓÃ±ÏÉúÍËÐÝ½ðËùÂò£¬ÒòÎªÒ¯Ò¯¾­³£µ½Ò½Ôº£¬Ï£ÍûËýÄÜµ±Ë¾»ú¡£
+POS_TAG = Ôç/tg Ç°/f ÓÐ´«½­Óï³¿/nr ¿ª/v µÄ/u BMW/nx Ãû³µ/n ÊÇ/v ÖÜ½ÜÂ×/nr ËÍ/v µÄ/u £¬/w Ëý/r ·ñÈÏ/v Æä/r ÊÂ/n £¬/w ²¢³Æ/v ÊÇ/a Ò¯Ò¯/n ÓÃ/ng ±ÏÉú/b ÍËÐÝ½ð/n Ëù/n Âò/v £¬/w ÒòÎª/c Ò¯Ò¯/n ¾­³£/d µ½/v Ò½Ôº/n £¬/w Ï£Íû/v Ëý/r ÄÜ/v µ±/ Ë¾»ú/n ¡£/w
+CHARACTERS = ÓÐ´«½­Óï³¿;ÖÜ½ÜÂ×;
+RELWORD = Ò¯Ò¯;
+RELCOMB = 
+-----------
+SENTENCE = ¡±Íâ´«ÖÜ½ÜÂ×¸ü»áÎªÅ®ÓÑÅÄÉãMV£¬ËûËùÊôµÄ¹«Ë¾±íÊ¾£¬ÖÜ½ÜÂ×µÄ¹¤×÷ÐÐ³ÌÅÅµ½Äêµ×£¬ÔÝÊ±Î´ÓÐ¿ÕÖ´µ¼»ò³öÑÝMV¡£
+POS_TAG = ¡±/w Íâ´«/v ÖÜ½ÜÂ×/nr ¸ü/d »á/v Îª/p Å®ÓÑ/n ÅÄÉã/v MV/nx £¬/w Ëû/r ËùÊô/n µÄ/u ¹«Ë¾/n ±íÊ¾/v £¬/w ÖÜ½ÜÂ×/nr µÄ/u ¹¤×÷/vn ÐÐ³Ì/n ÅÅ/v µ½/v Äêµ×/t £¬/w ÔÝÊ±/d Î´/d ÓÐ¿Õ/v Ö´µ¼/v »ò/c ³öÑÝ/v MV/nx ¡£/w
+CHARACTERS = ÖÜ½ÜÂ×;
+RELWORD = Å®ÓÑ;
+RELCOMB = 
+-----------
+SENTENCE = ÖÜ½ÜÂ×Á½Ãûç³ÎÅÅ®ÓÑ½­Óï³¿ÓëÏÄÈçÖ¥12ÔÂ1ÈÕÒ»ÆðÉÏÎâÖÒÏÜ½ÚÄ¿¡¶ÎÒ²ÂÎÒ²ÂÎÒ²Â²Â²Â¡·£¬ÎâÖÒÏÜÔÚ½ÚÄ¿ÖÐ´ó³´ÖÜ½ÜÂ×ç³ÎÅ£¬»¹²»Íü´îÉÏºîÅåá¯ºÍ²ÌÒÀÁÖ¡£
+POS_TAG = ÖÜ½ÜÂ×/nr Á½/m Ãû/q ç³ÎÅ/n Å®ÓÑ/n ½­Óï³¿/nr Óë/p ÏÄÈçÖ¥/nr 12ÔÂ/t 1ÈÕ/t Ò»Æð/s ÉÏ/m ÎâÖÒ/n ÏÜ/j ½ÚÄ¿/n ¡¶/w ÎÒ/r ²Â/v ÎÒ/r ²Â/v ÎÒ/r ²Â²Â²Â/v ¡·/w £¬/w ÎâÖÒ/n ÏÜ/j ÔÚ/c ½ÚÄ¿/n ÖÐ/a ´ó/a ³´/v ÖÜ½ÜÂ×/nr ç³ÎÅ/n £¬/w »¹/d ²»/d Íü/v ´î/v ÉÏ/m ºîÅåá¯/nr ºÍ/c ²ÌÒÀÁÖ/nr ¡£/w
+CHARACTERS = ²ÌÒÀÁÖ;ºîÅåá¯;½­Óï³¿;ÏÄÈçÖ¥;ÖÜ½ÜÂ×;
+RELWORD = Å®ÓÑ;
+RELCOMB = ²ÌÒÀÁÖ,ÖÜ½ÜÂ×->Å®ÓÑ;ºîÅåá¯,ÖÜ½ÜÂ×->Å®ÓÑ;½­Óï³¿,ÖÜ½ÜÂ×->Å®ÓÑ;ÏÄÈçÖ¥,ÖÜ½ÜÂ×->Å®ÓÑ;
+-----------
+SENTENCE = Îâ×ÚÏÜ±íÊ¾£¬×Ô¼ºÖ®Ç°Ã»¸úºîÅåá¯ºÏ×÷¹ý£¬²»ÁË½âÎªÊ²Ã´ÖÜ½ÜÂ×»áÉá²ÌÒÀÁÖÒªºîÅåá¯£¬¡°Ååá¯ÊÇºÜºÃµÄÅ®Éú£¬ÒÀÎÒÁË½â£¬Ëý»áÊÇºÃÏ±¸¾£¬ºÜÊÊºÏ½ÜÂ×µÄÂèÂèºÍÄÌÄÌ¡£
+POS_TAG = Îâ×ÚÏÜ/nr ±íÊ¾/v £¬/w ×Ô¼º/r Ö®Ç°/f Ã»/d ¸ú/v ºîÅåá¯/nr ºÏ×÷/v ¹ý/u £¬/w ²»/d ÁË½â/v ÎªÊ²Ã´/r ÖÜ½ÜÂ×/nr »á/v Éá/v ²ÌÒÀÁÖ/nr Òª/v ºîÅåá¯/nr £¬/w ¡°/w Ååá¯/nr ÊÇ/a ºÜ/d ºÃ/a µÄ/b Å®Éú/n £¬/w ÒÀ/p ÎÒ/r ÁË½â/v £¬/w Ëý/r »á/v ÊÇ/v ºÃ/a Ï±¸¾/n £¬/w ºÜ/d ÊÊºÏ/v ½ÜÂ×/nr µÄ/u ÂèÂè/n ºÍ/c ÄÌÄÌ/n ¡£/w
+CHARACTERS = ²ÌÒÀÁÖ;ºîÅåá¯;½ÜÂ×;Ååá¯;Îâ×ÚÏÜ;ÖÜ½ÜÂ×;
+RELWORD = ÂèÂè;ÄÌÄÌ;
+RELCOMB = 
+-----------
+SENTENCE = MV³¡¾°ºÄ×Ê°ÙÍò£¬´î½¨Æð½ð±Ì»Ô»ÍµÄ¹¬µî£¬±àÎèÀÏÊ¦ÒÔÉßµÄòêÑÑÂÉ¶¯±à³ö¡¶ÉßÎè¡·£¬ÖÜ½ÜÂ××Ô¼ºÒ²ÄÑµÃ¼´ÐËÐãÒ»¶ÎÓÐ¹ú¼ÊË®Æ½µÄSOLO¶ÀÎè£¡
+POS_TAG = MV/nx ³¡¾°/n ºÄ×Ê/v °ÙÍò/m £¬/w ´î/v ½¨/v Æð/v ½ð±Ì»Ô»Í/i µÄ/u ¹¬µî/n £¬/w ±à/v Îè/v ÀÏÊ¦/n ÒÔ/p Éß/n µÄ/u òêÑÑ/z ÂÉ¶¯/n ±à/v ³ö/v ¡¶/w Éß/n Îè/v ¡·/w £¬/w ÖÜ½ÜÂ×/nr ×Ô¼º/r Ò²/d ÄÑµÃ/a ¼´ÐË/d Ðã/ag Ò»/m ¶Î/q ÓÐ/v ¹ú¼Ê/n Ë®Æ½/n µÄ/u SOLO/nx ¶ÀÎè/n £¡/w
+CHARACTERS = ÖÜ½ÜÂ×;
+RELWORD = ÀÏÊ¦;
+RELCOMB = 
+-----------
+SENTENCE = ¶à²Å¶àÒÕÉí¼æ¸èÊÖ¡¢ÑÝÔ±¡¢µ¼ÑÝµÈ¶àÖØÉí·ÖµÄÖÜ½ÜÂ×£¬×î½ü²»µ«ÀÌ¹ý½çÇÀÄ§ÊõÊ¦·¹Íë£¬»¹ÔÚMVÆ¬³§¼æÈÎÆðÅÅÎèÀÏÊ¦£¬²»Ê±ÊÖÄÃ´óÉù¹«¶Ô×ÅÎèÕßÖ¸»Ó¡°1234¡¢2234¡­¡­¡±£¬ÐÎ³ÉÓÐÈ¤µÄ¡°ÖÜÀÏÊ¦¡±´ø¶¯Ìø¡£
+POS_TAG = ¶à²Å¶àÒÕ/i Éí/ng ¼æ/v ¸èÊÖ/n ¡¢/w ÑÝÔ±/n ¡¢/w µ¼ÑÝ/n µÈ/u ¶àÖØ/b Éí·Ö/n µÄ/b ÖÜ½ÜÂ×/nr £¬/w ×î½ü/t ²»µ«/c ÀÌ/v ¹ý/v ½ç/k ÇÀ/v Ä§ÊõÊ¦/n ·¹Íë/n £¬/w »¹/d ÔÚ/p MV/nx Æ¬/q ³§/n ¼æÈÎ/v Æð/v ÅÅ/v Îè/v ÀÏÊ¦/n £¬/w ²»Ê±/d ÊÖ/k ÄÃ/v ´óÉù/d ¹«/ng ¶Ô/p ×Å/u Îè/v Õß/k Ö¸»Ó/v ¡°/w 1234/m ¡¢/w 2234/m ¡­/w ¡­/w ¡±/w £¬/w ÐÎ³É/v ÓÐÈ¤/a µÄ/u ¡°/w ÖÜ/nr ÀÏÊ¦/n ¡±/w ´ø¶¯/v Ìø/v ¡£/w
+CHARACTERS = ÖÜ;ÖÜ½ÜÂ×;
+RELWORD = ÀÏÊ¦;
+RELCOMB = 
+-----------
+SENTENCE = ÃÖÂþ×ÅÄáÂÞºÓÅÏÉñÃØÆøÏ¢µÄ¡¶ÉßÎè¡·£¬×÷´ÊÈË»Æ¿¡ÀÉÐ´ÕâÊ×¸èµÄÁé¸ÐÔ´£¬ÊÇÀ´×Ô°£¼°ÊÐ¼¯Àï´µµÑµÄÅªÉßÈË£¬¶øÎèµ¸µÄ³ÊÏÖ£¬ÒªÅäºÏÉñÃØµÄÇú·ç£¬Õâ±»ÖÜµ¼ÊÓÎªÖØÒª»·½Ú£¬Ëû³ýÁË¼ÌÐøµ¼ÑÝÉí·ÝÍâ£¬»¹ÈÌ²»×¡ÄÃÆð»°Í²´ø¶¯ÎèÕßÅÅÎè£¬±¾Éí»¨·ÑÐí¶àÊ±¼äÁ·ÎèµÄÖÜ½ÜÂ×£¬Ò²¼´ÐËÐãÁËÒ»¶Î¶ÀÎè£¬Á¬Îèµ¸ÀÏÊ¦¿´ÁËÒ²ÎªÖ®¾ªÑÞ¡£
+POS_TAG = ÃÖÂþ/v ×Å/u ÄáÂÞºÓ/ns ÅÏ/ng ÉñÃØ/a ÆøÏ¢/n µÄ/u ¡¶/w Éß/n Îè/v ¡·/w £¬/w ×÷´ÊÈË/n »Æ¿¡ÀÉ/nr Ð´/v Õâ/r Ê×/q ¸è/n µÄ/u Áé¸Ð/n Ô´/n £¬/w ÊÇ/v À´×Ô/v °£¼°/ns ÊÐ¼¯/n Àï/f ´µ/v µÑ/n µÄ/b Åª/v Éß/n ÈË/n £¬/w ¶ø/c Îèµ¸/n µÄ/u ³ÊÏÖ/v £¬/w Òª/v ÅäºÏ/v ÉñÃØ/a µÄ/u Çú·ç/n £¬/w Õâ/r ±»/p ÖÜµ¼/nr ÊÓÎª/v ÖØÒª/a »·½Ú/n £¬/w Ëû/r ³ýÁË/p ¼ÌÐø/v µ¼ÑÝ/n Éí·Ý/n Íâ/f £¬/w »¹/d ÈÌ²»×¡/v ÄÃ/v Æð/v »°Í²/n ´ø¶¯/v Îè/v Õß/k ÅÅ/v Îè/v £¬/w ±¾Éí/r »¨·Ñ/v Ðí¶à/m Ê±¼ä/n Á·/v Îè/v µÄ/u ÖÜ½ÜÂ×/nr £¬/w Ò²/d ¼´ÐË/d Ðã/ag ÁË/v Ò»/m ¶Î/q ¶ÀÎè/n £¬/w Á¬/u Îèµ¸/n ÀÏÊ¦/n ¿´/v ÁË/u Ò²/d Îª/v Ö®/u ¾ª/v ÑÞ/a ¡£/w
+CHARACTERS = »Æ¿¡ÀÉ;ÖÜµ¼;ÖÜ½ÜÂ×;
+RELWORD = ÀÏÊ¦;
+RELCOMB = 
+-----------
+SENTENCE = ÈÕÇ°²ÌÒÀÁÖµÍµ÷»¶ÇìÉúÈÕ£¬ÒÔÍùÉúÈÕ¶¼»áÑû¼¯¡°²Ì°ï¡±ºÃÅóÓÑÍ¬Çì£¬µ«ÊÇ½ñÄêÈ´ÌØ±ðµÍµ÷£¬²ÌÒÀÁÖ±íÊ¾½üÆÚÒòÎªç³ÎÅ²øÈÆ£¬¹·×Ð¶ÓÌìÌìÎ§ÈÆÔÚ¼ÒÃÅ¿Ú£¬ËùÒÔ½ñÄêÉúÈÕ¶¼²»¸Ò³öÃÅ£¬Ñ¡ÔñÔÚ¼ÒÀïÓë¼ÒÈËÅóÓÑ¶È¹ý£¬½ñÄêÉúÈÕÌýËµ²ÌÒÀÁÖÊÕµ½ºÃÓÑÏàÔùµÄÏÞÁ¿kittyÃ¨£¬ÈÃËýÊ®·ÖºÜ¿ªÐÄ£¬ÄÑµÀkittyÃ¨ÊÇç³ÎÅÄÐÓÑÅíÓÚêÌµÄÌùÐÄÀñÎïÂð£¿
+POS_TAG = ÈÕÇ°/t ²ÌÒÀÁÖ/nr µÍµ÷/n »¶Çì/vn ÉúÈÕ/n £¬/w ÒÔÍù/t ÉúÈÕ/n ¶¼/d »á/v Ñû¼¯/v ¡°/w ²Ì°ï/n ¡±/w ºÃ/a ÅóÓÑ/n Í¬/p Çì/vg £¬/w µ«ÊÇ/c ½ñÄê/t È´/d ÌØ±ð/a µÍµ÷/n £¬/w ²ÌÒÀÁÖ/nr ±íÊ¾/v ½üÆÚ/t ÒòÎª/p ç³ÎÅ/n ²øÈÆ/v £¬/w ¹·×Ð¶Ó/n ÌìÌì/q Î§ÈÆ/v ÔÚ/p ¼ÒÃÅ¿Ú/n £¬/w ËùÒÔ/c ½ñÄê/t ÉúÈÕ/n ¶¼/d ²»/d ¸Ò/dg ³öÃÅ/v £¬/w Ñ¡Ôñ/v ÔÚ/p ¼ÒÀï/s Óë/p ¼ÒÈË/n ÅóÓÑ/n ¶È¹ý/v £¬/w ½ñÄê/t ÉúÈÕ/n ÌýËµ/v ²ÌÒÀÁÖ/nr ÊÕµ½/v ºÃÓÑ/n Ïà/d Ôù/v µÄ/u ÏÞÁ¿/n kitty/nx Ã¨/n £¬/w ÈÃ/v Ëý/r Ê®·Ö/d ºÜ/d ¿ª/v ÐÄ/n £¬/w ÄÑµÀ/d kitty/nx Ã¨/n ÊÇ/v ç³ÎÅ/n ÄÐÓÑ/n ÅíÓÚêÌ/nr µÄ/u ÌùÐÄ/a ÀñÎï/n Âð/y £¿/w
+CHARACTERS = ²ÌÒÀÁÖ;ÅíÓÚêÌ;
+RELWORD = ÄÐÓÑ;ÅóÓÑ;
+RELCOMB = ²ÌÒÀÁÖ,ÅíÓÚêÌ->ÄÐÓÑ;
+-----------
+SENTENCE = ¬²ÌÒÀÁÖÈÔÌØ±ðÂ¼ÁËÒ»¶Î×£ºØµÄVCRËÍ¸øµ¯Í·£¬Ò²Ï£Íûµ¯Í·½á»éÒÔºóÒª¹Ô¹Ô¶ÔÀÏÆÅ£¬Ô¶Àëç³ÎÅ£¬ËÆºõÔÚ¸æ½ë×Åµ¯Í·£¬²»ÒªÌ¤ÉÏÀÏ°åÖÜ½ÜÂ×ç³ÎÅ¶à¶àµÄºó³¾¡£
+POS_TAG = ¬²/ ÌÒ/n ÀÁ/a ÖÈ/ng ÔÌ/vg Ø±/q ðÂ/x ¼Á/ng ËÒ/q »¶/a Î×/ng £º/w Øµ/g ÄV/nr CR/nx ËÍ¸ø/v µ¯Í·/n £¬/w Ò²/d Ï£Íû/v µ¯Í·/n ½á»é/v ÒÔºó/f Òª/v ¹Ô¹Ô/d ¶Ô/p ÀÏÆÅ/n £¬/w Ô¶Àë/v ç³ÎÅ/n £¬/w ËÆºõ/d ÔÚ/p ¸æ½ë/v ×Å/u µ¯Í·/n £¬/w ²»Òª/d Ì¤/v ÉÏ/m ÀÏ°å/n ÖÜ½ÜÂ×/nr ç³ÎÅ/n ¶à¶à/a µÄ/u ºó³¾/n ¡£/w
+CHARACTERS = ÄV;ÖÜ½ÜÂ×;
+RELWORD = ÀÏÆÅ;
+RELCOMB = 
+-----------
+SENTENCE = JolinÔÚ¸ÐÇéÉÏÍêÈ«ÒÀÀµÄÐÓÑ£¬ÄÐÓÑÊÇËýµÄÒ»ÇÐ¡£
+POS_TAG = Jolin/nr ÔÚ/p ¸ÐÇé/n ÉÏ/m ÍêÈ«/ad ÒÀÀµ/v ÄÐÓÑ/n £¬/w ÄÐÓÑ/n ÊÇ/v Ëý/r µÄ/u Ò»ÇÐ/r ¡£/w
+CHARACTERS = Jolin;
+RELWORD = ÄÐÓÑ;
+RELCOMB = 
+-----------
+SENTENCE = ÕâÐ©ÓéÀÖÈ¦ËýµÄ¡®ÅóÓÑ¡¯£¬¶¼ÊÇ¸èÊÖÒÕÈË£¬ÕâÓëËý½Ó´¥µÄ»·¾³ÓÐ¹Ø¡£
+POS_TAG = ÕâÐ©/r ÓéÀÖ/v È¦/v Ëý/r µÄ/u ¡®/w ÅóÓÑ/n ¡¯/w £¬/w ¶¼/d ÊÇ/v ¸è/vg ÊÖÒÕÈË/n £¬/w Õâ/r Óë/p Ëý/r ½Ó´¥/v µÄ/u »·¾³/n ÓÐ¹Ø/vn ¡£/w
+CHARACTERS = 
+RELWORD = ÅóÓÑ;
+RELCOMB = 
+-----------
+SENTENCE = ×÷ÎªÒ»Ê×ÖµµÃ³ÆµÀµÄ¶Ô³ª¸èÇú£¬¡¶Ð¡¾ÆÎÑ¡·¾ß±¸ÁËÒ»ÇÐÁ÷ÐÐ´óÈÈµÄÇ±ÖÊ£¬ÐýÂÉÉÏ¿ÚÊÊÒËÔÚKTVÀï´«³ª£¬ÊÜÖÚÃæ¹ã£¬ÎÞÂÛÇéÂÂ»¹ÊÇÆÕÍ¨ÅóÓÑ£¬³ªÆðÀ´¶¼±ðÓÐÒ»·¬Î¶µÀ¡£
+POS_TAG = ×÷Îª/p Ò»/m Ê×/q ÖµµÃ/v ³ÆµÀ/v µÄ/u ¶Ô³ª/vn ¸èÇú/n £¬/w ¡¶/w Ð¡/a ¾ÆÎÑ/n ¡·/w ¾ß±¸/v ÁË/u Ò»ÇÐ/b Á÷ÐÐ/a ´ó/a ÈÈ/a µÄ/b Ç±ÖÊ/n £¬/w ÐýÂÉ/n ÉÏ¿Ú/a ÊÊÒË/a ÔÚ/c KTV/nx Àï/f ´«/n ³ª/ng £¬/w ÊÜÖÚ/n Ãæ/f ¹ã/a £¬/w ÎÞÂÛ/c ÇéÂÂ/n »¹ÊÇ/c ÆÕÍ¨/a ÅóÓÑ/n £¬/w ³ª/v Æð/v À´/f ¶¼/d ±ð/d ÓÐ/v Ò»·¬/m Î¶µÀ/n ¡£/w
+CHARACTERS = 
+RELWORD = ÅóÓÑ;
+RELCOMB = 
+-----------
+SENTENCE = ºîÅåá¯ºÍÖÜ½ÜÂ×½»Íù£¬Íâ´«·´¶Ô×îÁÒµÄËýµÄÄ¸Ç×ÁÖÔÂÔÆ£¬×öÂèÂèµÄÖ±¾õÁ½ÈË²¢²»ºÏÊÊ£¬¸öÐÔÏà¾àÌ«Ô¶£¬Î´À´¿ÉÄÜ±¯¾çÊÕ³¡£
+POS_TAG = ºîÅåá¯/nr ºÍ/c ÖÜ½ÜÂ×/nr ½»Íù/v £¬/w Íâ´«/v ·´¶Ô/v ×î/d ÁÒ/a µÄ/u Ëý/r µÄ/u Ä¸Ç×/n ÁÖÔÂÔÆ/nr £¬/w ×ö/v ÂèÂè/n µÄ/u Ö±¾õ/n Á½/m ÈË/n ²¢/c ²»/d ºÏÊÊ/a £¬/w ¸öÐÔ/n Ïà¾à/v Ì«/d Ô¶/a £¬/w Î´À´/t ¿ÉÄÜ/v ±¯¾ç/n ÊÕ³¡/v £/m
+CHARACTERS = ºîÅåá¯;ÁÖÔÂÔÆ;ÖÜ½ÜÂ×;
+RELWORD = ÂèÂè;Ä¸Ç×;
+RELCOMB = ºîÅåá¯,ÁÖÔÂÔÆ->ÂèÂè;ºîÅåá¯,ÁÖÔÂÔÆ->Ä¸Ç×;
+-----------
+SENTENCE = ¶Ô´Ë£¬ºîÅåá¯Ò²ÓÐÉî¿Ì¸ÐÊÜ£º¡°Ò»¶ÎÁ¼ºÃµÄ¹ØÏµ£¬²»Ó¦¸ÃÖ»ÓÐ°®Çé£¬»¹Òª°üº¬Ç×ÇéºÍÓÑÇé£»¸úÁíÒ»°ëÏà´¦µÄÊ±ºò£¬Š…ÒªÍ¬Ê±ÊÇËûµÄÅóÓÑ¡¢ËûµÄÂèÂè¡¢ËûµÄÅ®¶ù¡£
+POS_TAG = ¶Ô´Ë/l £¬/w ºîÅåá¯/nr Ò²/d ÓÐ/v Éî¿Ì/ad ¸ÐÊÜ/v £º/w ¡°/w Ò»/m ¶Î/q Á¼ºÃ/a µÄ/u ¹ØÏµ/n £¬/w ²»/d Ó¦¸Ã/v Ö»/d ÓÐ/v °®Çé/n £¬/w »¹Òª/v °üº¬/v Ç×Çé/n ºÍ/c ÓÑÇé/n £»/w ¸ú/p Áí/r Ò»/m °ë/m Ïà´¦/v µÄ/u Ê±ºò/n £¬/w Š…/w Òª/v Í¬Ê±/c ÊÇ/v Ëû/r µÄ/u ÅóÓÑ/n ¡¢/w Ëû/r µÄ/u ÂèÂè/n ¡¢/w Ëû/r µÄ/u Å®¶ù/n ¡£/w
+CHARACTERS = ºîÅåá¯;
+RELWORD = ÂèÂè;Å®¶ù;ÅóÓÑ;
+RELCOMB = 
+-----------
+SENTENCE = ÖÜ½ÜÂ×µÄµ¼ÑÝ´¦Å®×÷¡¶²»ÄÜËµµÄÃØÃÜ¡·Æ±·¿»ð±¬£¬ÖªµÀÖÜ½ÜÂ×Ðí¶à¡°ÃØÃÜ¡±µÄÇ°Å®ÓÑºîÅåá¯£¨Ð¡ºî£©¸É´à³ÃÈÈ´òÌúÍÆ³ö¡°ÖÜºîÁµ¡±µÄÃØÃÜ¡£
+POS_TAG = ÖÜ½ÜÂ×/nr µÄ/u µ¼ÑÝ/n ´¦Å®×÷/n ¡¶/w ²»ÄÜ/v Ëµ/v µÄ/u ÃØÃÜ/n ¡·/w Æ±·¿/n »ð±¬/an £¬/w ÖªµÀ/v ÖÜ½ÜÂ×/nr Ðí¶à/m ¡°/w ÃØÃÜ/n ¡±/w µÄ/u Ç°/h Å®ÓÑ/n ºîÅåá¯/nr £¨/w Ð¡ºî/nr £©/w ¸É´à/d ³ÃÈÈ´òÌú/i ÍÆ³ö/v ¡°/w ÖÜ/nr ºî/nr Áµ/v ¡±/w µÄ/u ÃØÃÜ/n ¡£/w
+CHARACTERS = ºî;ºîÅåá¯;Ð¡ºî;ÖÜ;ÖÜ½ÜÂ×;
+RELWORD = Å®ÓÑ;
+RELCOMB = ºî,ÖÜ->Å®ÓÑ;ºî,ÖÜ½ÜÂ×->Å®ÓÑ;ºîÅåá¯,ÖÜ->Å®ÓÑ;ºîÅåá¯,ÖÜ½ÜÂ×->Å®ÓÑ;Ð¡ºî,ÖÜ->Å®ÓÑ;Ð¡ºî,ÖÜ½ÜÂ×->Å®ÓÑ;
+-----------
+SENTENCE = 7ÔÂ24ÈÕ£¬ÖÜ½ÜÂ×ÔÚ±±¾©¿ªÊ¼ÁËËûµ¼ÑÝµÄÊ×²¿µçÓ°¡¶²»ÄÜËµµÄÃØÃÜ¡·µÄÐû´«£¬ÕâÒ»ÌìËûµÄÊ¦¸¸Îâ×ÚÏÜÒ²ÕýºÃÔÚ±±¾©²Î¼Ó»î¶¯£¬Á½ÈËÏà¾à²»µ½1000Ã×¡£
+POS_TAG = 7ÔÂ/t 24ÈÕ/t £¬/w ÖÜ½ÜÂ×/nr ÔÚ/p ±±¾©/ns ¿ªÊ¼/v ÁË/u Ëû/r µ¼ÑÝ/n µÄ/u Ê×/m ²¿/q µçÓ°/n ¡¶/w ²»ÄÜ/v Ëµ/v µÄ/u ÃØÃÜ/n ¡·/w µÄ/u Ðû´«/vn £¬/w Õâ/r Ò»/m Ìì/q Ëû/r µÄ/u Ê¦¸¸/n Îâ×ÚÏÜ/nr Ò²/d ÕýºÃ/z ÔÚ/p ±±¾©/ns ²Î¼Ó/v »î¶¯/vn £¬/w Á½/m ÈË/n Ïà¾à/v ²»/d µ½/v 1000/m Ã×/q ¡£/w
+CHARACTERS = Îâ×ÚÏÜ;ÖÜ½ÜÂ×;
+RELWORD = Ê¦¸¸;
+RELCOMB = Îâ×ÚÏÜ,ÖÜ½ÜÂ×->Ê¦¸¸;
+-----------
+SENTENCE = ºÇºÇ£¬ËûÀÏÊÇÇÀÎÒ·çÍ·¡­¡­¡±×Ô´ÓÍÑÀëÁËÎâ×ÚÏÜ£¬ÖÜ½ÜÂ×¾ÍÐû²¼¡°ÎÒÃÇ³ýÁËÊ¦Í½¹ØÏµ£¬Ê²Ã´¶¼Ã»ÓÐÁË¡±¡£
+POS_TAG = ºÇºÇ/a £¬/w Ëû/r ÀÏ/a ÊÇ/v ÇÀ/v ÎÒ/r ·çÍ·/n ¡­/w ¡­/w ¡±/w ×Ô´Ó/p ÍÑÀë/v ÁË/u Îâ×ÚÏÜ/nr £¬/w ÖÜ½ÜÂ×/nr ¾Í/d Ðû²¼/v ¡°/w ÎÒÃÇ/r ³ýÁË/p Ê¦Í½/n ¹ØÏµ/n £¬/w Ê²Ã´/r ¶¼/d Ã»ÓÐ/v ÁË/y ¡±/w ¡£/w
+CHARACTERS = Îâ×ÚÏÜ;ÖÜ½ÜÂ×;
+RELWORD = Ê¦Í½;
+RELCOMB = Îâ×ÚÏÜ,ÖÜ½ÜÂ×->Ê¦Í½;
+-----------
+SENTENCE = ÔÚÒýÆðÓ°¾çÈ¦Ò»Õó·ç²¨£¬ÍøÓÑÒ²¶ÔÕâ¸ö¾¢±¬»°ÌâÒéÂÛ·×·×Ö®¼Ê£¬Îâ×ÚÏÜÈ´Ñ¡Ôñ·â¿Ú£¬Í¸¹ýÖúÀí±íÊ¾£º¡°Ã»Ëµ¹ýÄÇ¶ÔÇéÂÂÊÇÖÜ½ÜÂ×ºÍºîÅåá¯°¡£
+POS_TAG = ÔÚ/p ÒýÆð/v Ó°/n ¾ç/dg È¦/v Ò»Õó/m ·ç²¨/n £¬/w ÍøÓÑ/n Ò²/c ¶Ô/a Õâ¸ö/r ¾¢/ad ±¬/v »°Ìâ/n ÒéÂÛ·×·×/i Ö®¼Ê/f £¬/w Îâ×ÚÏÜ/nr È´/d Ñ¡Ôñ/v ·â/q ¿Ú/n £¬/w Í¸¹ý/v ÖúÀí/n ±íÊ¾/v £º/w ¡°/w Ã»/d Ëµ/v ¹ý/u ÄÇ/r ¶Ô/p ÇéÂÂ/n ÊÇ/a ÖÜ½ÜÂ×/nr ºÍ/ag ºîÅåá¯/nr °¡/e £/m
+CHARACTERS = ºîÅåá¯;Îâ×ÚÏÜ;ÖÜ½ÜÂ×;
+RELWORD = ÖúÀí;
+RELCOMB = 
+-----------
+SENTENCE = ¡±²»¹ýÔÚ±»Ã½ÌåÓ°ÉäËûÖ¤ÊµÖÜºî·ÖÊÖÖ®ºó£¬Îâ×ÚÏÜµÄÖúÀíÒ²ÎªËû½ÐÇü£¬ËýËµ£º¡°ÏÜ¸ç¸ù±¾Ã»ËµÖÜºî·ÖÊÖ£¬¶¼ÊÇ±¨Ö½ËµµÄ¡£
+POS_TAG = ¡±/w ²»¹ý/c ÔÚ/p ±»/p Ã½Ìå/n Ó°Éä/v Ëû/n Ö¤Êµ/v ÖÜ/nr ºî/nr ·ÖÊÖ/v Ö®ºó/f £¬/w Îâ×ÚÏÜ/nr µÄ/u ÖúÀí/n Ò²/d Îª/p Ëû/r ½ÐÇü/v £¬/w Ëý/r Ëµ/v £º/w ¡°/w ÏÜ¸ç/nr ¸ù±¾/n Ã»/d Ëµ/v ÖÜ/nr ºî/nr ·Ö/v ÊÖ/n £¬/w ¶¼/d ÊÇ/v ±¨Ö½/n Ëµ/v µÄ/u ¡£/w
+CHARACTERS = ºî;Îâ×ÚÏÜ;ÏÜ¸ç;ÖÜ;
+RELWORD = ÖúÀí;
+RELCOMB = 
+-----------
+SENTENCE = ½ðÂí½±ÉÏ£¬ÖÜ½ÜÂ×¶áÏÂ×î¼ÑÐÂÑÝÔ±½±µÄÒ»É²ÄÇ£¬ºîÅåá¯»¹ÌðÃÛÍû×ÅÄÐÓÑ£¬ÊÂ¸ôÁ½Ìì£¬ÖÜºî·ÖÊÖµÄ´«ÑÔÈ´ÉõÏù³¾ÉÏ¡£
+POS_TAG = ½ðÂí/nz ½±/n ÉÏ/m £¬/w ÖÜ½ÜÂ×/nr ¶á/v ÏÂ/v ×î¼Ñ/z ÐÂ/a ÑÝÔ±/n ½±/n µÄ/u Ò»É²ÄÇ/t £¬/w ºîÅåá¯/nr »¹/d ÌðÃÛ/a Íû/v ×Å/u ÄÐÓÑ/n £¬/w ÊÂ/n ¸ô/v Á½/m Ìì/q £¬/w ÖÜ/ag ºî/ng ·ÖÊÖ/v µÄ/u ´«ÑÔ/n È´/d ÉõÏù³¾ÉÏ/i ¡£/w
+CHARACTERS = ºîÅåá¯;ÖÜ½ÜÂ×;
+RELWORD = ÄÐÓÑ;
+RELCOMB = ºîÅåá¯,ÖÜ½ÜÂ×->ÄÐÓÑ;
+-----------
+SENTENCE = ¡±ÒâÎ¶×ÅÄÐÓÑµÃ½±£¬ËýµÄÐÄÀïÒ²¸ú×Å¿ªÐÄ¡£
+POS_TAG = ¡±/w ÒâÎ¶×Å/v ÄÐÓÑ/n µÃ½±/v £¬/w Ëý/r µÄ/u ÐÄÀï/s Ò²/d ¸ú/v ×Å/u ¿ª/v ÐÄ/n ¡£/w
+CHARACTERS = 
+RELWORD = ÄÐÓÑ;
+RELCOMB = 
+-----------
+SENTENCE = ¾­¼ÍÈË£ºÅåá¯Ð¦ÈÝ²ÓÀÃºÁÎÞÒìÑù
+POS_TAG = ¾­¼ÍÈË/n £º/w Ååá¯/nr Ð¦ÈÝ/n ²ÓÀÃ/a ºÁÎÞ/v ÒìÑù/a
+CHARACTERS = Ååá¯;
+RELWORD = ¾­¼ÍÈË;
+RELCOMB = 
+-----------
+SENTENCE = ºîÅåá¯¾­¼ÍÈËºéØ¹ÈãÌýµ½´«ÎÅ¿ÞÐ¦²»µÃ£¬Ëý±íÊ¾£¬ºîÅåá¯Õâ¼¸Ìì¹¤×÷Çé¿öÒ»ÇÐÈç³££¬Ã»ÓÐÈÎºÎÒìÑù¡£
+POS_TAG = ºîÅåá¯/nr ¾­¼ÍÈË/n ºéØ¹Èã/nr Ìýµ½/v ´«ÎÅ/n ¿ÞÐ¦²»µÃ/i £¬/w Ëý/r ±íÊ¾/v £¬/w ºîÅåá¯/nr Õâ/r ¼¸/m Ìì/q ¹¤×÷/vn Çé¿ö/n Ò»ÇÐ/r Èç³£/v £¬/w Ã»ÓÐ/v ÈÎºÎ/r ÒìÑù/n ¡£/w
+CHARACTERS = ºéØ¹Èã;ºîÅåá¯;
+RELWORD = ¾­¼ÍÈË;
+RELCOMB = ºéØ¹Èã,ºîÅåá¯->¾­¼ÍÈË;
+-----------
+SENTENCE = ºîÅåá¯Ã¿ÌìÃ¦×Å¹¤×÷£¬ÓëËýÏà´¦Ê±¼ä×î¶àµÄ¾ÍÊÇ¾­¼ÍÈË£¬Çé±ä´«ÎÅÆµ´«³ö£¬¾­¼ÍÈËÎÞÄÎËµ£º¡°ÔõÃ´¿ÉÄÜ£¡
+POS_TAG = ºîÅåá¯/nr Ã¿Ìì/r Ã¦/v ×Å/u ¹¤×÷/vn £¬/w Óë/p Ëý/r Ïà´¦/v Ê±¼ä/n ×î/d ¶à/a µÄ/u ¾Í/d ÊÇ/v ¾­¼ÍÈË/n £¬/w Çé±ä/n ´«ÎÅ/n Æµ/dg ´«³ö/v £¬/w ¾­¼ÍÈË/n ÎÞÄÎ/d Ëµ/v £º/w ¡°/w ÔõÃ´/r ¿ÉÄÜ/v £¡/w
+CHARACTERS = ºîÅåá¯;
+RELWORD = ¾­¼ÍÈË;
+RELCOMB = 
+-----------
+SENTENCE = ¾Ý¡°ÖÐÑëÉç¡±±¨µÀ£¬Îâ×ÚÏÜÌá°Î¹ýÐ¡ÖÓ¡¢Ð¡Âí¡¢NONO¡¢¿µ¿µµÈ¶àÎ»×ÛÒÕÖ÷³ÖÈË£¬µ«×ÓµÜ±ø´³³öÒ»Æ¬Ììºó£¬Ò²·×·×´«³öÊ¦Í½²»ºÏ»ò»»ÐÂ¶«¼ÒÏûÏ¢£¬Îâ×ÚÏÜ»í´ï±íÊ¾£¬¡°Ê÷¸ßÇ§ÕÉ£¬ÂäÒ¶»¹ÊÇ»á¹é¸ù£¬ÓÐÒ»Ìì»¹ÊÇ»á¾ÛÔÚÒ»Æð¡±¡£
+POS_TAG = ¾Ý/p ¡°/w ÖÐÑë/n Éç/n ¡±/w ±¨µÀ/v £¬/w Îâ×ÚÏÜ/nr Ìá°Î/v ¹ý/u Ð¡ÖÓ/nr ¡¢/w Ð¡Âí/nr ¡¢/w NONO/nx ¡¢/w ¿µ¿µ/nr µÈ/u ¶à/m Î»/q ×ÛÒÕ/b Ö÷³ÖÈË/n £¬/w µ«/c ×ÓµÜ±ø/n ´³/v ³ö/v Ò»/m Æ¬/q Ìì/n ºó/f £¬/w Ò²/d ·×·×/d ´«³ö/v Ê¦Í½/n ²»ºÏ/v »ò/c »»/v ÐÂ/a ¶«¼Ò/n ÏûÏ¢/n £¬/w Îâ×ÚÏÜ/nr »í´ï/a ±íÊ¾/v £¬/w ¡°/w Ê÷/v ¸ß/a Ç§/m ÕÉ/q £¬/w ÂäÒ¶/n »¹/d ÊÇ/v »á/v ¹é/v ¸ù/q £¬/w ÓÐ/v Ò»/m Ìì/q »¹/d ÊÇ/v »á/v ¾Û/v ÔÚ/p Ò»Æð/s ¡±/w ¡£/w
+CHARACTERS = ¿µ¿µ;Îâ×ÚÏÜ;Ð¡Âí;Ð¡ÖÓ;
+RELWORD = Ê¦Í½;
+RELCOMB = ¿µ¿µ,Îâ×ÚÏÜ->Ê¦Í½;Îâ×ÚÏÜ,Ð¡Âí->Ê¦Í½;Îâ×ÚÏÜ,Ð¡ÖÓ->Ê¦Í½;
+-----------
+SENTENCE = ½ñÄêÎâ×ÚÏÜ´óÅ®¶ù¿¼ÉÏÃÀ¹úµÄ´óÑ§£¬½«³ÉÎªÒÕÈËÅåÕçµÄÑ§ÃÃ£¬Îâ×ÚÏÜËµ£¬Å®¶ù´òµç»°±¨Ï²Ê±£¬ÒòÎªÓïÆøºÜÉñÃØÓÖºÜÉ÷ÖØ£¬Ò»¶ÈÎóÒÔÎªÅ®¶ùÊÇ²»ÊÇÒªÈÃËûÌáÇ°µ±°¢¹«£¬ºóÀ´µÃÖªÊÇ¿¼ÉÏÑ§Ð££¬Ëû¸ßÐËµÃÁ÷ÏÂÄÐ¶ùÀá¡£
+POS_TAG = ½ñÄê/t Îâ×ÚÏÜ/nr ´ó/a Å®¶ù/n ¿¼ÉÏ/v ÃÀ¹ú/ns µÄ/u ´óÑ§/n £¬/w ½«/d ³ÉÎª/v ÒÕÈË/n Åå/v Õç/nr µÄ/b Ñ§ÃÃ/n £¬/w Îâ×ÚÏÜ/nr Ëµ/v £¬/w Å®¶ù/n ´òµç»°/v ±¨Ï²/v Ê±/ng £¬/w ÒòÎª/c ÓïÆø/n ºÜ/d ÉñÃØ/a ÓÖ/d ºÜ/d É÷ÖØ/a £¬/w Ò»¶È/d Îó/v ÒÔÎª/v Å®¶ù/n ÊÇ/v ²»/d ÊÇ/v Òª/v ÈÃ/v Ëû/r ÌáÇ°/v µ±/p °¢¹«/nr £¬/w ºóÀ´/t µÃÖª/v ÊÇ/v ¿¼ÉÏ/v Ñ§Ð£/n £¬/w Ëû/r ¸ßÐË/a µÃ/u Á÷ÏÂ/v ÄÐ¶ù/n Àá/n ¡£/w
+CHARACTERS = °¢¹«;Îâ×ÚÏÜ;Õç;
+RELWORD = Å®¶ù;Ñ§ÃÃ;
+RELCOMB = 
+-----------
+SENTENCE = ÔÚ½ÚÄ¿ÉÏ£¬Îâ×ÚÏÜ»¹±»¹°×ÅÒª¶Ô¾µÍ·¸úÀÏÆÅÕÅÝÚÝÚËµ¼¸¾ä»°£¬¸ãÐ¦ÌìÍõ¾¹È»Ðß¿´¾µÍ·£¬»¹Ò»Ê±ÓïÈû£»µ±ÁÄµ½Ä¿Ç°ÊÇµ¥Ç×ÂèÂèµÄÇ°Å®ÓÑ³ÂÐ¢Ýæ£¬Îâ×ÚÏÜÈÔ¸ÐÐÄÌÛ£¬¾õµÃ¶Ô·½ÉµÁËÒ»±²×Ó¡£
+POS_TAG = ÔÚ/p ½ÚÄ¿/n ÉÏ/m £¬/w Îâ×ÚÏÜ/nr »¹/d ±»/p ¹°/v ×Å/u Òª/v ¶Ô/p ¾µÍ·/n ¸ú/p ÀÏÆÅ/n ÕÅÝÚÝÚ/nr Ëµ/n ¼¸/m ¾ä/n »°/m £¬/w ¸ã/v Ð¦/v ÌìÍõ/n ¾¹È»/d Ðß/v ¿´/v ¾µÍ·/n £¬/w »¹/d Ò»Ê±/t ÓïÈû/v £»/w µ±/p ÁÄ/v µ½/v Ä¿Ç°/t ÊÇ/v µ¥Ç×/b ÂèÂè/n µÄ/b Ç°/f Å®ÓÑ/n ³ÂÐ¢Ýæ/nr £¬/w Îâ×ÚÏÜ/nr ÈÔ/d ¸Ð/vg ÐÄÌÛ/v £¬/w ¾õµÃ/v ¶Ô·½/n Éµ/a ÁË/u Ò»±²×Ó/m ¡£/w
+CHARACTERS = ³ÂÐ¢Ýæ;Îâ×ÚÏÜ;ÕÅÝÚÝÚ;
+RELWORD = ÀÏÆÅ;ÂèÂè;Å®ÓÑ;
+RELCOMB = Îâ×ÚÏÜ,ÕÅÝÚÝÚ->ÀÏÆÅ;³ÂÐ¢Ýæ,Îâ×ÚÏÜ->Å®ÓÑ;
+-----------
+SENTENCE = ÐÂ½ÚÄ¿¼´½«¿ª²¥£¬Îâ×ÚÏÜÔÚ½ÓÊÜ¼ÇÕß×¨·Ã£¬Ëû²»½öÌ¸µ½ÁË×Ô¼ºµÄÖ÷³Ö·ç¸ñ£¬»¹²»ÍüÌáµ½×Ô¼ºµÄÍ½µÜÖÜ½ÜÂ×£¬²¢Ì¹ÑÔµ±ÄêµÚÒ»´Î¼ûµ½ÖÜ½ÜÂ×Ê±£¬ÒÔÎªËûÊÇÈõÖÇ¡£
+POS_TAG = ÐÂ/a ½ÚÄ¿/n ¼´½«/d ¿ª²¥/v £¬/w Îâ×ÚÏÜ/nr ÔÚ/p ½ÓÊÜ/v ¼ÇÕß/n ×¨·Ã/vn £¬/w Ëû/r ²»½ö/c Ì¸/v µ½/v ÁË/u ×Ô¼º/r µÄ/u Ö÷³Ö/vn ·ç¸ñ/n £¬/w »¹/d ²»/d Íü/v Ìáµ½/v ×Ô¼º/r µÄ/u Í½µÜ/n ÖÜ½ÜÂ×/nr £¬/w ²¢/c Ì¹ÑÔ/v µ±Äê/t µÚÒ»/m ´Î/q ¼ûµ½/v ÖÜ½ÜÂ×/nr Ê±/ng £¬/w ÒÔÎª/v Ëû/r ÊÇ/v ÈõÖÇ/b ¡£/w
+CHARACTERS = Îâ×ÚÏÜ;ÖÜ½ÜÂ×;
+RELWORD = Í½µÜ;
+RELCOMB = Îâ×ÚÏÜ,ÖÜ½ÜÂ×->Í½µÜ;
+-----------
+SENTENCE = ºÃÐÖµÜµÄÁ¦Í¦£¬³Â³þºÓ²»½öÊ®·Ö¸Ð¼¤£¬¸üÊÇÔÚMVÀïÃæ¾¡Á¦±íÏÖ¡£
+POS_TAG = ºÃ/a ÐÖµÜ/n µÄ/u Á¦/n Í¦/ag £¬/w ³Â³þºÓ/nr ²»½ö/c Ê®·Ö/d ¸Ð¼¤/v £¬/w ¸üÊÇ/d ÔÚ/p MV/nx ÀïÃæ/f ¾¡Á¦/d ±íÏÖ/v ¡£/w
+CHARACTERS = ³Â³þºÓ;
+RELWORD = ÐÖµÜ;
+RELCOMB = 
+-----------
+SENTENCE = ×Ô³öµÀÒÔÀ´£¬ÖÜ½ÜÂ×ÓëÄÏÈ­ÂèÂèÒ»Ö±×ß½ü£¬¸ÐÇé·Ç³£Éîºñ£¬ÄÏÈ­ÂèÂèÔÚ½ÓÊÜ¼ÇÕß²É·ÃÊ±³Æ£ºÎÒÃÇµÄÃû×ÖÒ²ÊÇËûÈ¡µÄÄØ£¬¡ºÄÏÈ­¡»´ú±íÖØ»÷ÓëÁ¦Á¿¡¢¶ø¡ºÂèÂè¡»´ú±íÎÂÜ°Óë°üÈÝ£¬¡ºÄÏÈ­ÂèÂè¡»´ú±íÖøÒôÀÖºÜÃÍ£¬ÍÅÔ±ºÜÇ×ÇÐ£¡
+POS_TAG = ×Ô/p ³öµÀ/v ÒÔÀ´/f £¬/w ÖÜ½ÜÂ×/nr Óë/p ÄÏÈ­ÂèÂè/nr Ò»Ö±/d ×ß/v ½ü/a £¬/w ¸ÐÇé/n ·Ç³£/d Éîºñ/a £¬/w ÄÏÈ­ÂèÂè/nr ÔÚ/p ½ÓÊÜ/v ¼ÇÕß/n ²É·Ã/v Ê±/ng ³Æ/v £º/w ÎÒÃÇ/r µÄ/u Ãû×Ö/n Ò²/d ÊÇ/v Ëû/r È¡/v µÄ/u ÄØ/y £¬/w ¡º/w ÄÏÈ­/n ¡»/w ´ú±í/n ÖØ/d »÷/vg Óë/p Á¦Á¿/n ¡¢/w ¶ø/c ¡º/w ÂèÂè/n ¡»/w ´ú±í/n ÎÂÜ°/an Óë/c °ü/v ÈÝ/ng £¬/w ¡º/w ÄÏÈ­ÂèÂè/nr ¡»/w ´ú±í/n Öø/vg ÒôÀÖ/n ºÜ/d ÃÍ/a £¬/w ÍÅÔ±/n ºÜ/d Ç×ÇÐ/a £¡/w
+CHARACTERS = ÄÏÈ­ÂèÂè;ÖÜ½ÜÂ×;
+RELWORD = ÂèÂè;
+RELCOMB = 
+-----------
+SENTENCE = ×÷ÎªÖÜ½ÜÂ×µÄÈ¦ÄÚËÀµ³Áõ¸ûºêÔò±íÊ¾ËûÌØÒâ³é³öµµÆÚÀ´Ö§Ô®ÖÜ½ÜÂ×µÄÎÂÖÝ´¦×ÓÐã£¬ÓÃÒôÀÖÔÚÎÂÖÝµÄÎèÌ¨ÉÏÚ¹ÊÍËûÃÇµÄÐÖµÜÇé¡£
+POS_TAG = ×÷Îª/p ÖÜ½ÜÂ×/nr µÄ/u È¦/n ÄÚ/f ËÀµ³/n Áõ¸ûºê/nr Ôò/d ±íÊ¾/v Ëû/n ÌØÒâ/d ³é³ö/v µµÆÚ/n À´/f Ö§Ô®/v ÖÜ½ÜÂ×/nr µÄ/b ÎÂÖÝ/ns ´¦×ÓÐã/n £¬/w ÓÃ/p ÒôÀÖ/n ÔÚ/p ÎÂÖÝ/ns µÄ/u ÎèÌ¨/n ÉÏ/m Ú¹ÊÍ/v ËûÃÇ/r µÄ/u ÐÖµÜ/n Çé/n ¡£/w
+CHARACTERS = Áõ¸ûºê;ÖÜ½ÜÂ×;
+RELWORD = ÐÖµÜ;
+RELCOMB = Áõ¸ûºê,ÖÜ½ÜÂ×->ÐÖµÜ;
+-----------
+SENTENCE = ¶Ôì¶ÄÏÈ­ÂèÂèºÍ¸ûºê´Ë´ÎÒ»ÆðÀ´ÎÂÖÝ¹²½áÎÂÖÝÐÖµÜÁ¬£¬ÖÜ½ÜÂ×±íÊ¾·Ç³£¿
+POS_TAG = ¶Ôì¶/p ÄÏÈ­ÂèÂè/nr ºÍ/c ¸ûºê/nr ´Ë´Î/r Ò»Æð/d À´/v ÎÂÖÝ/ns ¹²/d ½á/v ÎÂÖÝ/ns ÐÖµÜ/n Á¬/n £¬/w ÖÜ½ÜÂ×/nr ±íÊ¾/v ·Ç³£/d ¿Ä/v ©#/v #/nx Ä©/f
+CHARACTERS = ¸ûºê;ÄÏÈ­ÂèÂè;ÖÜ½ÜÂ×;
+RELWORD = ÐÖµÜ;
+RELCOMB = ¸ûºê,ÄÏÈ­ÂèÂè->ÐÖµÜ;¸ûºê,ÖÜ½ÜÂ×->ÐÖµÜ;ÄÏÈ­ÂèÂè,ÖÜ½ÜÂ×->ÐÖµÜ;
+-----------
+SENTENCE = ÃÖÂþ×ÅÄáÂÞºÓÅÏÉñÃØÆøÏ¢µÄ¡¶ÉßÎè¡±¡·£¬×÷´ÊÈË»Æ¿¡ÀÉÐ´ÕâÊ×¸èµÄÁé¸ÐÔ´£¬ÊÇÀ´×Ô°£¼°ÊÐ¼¯Àï´µµÑµÄÅªÉßÈË£¬¶øÎèµ¸µÄ³ÊÏÖ£¬ÒªÅäºÏÉñÃØµÄÇú·ç£¬Õâ±»ÖÜµ¼ÊÓÎªÖØÒª»·½Ú£¬Ëû³ýÁË¼ÌÐøµ¼ÑÝÉí·ÝÍâ£¬»¹ÈÌ²»×¡ÄÃÆð»°Í²´ø¶¯ÎèÕßÅÅÎè£¬±¾Éí»¨·ÑÐí¶àÊ±¼äÁ·ÎèµÄÖÜ½ÜÂ×£¬Ò²¼´ÐËÐãÁËÒ»¶Î¶ÀÎè£¬Á¬Îèµ¸ÀÏÊ¦¿´ÁËÒ²ÎªÖ®¾ªÑÞ¡£
+POS_TAG = ÃÖÂþ/v ×Å/u ÄáÂÞºÓ/ns ÅÏ/ng ÉñÃØ/a ÆøÏ¢/n µÄ/u ¡¶/w Éß/n Îè/v ¡±/w ¡·/w £¬/w ×÷/v ´ÊÈË/n »Æ¿¡ÀÉ/nr Ð´/j Õâ/r Ê×/d ¸è/n µÄ/b Áé¸Ð/n Ô´/n £¬/w ÊÇ/v À´×Ô/v °£¼°/ns ÊÐ¼¯/n Àï/f ´µ/v µÑ/n µÄ/b Åª/v Éß/n ÈË/n £¬/w ¶ø/c Îèµ¸/n µÄ/u ³ÊÏÖ/v £¬/w Òª/v ÅäºÏ/v ÉñÃØ/a µÄ/u Çú/ag ·ç/ng £¬/w Õâ/r ±»/p ÖÜ/nr µ¼/vg ÊÓÎª/v ÖØÒª/a »·½Ú/n £¬/w Ëû/r ³ýÁË/p ¼ÌÐø/v µ¼ÑÝ/n Éí·Ý/n Íâ/f £¬/w »¹/d ÈÌ²»×¡/v ÄÃ/v Æð/v »°Í²/n ´ø¶¯/v Îè/v Õß/k ÅÅ/v Îè/v £¬/w ±¾Éí/r »¨·Ñ/v Ðí¶à/m Ê±¼ä/n Á·/v Îè/v µÄ/u ÖÜ½ÜÂ×/nr £¬/w Ò²/d ¼´ÐË/d Ðã/ag ÁË/v Ò»/m ¶Î/q ¶ÀÎè/n £¬/w Á¬/u Îèµ¸/n ÀÏÊ¦/n ¿´/v ÁË/u Ò²/d Îª/v Ö®/u ¾ª/v ÑÞ/a ¡£/w
+CHARACTERS = »Æ¿¡ÀÉ;ÖÜ;ÖÜ½ÜÂ×;
+RELWORD = ÀÏÊ¦;
+RELCOMB = 
+-----------
+SENTENCE = ³ýÎÂá°¡¢Áõ®uºê·ò¸¾¡¢ÁÖ¿¡½ÜÓë¿ÂÓÐÂÚµÈ£¬³ÉÁúÖ®×Ó·¿×æÃûÒ²´ÓÈÕ±¾¸ÏÀ´³öÏ¯£¬ËûËµ£º¡°ÎÒºÜÔç¾ÍÈÏÊ¶Ëû£¬ËûÊÇÎÒµÚÒ»¸ö½á»éµÄÅóÓÑ£¬µ±È»ÒªÀ´¡£
+POS_TAG = ³ý/p ÎÂá°/nr ¡¢/w Áõ®uºê/nr ·ò¸¾/n ¡¢/w ÁÖ¿¡½Ü/nr Óë/p ¿ÂÓÐÂÚ/nr µÈ/a £¬/w ³ÉÁú/nr Ö®/u ×Ó/n ·¿×æÃû/nr Ò²/c ´Ó/c ÈÕ±¾/ns ¸ÏÀ´/v ³öÏ¯/v £¬/w Ëû/r Ëµ/v £º/w ¡°/w ÎÒ/r ºÜ/d Ôç¾Í/d ÈÏÊ¶/v Ëû/r £¬/w Ëû/r ÊÇ/v ÎÒ/r µÚÒ»/m ¸ö/q ½á»é/v µÄ/u ÅóÓÑ/n £¬/w µ±È»/d Òª/v À´/f ¡£/w
+CHARACTERS = ³ÉÁú;·¿×æÃû;¿ÂÓÐÂÚ;ÁÖ¿¡½Ü;Áõ®uºê;ÎÂá°;
+RELWORD = ÅóÓÑ;
+RELCOMB = ·¿×æÃû,¿ÂÓÐÂÚ->ÅóÓÑ;·¿×æÃû,Áõ®uºê->ÅóÓÑ;¿ÂÓÐÂÚ,ÁÖ¿¡½Ü->ÅóÓÑ;¿ÂÓÐÂÚ,Áõ®uºê->ÅóÓÑ;¿ÂÓÐÂÚ,ÎÂá°->ÅóÓÑ;ÁÖ¿¡½Ü,Áõ®uºê->ÅóÓÑ;Áõ®uºê,ÎÂá°->ÅóÓÑ;
+-----------
+SENTENCE = ÄÏÈ­´ú±íÖØ»÷ÓëÁ¦Á¿£¬¶ø¡®ÂèÂè¡¯´ú±íÎÂÜ°Óë°üÈÝ£¬ÄÏÈ­ÂèÂè´ú±íÒôÀÖºÜÃÍ¡¢ÍÅÔ±ºÜÇ×ÇÐ!
+POS_TAG = ÄÏÈ­/n ´ú±í/n ÖØ/d »÷/vg Óë/p Á¦Á¿/n £¬/w ¶ø/c ¡®/w ÂèÂè/n ¡¯/w ´ú±í/n ÎÂÜ°/an Óë/c °ü/v ÈÝ/ng £¬/w ÄÏÈ­ÂèÂè/nr ´ú±í/v ÒôÀÖ/n ºÜ/d ÃÍ/a ¡¢/w ÍÅÔ±/n ºÜ/d Ç×ÇÐ/a !/w
+CHARACTERS = ÄÏÈ­ÂèÂè;
+RELWORD = ÂèÂè;
+RELCOMB = 
+-----------
+SENTENCE = ¾ÝËµÊÇÖÜ½ÜÂ×ÆðµÄ£¬ÒòÎªËüµõµÃ¿É°®£º¡°ÄÏÈ­¡±´ú±íÖØ»÷ÓëÁ¦Á¿¡¢¶ø¡°ÂèÂè¡±´ú±íÎÂÜ°Óë°üÈÝ£¬¡°ÄÏÈ­ÂèÂè¡±´ú±í×ÅÒôÀÖºÜÃÍ£¬ÍÅÔ±ºÜÇ×ÇÐ¡£
+POS_TAG = ¾ÝËµ/v ÊÇ/v ÖÜ½ÜÂ×/nr Æð/v µÄ/u £¬/w ÒòÎª/p Ëü/r µõ/v µÃ/u ¿É°®/a £º/w ¡°/w ÄÏÈ­/n ¡±/w ´ú±í/n ÖØ/d »÷/vg Óë/p Á¦Á¿/n ¡¢/w ¶ø/c ¡°/w ÂèÂè/n ¡±/w ´ú±í/n ÎÂÜ°/an Óë/c °ü/v ÈÝ/ng £¬/w ¡°/w ÄÏÈ­ÂèÂè/nr ¡±/w ´ú±í/n ×Å/u ÒôÀÖ/n ºÜ/d ÃÍ/a £¬/w ÍÅÔ±/n ºÜ/d Ç×ÇÐ/a ¡£/w
+CHARACTERS = ÄÏÈ­ÂèÂè;ÖÜ½ÜÂ×;
+RELWORD = ÂèÂè;
+RELCOMB = ÄÏÈ­ÂèÂè,ÖÜ½ÜÂ×->ÂèÂè;
+-----------
+SENTENCE = ÄÏÈ­ÂèÂèµÄËÄ¸ö³ÉÔ±¾ÞÅÚ¡¢Gary¡¢µ¯Í·¼°ÓîºÀ£¬¶¼ÊÇËûµÄÅóÓÑ£¬¶øÇÒ¹ØÏµÃÜÇÐ£º¾ÞÅÚÊÇËûÑ²»ØÑÝ³ª»áµÄÒôÀÖ×Ü¼à£¬GaryÔòÊÇËûÃ¿ÕÅ×¨¼­Ö¸¶¨µÄ×¨ÒµÂ¼ÒôÊ¦£¬µ¯Í·ÊÇËû´òÀºÇòµÄ×î¼ÑÇòÓÑ£¬ÓîºÀÊÇËûµ­½­ÖÐÑ§ÒôÀÖ°àµÄÑ§µÜ¡£
+POS_TAG = ÄÏÈ­ÂèÂè/nr µÄ/u ËÄ/m ¸ö/q ³ÉÔ±/n ¾ÞÅÚ/nr ¡¢/w Gary/nr ¡¢/w µ¯Í·/nr ¼°/c ÓîºÀ/nr £¬/w ¶¼/d ÊÇ/v Ëû/r µÄ/u ÅóÓÑ/n £¬/w ¶øÇÒ/c ¹ØÏµ/n ÃÜÇÐ/a £º/w ¾ÞÅÚ/nr ÊÇ/v Ëû/r Ñ²»Ø/v ÑÝ³ª»á/n µÄ/u ÒôÀÖ/n ×Ü¼à/n £¬/w Gary/nr Ôò/d ÊÇ/v Ëû/r Ã¿/r ÕÅ/q ×¨¼­/n Ö¸¶¨/v µÄ/u ×¨Òµ/n Â¼ÒôrÊ¦/n £¬/w µ¯Í·/n ÊÇ/v Ëû/r ´ò/v ÀºÇò/n µÄ/u ×î¼Ñ/z ÇòÓÑ/n £¬/w ÓîºÀ/nr ÊÇ/v Ëû/r µ­½­/n ÖÐÑ§/n ÒôÀÖ/n °à/n µÄ/u Ñ§µÜ/n ¡£/w
+CHARACTERS = Gary;µ¯Í·;¾ÞÅÚ;ÄÏÈ­ÂèÂè;ÓîºÀ;
+RELWORD = ÅóÓÑ;
+RELCOMB = Gary,µ¯Í·->ÅóÓÑ;Gary,¾ÞÅÚ->ÅóÓÑ;Gary,ÓîºÀ->ÅóÓÑ;µ¯Í·,¾ÞÅÚ->ÅóÓÑ;µ¯Í·,ÓîºÀ->ÅóÓÑ;¾ÞÅÚ,ÓîºÀ->ÅóÓÑ;
+-----------
+SENTENCE = 8ÔÂ11ÈÕ£¬Ð¡ÌìÍõÖÜ½ÜÂ×ÏÖÉí£¬¶Ô¸¸Ç×½Úµ±ÌìÓë¹·×Ð¶Ó·¢ÉúµÄ³åÍ»Ê×¶È×ö³ö³ÎÇå£¬Ëû±íÊ¾×Ô¼º±ÈÖÐÖ¸µÄÐÐÎªµÄÈ·²»¶Ô£¬ÏÖÔÚËûÒª¸Ä±È´ú±íÊ¤ÀûµÄV×Ö£¬ÁíÍâ£¬ËûÒ²ËµÁË£¬ÕâÒ»´Î»á·¢ì­£¬ÊÇÒòÎªÒÑ¾­±»¸úÁË6Äê£¬ÊµÔÚÊÇÈÌÎÞ¿ÉÈÌ¡£
+POS_TAG = 8ÔÂ/t 11ÈÕ/t £¬/w Ð¡/a ÌìÍõ/n ÖÜ½ÜÂ×/nr ÏÖÉí/v £¬/w ¶Ô/p ¸¸Ç×/n ½Ú/vg µ±Ìì/t Óë/p ¹·ÔÚ¶Ó/n ·¢Éú/v µÄ/u ³åÍ»/vn Ê×/m ¶È/q ×ö³ö/v ³ÎÇå/v £¬/w Ëû/r ±íÊ¾/v ×Ô¼º/r ±È/p ÖÐ/f Ö¸/v µÄ/u ÐÐÎª/n µÄÈ·/d ²»/d ¶Ô/p £¬/w ÏÖÔÚ/t Ëû/r Òª/v ¸Ä/v ±È/p ´ú±í/n Ê¤Àû/vn µÄ/u V/nx ×Ö/n £¬/w ÁíÍâ/c £¬/w Ëû/r Ò²/d Ëµ/v ÁË/y £¬/w Õâ/r Ò»/m ´Î/q »á/v ·¢/q ì­/q £¬/w ÊÇÒòÎª/c ÒÑ¾­/d ±»/d ¸ú/c ÁË/u 6/m Äê/a £¬/w ÊµÔÚ/d ÊÇ/v ÈÌÎÞ¿ÉÈÌ/i ¡£/w
+CHARACTERS = ÖÜ½ÜÂ×;
+RELWORD = ¸¸Ç×;
+RELCOMB = 
+-----------
+SENTENCE = ÖÜ½ÜÂ××î½üËäÈ»Ã¦×Å¸ÏÖÆÐÂ×¨¼­£¬µ«¶ÔÍ½µÜÄÏÈ­ÂèÂèÒÀÈ»¹Ø°®ÓÐ¼Ó£¬²»½öÇ××ÔÖ´µ¼ÄÏÈ­ÂèÂèÐÂ¸è¡¶Äã²»ÏñËý¡·MV£¬»¹Ç××ÔÊ¾·¶ÆäÖÐµÄÀËÂþ´²Ï·¡£
+POS_TAG = ÖÜ½ÜÂ×/nr ×î½ü/t ËäÈ»/c Ã¦/v ×Å/u ¸Ï/v ÖÆ/k ÐÂ/a ×¨¼­/n £¬/w µ«/c ¶Ô/p Í½µÜ/n ÄÏÈ­ÂèÂè/nr ÒÀÈ»/d ¹Ø°®/v ÓÐ¼Ó/l £¬/w ²»½ö/c Ç××Ô/d Ö´µ¼/v ÄÏÈ­ÂèÂè/nr ÐÂ/a ¸è/n ¡¶/w Äã/r ²»/d Ïñ/v Ëý/r ¡·/w MV/nx £¬/w »¹/d Ç××Ô/d Ê¾·¶/v ÆäÖÐ/r µÄ/u ÀËÂþ/a ´²/n Ï·/n ¡£/w
+CHARACTERS = ÄÏÈ­ÂèÂè;ÖÜ½ÜÂ×;
+RELWORD = Í½µÜ;
+RELCOMB = ÄÏÈ­ÂèÂè,ÖÜ½ÜÂ×->Í½µÜ;
+-----------
+SENTENCE = ×òÈÕÏÂÎç£¬ÖÜ½ÜÂ×µÄÊ¦µÜ¡°ÄÏÈ­ÂèÂè¡±×éºÏÐ¯ÐÂ×¨¼­¡¶µ÷É«ÅÌ¡·ÔÚÇ®¹ñKTV¾ÙÐÐ¼ÇÕß»á¡£
+POS_TAG = ×òÈÕ/t ÏÂÎç/t £¬/w ÖÜ½ÜÂ×/nr µÄ/u Ê¦µÜ/n ¡°/w ÄÏÈ­ÂèÂè/nr ¡±/w ×éºÏ/vd Ð¯/v ÐÂ/a ×¨¼­/n ¡¶/w µ÷É«ÅÌ/n ¡·/w ÔÚ/c Ç®¹ñ/n KTV/nx ¾ÙÐÐ/v ¼ÇÕß/n »á/n ¡£/w
+CHARACTERS = ÄÏÈ­ÂèÂè;ÖÜ½ÜÂ×;
+RELWORD = Ê¦µÜ;
+RELCOMB = ÄÏÈ­ÂèÂè,ÖÜ½ÜÂ×->Ê¦µÜ;
+-----------
+SENTENCE = ´Ó×î³õµÄ¡¶ÒÔ¸¸Ö®Ãû¡·µ½¡¶Å£×ÐºÜÃ¦¡·£¬ÔÙµ½ÏÖÔÚµÄ¡¶ÇÇ¿ËÊåÊå¡·£¬¶¼ÔÚ±»ÈË¼Ç×¡£
+POS_TAG = ´Ó/p ×î³õ/b µÄ/u ¡¶/w ÒÔ/p ¸¸/ng Ö®/u Ãû/ng ¡·/w µ½/v ¡¶/w Å£×Ð/n ºÜ/d Ã¦/v ¡·/w £¬/w ÔÙ/d µ½/v ÏÖÔÚ/t µÄ/u ¡¶/w ÇÇ¿Ë/nr ÊåÊå/n ¡·/w £¬/w ¶¼/d ÔÚ/p ±»/p ÈË/n ¼Ç×¡/v £/m
+CHARACTERS = ÇÇ¿Ë;
+RELWORD = ÊåÊå;
+RELCOMB = 
+-----------
+SENTENCE = ÕâÖ®ºó»Æ¿¡ÀÉ±ãÓëÖÜ½ÜÂ×³ÉÎªºÃÅóÓÑ£¬¡°ÎÒµ±Ê±»¹ºÜÇî£¬Ã¿Ìì´©µÃÆÆÆÆÀÃÀÃ£¬¿ÉÊÇ½ÜÂ×ÒÑ¾­ºÜºìÁË£¬ÎÒÃÇÔÚÒ»Æð³Ô·¹£¬½ÜÂ×¾ÍËµÄãÀ´ÎªÎÒÐ´´Ê°É£¬ÕâÑù¿ÉÒÔ¶à×¬Ð©Ç®£¬ÂòºÃÒ»µãµÄÒÂ·þ£¬ÓÚÊÇ¾Í°ÑËûÂ¼µÄDemoÄÃ³öÀ´¸øÎÒÌý£¬ÈÃÎÒÌô£¬Ô¸ÒâÐ´ÄÄÊ×¶¼¿ÉÒÔ¡£
+POS_TAG = Õâ/r Ö®ºó/f »Æ¿¡ÀÉ/nr ±ã/d Óë/p ÖÜ½ÜÂ×/nr ³ÉÎª/v ºÃ/a ÅóÓÑ/n £¬/w ¡°/w ÎÒ/r µ±Ê±/t »¹/d ºÜ/d Çî/a £¬/w Ã¿Ìì/r ´©/v µÃ/u ÆÆÆÆÀÃÀÃ/z £¬/w ¿ÉÊÇ/c ½ÜÂ×/nr ÒÑ¾­/d ºÜ/d ºì/a ÁË/y £¬/w ÎÒÃÇ/r ÔÚ/p Ò»Æð/s ³Ô·¹/v £¬/w ½ÜÂ×/nr ¾Í/d Ëµ/v Äã/r À´/v Îª/p ÎÒ/r Ð´/v ´Ê/n °É/y £¬/w ÕâÑù/r ¿ÉÒÔ/v ¶à/ad ×¬/v Ð©/q Ç®/n £¬/w Âò/v ºÃ/a Ò»µã/t µÄ/u ÒÂ·þ/n £¬/w ÓÚÊÇ/c ¾Í/d °Ñ/p Ëû/r Â¼/v µÄ/u Demo/nx ÄÃ/v ³ö/v À´/v ¸ø/p ÎÒ/r Ìý/v £¬/w ÈÃ/v ÎÒ/r Ìô/v £¬/w Ô¸Òâ/vd Ð´/v ÄÄ/r Ê×¶¼/n ¿ÉÒÔ/v ¡£/w
+CHARACTERS = »Æ¿¡ÀÉ;½ÜÂ×;ÖÜ½ÜÂ×;
+RELWORD = ÅóÓÑ;
+RELCOMB = »Æ¿¡ÀÉ,½ÜÂ×->ÅóÓÑ;»Æ¿¡ÀÉ,ÖÜ½ÜÂ×->ÅóÓÑ;
+-----------
+SENTENCE = ¡±»Æ¿¡ÀÉËµ£¬¡°ÔÚÕâ¼þÊÂÇéÉÏ¸Ð¾õµ½ÖÜ½ÜÂ×¶ÔÅóÓÑµÄÌ¬¶È£¬ÎÒÀí½âËûµÄ¸Ð¾õ£¬Ëûºì¾ÍÏ£Íû×Ô¼ºµÄÅóÓÑÒ²±»ÈËÈÏÊ¶£¬ÈÃÈËÖªµÀËûÃÇÍ¬ÑùºÜÓÅÐã¡£
+POS_TAG = ¡±/w »Æ¿¡ÀÉ/nr Ëµ/v £¬/w ¡°/w ÔÚ/p Õâ/r ¼þ/q ÊÂÇé/n ÉÏ/m ¸Ð¾õ/n µ½/v ÖÜ½ÜÂ×/nr ¶Ô/p ÅóÓÑ/n µÄ/u Ì¬¶È/n £¬/w ÎÒ/r Àí½â/v Ëû/r µÄ/u ¸Ð¾õ/n £¬/w Ëû/r ºì/a ¾Í/d Ï£Íû/v ×Ô¼º/r µÄ/u ÅóÓÑ/n Ò²/d ±»/p ÈË/n ÈÏÊ¶/v £¬/w ÈÃ/v ÈË/n ÖªµÀ/v ËûÃÇ/r Í¬Ñù/d ºÜ/d ÓÅÐã/a ¡£/w
+CHARACTERS = »Æ¿¡ÀÉ;ÖÜ½ÜÂ×;
+RELWORD = ÅóÓÑ;
+RELCOMB = »Æ¿¡ÀÉ,ÖÜ½ÜÂ×->ÅóÓÑ;
+-----------
+SENTENCE = ½ÜÂ×Ï²»¶ºÜ¶àÅóÓÑÔÚÒ»Æð×öÒ»¼þÊÂ£¬±ÈÈçÅÄµçÓ°¡£
+POS_TAG = ½ÜÂ×/nr Ï²»¶/v ºÜ¶à/m ÅóÓÑ/n ÔÚ/p Ò»Æð/s ×ö/v Ò»/m ¼þ/q ÊÂ/n £¬/w ±ÈÈç/v ÅÄ/v µçÓ°/n ¡£/w
+CHARACTERS = ½ÜÂ×;
+RELWORD = ÅóÓÑ;
+RELCOMB = 
+-----------
+SENTENCE = ¡±(Ð¦)¿´À´ËûÃÇÖ®¼äµÄ¸ÐÇé£¬¾ÍÈç»Æ¿¡ÀÉËùËµ£º¡°Ò»ÖÖÅóÓÑ¼äµÄÇéÒê£¬Ò»ÖÖÐÖµÜ¼äµÄÒåÆø£¬Ò»ÖÖÎÞÒÔ»Ø±¨µÄ¶÷Çé¡£
+POS_TAG = ¡±/w (/w Ð¦/v )/w ¿´À´/v ËûÃÇ/r Ö®¼ä/f µÄ/u ¸ÐÇé/n £¬/w ¾Í/d Èç/v »Æ¿¡ÀÉ/nr Ëù/u Ëµ/v £º/w ¡°/w Ò»/m ÖÖ/q ÅóÓÑ/n ¼ä/f µÄ/u ÇéÒê/n £¬/w Ò»/m ÖÖ/q ÐÖµÜ/n ¼ä/f µÄ/u ÒåÆø/n £¬/w Ò»/m ÖÖ/q ÎÞÒÔ/d »Ø±¨/v µÄ/u ¶÷Çé/n ¡£/w
+CHARACTERS = »Æ¿¡ÀÉ;
+RELWORD = ÅóÓÑ;ÐÖµÜ;
+RELCOMB = 
+-----------
+SENTENCE = ËûÊÇÖÜ½ÜÂ×ÒÔÍù×¨¼­ÖÐ´ó·ÅÒì²ÊµÄ¡¶ÒÔ¸¸Ö®Ãû¡·¡¶Å£×ÐºÜÃ¦¡·¡¶Ò¹µÄµÚÆßÕÂ¡·µÈ¹îÚÜ¸è´ÊµÄ¹í²Å²Ùµ¶ÈË£¬¶øÖÜ½ÜÂ×2008ÄêÐÂ×¨¼­¡¶Ä§½Ü×ù¡·µÚ¶þÖ÷´ò¸è¡¶ÇÇ¿ËÊåÊå¡·µÄ¸è´ÊÕýÊÇ³ö×ÔËûÊÖ¡£
+POS_TAG = Ëû/r ÊÇ/v ÖÜ½ÜÂ×/nr ÒÔÍù/t ×¨¼­/n ÖÐ/f ´ó·ÅÒì²Ê/i µÄ/u ¡¶/w ÒÔ/p ¸¸/ng Ö®/u Ãû/ng ¡·/w ¡¶/w Å£×Ð/n ºÜ/d Ã¦/v ¡·/w ¡¶/w Ò¹/tg µÄ/u µÚÆß/m ÕÂ/q ¡·/w µÈ/u ¹îÚÜ/a ¸è´Ê/n µÄ/u ¹í/n ²Å/d ²Ù/v µ¶/q ÈË/n £¬/w ¶ø/c ÖÜ½ÜÂ×/nr 2008Äê/t ÐÂ/a ×¨¼­/n ¡¶/w Ä§/ag ½Ü/ag ×ù/ng ¡·/w µÚ¶þ/m Ö÷/ag ´ò/v ¸è/vg ¡¶/w ÇÇ¿Ë/nr ÊåÊå/n ¡·/w µÄ/u ¸è´Ê/n ÕýÊÇ/v ³ö×Ô/v Ëû/r ÊÖ/n ¡£/w
+CHARACTERS = ÇÇ¿Ë;ÖÜ½ÜÂ×;
+RELWORD = ÊåÊå;
+RELCOMB = 
+-----------
+SENTENCE = Ë­ÖªÎâÂèÂè´ÓÏà¹Ø±¨µÀµÃÖª°®×Ó²¡¿ö£¬Á¢¼´ÁªÂçÌïÀÏ°å£¬Ç¿ÁÒÒªÇóÈ¡ÏûÑÝ³ª»á£¬ÎâÂèÂèÓïÆø¿ÒÇÐ£º¡°Ï£Íû¹«Ë¾¿ÉÒÔÌåÁÂÒ»¸ö×öÄ¸Ç×µÄÐÄÇé¡£
+POS_TAG = Ë­Öª/v ÎâÂèÂè/nr ´Ó/p Ïà¹Ø/v ±¨µÀ/v µÃÖª/v °®×Ó/n ²¡¿ö/n £¬/w Á¢¼´/d ÁªÂç/v ÌïÀÏ°å/nr £¬/w Ç¿ÁÒ/ad ÒªÇó/v È¡Ïû/v ÑÝ³ª»á/n £¬/w ÎâÂèÂè/nr ÓïÆø/n ¿ÒÇÐ/a £º/w ¡°/w Ï£Íû/v ¹«Ë¾/n ¿ÉÒÔ/v ÌåÁÂ/v Ò»¸ö/m ×ö/v Ä¸Ç×/n µÄ/u ÐÄÇé/n ¡£/w
+CHARACTERS = ÌïÀÏ°å;ÎâÂèÂè;
+RELWORD = Ä¸Ç×;
+RELCOMB = 
+-----------
+SENTENCE = ×îÖÕÔÚÎâÂèÂè¡¢³ªÆ¬¹«Ë¾µÄºÏÁ¦È°×èÏÂ£¬´ÓÐ¡¾Í¸¸Ä¸ÀëÒì£¬ºÍÂèÂèÏàÒÀÎªÃüµÄÎâ¿ËÈºÖÕÓÚËÉ¿Ú£¬Ö÷°ìµ¥Î»15ÈÕÈÌÍ´Ðû²¼£¬Á½³¡ÑÝ³ª»áÈ«²¿È¡Ïû¡£
+POS_TAG = ×îÖÕ/d ÔÚ/p Îâ/nr ÂèÂè/n ¡¢/w ³ªÆ¬/n ¹«Ë¾/n µÄ/u ºÏÁ¦/n È°×è/vn ÏÂ/f £¬/w ´ÓÐ¡/d ¾Í/p ¸¸Ä¸/n ÀëÒì/vn £¬/w ºÍ/c ÂèÂè/n ÏàÒÀÎªÃü/i µÄ/u Îâ¿ËÈº/nr ÖÕÓÚ/d ËÉ/v ¿Ú/q £¬/w Ö÷°ì/v µ¥Î»/n 15ÈÕ/t ÈÌÍ´/d Ðû²¼/v £¬/w Á½/m ³¡/q ÑÝ³ª»á/n È«²¿/m È¡Ïû/v ¡£/w
+CHARACTERS = Îâ;Îâ¿ËÈº;
+RELWORD = ÂèÂè;
+RELCOMB = 
+-----------
+SENTENCE = ÁÖ¿¡½ÜµÄÐÂ×¨¼­¡¶JJÂ½¡·½«ÓÚ±¾ÔÂ18ÈÕÕýÊ½·¢ÐÐ£¬ÆäÖÐÖ÷´ò¸è¡¶Ð¡¾ÆÎÑ¡·ËäÊÇÒ»Ê×¶Ô³ªÇé¸è£¬µ«ÁÖ¿¡½ÜÞðÆúÐ¡Ê¦ÃÃ½ðÉ¯£¬ÇëÀ´°¢Sa¶Ô³ª¡£
+POS_TAG = ÁÖ¿¡½Ü/nr µÄ/u ÐÂ/a ×¨¼­/n ¡¶/w JJ/nx Â½/m ¡·/w ½«/d ÓÚ/p ±¾ÔÂ/t 18ÈÕ/t ÕýÊ½/ad ·¢ÐÐ/v £¬/w ÆäÖÐ/r Ö÷/ag ´ò/v ¸è/vg ¡¶/w Ð¡/a ¾ÆÎÑ/n ¡·/w Ëä/c ÊÇ/a Ò»/m Ê×/d ¶Ô³ª/v Çé/n ¸è/n £¬/w µ«/c ÁÖ¿¡½Ü/nr ÞðÆú/v Ð¡/a Ê¦ÃÃ/n ½ðÉ¯/nr £¬/w Çë/v À´/v °¢Sa/nr ¶Ô/p ³ª/v ¡£/w
+CHARACTERS = °¢Sa;½ðÉ¯;ÁÖ¿¡½Ü;
+RELWORD = Ê¦ÃÃ;
+RELCOMB = ½ðÉ¯,ÁÖ¿¡½Ü->Ê¦ÃÃ;
+-----------
+SENTENCE = ¶ÔÓÚJJºÍ°¢SaºÏ³ªÇé¸è£¬¡°Ô­Åä¡±Ð¡Ê¦ÃÃ½ðÉ¯±íÊ¾£¬¡°ºÜ²»´í°¡£
+POS_TAG = ¶ÔÓÚ/p JJ/nr ºÍ/c °¢Sa/nr ºÏ³ª/vn Çé/n ¸è/vg £¬/w ¡°/w Ô­Åä/n ¡±/c Ð¡/a Ê¦ÃÃ/n ½ðÉ¯/nr ±íÊ¾/v £¬/w ¡°/w ºÜ/d ²»´í/a °¡/y £/m
+CHARACTERS = JJ;°¢Sa;½ðÉ¯;
+RELWORD = Ê¦ÃÃ;
+RELCOMB = JJ,½ðÉ¯->Ê¦ÃÃ;
+-----------
+SENTENCE = ¡±ºîÅåá¯Ò²²»ÍüÇ¿µ÷£¬¡°ÎÒÓëÁ¬Ê¤ÎÄ¹ýÈ¥ÊÇºÃÅóÓÑ£¬ÏÖÔÚ»¹ÊÇ¡£
+POS_TAG = ¡±/w ºîÅåá¯/nr Ò²/d ²»/d Íü/v Ç¿µ÷/v £¬/w ¡°/w ÎÒ/r Óë/p Á¬Ê¤ÎÄ/nr ¹ýÈ¥/t ÊÇ/v ºÃ/a ÅóÓÑ/n £¬/w ÏÖÔÚ/t »¹/d ÊÇ/v ¡£/w
+CHARACTERS = ºîÅåá¯;Á¬Ê¤ÎÄ;
+RELWORD = ÅóÓÑ;
+RELCOMB = ºîÅåá¯,Á¬Ê¤ÎÄ->ÅóÓÑ;
+-----------
+SENTENCE = ¡±Í¬Ê±»¹³ÎÇå£¬×Ô¼ºµÄÄ¸Ç×ÁÖÔÂÔÆÃ»ÓÐ½Óµ½¹ýÁ¬Õ½·ò¸¾µÄµç»°£¬Ò²Ã»ÓÐ´òµç»°ÏòÁ¬Ê¤ÎÄµÄ¼ÒÈË½âÊÍ¡£
+POS_TAG = ¡±/w Í¬Ê±/c »¹/d ³ÎÇå/v £¬/w ×Ô¼º/r µÄ/u Ä¸Ç×/n ÁÖÔÂÔÆ/nr Ã»ÓÐ/d ½Óµ½/v ¹ý/u Á¬Õ½/nr ·ò¸¾/n µÄ/u µç»°/n £¬/w Ò²/d Ã»ÓÐ/d ´òµç»°/v Ïò/p Á¬Ê¤ÎÄ/nr µÄ/u ¼ÒÈË/n ½âÊÍ/vn ¡£/w
+CHARACTERS = Á¬Ê¤ÎÄ;Á¬Õ½;ÁÖÔÂÔÆ;
+RELWORD = Ä¸Ç×;
+RELCOMB = Á¬Ê¤ÎÄ,ÁÖÔÂÔÆ->Ä¸Ç×;
+-----------
+SENTENCE = ¡±Ì¸µ½ÄÐÓÑÖÜ½ÜÂ×£¬ºîÅåá¯Ëµ£º¡°ÎÒ¾õµÃËûºÜÓÐ²ÅÆø£¬ºÜÌ¤Êµ£¬ºÜÕæ£±ËýÌØ±ðÇ¿µ÷£¬ÖÜ½ÜÂ×µÄ¡°Õæ¡±ÊÇºÜÈÃÈË¾´ÅåµÄÒ»µã£¬ºÜÄÑµÃ¡£
+POS_TAG = ¡±/w Ì¸/v µ½/v ÄÐÓÑ/n ÖÜ½ÜÂ×/nr £¬/w ºîÅåá¯/nr Ëµ/v £º/w ¡°/w ÎÒ/r ¾õµÃ/v Ëû/r ºÜ/d ÓÐ/v ²Å/c Æø/n £¬/w ºÜ/d Ì¤Êµ/a £¬/w ºÜ/d Õæ/a £±/m Ëý/r ÌØ±ð/d Ç¿µ÷/v £¬/w ÖÜ½ÜÂ×/nr µÄ/u ¡°/w Õæ/a ¡±/w ÊÇ/v ºÜ/d ÈÃ/v ÈË/n ¾´Åå/v µÄ/u Ò»µã/t £¬/w ºÜ/d ÄÑµÃ/a ¡£/w
+CHARACTERS = ºîÅåá¯;ÖÜ½ÜÂ×;
+RELWORD = ÄÐÓÑ;
+RELCOMB = ºîÅåá¯,ÖÜ½ÜÂ×->ÄÐÓÑ;
+-----------
+SENTENCE = ºîÅåá¯»¹ÌØ±ð³ÎÇåÓëÁ¬Ê¤ÎÄµÄ´«ÎÅ£¬¡°ÎÒºÍÁ¬Ê¤ÎÄÒ»Ö±ÊÇºÃÅóÓÑ£¬ÒÔÇ°ÊÇ£¬ÏÖÔÚÒ²ÊÇ¡£
+POS_TAG = ºîÅåá¯/nr »¹/d ÌØ±ð/d ³ÎÇå/v Óë/p Á¬Ê¤ÎÄ/nr µÄ/u ´«ÎÅ/n £¬/w ¡°/w ÎÒ/r ºÍ/c Á¬Ê¤ÎÄ/nr Ò»Ö±/d ÊÇ/v ºÃ/a ÅóÓÑ/n £¬/w ÒÔÇ°/f ÊÇ/v £¬/w ÏÖÔÚ/t Ò²/d ÊÇ/v ¡£/w
+CHARACTERS = ºîÅåá¯;Á¬Ê¤ÎÄ;
+RELWORD = ÅóÓÑ;
+RELCOMB = ºîÅåá¯,Á¬Ê¤ÎÄ->ÅóÓÑ;
+-----------
+SENTENCE = ÎÒÄ¸Ç×ÁÖÔÂÔÆÃ»ÓÐÒòÎª¡®ÖÜºîÁµ¡¯¶ø´òµç»°¸øÁ¬Õ½·ò¸¾£¬¸üÃ»ÓÐÒòÎªÎÒÃÇµÄÁµÇéÆØ¹â¶øÉúÆø¡£
+POS_TAG = ÎÒ/r Ä¸Ç×/n ÁÖÔÂÔÆ/nr Ã»ÓÐ/v ÒòÎª/c ¡®/w ÖÜ/ag ºî/ng Áµ/v ¡¯/w ¶ø/c ´òµç»°/v ¸ø/p Á¬Õ½/nr ·ò¸¾/n £¬/w ¸ü/d Ã»ÓÐ/v ÒòÎª/p ÎÒÃÇ/r µÄ/u ÁµÇé/n ÆØ¹â/vn ¶ø/c ÉúÆø/n ¡£/w
+CHARACTERS = Á¬Õ½;ÁÖÔÂÔÆ;
+RELWORD = Ä¸Ç×;
+RELCOMB = Á¬Õ½,ÁÖÔÂÔÆ->Ä¸Ç×;
+-----------
+SENTENCE = ¡±¾ÝÏ¤£¬×òÈÕºîÅåá¯µÄÄ¸Ç×ÁÖÔÂÔÆÒ²µ½ÏÖ³¡¸øÓèÅ®¶ù×îÖ±½ÓµÄÖ§³Ö¡£
+POS_TAG = ¡±/w ¾ÝÏ¤/v £¬/w ×òÈÕ/t ºîÅåá¯/nr µÄ/u Ä¸Ç×/n ÁÖÔÂÔÆ/nr Ò²/d µ½/v ÏÖ³¡/s ¸øÓè/v Å®¶ù/n ×î/d Ö±½Ó/a µÄ/u Ö§³Ö/vn ¡£/w
+CHARACTERS = ºîÅåá¯;ÁÖÔÂÔÆ;
+RELWORD = Ä¸Ç×;Å®¶ù;
+RELCOMB = ºîÅåá¯,ÁÖÔÂÔÆ->Ä¸Ç×;ºîÅåá¯,ÁÖÔÂÔÆ->Å®¶ù;
+-----------
+SENTENCE = ¶øÊÂÊµÉÏ£¬½üÈÕºîÂèÂèÁÖÔÂÔÆÒ²Ê×¶È¶ÔÅ®¶ùµÄÐÂÁµÇé·¢±íÁËÆÀÂÛ¡£
+POS_TAG = ¶ø/c ÊÂÊµÉÏ/l £¬/w ½üÈÕ/t ºî/nr ÂèÂè/n ÁÖÔÂÔÆ/nr Ò²/d Ê×/m ¶È/q ¶Ô/p Å®¶ù/n µÄ/u ÐÂ/a ÁµÇé/n ·¢±í/v ÁË/u ÆÀÂÛ/n ¡£/w
+CHARACTERS = ºî;ÁÖÔÂÔÆ;
+RELWORD = ÂèÂè;Å®¶ù;
+RELCOMB = ºî,ÁÖÔÂÔÆ->ÂèÂè;ºî,ÁÖÔÂÔÆ->Å®¶ù;
+-----------
+SENTENCE = Å®¶ù²»Ò»¶¨Òª¼ÞÈëºÀÃÅ£¬ÎÒÖ»Ï£ÍûÎ´À´Å®ÐöÉíÐÄ½¡¿µ¡¢ÓÐÕýµ±¹¤×÷¡¢Á½ÈË±Ë´ËÏà°®¡£
+POS_TAG = Å®¶ù/n ²»/d Ò»¶¨/d Òª/v ¼Þ/v Èë/v ºÀÃÅ/n £¬/w ÎÒ/r Ö»/d Ï£Íû/v Î´À´/t Å®Ðö/n ÉíÐÄ½¡¿µ/l ¡¢/w ÓÐ/v Õýµ±/a ¹¤×÷/vn ¡¢/w Á½/m ÈË/n ±Ë´Ë/r Ïà/d °®/v ¡£/w
+CHARACTERS = 
+RELWORD = Å®¶ù;
+RELCOMB = 
+-----------
+SENTENCE = Å®¶ùµÄÐÒ¸£×îÖØÒª¡£
+POS_TAG = Å®¶ù/n µÄ/u ÐÒ¸£/an ×î/d ÖØÒª/a ¡£/w
+CHARACTERS = 
+RELWORD = Å®¶ù;
+RELCOMB = 
+-----------
+SENTENCE = ¡±µ±¼ÇÕß¸æÖªËû£¬ºîÅåá¯µÄÄ¸Ç×¶ÔÃ½Ìå±íÊ¾ÐÀÉÍÖÜ½ÜÂ×£¬²»·´¶ÔÅ®¶ùºÍËû½»ÍùÒ»ÊÂ£¬ÖÜ½ÜÂ×ÎÅÑÔ£¬×ì½ÇÎ¢Î¢ÉÏÑï£¬Ò»Á³ÌðÃÛµØÐ¦ÁË£º¡°ÓÐÈËÐÀÉÍ£¬µ±È»¸ßÐËÁË¡£
+POS_TAG = ¡±/w µ±/ ¼ÇÕß/n ¸æÖª/v Ëû/r £¬/w ºîÅåá¯/nr µÄ/u Ä¸Ç×/n ¶Ô/p Ã½Ìå/n ±íÊ¾/v ÐÀÉÍ/v ÖÜ½ÜÂ×/nr £¬/w ²»/d ·´¶Ô/v Å®¶ù/n ºÍ/c Ëû/r ½»Íù/v Ò»/m ÊÂ/n £¬/w ÖÜ½ÜÂ×/nr ÎÅ/v ÑÔ/vg £¬/w ×ì½Ç/n Î¢Î¢/b ÉÏÑï/v £¬/w Ò»/m Á³/q ÌðÃÛ/a µØ/u Ð¦/v ÁË/y £º/w ¡°/w ÓÐÈË/r ÐÀÉÍ/v £¬/w µ±È»/d ¸ßÐË/a ÁË/y ¡£/w
+CHARACTERS = ºîÅåá¯;ÖÜ½ÜÂ×;
+RELWORD = Ä¸Ç×;Å®¶ù;
+RELCOMB = 
+-----------
+SENTENCE = ÖÜ½ÜÂ×µÄç³ÎÅÅ®ÓÑÒ»Ö±ÊÇÖªÃû¸èÐÇ²ÌÒÀÁÖ£¬Õâ´Î¡°ÖÜºîÁµ¡±ÆØ¹â£¬ÖÜ½ÜÂ×±»Ö¸ÅüÍÈ£¬¶øºîÅåá¯Ôò³ÉÁËµÚÈýÕß£¬ÖÜ½ÜÂ××òÌìÒ²·ñÈÏËûÔøºÍ²ÌÒÀÁÖÊÇÄÐÅ®ÅóÓÑ£¬Ç¿µ÷¡°ÎÒ´ÓÀ´Ã»ÓÐ×·Çó¹ý²ÌÍ¬Ñ§£¬ÎÒ¸úËýÖ»ÊÇºÃÅóÓÑ¡±£¬×Ô¡°ÖÜºîÁµ¡±´«¿ªºó£¬ÖÜ½ÜÂ×Ð¦ÑÔ²ÌÒÀÁÖ»¹¹ÄÀøËûÈ¥×·ÇóºîÅåá¯¡£
+POS_TAG = ÖÜ½ÜÂ×/nr µÄ/u ç³ÎÅ/n Å®ÓÑ/n Ò»Ö±/d ÊÇ/v ÖªÃû/a ¸èÐÇ/n ²ÌÒÀÁÖ/nr £¬/w Õâ´Î/r ¡°/w ÖÜ/ag ºî/ng Áµ/v ¡±/w ÆØ¹â/v £¬/w ÖÜ½ÜÂ×/nr ±»/p Ö¸/v Åü/v ÍÈ/n £¬/w ¶ø/c ºîÅåá¯/nr Ôò/d ³É/v ÁË/u µÚÈýÕß/n £¬/w ÖÜ½ÜÂ×/nr ×òÌì/t Ò²/d ·ñÈÏ/v Ëû/r Ôø/d ºÍ/c ²ÌÒÀÁÖ/nr ÊÇ/v ÄÐ/b Å®/b ÅóÓÑ/n £¬/w Ç¿µ÷/v ¡°/w ÎÒ/r ´ÓÀ´/d Ã»ÓÐ/d ×·Çó/v ¹ý/u ²ÌÍ¬Ñ§/nr £¬/w ÎÒ/r ¸ú/p Ëý/r Ö»/d ÊÇ/v ºÃ/a ÅóÓÑ/n ¡±/w £¬/w ×Ô/p ¡°/w ÖÜ/ag ºî/ng Áµ/v ¡±/w ´«¿ª/v ºó/f £¬/w ÖÜ½ÜÂ×/nr Ð¦/v ÑÔ/vg ²ÌÒÀÁÖ/nr »¹/d ¹ÄÀø/v Ëû/r È¥/v ×·Çó/v ºîÅåá¯/nr ¡£/w
+CHARACTERS = ²ÌÍ¬Ñ§;²ÌÒÀÁÖ;ºîÅåá¯;ÖÜ½ÜÂ×;
+RELWORD = Å®ÓÑ;ÅóÓÑ;
+RELCOMB = ºîÅåá¯,ÖÜ½ÜÂ×->Å®ÓÑ;²ÌÍ¬Ñ§,ÖÜ½ÜÂ×->ÅóÓÑ;²ÌÒÀÁÖ,ÖÜ½ÜÂ×->ÅóÓÑ;
+-----------
+SENTENCE = ÈÕÇ°ÖÜ½ÜÂ×ºÍºîÅåá¯±»±¬³öÍ¬ÓÎ¶«¾©Ê±£¬ºîÅåá¯¾­¼ÍÈËÑïÑÔÁ½ÈËÖ»ÊÇÇÉÓö£¬¶øÇÒÁ¬ºÈ±­¿§·ÈµÄÊ±¼ä¶¼Ã»ÓÐ¡£
+POS_TAG = ÈÕÇ°/t ÖÜ½ÜÂ×/nr ºÍ/c ºîÅåá¯/nr ±»/p ±¬³ö/v Í¬/p ÓÎ/v ¶«¾©/ns Ê±/ng £¬/w ºîÅåá¯/nr ¾­¼ÍÈË/n ÑïÑÔ/v Á½/m ÈË/n Ö»/d ÊÇ/v ÇÉÓö/v £¬/w ¶øÇÒ/c Á¬/n ºÈ/vg ±­/ng ¿§·È/n µÄ/u Ê±¼ä/n ¶¼/d Ã»ÓÐ/v ¡£/w
+CHARACTERS = ºîÅåá¯;ÖÜ½ÜÂ×;
+RELWORD = ¾­¼ÍÈË;
+RELCOMB = 
+-----------
+SENTENCE = Ò»¸öÀ´»¦¿ªÅÄÐÂÆ¬£¬Ò»¸öÀ´»¦²ÎÓë´ÈÉÆ»î¶¯£¬ÖÜ½ÜÂ×ºÍºîÅåá¯µÄÁµÈË¹ØÏµËäÈ»ÒÑÊÇ¡°¹ýÈ¥Ê½¡±£¬È´ÈÔÈ»ÒªÔÚ½ñÒ¹µÄÉÏº£³ÉÎªÊÜÖõÄ¿µÄ½¹µã¡£
+POS_TAG = Ò»¸ö/m À´/v »¦/j ¿ªÅÄ/v ÐÂÆ¬/n £¬/w Ò»¸ö/m À´/v »¦/j ²ÎÓë/v ´ÈÉÆ/an »î¶¯/vn £¬/w ÖÜ½ÜÂ×/nr ºÍ/c ºîÅåá¯/nr µÄ/u ÁµÈË/n ¹ØÏµ/n ËäÈ»/c ÒÑ/d ÊÇ/v ¡°/w ¹ýÈ¥/v Ê½/k ¡±/w £¬/w È´/d ÈÔÈ»/d Òª/v ÔÚ/p ½ñÒ¹/t µÄ/u ÉÏº£/ns ³ÉÎª/v ÊÜ/v ÖõÄ¿/v µÄ/u ½¹µã/n ¡£/w
+CHARACTERS = ºîÅåá¯;ÖÜ½ÜÂ×;
+RELWORD = ÁµÈË;
+RELCOMB = ºîÅåá¯,ÖÜ½ÜÂ×->ÁµÈË;
+-----------
+SENTENCE = ÖÜ½ÜÂ×µÄÇ°Å®ÓÑºîÅåá¯Ìú¶¨»á³öÏ¯¡£
+POS_TAG = ÖÜ½ÜÂ×/nr µÄ/u Ç°/h Å®ÓÑ/n ºîÅåá¯/nr Ìú/vd ¶¨/v »á/v ³öÏ¯/v ¡£/w
+CHARACTERS = ºîÅåá¯;ÖÜ½ÜÂ×;
+RELWORD = Å®ÓÑ;
+RELCOMB = ºîÅåá¯,ÖÜ½ÜÂ×->Å®ÓÑ;
+-----------
+SENTENCE = Îª¹Ø»³ÓÇÓôÖ¢»¼ÕßÅÄÉã¡°ÇãÌý¾ÍÊÇÒ»ÖÖÅã°é¡±¹«Òæ¹ã¸æ£¬×ò(7ÔÂ65)ÔÚÌ¨ÍåÕÙ¿ª¼ÇÕß»áËûÍ¸Â¶×î³£ÌýËûÐÄÊÂµÄÄÐÐÔºÃÓÑÊÇµ¯Í·£¬²ÌÒÀÁÖ£¨Jolin£©ÔòÊÇ¡°»¹ÊÇ»áÁÄÌìµÄºÃÅóÓÑ¡±¡£
+POS_TAG = Îª/p ¹Ø»³/v ÓÇÓô/an Ö¢/ng »¼Õß/n ÅÄÉã/v ¡°/w ÇãÌý/v ¾Í/d ÊÇ/v Ò»/m ÖÖ/q Åã°é/v ¡±/w ¹«Òæ/n ¹ã¸æ/n £¬/w ×ò/tg (/w 7ÔÂ/t 65/m )/w ÔÚ/p Ì¨Íå/ns ÕÙ¿ª/v ¼ÇÕß»á/n Ëû/r Í¸Â¶/v ×î/d ³£/d Ìý/v Ëû/r ÐÄÊÂ/n µÄ/u ÄÐÐÔ/n ºÃÓÑ/n ÊÇ/v µ¯Í·/nr £¬/w ²ÌÒÀÁÖ/nr £¨/w Jolin/nx £©/w Ôò/d ÊÇ/v ¡°/w »¹/d ÊÇ/v »á/v ÁÄÌì/v µÄ/u ºÃ/a ÅóÓÑ/n ¡±/w ¡£/w
+CHARACTERS = ²ÌÒÀÁÖ;µ¯Í·;
+RELWORD = »¼Õß;ÅóÓÑ;
+RELCOMB = ²ÌÒÀÁÖ,µ¯Í·->ÅóÓÑ;
+-----------
+SENTENCE = ÖÜ½ÜÂ×Ç°Å®ÓÑºîÅåá¯ÈÕÇ°±»Ä¿»÷µ½ËûµÄ¡°Mr.
+POS_TAG = ÖÜ½ÜÂ×/nr Ç°/f Å®ÓÑ/n ºîÅåá¯/nr ÈÕÇ°/t ±»/p Ä¿»÷/v µ½/v Ëû/r µÄ/u ¡°/w Mr./nx
+CHARACTERS = ºîÅåá¯;ÖÜ½ÜÂ×;
+RELWORD = Å®ÓÑ;
+RELCOMB = ºîÅåá¯,ÖÜ½ÜÂ×->Å®ÓÑ;
+-----------
+SENTENCE = ¡±ËûÔòËµ£º¡°ºÃÅóÓÑµ½µêÀï¹â¹ËºÜÕý³£¡
+POS_TAG = ¡±/w Ëû/r Ôò/d Ëµ/v £º/w ¡°/w ºÃ/a ÅóÓÑ/n µ½/v µê/n Àï/f ¹â¹Ë/v ºÜ/d Õý/d ³£/d
+CHARACTERS = 
+RELWORD = ÅóÓÑ;
+RELCOMB = 
+-----------
+SENTENCE = ËûÔøËµºÜÄÑºÍ·ÖÊÖÅ®ÓÑ½»ÅóÓÑ£¬µ«±»ÎÊ¼°ºîÅåá¯µ½Ëû²ÍÌüÓÃ²Í£¬ËûÎ´Â¶¾ªÑÈ£¬ÏÔ¼ûÒÑÖª´ËÊÂ£¬²¢±íÊ¾ÊÇ¡°ºÃÅóÓÑ¡±µ½µêÀï¹â¹ËºÜÕý³£¡
+POS_TAG = Ëû/r Ôø/d Ëµ/v ºÜ/d ÄÑ/a ºÍ/c ·ÖÊÖ/vn Å®ÓÑ/n ½»ÅóÓÑ/l £¬/w µ«/c ±»/p ÎÊ¼°/v ºîÅåá¯/nr µ½/v Ëû/r ²ÍÌü/n ÓÃ²Í/v £¬/w Ëû/r Î´/d Â¶/v ¾ªÑÈ/an £¬/w ÏÔ¼û/v ÒÑ/d Öª/ag ´ËÊÂ/r £¬/w ²¢/c ±íÊ¾/v ÊÇ/v ¡°/w ºÃ/a ÅóÓÑ/n ¡±/w µ½/v µê/n Àï/f ¹â¹Ë/v ºÜ/d Õý/d ³£/d
+CHARACTERS = ºîÅåá¯;
+RELWORD = Å®ÓÑ;ÅóÓÑ;
+RELCOMB = 
+-----------
+SENTENCE = Îâ×ÚÏÜ±íÊ¾£¬Í¨³£ÒøÉ«ÇéÂÂµÄÁµÇé¶¼»á¹«¿ªºó²»¾ÃÐû¸æ½áÊø£¬¡°Ñ¹Á¦Ì«´óÁËÂï£±Ëû¸ü¿ªÍæÐ¦µØËµ£¬¡°ÏÖÔÚ¹·×ÐÄÇÃ´¶à£¬ÄÑ¹ÖÒÕÈËÏÈÓÐºó»éµÄÄÇÃ´¶à£¬ÒòÎªÒªÔ¼»áÖ»ÄÜÔ¼ÔÚ¼ÒÀï¡­¡­¡±µ«Îâ×ÚÏÜÊ¼ÖÕ²»¿Ï½²Õâ¶Ô·ÖÊÖÇéÂÂÖ¸µÄÊÇË­£¬Ëû»¹²»Íü½»´úÖúÀí£º¡°ÄÇ¶Ô·ÖÊÖµÄÇéÂÂÊÇË­£¬ÄãÒ²Ç§Íò²»ÄÜ½²à¸£±´óÓÐ´ËµØÎÞÒøÈý°ÙÁ½µÄÒâÎ¶¡£
+POS_TAG = Îâ×ÚÏÜ/nr ±íÊ¾/v £¬/w Í¨³£/b ÒøÉ«/n ÇéÂÂ/n µÄ/b ÁµÇé/n ¶¼/d »á/n ¹«¿ª/a ºó/f ²»¾Ã/d Ðû¸æ/v ½áÊø/v £¬/w ¡°/w Ñ¹Á¦/n Ì«/d ´ó/a ÁË/y Âï/y £±/m Ëû/r ¸ü/d ¿ªÍæÐ¦/v µØ/u Ëµ/v £¬/w ¡°/w ÏÖÔÚ/t ¹·/n ×Ð/ng ÄÇÃ´/c ¶à/a £¬/w ÄÑ¹Ö/d ÒÕÈË/n ÏÈ/d ÓÐ/v ºó/f »é/ng µÄ/u ÄÇÃ´/r ¶à/m £¬/w ÒòÎª/c Òª/v Ô¼»á/v Ö»ÄÜ/v Ô¼/d ÔÚ/p ¼ÒÀï/s ¡­/w ¡­/w ¡±/w µ«/c Îâ×ÚÏÜ/nr Ê¼ÖÕ/d ²»/d ¿Ï/v ½²/v Õâ/r ¶Ô/p ·ÖÊÖ/v ÇéÂÂ/n Ö¸/ng µÄ/b ÊÇ/a Ë­/r £¬/w Ëû/r »¹/d ²»/d Íü/v ½»´ú/v ÖúÀí/n £º/w ¡°/w ÄÇ/r ¶Ô/p ·ÖÊÖ/v µÄ/u ÇéÂÂ/n ÊÇ/a Ë­/r £¬/w Äã/r Ò²/d Ç§Íò/m ²»ÄÜ/v ½²/v à¸/o £±/m ´ó/a ÓÐ/v ´ËµØ/s ÎÞ/v Òø/ng Èý°ÙÁ½/m µÄ/u ÒâÎ¶/n ¡£/w
+CHARACTERS = Îâ×ÚÏÜ;
+RELWORD = ÖúÀí;
+RELCOMB = 
+-----------
+SENTENCE = Èç¹ûÓ²ÒªËµ°ä½±µäÀñÉÏÁ½ÈËÊÇÒòÎª¡°¶úÄ¿ÖÚ¶à¡±¶øÃ»ÓÐ½»Á÷£¬µ«ÊÇ¹ýºóµÄÇì¹¦ÑçÉÏ£¬ÉíÎªÖÜ½ÜÂ×¹«¿ªÅ®ÓÑµÄºîÅåá¯Ò²Ã»ÓÐ³öÏ¯¡£
+POS_TAG = Èç¹û/c Ó²/d Òª/v Ëµ/v °ä½±/vn µäÀñ/n ÉÏÁ½/m ÈË/n ÊÇ/v ÒòÎª/c ¡°/w ¶úÄ¿/n ÖÚ¶à/a ¡±/c ¶ø/c Ã»ÓÐ/v ½»Á÷/vn £¬/w µ«ÊÇ/c ¹ý/v ºó/f µÄ/u Çì¹¦Ñç/n ÉÏ/m £¬/w Éí/ng Îª/v ÖÜ½ÜÂ×/nr ¹«¿ª/v Å®ÓÑ/n µÄ/u ºîÅåá¯/nr Ò²/d Ã»ÓÐ/d ³öÏ¯/v ¡£/w
+CHARACTERS = ºîÅåá¯;ÖÜ½ÜÂ×;
+RELWORD = Å®ÓÑ;
+RELCOMB = ºîÅåá¯,ÖÜ½ÜÂ×->Å®ÓÑ;
+-----------
+SENTENCE = ¾ÝÏ¤£¬ÖÜ½ÜÂ×µÃ½±ºó£¬Ï²ÔÃµÄÐÄÇéÈ«Ð´ÔÚÁ³ÉÏ£¬µ«ËûµÚÒ»Í¨µç»°²»ÊÇ´ò¸øºîÅåá¯£¬·´¶øÊÇ¡°½ÐÁõ¸ûºê£¨Ò»Í¬ÊÂ£©À´³Ô·¹¡±¡£
+POS_TAG = ¾ÝÏ¤/v £¬/w ÖÜ½ÜÂ×/nr µÃ½±/v ºó/f £¬/w Ï²ÔÃ/an µÄ/u ÐÄÇé/n È«/d Ð´/v ÔÚ/p Á³ÉÏ/s £¬/w µ«/c Ëû/r µÚÒ»/m Í¨/q µç»°/n ²»/d ÊÇ/v ´ò/v ¸ø/p ºîÅåá¯/nr £¬/w ·´/v ¶øÊÇ/c ¡°/w ½Ð/v Áõ¸ûºê/nr £¨/w Ò»/m Í¬ÊÂ/n £©/w À´/v ³Ô/v ·¹/n ¡±/w ¡£/w
+CHARACTERS = ºîÅåá¯;Áõ¸ûºê;ÖÜ½ÜÂ×;
+RELWORD = Í¬ÊÂ;
+RELCOMB = Áõ¸ûºê,ÖÜ½ÜÂ×->Í¬ÊÂ;
+-----------
+SENTENCE = ½Óµ½µÄµÚÒ»Í¨µç»°ÔòÊÇÂèÂèÒ¶»ÝÃÀ´òÀ´¡£
+POS_TAG = ½Óµ½/v µÄ/u µÚÒ»/m Í¨µç»°/v Ôò/d ÊÇ/v ÂèÂè/n Ò¶»ÝÃÀ/nr ´ò/v À´/f ¡£/w
+CHARACTERS = Ò¶»ÝÃÀ;
+RELWORD = ÂèÂè;
+RELCOMB = 
+-----------
+SENTENCE = ÔÚ½ðÇú½±¹ýºó£¬ÖÜ½ÜÂ×¶ÔÓÚÅ®ÓÑµÄÑÝ³öÊ®·ÖÂúÒâ£¬´ó·½±íÊ¾ºîÅåá¯Õâ´ÎµÄ±íÑÝ³¬¹ýÁËÁ½ÈË¶Ô³ª¡¶ÎÝ¶¥¡·Ê±µÄ±íÏÖ£¬»¹¸øºîÅåá¯´òÁË100·Ö¡£
+POS_TAG = ÔÚ/p ½ð/ng Çú/ag ½±/n ¹ýºó/t £¬/w ÖÜ½ÜÂ×/nr ¶ÔÓÚ/p Å®ÓÑ/n µÄ/u ÑÝ³ö/vn Ê®·Ö/d ÂúÒâ/v £¬/w ´ó·½/a ±íÊ¾/v ºîÅåá¯/nr Õâ´Î/r µÄ/u ±íÑÝ/vn ³¬¹ý/v ÁË/u Á½/m ÈË/n ¶Ô/p ³ª/v ¡¶/w ÎÝ¶¥/n ¡·/w Ê±/ng µÄ/u ±íÏÖ/vn £¬/w »¹¸ø/v ºîÅåá¯/nr ´ò/v ÁË/u 100·Ö/t ¡£/w
+CHARACTERS = ºîÅåá¯;ÖÜ½ÜÂ×;
+RELWORD = Å®ÓÑ;
+RELCOMB = ºîÅåá¯,ÖÜ½ÜÂ×->Å®ÓÑ;
+-----------
+SENTENCE = ÎÒ×Ô¼º¿´ÁË¶¼¿ì±»Ð¦ËÀÁË£±ÒªËû¸øÅ®ÓÑ´ò·ÖÊý£¬ËûËµ£º¡°Âú¸ß·Ö¡£
+POS_TAG = ÎÒ/r ×Ô¼º/r ¿´/v ÁË/u ¶¼/d ¿ì/a ±»/p Ð¦/vd ËÀ/v ÁË/u £±/m Òª/v Ëû/r ¸ø/p Å®ÓÑ/n ´ò·Ö/v Êý/m £¬/w Ëû/r Ëµ/v £º/w ¡°/w Âú/a ¸ß/a ·Ö/q ¡£/w
+CHARACTERS = 
+RELWORD = Å®ÓÑ;
+RELCOMB = 
+-----------
+SENTENCE = ÖÜ½ÜÂ×Ô­±¾ÒòºÈ×í¶øÃÔÃÉµÄÑÛÉñÍ»È»¡°¾Û½¹¡±ÆðÀ´£º¡°Õâ²»ÄÜÎÒËµÁËËã£¬Ó¦¸Ã¿´ÊÕÊÓÂÊ¡¢¿´¹ÛÖÚ°É£±×îºóÍÆ²»¹ýÈ¥£¬Ëû±ã°á³öÅ®ÓÑµÄ¾¢µÐÁÖÖ¾Ááµ²¼Ý£º¡°ÁÖÖ¾Áá²»ÊÇËµ²»Òª¸ø±ðÈË´ò·ÖÊýÂð£¿
+POS_TAG = ÖÜ½ÜÂ×/nr Ô­±¾/d Òò/p ºÈ/vg ×í/v ¶ø/c ÃÔÃÉ/a µÄ/b ÑÛÉñ/n Í»È»/a ¡°/w ¾Û½¹/v ¡±/w ÆðÀ´/v £º/w ¡°/w Õâ/r ²»ÄÜ/v ÎÒ/r ËµÁËËã/l £¬/w Ó¦¸Ã/v ¿´/v ÊÕÊÓÂÊ/n ¡¢/w ¿´/v ¹ÛÖÚ/n °É/o £±/m ×îºó/f ÍÆ/v ²»/d ¹ýÈ¥/v £¬/w Ëû/r ±ã/d °á/v ³ö/v Å®ÓÑ/n µÄ/u ¾¢µÐ/n ÁÖÖ¾Áá/nr µ²¼Ý/v £º/w ¡°/w ÁÖÖ¾Áá/nr ²»/d ÊÇ/v Ëµ/v ²»Òª/d ¸ø/p ±ðÈË/r ´ò/v ·ÖÊý/n Âð/y £¿/w
+CHARACTERS = ÁÖÖ¾Áá;ÖÜ½ÜÂ×;
+RELWORD = Å®ÓÑ;
+RELCOMB = 
+-----------
+SENTENCE = ¡±Ã÷ÏÔ¶ÔÅ®ÓÑµÄÅ¬Á¦²»ÓèÖÃÆÀ£¬Ì¬¶ÈÏà±ÈÖ®ÏÂ´óÓÐÇø±ð¡£
+POS_TAG = ¡±/w Ã÷ÏÔ/ad ¶Ô/p Å®ÓÑ/n µÄ/u Å¬Á¦/ad ²»Óè/v ÖÃÆÀ/v £¬/w Ì¬¶È/n Ïà±ÈÖ®ÏÂ/l ´ó/d ÓÐ/v Çø±ð/vd ¡£/w
+CHARACTERS = 
+RELWORD = Å®ÓÑ;
+RELCOMB = 
+-----------
+SENTENCE = ¶ÔÓÚ¸ÐÇé×´¿öÒ»ÔÙÔâÍâ½ç×·ÎÊ£¬ºîÅåá¯ÔÚÉÏÌÕ¾§Ó¨£¨ÌÕ×Ó£©µÄ½ÚÄ¿Ê±£¬ËÆºõ¸Ð¿®Íò·Ö£¬ÌØ±ðÊÇÌÕ×Ó¹ØÐÄËýËµ£º¡°°­ÓÚ¹«Ë¾¹æ¶¨£¬Äã²»ÄÜÏñÎÒ¸úÀîÀîÈÊÒ»Ñù£¬ÓÐÊ±Ïñ¸öÐ¡Å®º¢£¬¸úÄÐÓÑ¹«¿ªÊÖÇ£ÊÖ¡¢Óµ±§£¬´ó¼ÒÓÖÒ»Ö±ÎÊÄã¸ÐÇé·¢Õ¹£¬ÊÇ²»ÊÇÑ¹Á¦ºÜ´ó£¿
+POS_TAG = ¶ÔÓÚ/p ¸ÐÇé/n ×´¿ö/n Ò»ÔÙ/d Ôâ/v Íâ½ç/n ×·ÎÊ/v £¬/w ºîÅåá¯/nr ÔÚ/p ÉÏ/m ÌÕ¾§Ó¨/nr £¨/w ÌÕ×Ó/nr £©/w µÄ/u ½ÚÄ¿/n Ê±/ng £¬/w ËÆºõ/d ¸Ð¿®Íò·Ö/i £¬/w ÌØ±ð/d ÊÇ/v ÌÕ×Ó/nr ¹ØÐÄ/v Ëý/r Ëµ/v £º/w ¡°/w °­/v ÓÚ/p ¹«Ë¾/n ¹æ¶¨/n £¬/w Äã/r ²»/d ÄÜ/v Ïñ/p ÎÒ/r ¸ú/p ÀîÀîÈÊ/nr Ò»Ñù/u £¬/w ÓÐÊ±/d Ïñ/v ¸ö/q Ð¡/a Å®º¢/n £¬/w ¸ú/p ÄÐÓÑ/n ¹«¿ª/a ÊÖ/n Ç£/v ÊÖ/n ¡¢/w Óµ±§/v £¬/w ´ó¼Ò/r ÓÖ/d Ò»Ö±/d ÎÊ/v Äã/r ¸ÐÇé/n ·¢Õ¹/vn £¬/w ÊÇ/v ²»/d ÊÇ/v Ñ¹Á¦/n ºÜ/d ´ó/a £¿/w
+CHARACTERS = ºîÅåá¯;ÀîÀîÈÊ;ÌÕ¾§Ó¨;ÌÕ×Ó;
+RELWORD = ÄÐÓÑ;
+RELCOMB = ÀîÀîÈÊ,ÌÕ¾§Ó¨->ÄÐÓÑ;ÀîÀîÈÊ,ÌÕ×Ó->ÄÐÓÑ;
+-----------
+SENTENCE = ¶øºîÅåá¯µÄ¾­¼ÍÈËÒ²³öÃæ±íÊ¾£º¡°Á½ÈËÓÐÃ»ÓÐÎÊÌâ£¬¿´ËýÔÚ½ðÂí½±ÉÏÊ±Á³ÉÏµÄ±íÇé¾Í¿ÉÒÔÃ÷°×£¬ÎªºÎÃ»Ïñ½ðÇú°ãÓÐ»¥¶¯£¿
+POS_TAG = ¶ø/c ºîÅåá¯/nr µÄ/u ¾­¼ÍÈË/n Ò²/d ³öÃæ/v ±íÊ¾/v £º/w ¡°/w Á½/m ÈË/n ÓÐ/v Ã»/d ÓÐ/v ÎÊÌâ/n £¬/w ¿´/v Ëý/r ÔÚ/p ½ðÂí/nz ½±/n ÉÏÊ±/t Á³ÉÏ/n µÄ/b ±íÇé/n ¾Í/c ¿ÉÒÔ/a Ã÷°×/a £¬/w ÎªºÎ/r Ã»/d Ïñ/v ½ð/b Çú/n °ã/u ÓÐ/v »¥¶¯/v £¿/w
+CHARACTERS = ºîÅåá¯;
+RELWORD = ¾­¼ÍÈË;
+RELCOMB = 
+-----------
+SENTENCE = 20ÈÕ£¬ºîÅåá¯¾­¼ÍÈË½ÓÊÜ±¾±¨¼ÇÕß·ÃÎÊ£¬¼á³Ö¡°Ë½ÈË¸ÐÇé²»»ØÓ¦¡±£¬Í¬Ê±±í´ïÁË¡°Õû¸öÊÂÇé±äµÃºÃ¸ãÐ¦¡±µÄÎÞÄÎÐÄÇé¡£
+POS_TAG = 20ÈÕ/t £¬/w ºîÅåá¯/nr ¾­¼ÍÈË/n ½ÓÊÜ/v ±¾±¨/r ¼ÇÕß/n ·ÃÎÊ/vn £¬/w ¼á³Ö/v ¡°/w Ë½ÈË/n ¸ÐÇé/n ²»/d »Ø/v Ó¦/v ¡±/w £¬/w Í¬Ê±/c ±í´ï/v ÁË/y ¡°/w Õû¸ö/b ÊÂÇé/n ±ä/v µÃ/u ºÃ/a ¸ã/v Ð¦/v ¡±/w µÄ/u ÎÞÄÎ/a ÐÄÇé/n ¡£/w
+CHARACTERS = ºîÅåá¯;
+RELWORD = ¾­¼ÍÈË;
+RELCOMB = 
+-----------
+SENTENCE = 20ÈÕ£¬¼ÇÕß²¦Í¨ÁËºîÅåá¯¾­¼ÍÈËºéØ¹ÈãµÄµç»°£¬ËýÒÀ¾ÉÒÔ¡°ËýµÄË½ÈË¸ÐÇé£¬¹«Ë¾²»×÷»ØÓ¦¡±À´µ²¼Ý£¬Ö»ÊÇ¾õµÃ¡°Õû¼þÊÂ±äµÃºÜ¸ãÐ¦¡±¡£
+POS_TAG = 20ÈÕ/t £¬/w ¼ÇÕß/n ²¦Í¨/v ÁË/u ºîÅåá¯/nr ¾­¼ÍÈË/n ºéØ¹Èã/nr µÄ/u µç»°/n £¬/w Ëý/r ÒÀ¾É/z ÒÔ/p ¡°/w Ëý/r µÄ/u Ë½ÈË/n ¸ÐÇé/n £¬/w ¹«Ë¾/n ²»/d ×÷/v »ØÓ¦/vn ¡±/w À´/v µ²¼Ý/v £¬/w Ö»/d ÊÇ/v ¾õµÃ/v ¡°/w Õû/m ¼þ/q ÊÂ/n ±ä/v µÃ/u ºÜ/d ¸ã/v Ð¦/v ¡±/w ¡£/w
+CHARACTERS = ºéØ¹Èã;ºîÅåá¯;
+RELWORD = ¾­¼ÍÈË;
+RELCOMB = ºéØ¹Èã,ºîÅåá¯->¾­¼ÍÈË;
+-----------
+SENTENCE = ÃÀÀöºîÅåá¯¼´½«¹ýÉúÈÕ£¬ÉíÎªÄÐÅóÓÑ£¬ÖÜ½ÜÂ×Ñ¡Ôñ»³¾É²ÍÌü²¢ÑûÇëºÃÓÑ£¬Ò»ÇÐÖ»ÎªÁËÈÃºîÅåá¯ÓÐ¸ö¿ìÀÖÉúÈÕ£¬ËäÈ»ÊÂºóÐÐ×ÙÆØ¹â£¬Ë«·½½ÔµÍµ÷»ØÓ¦£¬²»¹ý¸ù¾Ý´«ÑÔ£¬Á½ÈËµ±ÌìµÄÅ¨ÇéÃÛÒâ¿ÉÊÇÏÛÉ·ÅÔÈËà¸£¡
+POS_TAG = ÃÀÀö/a ºîÅåá¯/nr ¼´½«/d ¹ý/v ÉúÈÕ/n £¬/w Éí/ng Îª/p ÄÐÅóÓÑ/n £¬/w ÖÜ½ÜÂ×/nr Ñ¡Ôñ/v »³¾É/vn ²ÍÌü/n ²¢/c ÑûÇë/vn ºÃÓÑ/n £¬/w Ò»ÇÐ/r Ö»/d ÎªÁË/p ÈÃ/v ºîÅåá¯/nr ÓÐ/v ¸ö/q ¿ìÀÖ/a ÉúÈÕ/n £¬/w ËäÈ»/c ÊÂºó/t ÐÐ×Ù/n ÆØ¹â/v £¬/w Ë«·½/n ½Ô/d µÍµ÷/n »ØÓ¦/vn £¬/w ²»¹ý/c ¸ù¾Ý/p ´«ÑÔ/n £¬/w Á½/m ÈË/n µ±Ìì/t µÄ/u Å¨/a Çé/n ÃÛ/n Òâ/ng ¿ÉÊÇ/c ÏÛ/v É·/dg ÅÔÈË/r à¸/o £¡/w
+CHARACTERS = ºîÅåá¯;ÖÜ½ÜÂ×;
+RELWORD = ÄÐÅóÓÑ;
+RELCOMB = ºîÅåá¯,ÖÜ½ÜÂ×->ÄÐÅóÓÑ;
+-----------
+SENTENCE = ¾¡¹ÜÖÜ½ÜÂ×²»¿ÏÍ¸Â¶ÈçºÎ³É¹¦°ÚÍÑ¹·×Ð¸ú¼à£¬Ò¹»á¼ÑÈË£¬µ«¸ù¾Ý´«ÑÔ£¬ÖÜ½ÜÂ×ÓëºîÅåá¯ÔÚÅ®·½ÉúÈÕÇ°Ï¦£¬·Ö±ðÇ°ÍùÊ®·Ö¾ßÓÐ»³¾ÉÆø·ÕµÄ¡°Ì¨Íå¹ÊÊÂ¹Ý¡±²ÍÌü¿ñ»¶£»ËäÈ»Ã½ÌåÎÞ·¨ÒÔÕÕÆ¬Ö¤ÊµÁ½ÈËµ±ÌìÔøÒ»Æð¶È¹ý£¬µ«Á½ÈËµ±ÌìµÄÌðÃÛÆø·Õ£¬ÒÀ¾ÉÈÃÍ¬ÐÐµÄÅóÓÑÃÇÏÛÄ½²»ÒÑ¡£
+POS_TAG = ¾¡¹Ü/c ÖÜ½ÜÂ×/nr ²»¿Ï/v Í¸Â¶/v ÈçºÎ/r ³É¹¦/a °ÚÍÑ/v ¹·/n ×Ð/b ¸ú/c ¼à/j £¬/w Ò¹/tg »á/v ¼ÑÈË/n £¬/w µ«/c ¸ù¾Ý/p ´«ÑÔ/n £¬/w ÖÜ½ÜÂ×/nr Óë/p ºîÅåá¯/nr ÔÚ/p Å®·½/n ÉúÈÕ/n Ç°Ï¦/f £¬/w ·Ö±ð/d Ç°Íù/v Ê®·Ö/d ¾ßÓÐ/v »³¾É/vn Æø·Õ/n µÄ/u ¡°/w Ì¨Íå/ns ¹ÊÊÂ/n ¹Ý/ng ¡±/w ²ÍÌü/n ¿ñ»¶/vn £»/w ËäÈ»/c Ã½Ìå/n ÎÞ·¨/v ÒÔ/p ÕÕÆ¬/n Ö¤Êµ/v Á½/m ÈË/n µ±Ìì/t Ôø/d Ò»Æð/d ¶È¹ý/v £¬/w µ«/c Á½/m ÈË/n µ±Ìì/t µÄ/u ÌðÃÛ/a Æø·Õ/n £¬/w ÒÀ¾É/z ÈÃ/v Í¬ÐÐ/n µÄ/u ÅóÓÑ/n ÃÇ/k ÏÛÄ½/v ²»ÒÑ/v ¡£/w
+CHARACTERS = ºîÅåá¯;ÖÜ½ÜÂ×;
+RELWORD = ÅóÓÑ;Í¬ÐÐ;
+RELCOMB = ºîÅåá¯,ÖÜ½ÜÂ×->ÅóÓÑ;
+-----------
+SENTENCE = ¶ÔÓÚÁ½ÈËÌðÃÛ¹²¶ÈÅ®·½ÉúÈÕµÄ´«ÑÔ£¬ÖÜºîµÄ¾­¼Í³ªÆ¬¹«Ë¾¾ùµÍµ÷»ØÓ¦£»ºîÅåá¯µÄ¾­¼ÍÈËØ¹Èã±íÊ¾£¬ËýÄÜÅãÅåá¯Ò»Æð¹ýµÄ¶¼Ò»Æð¹ýÁË£¬ÉúÈÕÄÇÌì²»È¥´òÈÅËý£¬Ò²¾ÍÊÇËýÄÜ¸øËý×îºÃµÄÉúÈÕÀñÎï£»ÖÁÓÚÕâÏî´«ÑÔµÄÕæ¼Ù£¬Ø¹ÈãÔòÊÇÓÄÄ¬µÄ¸Ä¿Ú±íÊ¾£¬Ã½Ìå¿ÉÒÔÈ¥ÎÊ¡°Ö÷°ìµ¥Î»¡±Ñ½£¡
+POS_TAG = ¶ÔÓÚ/p Á½/m ÈË/n ÌðÃÛ/an ¹²¶È/v Å®·½/n ÉúÈÕ/n µÄ/u ´«ÑÔ/n £¬/w ÖÜºî/nr µÄ/u ¾­¼Í/vn ³ªÆ¬/n ¹«Ë¾/n ¾ù/ag µÍµ÷/n »ØÓ¦/vn £»/w ºîÅåá¯/nr µÄ/u ¾­¼ÍÈË/n Ø¹Èã/nr ±íÊ¾/v £¬/w Ëý/r ÄÜ/v Åã/v Ååá¯/nr Ò»Æð/d ¹ý/d µÄ/b ¶¼/d Ò»Æð/d ¹ý/d ÁË/u £¬/w ÉúÈÕ/n ÄÇÌì/r ²»/d È¥/v ´òÈÅ/v Ëý/r £¬/w Ò²/d ¾Í/d ÊÇ/v Ëý/r ÄÜ/v ¸ø/p Ëý/r ×î/d ºÃ/a µÄ/u ÉúÈÕ/n ÀñÎï/n £»/w ÖÁÓÚ/p Õâ/r Ïî/q ´«ÑÔ/n µÄ/u Õæ¼Ù/n £¬/w Ø¹Èã/nr Ôò/d ÊÇ/v ÓÄÄ¬/a µÄ/u ¸Ä¿Ú/v ±íÊ¾/v £¬/w Ã½Ìå/n ¿ÉÒÔ/v È¥/v ÎÊ/v ¡°/w Ö÷°ì/v µ¥Î»/n ¡±/w Ñ½/e £¡/w
+CHARACTERS = ºîÅåá¯;Ååá¯;ÖÜºî;Ø¹Èã;
+RELWORD = ¾­¼ÍÈË;
+RELCOMB = ºîÅåá¯,Ø¹Èã->¾­¼ÍÈË;Ååá¯,Ø¹Èã->¾­¼ÍÈË;
+-----------
+SENTENCE = ¶ÔÓÚÅ®ÓÑÉúÈÕ£¬ÖÜ½ÜÂ×ËÍÁËÒ»·Ý¡°²»±»Íâ½ç´òÈÅµÄÉúÈÕÅÉ¶Ô¡±¸øºîÅåá¯£¬ÌùÐÄµÄ¾Ù¶¯£¬ÁîÈË¸Ð¶¯£»²»¹ýÐ¢Ë³µÄºîÅåá¯Ò²²»ÍüÅãÂèÂèÓëÆÅÆÅ³Ô·¹Çì×£¡
+POS_TAG = ¶ÔÓÚ/p Å®ÓÑ/n ÉúÈÕ/n £¬/w ÖÜ½ÜÂ×/nr ËÍ/v ÁË/u Ò»/m ·Ý/q ¡°/w ²»/d ±»/p Íâ½ç/n ´òÈÅ/v µÄ/b ÉúÈÕ/n ÅÉ¶Ô/n ¡±/c ¸ø/p ºîÅåá¯/nr £¬/w ÌùÐÄ/a µÄ/u ¾Ù¶¯/n £¬/w Áî/v ÈË/n ¸Ð¶¯/v £»/w ²»¹ý/c Ð¢Ë³/a µÄ/u ºîÅåá¯/nr Ò²/d ²»/d Íü/v Åã/v ÂèÂè/n Óë/c ÆÅÆÅ/n ³Ô·¹/v Çì/vg ×£/v
+CHARACTERS = ºîÅåá¯;ÖÜ½ÜÂ×;
+RELWORD = ÂèÂè;Å®ÓÑ;
+RELCOMB = ºîÅåá¯,ÖÜ½ÜÂ×->Å®ÓÑ;
+-----------
+SENTENCE = 1ÔÂ29ÈÕÊ×¼¯¿ª²¥£¬ÕÒÀ´ÌìÍõÖÜ½ÜÂ×µ£ÈÎµÚÒ»Î»¼Î±ö£¬½ÓÊÜÖ÷³ÖÈËÏ¬ÀûµÄ·ÃÎÊÊ±£¬½ÜÂ×¶à´ÎÒÔ¡°ÎÒÁ³ÒÑÕÇºì¡±ÏòÖ÷³ÖÈËÇóÈÄ£¬Ãæ¶ÔÈÕÇ°³´µÄ·ÐÌÚÓÐ¹ØËûÓëºîÅåá¯µÄç³ÎÅ£¬½ÜÂ×Ö»¾õµÃºîÅåá¯ÊÇ¸öÓÐÆøÖÊµÄÅ®º¢£¬¶øÇÒ²»ÊÇÄÇÖÖ×°³öÀ´µÄ£¬Ëû»¹Ëµ£¬ÆäÊµÊÇÍâÆÅ±È½ÏÏ²»¶ºîÅåá¯ÕâÑùµÄÅ®Éú£¬ÍâÆÅÔø¿ä½±ºîÅåá¯³¤µÄºÜ¡°Ë®¡±(Ì¨Óï)£¬½ÜÂ×·ÖÎöÊÇÒòÎªºîÅåá¯µÄÐÎÏóºÃ£¬ËùÒÔºÜµÃÂèÂèÔµ»òÊÇ³¤±²Ôµ¡£
+POS_TAG = 1ÔÂ/t 29ÈÕ/t Ê×/m ¼¯/q ¿ª²¥/v £¬/w ÕÒ/v À´/v ÌìÍõ/n ÖÜ½ÜÂ×/nr µ£ÈÎ/v µÚÒ»/m Î»/q ¼Î±ö/n £¬/w ½ÓÊÜ/v Ö÷³ÖÈË/n Ï¬Àû/a µÄ/u ·ÃÎÊ/vn Ê±/ng £¬/w ½ÜÂ×/nr ¶à/m ´Î/q ÒÔ/j ¡°/w ÎÒ/r Á³/n ÒÑ/d ÕÇ/v ºì/a ¡±/w Ïò/p Ö÷³ÖÈË/n ÇóÈÄ/v £¬/w Ãæ¶Ô/v ÈÕÇ°/t ³´/v µÄ/u ·ÐÌÚ/vn ÓÐ¹Ø/vn Ëû/r Óë/p ºîÅåá¯/nr µÄ/u ç³ÎÅ/n £¬/w ½ÜÂ×/nr Ö»/d ¾õµÃ/v ºîÅåá¯/nr ÊÇ/v ¸ö/q ÓÐ/v ÆøÖÊ/n µÄ/u Å®º¢/n £¬/w ¶øÇÒ/c ²»/d ÊÇ/v ÄÇÖÖ/r ×°/v ³öÀ´/v µÄ/u £¬/w Ëû/r »¹/d Ëµ/v £¬/w ÆäÊµ/d ÊÇ/v ÍâÆÅ/n ±È½Ï/d Ï²»¶/v ºîÅåá¯/nr ÕâÑù/r µÄ/u Å®/b Éú/vn £¬/w ÍâÆÅ/n Ôø/d ¿ä½±/v ºîÅåá¯/nr ³¤/a µÄ/u ºÜ/d ¡°/w Ë®/n ¡±/w (/w Ì¨/q Óï/ng )/w £¬/w ½ÜÂ×/nr ·ÖÎö/v ÊÇ/v ÒòÎª/p ºîÅåá¯/nr µÄ/u ÐÎÏó/n ºÃ/a £¬/w ËùÒÔ/c ºÜ/d µÃ/u ÂèÂè/n Ôµ/vg »òÊÇ/c ³¤±²/n Ôµ/vg ¡£/w
+CHARACTERS = ºîÅåá¯;½ÜÂ×;ÖÜ½ÜÂ×;
+RELWORD = ÂèÂè;ÍâÆÅ;
+RELCOMB = 
+-----------
+SENTENCE = ÖÁÓÚÓë²ÌÒÀÁÖµÄç³ÎÅ£¬½ÜÂ×Ëµ£º¡°ºÜ¶Ô²»Æð²ÌÍ¬Ñ§£±ËûËµ£¬ÒòÎªÃ½ÌåµÄ±¨µ¼£¬Ôø¾­ÓÐÒ»Õó×Ó¿ÌÒâÊèÔ¶Ëý£¬ËûÇ¿µ÷£¬×Ô¼º²»Ì«ÄÜ½»ÅóÓÑ£¬ÓÐÊ±ºò»á¾õµÃ×Ô¼ºÊÇÒìÀà£¬ËäÈ»×ÔÓÉÊÇ×Ô¼º¿ØÖÆµÄ£¬µ«ÒòÎªÃ½ÌåµÄ¹Ø?
+POS_TAG = ÖÁÓÚ/p Óë/p ²ÌÒÀÁÖ/nr µÄ/u ç³ÎÅ/n £¬/w ½ÜÂ×/nr Ëµ/v £º/w ¡°/w ºÜ/d ¶Ô²»Æð/v ²Ì/nr Í¬Ñ§/n £±/m Ëû/r Ëµ/v £¬/w ÒòÎª/c Ã½Ìå/n µÄ/u ±¨µ¼/n £¬/w Ôø¾­/d ÓÐ/v Ò»Õó×Ó/m ¿ÌÒâ/d ÊèÔ¶/v Ëý/r £¬/w Ëû/r Ç¿µ÷/v £¬/w ×Ô¼º/r ²»/d Ì«/d ÄÜ/v ½»ÅóÓÑ/l £¬/w ÓÐÊ±ºò/d »á/v ¾õµÃ/v ×Ô¼º/r ÊÇ/v ÒìÀà/n £¬/w ËäÈ»/c ×ÔÓÉ/ad ÊÇ/v ×Ô¼º/r ¿ØÖÆ/v µÄ/u £¬/w µ«/c ÒòÎª/p Ã½Ìå/n µÄ/u ¹Ø/n ?/w
+CHARACTERS = ²Ì;²ÌÒÀÁÖ;½ÜÂ×;
+RELWORD = Í¬Ñ§;
+RELCOMB = 
+-----------
+SENTENCE = £¬ºÜÈÝÒ×Îóµ¼´ó¼Ò£¬Ëû¾ÙÀý£¬ÈôÊÇ½ñÌìºÍÅ®ÐÔÅóÓÑ³öÈ¥£¬Ò»¶¨ÓÖ»á±»±¨µ¼³Éç³ÎÅ¡£
+POS_TAG = £¬/w ºÜ/d ÈÝÒ×/ad Îóµ¼/v ´ó¼Ò/r £¬/w Ëû/r ¾ÙÀý/v £¬/w Èô/dg ÊÇ/v ½ñÌì/t ºÍ/c Å®ÐÔ/n ÅóÓÑ/n ³öÈ¥/v £¬/w Ò»¶¨/d ÓÖ/d »á/v ±»/p ±¨µ¼/v ³É/m ç³ÎÅ/n ¡£/w
+CHARACTERS = 
+RELWORD = ÅóÓÑ;
+RELCOMB = 
+-----------
+SENTENCE = ½ÚÄ¿ÉÏ½ÜÂ×ÔÙ´ÎÌ¸µ½×Ô¼º²»´©ÄÚ¿ãµÄÏ°¹ß£¬Ô­±¾Ò²²»¾õµÃÓÐÊ²Ã´£¬µ«¾­¹ýÃ½Ìå±¨µ¼ºó£¬¾Í³£±»ÅóÓÑÄÃÀ´¿ªÍæÐ¦£¬ÈÃËû¾õµÃ²»´©ÄÚ¿ãºÃÏñÊÇ¼þ»µÊÂ£¬²»´©ÄÚ¿ãµÄËû£¬ÌìÀäµÄ±£Å¯·½Ê½¾ÍÊÇ¶à´©Ò»¼þ¿ã×Ó£¬ÖÁÓÚ¸èÃÔÅóÓÑËÍµÄÄÚ¿ãÐ¡ÀñÎï£¬ËûÈ«¶¼ËÍ¸øºÃÓÑ·½ÎÄÉ½£¬ºÃÔÚÊÕµ½µÄ¶¼ÊÇËÄ½ÇÄÚ¿ã£¬¶ÔÓÚÄÐÉú´©¶¡×Ö¿ã£¬²»´©ÄÚ¿ãµÄ½ÜÂ×±íÊ¾£¬¸Ð¾õºÜÆæ¹Ö£¬ºÃÏñÓÐµã¶ñ¡£
+POS_TAG = ½ÚÄ¿/n ÉÏ/m ½ÜÂ×/nr ÔÙ´Î/d Ì¸/v µ½/v ×Ô¼º/r ²»/d ´©/v ÄÚ¿ã/n µÄ/u Ï°¹ß/n £¬/w Ô­±¾/d Ò²/d ²»/d ¾õµÃ/v ÓÐ/v Ê²Ã´/r £¬/w µ«/c ¾­¹ý/p Ã½Ìå/n ±¨µ¼/n ºó/f £¬/w ¾Í/d ³£/d ±»/p ÅóÓÑ/n ÄÃ/v À´/f ¿ªÍæÐ¦/v £¬/w ÈÃ/v Ëû/r ¾õµÃ/v ²»/d ´©/v ÄÚ¿ã/n ºÃÏñ/v ÊÇ/v ¼þ/q »µÊÂ/n £¬/w ²»/d ´©/v ÄÚ¿ã/n µÄ/u Ëû/r £¬/w Ìì/q Àä/a µÄ/u ±£Å¯/a ·½Ê½/n ¾Í/d ÊÇ/v ¶à/ad ´©/v Ò»/m ¼þ/q ¿ã×Ó/n £¬/w ÖÁÓÚ/p ¸èÃÔ/n ÅóÓÑ/n ËÍ/v µÄ/b ÄÚ¿ã/n Ð¡/a ÀñÎï/n £¬/w Ëû/r È«¶¼/d ËÍ¸ø/v ºÃÓÑ/n ·½ÎÄÉ½/nr £¬/w ºÃ/a ÔÚ/p ÊÕµ½/v µÄ/u ¶¼/d ÊÇ/v ËÄ/m ½Ç/q ÄÚ¿ã/n £¬/w ¶ÔÓÚ/p ÄÐ/n Éú/dg ´©/v ¶¡/ ×Ö/n ¿ã/ng £¬/w ²»/d ´©/v ÄÚ¿ã/n µÄ/u ½ÜÂ×/nr ±íÊ¾/v £¬/w ¸Ð¾õ/n ºÜ/d Ææ¹Ö/v £¬/w ºÃÏñ/v ÓÐµã/d ¶ñ/ag ¡£/w
+CHARACTERS = ·½ÎÄÉ½;½ÜÂ×;
+RELWORD = ÅóÓÑ;
+RELCOMB = ·½ÎÄÉ½,½ÜÂ×->ÅóÓÑ;
+-----------
+SENTENCE = ÖÁÓÚ°ü¸ø¸¸Ä¸µÄºì°ü£¬Ëæ×Å×ÔÒÑÔÚ¹¤×÷ÉÏÔ½À´Ô½ÓÐ³É¾Í£¬Ò»ÄêÒ²±ÈÒ»Äê¶à£¬ÖÁÓÚÊÇ¼¸Î»Êý£¬½ÜÂ×ËµÄÇÊÇÐÄÒâ£¬²»ÏëËµ³öÀ´£¬¶øÇÒÇ®¶¼ÊÇÂèÂèÔÚ¹ÜµÄ£¬ÖÁÓÚ×Ô¼ºµÄÐÂÄêÐÂÏ£Íû£¬ËûÏ£Íû´ó¼Ò¶¼ÄÜÉíÌå½¡¿µÍâ£¬¸üÏ£Íû´ó¼ÒÄÜ¼ÌÐøÖ§³Ö»ªÈËÒôÀÖ¡£
+POS_TAG = ÖÁÓÚ/p °ü/v ¸ø/p ¸¸Ä¸/n µÄ/u ºì°ü/n £¬/w Ëæ×Å/p ×Ô/r ÒÑ/d ÔÚ/p ¹¤×÷/v ÉÏ/m Ô½À´Ô½/d ÓÐ/v ³É¾Í/n £¬/w Ò»/m Äê/q Ò²/d ±È/p Ò»/m Äê/q ¶à/a £¬/w ÖÁ/v ÓÚÊÇ/c ¼¸/m Î»/q Êý/m £¬/w ½ÜÂ×/nr Ëµ/v ÄÇ/r ÊÇ/v ÐÄÒâ/n £¬/w ²»/d Ïë/v Ëµ/v ³öÀ´/v £¬/w ¶øÇÒ/c Ç®/n ¶¼/d ÊÇ/v ÂèÂè/n ÔÚ/p ¹Ü/v µÄ/u £¬/w ÖÁÓÚ/p ×Ô¼º/r µÄ/u ÐÂÄê/t ÐÂ/a Ï£Íû/n £¬/w Ëû/r Ï£Íû/v ´ó¼Ò/r ¶¼/d ÄÜ/v ÉíÌå/n ½¡¿µ/an Íâ/f £¬/w ¸ü/d Ï£Íû/v ´ó¼Ò/r ÄÜ/v ¼ÌÐø/v Ö§³Ö/v »ªÈË/n ÒôÀÖ/n ¡£/w
+CHARACTERS = ½ÜÂ×;
+RELWORD = ÂèÂè;
+RELCOMB = 
+-----------
+SENTENCE = µ±Ê±Ò²Ê¢´«ºîÅåá¯±»¹úÃñµ³Ö÷Ï¯Á¬Õ½µÄ¶ù×ÓÁ¬Ê¤ÎÄÁ¦×·¡£
+POS_TAG = µ±Ê±/t Ò²/d Ê¢´«/v ºîÅåá¯/nr ±»/p ¹úÃñµ³/n Ö÷Ï¯/n Á¬Õ½/nr µÄ/u ¶ù×Ó/n Á¬Ê¤ÎÄ/nr Á¦/n ×·/v ¡£/w
+CHARACTERS = ºîÅåá¯;Á¬Ê¤ÎÄ;Á¬Õ½;
+RELWORD = ¶ù×Ó;
+RELCOMB = Á¬Ê¤ÎÄ,Á¬Õ½->¶ù×Ó;
+-----------
+SENTENCE = Á¬Ê¤ÎÄ²»µ«ÊÇºîÅåá¯µÄ´óÑ§Í¬Ñ§£¬ËûµÄ¼Ò×åÏÔºÕ£¬ÓÖÊÇµ¥Éí¹ó×å£¬ËÆºõ¶ÔÖÜ½ÜÂ×Ôì³ÉÏàµ±´óµÄÍþÐ²£¬²»¹ý£¬ÖÜ½ÜÂ×ËÆºõ²¢²»½«¶ÔÊÖ·ÅÔÚÑÛÀï¡£
+POS_TAG = Á¬Ê¤ÎÄ/nr ²»µ«/c ÊÇ/v ºîÅåá¯/nr µÄ/u ´óÑ§/n Í¬Ñ§/n £¬/w Ëû/r µÄ/u ¼Ò×å/n ÏÔºÕ/a £¬/w ÓÖ/d ÊÇ/v µ¥Éí/n ¹ó×å/n £¬/w ËÆºõ/d ¶Ô/p ÖÜ½ÜÂ×/nr Ôì³É/v Ïàµ±/d ´ó/a µÄ/u ÍþÐ²/vn £¬/w ²»¹ý/c £¬/w ÖÜ½ÜÂ×/nr ËÆºõ/d ²¢/d ²»/d ½«/p ¶ÔÊÖ/n ·ÅÔÚÑÛÀï/l ¡£/w
+CHARACTERS = ºîÅåá¯;Á¬Ê¤ÎÄ;ÖÜ½ÜÂ×;
+RELWORD = ¶ÔÊÖ;Í¬Ñ§;
+RELCOMB = Á¬Ê¤ÎÄ,ÖÜ½ÜÂ×->¶ÔÊÖ;ºîÅåá¯,Á¬Ê¤ÎÄ->Í¬Ñ§;
+-----------
+SENTENCE = ¾ÍÁ¬¼ÇÕßÒªÖÜ½ÜÂ×µÄÍâÆÅÔÚ²ÌÒÀÁÖºÍºîÅåá¯Ö®¼äÑ¡Ò»¸öÊ±£¬ËûµÄÍâÆÅÒ²²»¼ÙË¼Ë÷µØ»Ø´ð£º¡°µ±È»ÊÇºîÖ÷²¥ºÃ£¬ÎÒºÜÏ²»¶Ëý£±
+POS_TAG = ¾Í/d Á¬/u ¼ÇÕß/n Òª/v ÖÜ½ÜÂ×/nr µÄ/u ÍâÆÅ/n ÔÚ/p ²ÌÒÀÁÖ/nr ºÍ/c ºîÅåá¯/nr Ö®¼ä/f Ñ¡/v Ò»/m ¸ö/q Ê±/ng £¬/w Ëû/r µÄ/u ÍâÆÅ/n Ò²/d ²»¼ÙË¼Ë÷/i µØ/j »Ø´ð/n £º/w ¡°/w µ±È»/d ÊÇ/v ºî/ng Ö÷/ag ²¥/v ºÃ/a £¬/w ÎÒ/r ºÜ/d Ï²»¶/v Ëý/r £±/m
+CHARACTERS = ²ÌÒÀÁÖ;ºîÅåá¯;ÖÜ½ÜÂ×;
+RELWORD = ÍâÆÅ;
+RELCOMB = 
+-----------
+SENTENCE = ÖÜ½ÜÂ×ç³ÎÅÅ®ÓÑ½­Óï³¿ÓëÏÄÈçÖ¥Á½¸ö£ÊÅ®ÀÉ£¬£±ÈÕÍ¬ÉÏÖÐÊÓ¡¶ÎÒ²ÂÎÒ²ÂÎÒ²Â²Â²Â¡·£¬Ðû´«³ªÆ¬ÓëµçÊÓµçÓ°£¬½ÚÄ¿´óÍæÖÜ½ÜÂ×ç³ÎÅ£¬·ÅÉÏºîÅåá¯Óë²ÌÒÀÁÖ¾Å¹¬¸ñ·Ö½âÍ¼Æ¬£¬ÒªÁ½ÈË²ÂÒ»²ÂÍ¼ÖÐÈËÎïÊÇË­¡£
+POS_TAG = ÖÜ½ÜÂ×/nr ç³ÎÅ/n Å®ÓÑ/n ½­Óï³¿/nr Óë/p ÏÄÈçÖ¥/nr Á½/m ¸ö/q £Ê/nx Å®ÀÉ/n £¬/w £±ÈÕ/t Í¬ÉÏ/v ÖÐ/a ÊÓ/vg ¡¶/w ÎÒ/r ²Â/v ÎÒ/r ²Â/v ÎÒ/r ²Â²Â²Â/v ¡·/w £¬/w Ðû´«/vn ³ªÆ¬/n Óë/c µçÊÓ/n µçÓ°/n £¬/w ½ÚÄ¿/n ´ó/d Íæ/v ÖÜ½ÜÂ×/nr ç³ÎÅ/n £¬/w ·Å/v ÉÏ/m ºîÅåá¯/nr Óë/p ²ÌÒÀÁÖ/nr ¾Å¹¬/n ¸ñ/j ·Ö½â/v Í¼Æ¬/n £¬/w Òª/v Á½/m ÈË/n ²Â/v Ò»/m ²Â/v Í¼/n ÖÐ/f ÈËÎï/n ÊÇ/v Ë­/r ¡£/w
+CHARACTERS = ²ÌÒÀÁÖ;ºîÅåá¯;½­Óï³¿;ÏÄÈçÖ¥;ÖÜ½ÜÂ×;
+RELWORD = Å®ÓÑ;
+RELCOMB = ²ÌÒÀÁÖ,ÖÜ½ÜÂ×->Å®ÓÑ;ºîÅåá¯,ÖÜ½ÜÂ×->Å®ÓÑ;½­Óï³¿,ÖÜ½ÜÂ×->Å®ÓÑ;ÏÄÈçÖ¥,ÖÜ½ÜÂ×->Å®ÓÑ;
+-----------
+SENTENCE = ¡±Îâ×ÚÏÜËµ£¬ËûÖ®Ç°Ã»¸úºîÅåá¯ºÏ×÷¹ý£¬²»½âÎªÊ²÷áÖÜ½ÜÂ×»á’Î²ÌÒÀÁÖÒªºîÅåá¯£¬¡°Ååá¯ÊÇºÜºÃµÄÅ®Éú£¬ÒÀÎÒÁË½â£¬Ëý»áÊÇºÃÏ±¸¾£¬ºÜÊÊºÏ½ÜÂ×µÄÂèÂè¼°°¢æÖ¡£
+POS_TAG = ¡±/w Îâ×ÚÏÜ/nr Ëµ/v £¬/w Ëû/r Ö®Ç°/f Ã»/d ¸ú/v ºîÅåá¯/nr ºÏ×÷/v ¹ý/u £¬/w ²»½â/v Îª/c Ê²/c ÷á/x ÖÜ½ÜÂ×/nr »á/n ’Î/n ²ÌÒÀÁÖ/nr Òª/ag ºîÅåá¯/nr £¬/w ¡°/w Åå/v á¯/nr ÊÇ/a ºÜ/d ºÃ/a µÄ/b Å®/b Éú/a £¬/w ÒÀ/p ÎÒ/r ÁË½â/v £¬/w Ëý/r »á/v ÊÇ/v ºÃ/a Ï±¸¾/n £¬/w ºÜ/d ÊÊºÏ/v ½ÜÂ×/nr µÄ/u ÂèÂè/n ¼°/c °¢æÖ/ns ¡£/w
+CHARACTERS = ²ÌÒÀÁÖ;ºîÅåá¯;½ÜÂ×;Îâ×ÚÏÜ;ÖÜ½ÜÂ×;á¯;
+RELWORD = ÂèÂè;
+RELCOMB = 
+-----------
+SENTENCE = ÖÜ½ÜÂ×µÄµ¼ÑÝ´¦Å®×÷¡¶²»ÄÜËµµÄÃØÃÜ¡·Æ±·¿»ð±¬£¬ÖªµÀÖÜ½ÜÂ×Ðí¶à¡°ÃØÃÜ¡±µÄÇ°Å®ÓÑºîÅåá¯¸É´à³ÃÈÈ´òÌúÍÆ³ö¡°ÖÜºîÁµ¡±µÄÃØÃÜ¡£
+POS_TAG = ÖÜ½ÜÂ×/nr µÄ/u µ¼ÑÝ/n ´¦Å®×÷/n ¡¶/w ²»ÄÜ/v Ëµ/v µÄ/u ÃØÃÜ/n ¡·/w Æ±·¿/n »ð±¬/an £¬/w ÖªµÀ/v ÖÜ½ÜÂ×/nr Ðí¶à/m ¡°/w ÃØÃÜ/n ¡±/w µÄ/u Ç°/h Å®ÓÑ/n ºîÅåá¯/nr ¸É´à/d ³ÃÈÈ´òÌú/i ÍÆ³ö/v ¡°/w ÖÜ/ag ºî/ng Áµ/v ¡±/w µÄ/u ÃØÃÜ/n ¡£/w
+CHARACTERS = ºîÅåá¯;ÖÜ½ÜÂ×;
+RELWORD = Å®ÓÑ;
+RELCOMB = ºîÅåá¯,ÖÜ½ÜÂ×->Å®ÓÑ;
+-----------
+SENTENCE = ¡±ÖÁÓÚÓÐ´«ºîÅåá¯Óë·­°æJay·ÖÊÖ£¬ËûãµÈ»µØËµ£º¡°Ã»Ìý¹ý£¬µ«ÓÐÌýÎÅËý½»ÁËÄÐÅóÓÑ¡£
+POS_TAG = ¡±/w ÖÁÓÚ/p ÓÐ/v ´«/v ºîÅåá¯/nr Óë/p ·­°æ/n Jay/nr ·Ö/q ÊÖ/n £¬/w Ëû/r ãµÈ»/a µØ/u Ëµ/v £º/w ¡°/w Ã»/d Ìý/v ¹ý/u £¬/w µ«/c ÓÐ/v Ìý/v ÎÅ/v Ëý/r ½»/v ÁË/u ÄÐÅóÓÑ/n ¡£/w
+CHARACTERS = Jay;ºîÅåá¯;
+RELWORD = ÄÐÅóÓÑ;
+RELCOMB = Jay,ºîÅåá¯->ÄÐÅóÓÑ;
+-----------
+SENTENCE = ºîÅåá¯½«»áºÍÄÐÓÑÖÜ½ÜÂ×Ò»Æð¹ýÖÐ¹úÆßÏ¦ÇéÈË½Ú¡£
+POS_TAG = ºîÅåá¯/nr ½«/d »á/v ºÍ/c ÄÐÓÑ/n ÖÜ½ÜÂ×/nr Ò»Æð/s ¹ý/v ÖÐ¹ú/ns Æß/m Ï¦/tg ÇéÈË½Ú/t ¡£/w
+CHARACTERS = ºîÅåá¯;ÖÜ½ÜÂ×;
+RELWORD = ÄÐÓÑ;
+RELCOMB = ºîÅåá¯,ÖÜ½ÜÂ×->ÄÐÓÑ;
+-----------
+SENTENCE = ºîÅåá¯Â¶³ö½¿ÐßÐ¦ÈÝ£¬ÑÛÉñÁ¬Ã¦Æ®ÏòÅÔ±ßµÄ¾­¼ÍÈËÇó¾È£¬²Å»º»º±íÊ¾£º¡°ÎÒÃ»ÓÐÕâÃ´ÀËÂþÀ²£¬ËùÒÔÃ»±§¹ý¡£
+POS_TAG = ºîÅåá¯/nr Â¶³ö/v ½¿Ðß/a Ð¦ÈÝ/n £¬/w ÑÛÉñ/n Á¬Ã¦/d Æ®/v Ïò/p ÅÔ±ß/f µÄ/u ¾­¼ÍÈË/n Çó¾È/vn £¬/w ²Å/d »º»º/d ±íÊ¾/v £º/w ¡°/w ÎÒ/r Ã»/d ÓÐ/v ÕâÃ´/r ÀËÂþ/a À²/y £¬/w ËùÒÔ/c Ã»/d ±§/v ¹ý/u ¡£/w
+CHARACTERS = ºîÅåá¯;
+RELWORD = ¾­¼ÍÈË;
+RELCOMB = 
+-----------
+SENTENCE = ×÷ÎªËûÈ¦ÄÚ×îºÃµÄÅóÓÑ£¬Áõ®uºêÒ²ÌØÒâ³é³öµµÆÚÀ´Á¦Í¦ÕâÒ»³°·ò×ÓÃíÊ®ÀïÇØ»´·ç¹â´ø2008¶¯¸ÐµØ´øÖÜ½ÜÂ×ÊÀ½çÑ²»ØÑÝ³ª»áÄÏ¾©Õ¾¡±µÄÑÝ³ö¡£
+POS_TAG = ×÷Îª/p Ëû/r È¦/q ÄÚ/f ×î/d ºÃ/a µÄ/u ÅóÓÑ/n £¬/w Áõ®uºê/nr Ò²/d ÌØÒâ/d ³é³ö/v µµ/ng ÆÚ/ng À´/v Á¦/dg Í¦/v Õâ/r Ò»/m ³°/vg ·ò×ÓÃí/ns Ê®/m Àï/f ÇØ/j »´/j ·ç¹â/a ´ø/n 2008/m ¶¯¸Ð/b µØ´ø/n ÖÜ½ÜÂ×/nr ÊÀ½ç/n Ñ²»Ø/v ÑÝ³ª»á/n ÄÏ¾©/ns Õ¾/n ¡±/c µÄ/u ÑÝ³ö/vn ¡£/w
+CHARACTERS = Áõ®uºê;ÖÜ½ÜÂ×;
+RELWORD = ÅóÓÑ;
+RELCOMB = Áõ®uºê,ÖÜ½ÜÂ×->ÅóÓÑ;
+-----------
+SENTENCE = ËûÐ¦Ëµ£º¡°ÎÒ²»Ö»¶ÔËûÒ»¸öÈËºÃ£¬ÎÒÒ²¶Ô²»ÉÙÅóÓÑºÃ£¬Ö»ÊÇËûÃÇÃ»ÓÐºì¶øÒÑ¡£
+POS_TAG = Ëû/r Ð¦/v Ëµ/v £º/w ¡°/w ÎÒ/r ²»/d Ö»/d ¶Ô/p Ëû/r Ò»¸ö/m ÈË/n ºÃ/a £¬/w ÎÒ/r Ò²/d ¶Ô/p ²»ÉÙ/m ÅóÓÑ/n ºÃ/a £¬/w Ö»/d ÊÇ/v ËûÃÇ/r Ã»ÓÐ/d ºì/a ¶øÒÑ/y ¡£/w
+CHARACTERS = 
+RELWORD = ÅóÓÑ;
+RELCOMB = 
+-----------
+SENTENCE = ¡±ËûËµ£¬×Ô¼º¸ÕÈëÐÐÊ±£¬Ò²ÊÇÒ»Â·Çî¹ýÀ´£¬ºóÀ´Ôø¾­±»ÈËÌáÐ¯£¬ËûºÜ¸Ð¶÷£¬Ò²Ïë°ÑÄÇÖÖ±»ÕÕ¹ËµÄÃÀºÃ¸Ð¾õ´«´ï³öÈ¥£¬ËùÒÔÈÃËû¾õµÃÊÇºÃÈËµÄÇîÅóÓÑ£¬Ëû¶¼»áÈ¥°ïÖú¡£
+POS_TAG = ¡±/w Ëû/r Ëµ/v £¬/w ×Ô¼º/r ¸Õ/d Èë/v ÐÐ/ng Ê±/ng £¬/w Ò²/d ÊÇ/v Ò»Â·/m Çî/a ¹ýÀ´/v £¬/w ºóÀ´/t Ôø¾­/d ±»/p ÈË/n ÌáÐ¯/v £¬/w Ëû/r ºÜ/d ¸Ð¶÷/v £¬/w Ò²/d Ïë/v °Ñ/p ÄÇÖÖ/r ±»/p ÕÕ¹Ë/v µÄ/u ÃÀºÃ/a ¸Ð¾õ/n ´«´ï/v ³ö/v È¥/v £¬/w ËùÒÔ/c ÈÃ/v Ëû/r ¾õµÃ/v ÊÇ/v ºÃ/a ÈË/n µÄ/u Çî/a ÅóÓÑ/n £¬/w Ëû/r ¶¼/d »á/v È¥/v °ïÖú/v ¡£/w
+CHARACTERS = 
+RELWORD = ÅóÓÑ;
+RELCOMB = 
+-----------
+SENTENCE = Ëû¾õµÃ£¬ÖÜ½ÜÂ×ºóÀ´°ïÖúÄÏÈ­ÂèÂè³öÆ¬£¬Ò²ÊÇÄÇÖÖ¶ÔÅóÓÑµÄ°®µÄ´«³Ð£¬ËûÏàÐÅÄÏÈ­ÂèÂè½«À´Ò²»á¶ÔÅóÓÑÕâÃ´×ö¡£
+POS_TAG = Ëû/r ¾õµÃ/v £¬/w ÖÜ½ÜÂ×/nr ºóÀ´/t °ïÖú/v ÄÏÈ­ÂèÂè/nr ³ö/v Æ¬/q £¬/w Ò²/d ÊÇ/v ÄÇÖÖ/r ¶Ô/p ÅóÓÑ/n µÄ/u °®/vn µÄ/u ´«³Ð/vn £¬/w Ëû/r ÏàÐÅ/v ÄÏÈ­ÂèÂè/nr ½«À´/t Ò²/d »á/v ¶Ô/p ÅóÓÑ/n ÕâÃ´/r ×ö/v ¡£/w
+CHARACTERS = ÄÏÈ­ÂèÂè;ÖÜ½ÜÂ×;
+RELWORD = ÅóÓÑ;
+RELCOMB = ÄÏÈ­ÂèÂè,ÖÜ½ÜÂ×->ÅóÓÑ;
+-----------
+SENTENCE = Áõ®uºêÐ´µÄÁíÒ»Ê×¸è¡¶»µÅóÓÑ¡·£¬ÊÇ·ñÒ²ÊÇÖ¸ÖÜ½ÜÂ×ÄØ£¿
+POS_TAG = Áõ®uºê/nr Ð´/v µÄ/u Áí/r Ò»/m Ê×/q ¸è/n ¡¶/w »µ/a ÅóÓÑ/n ¡·/w £¬/w ÊÇ·ñ/v Ò²/d ÊÇ/v Ö¸/v ÖÜ½ÜÂ×/nr ÄØ/y £¿/w
+CHARACTERS = Áõ®uºê;ÖÜ½ÜÂ×;
+RELWORD = ÅóÓÑ;
+RELCOMB = Áõ®uºê,ÖÜ½ÜÂ×->ÅóÓÑ;
+-----------
+SENTENCE = ´ÓÖÜ½ÜÂ×È·¶¨µ±°éÀÉ¿ªÊ¼£¬Íâ½ç¾ÍÒ»Ö±³´×÷ÖÜ½ÜÂ×2Î»Ç°Å®ÓÑ²ÌÒÀÁÖÓëºîÅåá¯»á³öÏ¯£¬µ«×òÍíÕâ2Î»ÖÜ½ÜÂ×Ç°Å®ÓÑ¶¼Î´ÏÖÉí£¬ÖÜ½ÜÂ×¶Ô×Ô¼ºµÄ¸ÐÇé±»´ó×÷ÎÄÕÂµ¹ÊÇ¿´µÃºÜ¿ª£º¡°ÎÒÖªµÀÕâ¶¼ÊÇÍâ½ç³´×÷À´³´×÷È¥¡£
+POS_TAG = ´Ó/p ÖÜ½ÜÂ×/nr È·¶¨/v µ±/ °éÀÉ/n ¿ªÊ¼/n £¬/w Íâ½ç/n ¾Í/d Ò»Ö±/d ³´×÷/v ÖÜ½ÜÂ×/nr 2/m Î»/q Ç°/f Å®ÓÑ/n ²ÌÒÀÁÖ/nr Óë/p ºîÅåá¯/nr »á/v ³öÏ¯/v £¬/w µ«/c ×òÍí/t Õâ/r 2/m Î»/q ÖÜ½ÜÂ×/nr Ç°/f Å®ÓÑ/n ¶¼/d Î´/d ÏÖÉí/v £¬/w ÖÜ½ÜÂ×/nr ¶Ô/p ×Ô¼º/r µÄ/u ¸ÐÇé/n ±»/p ´ó×÷ÎÄÕÂ/l µ¹/d ÊÇ/a ¿´/a µÃ/e ºÜ/d ¿ª/j £º/w ¡°/w ÎÒ/r ÖªµÀ/v Õâ/r ¶¼/d ÊÇ/v Íâ½ç/n ³´×÷/v À´/f ³´×÷/v È¥/v ¡£/w
+CHARACTERS = ²ÌÒÀÁÖ;ºîÅåá¯;ÖÜ½ÜÂ×;
+RELWORD = Å®ÓÑ;
+RELCOMB = ²ÌÒÀÁÖ,ÖÜ½ÜÂ×->Å®ÓÑ;ºîÅåá¯,ÖÜ½ÜÂ×->Å®ÓÑ;
+-----------
+SENTENCE = ËäÈ»×òÍíÌìºò²»¼Ñ£¬µ«Áõ®uºêµÄ»éÀñÈÔÊÇÐÇ¹âìÚìÚ£¬°üÀ¨Îâ×ÚÏÜ¡¢nono¡¢ºú¹Ï¡¢ÎÂá°¡¢Ðí½Ü»Ô¡¢¿ÂÓÐÂÚ¡¢Ðí»ÛÐÀ¡¢·½ÎÄÉ½¡¢¿µ¿µÓëÅ®ÓÑÑîÇÉÄþ¡¢Makiyo¡¢ÏÄÈçÖ¥¡¢K-ONE¡¢»ÆÖ¾çâ¡¢ÂíÖ¾Ïè¡¢¼ÖÓÀæ¼·ò¸¾µÈ¶¼¸ÏÀ´³ÔÏ²¾Æ£¬Îâ×ÚÏÜÒò¶Ç×Ó²»Êæ·þ£¬×îºóÒ»¿Ì²Å¸Ïµ½ÏÖ³¡?
+POS_TAG = ËäÈ»/c ×òÍí/t Ììºò/n ²»/a ¼Ñ/a £¬/w µ«/c Áõ®uºê/nr µÄ/u »éÀñ/n ÈÔ/d ÊÇ/v ÐÇ¹â/n ìÚìÚ/z £¬/w °üÀ¨/v Îâ×ÚÏÜ/nr ¡¢/w nono/nr ¡¢/w ºú¹Ï/nr ¡¢/w ÎÂá°/nr ¡¢/w Ðí½Ü»Ô/nr ¡¢/w ¿ÂÓÐÂÚ/nr ¡¢/w Ðí»ÛÐÀ/nr ¡¢/w ·½ÎÄÉ½/nr ¡¢/w ¿µ¿µ/nr Óë/p Å®ÓÑ/n ÑîÇÉÄþ/nr ¡¢/w Makiyo/nr ¡¢/w ÏÄÈçÖ¥/nr ¡¢/w K-ONE/nr ¡¢/w »ÆÖ¾çâ/nr ¡¢/w ÂíÖ¾Ïè/nr ¡¢/w ¼ÖÓÀæ¼/nr ·ò¸¾/n µÈ/u ¶¼/d ¸ÏÀ´/v ³Ô/v Ï²¾Æ/n £¬/w Îâ×ÚÏÜ/nr Òò/p ¶Ç×Ó/n ²»/d Êæ·þ/a £¬/w ×îºó/f Ò»¿Ì/m ²Å/d ¸Ïµ½/v ÏÖ³¡/s ?m
+CHARACTERS = K-ONE;Makiyo;nono;·½ÎÄÉ½;ºú¹Ï;»ÆÖ¾çâ;¼ÖÓÀæ¼;¿µ¿µ;¿ÂÓÐÂÚ;Áõ®uºê;ÂíÖ¾Ïè;ÎÂá°;Îâ×ÚÏÜ;ÏÄÈçÖ¥;Ðí»ÛÐÀ;Ðí½Ü»Ô;ÑîÇÉÄþ;
+RELWORD = Å®ÓÑ;
+RELCOMB = ¿µ¿µ,ÑîÇÉÄþ->Å®ÓÑ;
+-----------
+SENTENCE = ×òÈÕ£¬×¼ÐÂÀÉÎªÁËÐû´«ÐÂ×¨¼­À´µ½É½³Ç¾ÙÐÐÇ©³ª»á£¬Í¸Â¶ÁË»éÀñµÄ³ï±¸Çé¿ö£¬ÒÔ¼°ç³ÎÅÇéÂÂ¡°Ë«J¡±¡ª¡ªÖÜ½ÜÂ×ºÍ²ÌÒÀÁÖ(×îÐÂ¶¯Ì¬¡¢¸öÈËµµ°¸¡¢FLASHMV×¨¼­)½«ÔÚ»éÀñÉÏÔÙ¶È¾ÛÊ×µÄÏûÏ¢¡£
+POS_TAG = ×òÈÕ/t £¬/w ×¼/h ÐÂÀÉ/n ÎªÁË/p Ðû´«/v ÐÂ/a ×¨¼­/n À´µ½/v É½³Ç/n ¾ÙÐÐ/v Ç©/v ³ª/v »á/v £¬/w Í¸Â¶/v ÁË/u »éÀñ/n µÄ/u ³ï±¸/vn Çé¿ö/n £¬/w ÒÔ¼°/c ç³ÎÅ/n ÇéÂÂ/n ¡°/w Ë«/m J/nx ¡±/w ¡ª¡ª/w ÖÜ½ÜÂ×/nr ºÍ/c ²ÌÒÀÁÖ/nr (/w ×îÐÂ/a ¶¯Ì¬/n ¡¢/w ¸öÈË/n µµ°¸/n ¡¢/w FLASHMV/nx ×¨¼­/n )/w ½«/d ÔÚ/p »éÀñ/n ÉÏ/m ÔÙ¶È/d ¾ÛÊ×/v µÄ/b ÏûÏ¢/n ¡£/w
+CHARACTERS = ²ÌÒÀÁÖ;ÖÜ½ÜÂ×;
+RELWORD = ÇéÂÂ;
+RELCOMB = ²ÌÒÀÁÖ,ÖÜ½ÜÂ×->ÇéÂÂ;
+-----------
+SENTENCE = ÔøÓëÎâ×ÚÏÜÒ»Æð³ª¸è¡¢Ö÷³Ö£¬ÓëÖÜ½ÜÂ×¡¢ºîÅåá¯¡¢²ÌÒÀÁÖµÈÈ¦ÄÚ¡°µ±ºìÕ¨×Ó¼¦¡±¶¼ÊÇºÃÅóÓÑ£¬Ì¨Íå¸èÊÖÁõ®uºêÃ¿µ½Ò»µØ¶¼»áÒýÀ´ÌØ±ðµÄ¹Ø×¢¡£
+POS_TAG = Ôø/d Óë/p Îâ×ÚÏÜ/nr Ò»Æð/s ³ª¸è/v ¡¢/w Ö÷³Ö/v £¬/w Óë/p ÖÜ½ÜÂ×/nr ¡¢/w ºîÅåá¯/nr ¡¢/w ²ÌÒÀÁÖ/nr µÈ/u È¦/n ÄÚ/f ¡°/w µ±/ ºì/a Õ¨/vn ×Ó¼¦/n ¡±/c ¶¼/d ÊÇ/v ºÃ/a ÅóÓÑ/n £¬/w Ì¨Íå/ns ¸èÊÖ/n Áõ®uºê/nr Ã¿/r µ½/v Ò»/m µØ/u ¶¼/d »á/v ÒýÀ´/v ÌØ±ð/a µÄ/u ¹Ø×¢/vn ¡£/w
+CHARACTERS = ²ÌÒÀÁÖ;ºîÅåá¯;Áõ®uºê;Îâ×ÚÏÜ;ÖÜ½ÜÂ×;
+RELWORD = ÅóÓÑ;
+RELCOMB = ²ÌÒÀÁÖ,Áõ®uºê->ÅóÓÑ;²ÌÒÀÁÖ,Îâ×ÚÏÜ->ÅóÓÑ;ºîÅåá¯,Áõ®uºê->ÅóÓÑ;ºîÅåá¯,Îâ×ÚÏÜ->ÅóÓÑ;Áõ®uºê,Îâ×ÚÏÜ->ÅóÓÑ;Áõ®uºê,ÖÜ½ÜÂ×->ÅóÓÑ;
+-----------
+SENTENCE = ×ò£¨8£©ÈÕ£¬Áõ®uºê×ö¿Í½ð±¨Ã÷ÐÇÈÈÏßÔâÓöµ½ÁËÍ¬ÑùµÄÄÑ¿°£º¼¸ºõËùÓÐÈË¹Ø×¢µÄ½¹µã¶¼ÊÇËûµÄÃ÷ÐÇÅóÓÑ¡£
+POS_TAG = ×ò/tg £¨/w 8/m £©/w ÈÕ/ng £¬/w Áõ®uºê/nr ×ö¿Í/v ½ð/b ±¨/n Ã÷ÐÇ/n ÈÈÏß/n Ôâ/v Óöµ½/v ÁË/u Í¬Ñù/b µÄ/u ÄÑ¿°/an £º/w ¼¸ºõ/d ËùÓÐ/b ÈË/n ¹Ø×¢/v µÄ/u ½¹µã/n ¶¼/d ÊÇ/v Ëû/r µÄ/u Ã÷ÐÇ/n ÅóÓÑ/n ¡£/w
+CHARACTERS = Áõ®uºê;
+RELWORD = ÅóÓÑ;
+RELCOMB = 
+-----------
+SENTENCE = ¶Ô´Ë£¬Áõ®uºê²¢²»½éÒâ£ºÖÚÈËÊ°²ñ»ðÑæ¸ß£¬¡°Ö»Òª´ó¼ÒÔ¸ÒâÌýÎÒµÄ¸è£¬ÎÒ²»½éÒâÎªÅóÓÑ×ö¡®ÂÌÒ¶¡¯£±
+POS_TAG = ¶Ô´Ë/l £¬/w Áõ®uºê/nr ²¢/c ²»/d ½éÒâ/v £º/w ÖÚÈËÊ°²ñ»ðÑæ¸ß/i £¬/w ¡°/w Ö»Òª/c ´ó¼Ò/r Ô¸Òâ/v Ìý/v ÎÒ/r µÄ/u ¸è/n £¬/w ÎÒ/r ²»/d ½éÒâ/v Îª/p ÅóÓÑ/n ×ö/v ¡®/w ÂÌÒ¶/nz ¡¯/w £±/m
+CHARACTERS = Áõ®uºê;
+RELWORD = ÅóÓÑ;
+RELCOMB = 
+-----------
+SENTENCE = ÔÚ×òÈÕµÄÈÈÏßÖÐ£¬²»ÉÙ¸èÃÔ¸üÊÇÈý¾ä²»ÀëÖÜ½ÜÂ×£º¡°Äã¸úÖÜ½ÜÂ×ÕæµÄÊÇºÃÅóÓÑÂð£¿
+POS_TAG = ÔÚ/p ×òÈÕ/t µÄ/u ÈÈÏß/n ÖÐ/f £¬/w ²»ÉÙ/m ¸èÃÔ/n ¸ü/d ÊÇ/a Èý/m ¾ä/n ²»/a Àë/p ÖÜ½ÜÂ×/nr £º/w ¡°/w Äã/r ¸ú/p ÖÜ½ÜÂ×/nr ÕæµÄ/d ÊÇ/v ºÃ/a ÅóÓÑ/n Âð/y £¿/w
+CHARACTERS = ÖÜ½ÜÂ×;
+RELWORD = ÅóÓÑ;
+RELCOMB = 
+-----------
+SENTENCE = ²»¹ý£¬Ã½Ìå¹Ø×¢µÄÈÔÊÇÁõ®uºêÓëÃ÷ÐÇÅóÓÑ¼äµÄ¡°¹ÊÊÂ¡±£¬ÏÅµÃËûÁ¬Ã¦±íÌ¬£¬¡°³ýÁË¸ÐÇé£¬ÅóÓÑµÄÊÂ¶¼¿ÉÒÔÌ¸£±
+POS_TAG = ²»¹ý/c £¬/w Ã½Ìå/n ¹Ø×¢/v µÄ/u ÈÔ/d ÊÇ/v Áõ®uºê/nr Óë/p Ã÷ÐÇ/n ÅóÓÑ/n ¼ä/f µÄ/u ¡°/w ¹ÊÊÂ/n ¡±/w £¬/w ÏÅ/v µÃ/u Ëû/r Á¬Ã¦/d ±íÌ¬/v £¬/w ¡°/w ³ýÁË/p ¸ÐÇé/n £¬/w ÅóÓÑ/n µÄ/u ÊÂ/n ¶¼/d ¿ÉÒÔ/v Ì¸/v £±/m
+CHARACTERS = Áõ®uºê;
+RELWORD = ÅóÓÑ;
+RELCOMB = 
+-----------
+SENTENCE = ³öµÀÊ±¼ä²»¶Ì£¬È´×ß²»³öÃ÷ÐÇÅóÓÑµÄ¹â»·£¬Áõ®uºê¶Ô´ËºÜÌ¹È»£¬¡°ÖÚÈËÊ°²ñ»ðÑæ¸ß£¬Ö»Òª´ó¼ÒÔ¸ÒâÌýÎÒµÄ¸è£¬ÎÒ²»½éÒâÎªÅóÓÑ×ö¡®ÂÌÒ¶¡¯£±
+POS_TAG = ³öµÀ/v Ê±¼ä/n ²»/a ¶Ì/a £¬/w È´/d ×ß/v ²»/d ³ö/v Ã÷ÐÇ/n ÅóÓÑ/n µÄ/u ¹â»·/n £¬/w Áõ®uºê/nr ¶Ô/p ´Ë/r ºÜ/d Ì¹È»/a £¬/w ¡°/w ÖÚÈËÊ°²ñ»ðÑæ¸ß/i £¬/w Ö»Òª/c ´ó¼Ò/r Ô¸Òâ/v Ìý/v ÎÒ/r µÄ/u ¸è/n £¬/w ÎÒ/r ²»/d ½éÒâ/v Îª/p ÅóÓÑ/n ×ö/v ¡®/w ÂÌÒ¶/nz ¡¯/w £±/m
+CHARACTERS = Áõ®uºê;
+RELWORD = ÅóÓÑ;
+RELCOMB = 
+-----------
+SENTENCE = Áõ®uºêºÍÖÜ½ÜÂ×ÊÇ»¼ÄÑÓë¹²µÄºÃÐÖµÜ£¬Ïà½»ÒÑ¾­8Äê¡£
+POS_TAG = Áõ®uºê/nr ºÍ/c ÖÜ½ÜÂ×/nr ÊÇ/v »¼ÄÑÓë¹²/i µÄ/u ºÃ/a ÐÖµÜ/n £¬/w Ïà½»/v ÒÑ¾­/d 8/m Äê/q ¡£/w
+CHARACTERS = Áõ®uºê;ÖÜ½ÜÂ×;
+RELWORD = ÐÖµÜ;
+RELCOMB = Áõ®uºê,ÖÜ½ÜÂ×->ÐÖµÜ;
+-----------
+SENTENCE = ÔÚ»î¶¯¿ªÊ¼Ç°£¬Áõ®uºêÐ¯Ò»Í¬À´ÄþµÄÐÂ»éÆÞ×ÓÍõÍñö­Ò»Æð½ÓÊÜÁË¼ÇÕßµÄ²É·Ã¡£
+POS_TAG = ÔÚ/p »î¶¯/vn ¿ªÊ¼/v Ç°/f £¬/w Áõ®uºê/nr Ð¯/v Ò»Í¬/d À´Äþ/v µÄ/u ÐÂ»é/n ÆÞ×Ó/n ÍõÍñö­/nr Ò»Æð/s ½ÓÊÜ/v ÁË/u ¼ÇÕß/n µÄ/u ²É·Ã/vn ¡£/w
+CHARACTERS = Áõ®uºê;ÍõÍñö­;
+RELWORD = ÆÞ×Ó;
+RELCOMB = Áõ®uºê,ÍõÍñö­->ÆÞ×Ó;
+-----------
+SENTENCE = Áõ®uºêÍì×ÅÆÞ×Ó½âÊÍµÀ£º¡°ÕâÊ×¸èÊÇÎÒÃÇµÄ»éÀñÖ÷ÌâÇú£¬ÎÒÇó»éÊ±³ª¸øËýµÄ£¬Ð´ÕâÊ×¸èÊ±¸ÕºÃÔÚ´ÓÄÏ¾©µ½±±¾©µÄÂ·ÉÏÐÄÉú¸Ð¿®£¬¶ÔÄÏ¾©ÕæµÄºÜÓÐ¸ÐÇé£¬ËùÒÔÕâ´ÎÒ»¶¨Òª´øÌ«Ì«Ò»ÆðÀ´¡±¡£
+POS_TAG = Áõ®uºê/nr Íì/v ×Å/u ÆÞ×Ó/n ½âÊÍ/vd µÀ/v £º/w ¡°/w Õâ/r Ê×/m ¸è/n ÊÇ/v ÎÒÃÇ/r µÄ/u »éÀñ/n Ö÷ÌâÇú/n £¬/w ÎÒ/r Çó»é/v Ê±/ng ³ª/v ¸ø/p Ëý/r µÄ/u £¬/w Ð´/v Õâ/r Ê×/m ¸è/n Ê±/ng ¸ÕºÃ/d ÔÚ/p ´Ó/p ÄÏ¾©/ns µ½/v ±±¾©/ns µÄ/u Â·ÉÏ/s ÐÄ/n Éú/dg ¸Ð¿®/a £¬/w ¶Ô/p ÄÏ¾©/ns ÕæµÄ/d ºÜ/d ÓÐ/v ¸ÐÇé/n £¬/w ËùÒÔ/c Õâ´Î/r Ò»¶¨/d Òª/v ´ø/v Ì«Ì«/n Ò»Æð/s À´/v ¡±/w ¡£/w
+CHARACTERS = Áõ®uºê;
+RELWORD = ÆÞ×Ó;
+RELCOMB = 
+-----------
+SENTENCE = ºÜ¶àÄÚµØ¹ÛÖÚÊìÏ¤Áõ®uºê¶¼ÊÇÒòÎªËûÊÇ¡°ÖÜ½ÜÂ×µÄËÀµ³¡±£¬fansÔÚ¿´¹ýËûÔÚ¡¶´ó¹àÀº()¡·ÖÐÊÎÑÝµÄ´ó·´½Çºó¶ø¡°ÌÖÑá¡±Ëû£¬¶Ô´ËËû´óÐ¦µÀ£º¡°ÎÒºÍ½ÜÂ×ÓÐ10ÄêµÄ½»ÇéÁË£¬µ±Ê±µ¼ÑÝÑûÇëÎÒÔÚÆ¬ÖÐÑÝËûµÄÅóÓÑ£¬ÎÒ¾Ü¾øÁË£¬ÄãËµÁ½ÈËË½ÏÂÕâÃ´ºÃÁË»¹ÒªÈ¥ÑÝºÃÅóÓÑ»á²»»áÓÐµã¶ñÐÄ°¡£
+POS_TAG = ºÜ¶à/m ÄÚµØ/s ¹ÛÖÚ/n ÊìÏ¤/v Áõ®uºê/nr ¶¼/d ÊÇ/v ÒòÎª/p Ëû/r ÊÇ/v ¡°/w ÖÜ½ÜÂ×/nr µÄ/u ËÀµ³/n ¡±/c £¬/w fans/nx ÔÚ/p ¿´/v ¹ý/u Ëû/r ÔÚ/p ¡¶/w ´ó/d ¹à/v Àº/ng (/w )/w ¡·/w ÖÐ/f ÊÎÑÝ/v µÄ/u ´ó/a ·´/v ½Ç/q ºó/f ¶ø/c ¡°/w ÌÖÑá/v ¡±/w Ëû/r £¬/w ¶Ô/p ´Ë/r Ëû/r ´ó/d Ð¦/v µÀ/q £º/w ¡°/w ÎÒ/r ºÍ/c ½ÜÂ×/nr ÓÐ/v 10/m Äê/q µÄ/u ½»Çé/n ÁË/u £¬/w µ±Ê±/t µ¼ÑÝ/n ÑûÇë/v ÎÒ/r ÔÚ/p Æ¬ÖÐ/s ÑÝ/v Ëû/r µÄ/u ÅóÓÑ/n £¬/w ÎÒ/r ¾Ü¾ø/v ÁË/y £¬/w Äã/r Ëµ/v Á½/m ÈË/n Ë½ÏÂ/d ÕâÃ´/r ºÃ/a ÁË/u »¹/d Òª/v È¥/v ÑÝ/v ºÃ/a ÅóÓÑ/n »á/v ²»/d »á/v ÓÐ/v µã/t ¶ñÐÄ/a °¡/y £/m
+CHARACTERS = ½ÜÂ×;Áõ®uºê;ÖÜ½ÜÂ×;
+RELWORD = ÅóÓÑ;ËÀµ³;
+RELCOMB = ½ÜÂ×,Áõ®uºê->ÅóÓÑ;Áõ®uºê,ÖÜ½ÜÂ×->ÅóÓÑ;½ÜÂ×,Áõ®uºê->ËÀµ³;Áõ®uºê,ÖÜ½ÜÂ×->ËÀµ³;
+-----------
+SENTENCE = ÒÔºóÎÒÒ²²»»áÔÚÏ·ÀïÑÝËûÅóÓÑ£¬²»¹ýËû×ÜÊÇÑÝºÃÈË£¬ÎÒÖ»ÄÜÑÝ»µÈËÁË¡±¡£
+POS_TAG = ÒÔºó/f ÎÒ/r Ò²/d ²»/d »á/v ÔÚ/p Ï·/n Àï/f ÑÝ/v Ëû/r ÅóÓÑ/n £¬/w ²»/d ¹ý/v Ëû/r ×ÜÊÇ/d ÑÝ/v ºÃ/a ÈË/n £¬/w ÎÒ/r Ö»/d ÄÜ/v ÑÝ/v »µÈË/n ÁË/y ¡±/w ¡£/w
+CHARACTERS = 
+RELWORD = ÅóÓÑ;
+RELCOMB = 
+-----------
+SENTENCE = ÔÚÁõ®uºêµÄ»éÀñÉÏ£¬°éÀÉÖÜ½ÜÂ×ÇÀ¾¡·çÍ·£¬¿ÉÁõ®uºêÒ»µã²»½éÒâ£¬¡°´ó¼Ò¶¼¾õµÃËûºì£¬ÆäÊµËûÕæµÄ¸¶³öºÜ´ó´ú¼ÛµÄ£¬Ïñ²ÌÒÀÁÖ(Ìý¸èblog)ºÍºîÅåá¯ºÍÎÒ¹ØÏµÒ²¶¼ºÜÊì¡­¡­ÎÒÃÇÔÚÅÄ¡¶´ó¹àÀº¡·µÄÊ±ºòËû¸úÎÒÌ¸µ½×Ô¼ºµÄ¿àÃÆ£¬°üÀ¨½»Å®ÅóÓÑÓöµ½µÄÀ§ÈÅ¡£
+POS_TAG = ÔÚ/p Áõ®uºê/nr µÄ/u »éÀñ/n ÉÏ/m £¬/w °éÀÉ/n ÖÜ½ÜÂ×/nr ÇÀ/v ¾¡/ag ·çÍ·/n £¬/w ¿É/v Áõ®uºê/nr Ò»µã/t ²»/d ½éÒâ/v £¬/w ¡°/w ´ó¼Ò/r ¶¼/d ¾õµÃ/v Ëû/r ºì/a £¬/w ÆäÊµ/d Ëû/r Õæ/a µÄ/u ¸¶³ö/vn ºÜ/d ´ó/a ´ú¼Û/n µÄ/u £¬/w Ïñ/v ²ÌÒÀÁÖ/nr (/w Ìý/v ¸è/n blog/nx )/w ºÍ/c ºîÅåá¯/nr ºÍ/c ÎÒ/r ¹ØÏµ/n Ò²/d ¶¼/d ºÜ/d Êì/a ¡­/w ¡­/w ÎÒÃÇ/r ÔÚ/p ÅÄ/v ¡¶/w ´ó/d ¹à/v Àº/ng ¡·/w µÄ/u Ê±ºò/n Ëû/r ¸ú/p ÎÒ/r Ì¸/v µ½/v ×Ô¼º/r µÄ/u ¿àÃÆ/an £¬/w °üÀ¨/v ½»/v Å®ÅóÓÑ/n Óöµ½/v µÄ/u À§ÈÅ/vn ¡£/w
+CHARACTERS = ²ÌÒÀÁÖ;ºîÅåá¯;Áõ®uºê;ÖÜ½ÜÂ×;
+RELWORD = Å®ÅóÓÑ;
+RELCOMB = 
+-----------
+SENTENCE = ÎÒËµÄãÓ¦¸ÃÐ´Ò»Ê×ÕâÑùµÄ¸è£¬ÒòÎª×öÄãµÄÅ®ÅóÓÑÎÞ·¨ºÍÄãÒ»ÆðÈ¥²Î¼Ó°ä½±Àñ¡¢²»ÄÜ¸úÄãÈ¥³Ô·¹¹ä½Ö¡­¡­ºóÀ´ÓÐÁË¡¶ÎÒ²»Åä¡·¡±£¬Áõ®uºêÍ¸Â¶ÖÜ½ÜÂ×ÉõÖÁ¸üÏÛÄ½Ëû£¬¡°ÓÐÊ±ÎÒ¸úËûËµÎÒÃ»ÓÐÄãºì£¬µ«ÄãÄÜÏñÎÒÒ»Ñù£¬Ì¹µ´µ´µØ¹«¿ª×Ô¼ºµÄÁµÇéÂð£¿
+POS_TAG = ÎÒ/r Ëµ/v Äã/r Ó¦¸Ã/v Ð´/v Ò»/m Ê×/q ÕâÑù/r µÄ/u ¸è/n £¬/w ÒòÎª/c ×ö/v Äã/r µÄ/u Å®ÅóÓÑ/n ÎÞ/v ·¨/j ºÍ/c Äã/r Ò»Æð/d È¥/v ²Î¼Ó/v °ä½±/vn Àñ/n ¡¢/w ²»ÄÜ/v ¸ú/p Äã/r È¥/v ³Ô·¹/v ¹ä/v ½Ö/n ¡­/w ¡­/w ºóÀ´/t ÓÐ/v ÁË/y ¡¶/w ÎÒ/r ²»Åä/a ¡·/w ¡±/w £¬/w Áõ®uºê/nr Í¸Â¶/v ÖÜ½ÜÂ×/nr ÉõÖÁ/d ¸ü/d ÏÛÄ½/v Ëû/r £¬/w ¡°/w ÓÐÊ±/d ÎÒ/r ¸ú/p Ëû/r Ëµ/v ÎÒ/r Ã»ÓÐ/v Äã/r ºì/a £¬/w µ«/c Äã/r ÄÜ/v Ïñ/p ÎÒ/r Ò»Ñù/u £¬/w Ì¹µ´/an µ´/v µØ/u ¹«¿ª/v ×Ô¼º/r µÄ/u ÁµÇé/n Âð/y £¿/w
+CHARACTERS = Áõ®uºê;ÖÜ½ÜÂ×;
+RELWORD = Å®ÅóÓÑ;
+RELCOMB = 
+-----------
+SENTENCE = Ö®ºó£¬ÖÜ½ÜÂ×ÏòÕÅÒÕÄ±ÍÆ¼ö¡°ÕâÊÇÎÒ×îºÃµÄÅóÓÑ¡±£¬ÕÅÒÕÄ±ºÍÖÜÈó·¢¶ÔÁõ®uºêµÄÌ¬¶ÈÒ²¶¼Ê®·ÖÈÈÇé£¬ÕÅÒÕÄ±»¹±íÊ¾Èç¹û¡°»Æ½ð¼×¡±ÖÐÓÐºÏÊÊµÄ½ÇÉ«£¬¾Í»áÕÒÁõ®uºêÑÝ¡£
+POS_TAG = Ö®ºó/f £¬/w ÖÜ½ÜÂ×/nr Ïò/p ÕÅÒÕÄ±/nr ÍÆ¼ö/v ¡°/w Õâ/r ÊÇ/v ÎÒ/r ×î/d ºÃ/a µÄ/u ÅóÓÑ/n ¡±/w £¬/w ÕÅÒÕÄ±/nr ºÍ/c ÖÜÈó·¢/nr ¶Ô/p Áõ®uºê/nr µÄ/u Ì¬¶È/n Ò²/d ¶¼/d Ê®·Ö/d ÈÈÇé/a £¬/w ÕÅÒÕÄ±/nr »¹/d ±íÊ¾/v Èç¹û/c ¡°/w »Æ½ð¼×/n ¡±/w ÖÐ/f ÓÐ/v ºÏÊÊ/a µÄ/u ½ÇÉ«/n £¬/w ¾Í/d »á/v ÕÒ/v Áõ®uºê/nr ÑÝ/v ¡£/w
+CHARACTERS = Áõ®uºê;ÕÅÒÕÄ±;ÖÜ½ÜÂ×;ÖÜÈó·¢;
+RELWORD = ÅóÓÑ;
+RELCOMB = Áõ®uºê,ÖÜ½ÜÂ×->ÅóÓÑ;
+-----------
+SENTENCE = ÖÜ½ÜÂ×µÄºÃÓÑÁõÌï¾®ºê¡¢¡°ÄÏÈ­ÂèÂè¡±µÈ½«Ï¤ÊýÔÚÓ°Æ¬ÖÐ³öÑÝÖúÕó¡£
+POS_TAG = ÖÜ½ÜÂ×/nr µÄ/u ºÃÓÑ/n ÁõÌï¾®ºê/nr ¡¢/w ¡°/w ÄÏÈ­ÂèÂè/nr ¡±/w µÈ/u ½«/d Ï¤Êý/d ÔÚ/p Ó°Æ¬/n ÖÐ/f ³öÑÝ/v ÖúÕó/v ¡£/w
+CHARACTERS = ÁõÌï¾®ºê;ÄÏÈ­ÂèÂè;ÖÜ½ÜÂ×;
+RELWORD = ºÃÓÑ;
+RELCOMB = ÁõÌï¾®ºê,ÄÏÈ­ÂèÂè->ºÃÓÑ;ÁõÌï¾®ºê,ÖÜ½ÜÂ×->ºÃÓÑ;ÄÏÈ­ÂèÂè,ÖÜ½ÜÂ×->ºÃÓÑ;
+-----------
+SENTENCE = ÖÜ½ÜÂ×±íÊ¾£¬1ÔÂ18ÈÕ½«ÊÇËûµÄ28ËêÉúÈÕ£¬Õâ²¿Ó°Æ¬Í¬Ê±Ò²¼ÍÄîÁËËû¸æ±ðÑ§ÉúÉúÑÄ10ÖÜÄê¡£
+POS_TAG = ÖÜ½ÜÂ×/nr ±íÊ¾/v £¬/w 1ÔÂ/t 18ÈÕ/t ½«/d ÊÇ/v Ëû/r µÄ/u 28/m Ëê/q ÉúÈÕ/n £¬/w Õâ²¿/r Ó°Æ¬/n Í¬Ê±/c Ò²/d ¼ÍÄî/v ÁË/u Ëû/r ¸æ±ð/v Ñ§Éú/n ÉúÑÄ/n 10/m ÖÜÄê/q ¡£/w
+CHARACTERS = ÖÜ½ÜÂ×;
+RELWORD = Ñ§Éú;
+RELCOMB = 
+-----------
+SENTENCE = Å®Ö÷½ÇÔòÑ¡ÖÐÁËÔøÔÚÓ°Æ¬¡¶µØÏÂÌú¡·ÖÐ³öÑÝ½ÇÉ«µÄ¹ðÂÚÃÀ£¬¶øÔø¾­ÔÚ¡¶Í·ÎÄ×ÖD¡·ÖÐ³öÑÝ¸¸Ç×µÄ»ÆÇïÉú(»ÆÇïÉúÐÂÎÅ,»ÆÇïÉúËµ°É)£¬´Ë´ÎÒ²½«ÔÙ´ÎÍ¬ÖÜ½ÜÂ×°çÑÝ¸¸×Ó¡£
+POS_TAG = Å®/b Ö÷½Ç/n Ôò/d Ñ¡ÖÐ/v ÁË/u Ôø/d ÔÚ/p Ó°Æ¬/n ¡¶/w µØÏÂ/s Ìú/n ¡·/w ÖÐ/f ³öÑÝ/v ½ÇÉ«/n µÄ/u ¹ðÂÚÃÀ/nr £¬/w ¶ø/c Ôø¾­/d ÔÚ/p ¡¶/w Í·/q ÎÄ×Ö/n D/nx ¡·/w ÖÐ/f ³öÑÝ/v ¸¸Ç×/n µÄ/u »ÆÇïÉú/nr (/w »Æ/a Çï/tg Éú/v ÐÂÎÅ/n ,/w »ÆÇïÉú/nr Ëµ/v °É/y )/w £¬/w ´Ë´Î/r Ò²/d ½«/d ÔÙ´Î/d Í¬/p ÖÜ½ÜÂ×/nr °çÑÝ/v ¸¸×Ó/n ¡£/w
+CHARACTERS = ¹ðÂÚÃÀ;»ÆÇïÉú;ÖÜ½ÜÂ×;
+RELWORD = ¸¸Ç×;¸¸×Ó;
+RELCOMB = 
+-----------
+SENTENCE = Êµ¼ÊÉÏÕâÒ²ÊÇ´Ó¡¶À×Óê¡·Ô­ÖøÖÐµÄÈý¸ö¶ù×ÓÑÝ±ä¶øÀ´£¬Ò²¿ÉÒÔËµÖÜ½ÜÂ×µÄ½ÇÉ«¾ÍÊÇÀÏ¶þÂ³´óº£¡
+POS_TAG = Êµ¼ÊÉÏ/d Õâ/r Ò²/d ÊÇ/v ´Ó/p ¡¶/w À×Óê/n ¡·/w Ô­Öø/n ÖÐ/f µÄ/u Èý/m ¸ö/q ¶ù×Ó/n ÑÝ±ä/vn ¶ø/c À´/v £¬/w Ò²/d ¿ÉÒÔ/v Ëµ/v ÖÜ½ÜÂ×/nr µÄ/u ½ÇÉ«/n ¾Í/d ÊÇ/v ÀÏ¶þ/n Â³/j ´ó/a º£/n
+CHARACTERS = ÖÜ½ÜÂ×;
+RELWORD = ¶ù×Ó;
+RELCOMB = 
+-----------
+SENTENCE = ¾ÝÕÅÒÕÄ±½éÉÜ£¬ÖÜ½ÜÂ×¸Õ½ø¾ç×éµÄÊ±ËäÈ»ÓÐÐ©½ôÕÅ£¬µ«ÏÖÔÚÒÑ¾­Öð½¥·ÅËÉÆðÀ´£¬¡°ÓÐÒ»³¡ËûºÍ¹®ÀþÄ¸×ÓÏàÈÏµÄ¶ÔÊÖÏ·°Ñ¾ç×éÈËÔ±¶¼¿´¿ÞÁË¡£
+POS_TAG = ¾Ý/p ÕÅÒÕÄ±/nr ½éÉÜ/v £¬/w ÖÜ½ÜÂ×/nr ¸Õ/d ½ø/v ¾ç×é/n µÄ/u Ê±/ng ËäÈ»/c ÓÐ/v Ð©/q ½ôÕÅ/a £¬/w µ«/c ÏÖÔÚ/t ÒÑ¾­/d Öð½¥/d ·ÅËÉ/v ÆðÀ´/v £¬/w ¡°/w ÓÐ/v Ò»/m ³¡/q Ëû/r ºÍ/c ¹®Àþ/nr Ä¸×Ó/n Ïà/d ÈÏ/v µÄ/b ¶ÔÊÖ/n Ï·/n °Ñ/m ¾ç×é/n ÈËÔ±/n ¶¼/d ¿´/a ¿Þ/v ÁË/u ¡£/w
+CHARACTERS = ¹®Àþ;ÕÅÒÕÄ±;ÖÜ½ÜÂ×;
+RELWORD = ¶ÔÊÖ;Ä¸×Ó;
+RELCOMB = 
+-----------
+SENTENCE = Í¬Ê±£¬ÕÅÒÕÄ±ºÍÖÜ½ÜÂ×¶¼ºÜÐ¢Ë³£¬ÖÜ½ÜÂ×±íÊ¾»á´øÂèÂèÈ¥¿´¡¶»Æ½ð¼×¡·£¬ÕÅÒÕÄ±Ò²Ï£Íû×Ô¼ºÄ¸Ç×ÄÜ¹»Ï²»¶Õâ²¿µçÓ°¡£
+POS_TAG = Í¬Ê±/c £¬/w ÕÅÒÕÄ±/nr ºÍ/c ÖÜ½ÜÂ×/nr ¶¼/d ºÜ/d Ð¢Ë³/an £¬/w ÖÜ½ÜÂ×/nr ±íÊ¾/v »á/v ´ø/v ÂèÂè/n È¥/v ¿´/v ¡¶/w »Æ½ð/n ¼×/nz ¡·/w £¬/w ÕÅÒÕÄ±/nr Ò²/d Ï£Íû/v ×Ô¼º/r Ä¸Ç×/n ÄÜ¹»/v Ï²»¶/v Õâ/r ²¿/q µçÓ°/n ¡£/w
+CHARACTERS = ÕÅÒÕÄ±;ÖÜ½ÜÂ×;
+RELWORD = ÂèÂè;Ä¸Ç×;
+RELCOMB = 
+-----------
+SENTENCE = ¶ÔÓÚÒª´øÄ¸Ç×È¥Ó°Ôº¿´¡¶»Æ½ð¼×¡·µÄÔ­Òò£¬ÖÜ½ÜÂ×µÄ»Ø´ðÈÃÈË¾õµÃºÃÐ¦ÓÖºÜ¸Ð¶¯£¬¡°ÒòÎªÂèÂèÏ²»¶ÖÜÈó·¢¡£
+POS_TAG = ¶ÔÓÚ/p Òª/v ´ø/v Ä¸Ç×/n È¥/v Ó°Ôº/n ¿´/v ¡¶/w »Æ½ð/n ¼×/nz ¡·/w µÄ/u Ô­Òò/n £¬/w ÖÜ½ÜÂ×/nr µÄ/u »Ø´ð/vn ÈÃ/v ÈË/n ¾õµÃ/v ºÃÐ¦/a ÓÖ/d ºÜ/d ¸Ð¶¯/v £¬/w ¡°/w ÒòÎª/c ÂèÂè/n Ï²»¶/v ÖÜ/tg Èó/v ·¢/v ¡£/w
+CHARACTERS = ÖÜ½ÜÂ×;
+RELWORD = ÂèÂè;Ä¸Ç×;
+RELCOMB = 
+-----------
+SENTENCE = ¡±¶øËû×îÏë¶ÔÄ¸Ç×ËµµÄÒ»¾ä»°ÊÇ£º¡°Ð»Ð»ÄãÉúÏÂÎÒ¡£
+POS_TAG = ¡±/w ¶ø/c Ëû/r ×î/d Ïë/v ¶Ô/p Ä¸Ç×/n Ëµ/v µÄ/u Ò»/m ¾ä/q »°/n ÊÇ/v £º/w ¡°/w Ð»Ð»/v Äã/r Éú/v ÏÂ/f ÎÒ/r ¡£/w
+CHARACTERS = 
+RELWORD = Ä¸Ç×;
+RELCOMB = 
+-----------
+SENTENCE = ÐÄÓÐÁéÏ¬Ò»°ã£¬ÕÅÒÕÄ±Ì¹Â¶Ä¿Ç°µÄÔ¸ÍûÖ®Ò»£¬ÊÇ¡°Ï£ÍûÂèÂèÏ²»¶¡¶»Æ½ð¼×¡·¡±¡£
+POS_TAG = ÐÄ/n ÓÐ/v Áé/a Ï¬/ng Ò»°ã/a £¬/w ÕÅÒÕÄ±/nr Ì¹/j Â¶/v Ä¿Ç°/t µÄ/u Ô¸Íû/n Ö®Ò»/r £¬/w ÊÇ/v ¡°/w Ï£Íû/v ÂèÂè/n Ï²»¶/v ¡¶/w »Æ½ð/n ¼×/nz ¡·/w ¡±/w ¡£/w
+CHARACTERS = ÕÅÒÕÄ±;
+RELWORD = ÂèÂè;
+RELCOMB = 
+-----------
+SENTENCE = ¾ÍÁ¬´óµ¼ÑÝÕÅÒÕÄ±Ò²¿´ÖÐÁËËû£¬Á¦ÑûËûÑÝ³ö¹Å×°¹¬Í¢ÐÂÆ¬¡¶Âú³Ç¾¡´ø»Æ½ð¼×¡·£¬ÔÙ´Î¿ç×ã´óÒøÄ»£¬ÖÜ½ÜÂ×Òª°çÑÝÖÜÈó·¢¡¢¹®ÀþµÄ¶ù×Ó£¬»¹ÒªÔÚµçÓ°ÖÐÐãÈ­½Å¹¦·ò£¬Ïàµ±ÊÜµ½ÖõÄ¿¡£
+POS_TAG = ¾Í/d Á¬/d ´ó/a µ¼ÑÝ/n ÕÅÒÕÄ±/nr Ò²/d ¿´ÖÐ/v ÁË/u Ëû/r £¬/w Á¦/dg Ñû/v Ëû/r ÑÝ³ö/v ¹Å×°/n ¹¬Í¢/n ÐÂÆ¬/n ¡¶/w Âú³Ç/ns ¾¡/ag ´ø/n »Æ½ð/n ¼×/m ¡·/w £¬/w ÔÙ´Î/d ¿ç/v ×ã/d ´ó/a ÒøÄ»/n £¬/w ÖÜ½ÜÂ×/nr Òª/v °çÑÝ/v ÖÜÈó·¢/nr ¡¢/w ¹®Àþ/nr µÄ/u ¶ù×Ó/n £¬/w »¹Òª/v ÔÚ/p µçÓ°/n ÖÐ/f Ðã/ag È­½Å/n ¹¦·ò/n £¬/w Ïàµ±/d ÊÜµ½/v ÖõÄ¿/v ¡£/w
+CHARACTERS = ¹®Àþ;ÕÅÒÕÄ±;ÖÜ½ÜÂ×;ÖÜÈó·¢;
+RELWORD = ¶ù×Ó;
+RELCOMB = 
+-----------
+SENTENCE = ÖÜ½ÜÂ×ÔÚÏ·ÖÐ¿ÉÄÜ¾ÍÊÇ³öÑÝ¹Å×°°æµÄÖÜ³å£¬¼´»ÊµÛÖÜÈó·¢µÄÐ¡¶ù×Ó£¬ÌìÕæ¡¢ÀËÂþ£¬ÀíÏëÖ÷Òå£¬Ò»ÉíºÃÎä¹¦£¬°®ÉÏÁË±È×Ô¼º´ó¡¢Éí·Ý±°¼úµÄÅ®ÈË£¬ÊÜÃÅµÚ¡¢¼ÒÍ¥ÖÆÔ¼ÎÞ·¨µÃµ½°®Çé£¬×îÖÕÔÚ»ìÂÒÖÐÒâÍâÉíÍö¡£
+POS_TAG = ÖÜ½ÜÂ×/nr ÔÚ/p Ï·/n ÖÐ/f ¿ÉÄÜ/v ¾Í/d ÊÇ/v ³öÑÝ/v ¹Å×°/n °æ/n µÄ/u ÖÜ³å/nr £¬/w ¼´/c »ÊµÛ/n ÖÜÈó·¢/nr µÄ/u Ð¡/a ¶ù×Ó/n £¬/w ÌìÕæ/an ¡¢/w ÀËÂþ/an £¬/w ÀíÏë/a Ö÷Òå/n £¬/w Ò»Éí/n ºÃ/a Îä¹¦/n £¬/w °®/v ÉÏ/m ÁË/u ±È/p ×Ô¼º/r ´ó/a ¡¢/w Éí·Ý/n ±°¼ú/a µÄ/b Å®ÈË/n £¬/w ÊÜ/v ÃÅµÚ/n ¡¢/w ¼ÒÍ¥/n ÖÆÔ¼/v ÎÞ·¨/vd µÃµ½/v °®Çé/n £¬/w ×îÖÕ/d ÔÚ/p »ìÂÒ/an ÖÐ/f ÒâÍâ/ad ÉíÍö/v ¡£/w
+CHARACTERS = ÖÜ³å;ÖÜ½ÜÂ×;ÖÜÈó·¢;
+RELWORD = ¶ù×Ó;»ÊµÛ;
+RELCOMB = 
+-----------
+SENTENCE = ÎªÁËÈÃ¹ã´ó¸èÃÔÅóÓÑ¼°Ê±ÁË½âÖÜ½ÜÂ×¡°»Æ½ð¼×¡±µÄÏÂÔØÁ¿£¬×ø±êÊ±´ú»¹ÁªºÏÖÐ¹úÒÆ¶¯ÔÚÍøÕ¾½¨Á¢ÌØ±ð°å¿é---¸÷Ê¡²ÊÁåÏÂÔØÅÅÐÐ°ñ£¬Ã¿Ìì¶¼»á¶Ô¸÷Ê¡µÄÏÂÔØÁ¿½øÐÐ¸üÐÂ£¬ÈÃ´ó¼ÒÄÜ¼°Ê±µØÁË½â£¬Ê²Ã´µØ·½µÄÈË×îÏ²»¶ÖÜ½ÜÂ×µÄ²ÊÁå£¬ÖÜ½ÜÂ××îÐÂÁ¦×÷ÏúÁ¿ÊÇ·ñÈÔ¾ÉÆøÊÆÈçºç¡£
+POS_TAG = ÎªÁË/p ÈÃ/v ¹ã´ó/b ¸èÃÔ/n ÅóÓÑ/n ¼°Ê±/a ÁË½â/v ÖÜ½ÜÂ×/nr ¡°/w »Æ½ð¼×/nr ¡±/w µÄ/u ÏÂÔØ/v Á¿/n £¬/w ×ø±ê/n Ê±´ú/n »¹/d ÁªºÏ/v ÖÐ¹ú/ns ÒÆ¶¯/v ÔÚ/p ÍøÕ¾/n ½¨Á¢/v ÌØ±ð/a °å¿é/n ---/m ¸÷Ê¡/r ²Ê/ng Áå/o ÏÂÔØ/v ÅÅÐÐ°ñ/n £¬/w Ã¿Ìì/r ¶¼/d »á/v ¶Ô/p ¸÷/r Ê¡/n µÄ/u ÏÂÔØ/v Á¿/n ½øÐÐ/v ¸üÐÂ/v £¬/w ÈÃ/v ´ó¼Ò/r ÄÜ/v ¼°Ê±/a µØ/u ÁË½â/v £¬/w Ê²Ã´/r µØ·½/n µÄ/u ÈË/n ×î/d Ï²»¶/v ÖÜ½ÜÂ×/nr µÄ/u ²Ê/ng Áå/o £¬/w ÖÜ½ÜÂ×/nr ×îÐÂ/a Á¦×÷/n ÏúÁ¿/n ÊÇ·ñ/v ÈÔ¾É/d ÆøÊÆÈçºç/i ¡£/w
+CHARACTERS = »Æ½ð¼×;ÖÜ½ÜÂ×;
+RELWORD = ÅóÓÑ;
+RELCOMB = 
+-----------
+SENTENCE = ×òÌì£¬³Ã×ÅÖÜ½ÜÂ×¡¢ÅËçâ°ØÁ½¸öÐ¡ÌìÍõÔÚÄÏ¾©»ú³¡×ª³µÇ°ÍùÄÏÍ¨µÄ¿Õµ±£¬¼ÇÕß×¨ÃÅÈ¥²É·ÃÁËËûÃÇ£¬ÐÄÇé²»´íµÄÁ½ÈË»¥Ïà¿ä½±ËµÐ¦£¬Ë­ËµÒ»É½²»ÈÝ¶þ»¢£¬Á½¸öÈËÒ»Ñù´©×ÅºÚÉ«TÐô´÷×Å°ôÇòÃ±£¬²»µ«¹ØÏµºÃµÃ´òµçÍæÊÇÅÄµµ£¬»¹Í¬Îª¶¯¸ÐµØ´ø´úÑÔÈË£¬ÖÜ½ÜÂ×»¹ÒªÔÚÔÂµ×ÅËçâ°ØÄÏ¾©ÑÝ³ª»áÉÏ´óÏ×¸èÒÕ£¬²¢ºÏ×÷Ò»Ê×¡¶ÌýÂèÂèµÄ»°¡·£¬ÅËçâ°Ø»¹¿ªÍæÐ¦Ëµ£º¡°Ã»¿´µ½ÎÒÃÇÁ©¶¼³öË«Èë¶ÔµÄÂð¡£
+POS_TAG = ×òÌì/t £¬/w ³Ã×Å/p ÖÜ½ÜÂ×/nr ¡¢/w ÅËçâ°Ø/nr Á½/m ¸ö/q Ð¡/a ÌìÍõ/n ÔÚ/p ÄÏ¾©/ns »ú³¡/n ×ª³µ/v Ç°Íù/v ÄÏÍ¨/ns µÄ/b ¿Õµ±/n £¬/w ¼ÇÕß/n ×¨ÃÅ/d È¥/v ²É·Ã/v ÁË/u ËûÃÇ/r £¬/w ÐÄÇé/n ²»/d ´í/a µÄ/u Á½/m ÈË/n »¥Ïà/d ¿ä½±/v Ëµ/v Ð¦/v £¬/w Ë­/r Ëµ/v Ò»/m É½/n ²»/d ÈÝ/v ¶þ/m »¢/n £¬/w Á½/m ¸ö/q ÈË/n Ò»Ñù/u ´©/v ×Å/u ºÚÉ«/n TÐô/n ´÷/v ×Å/u °ôÇò/n Ã±/n £¬/w ²»µ«/c ¹ØÏµ/n ºÃ/a µÃ/u ´ò/v µç/n Íæ/v ÊÇ/v ÅÄ/v µµ/ng £¬/w »¹/d Í¬/p Îª/v ¶¯¸Ð/b µØ´ø/n ´úÑÔÈË/n £¬/w ÖÜ½ÜÂ×/nr »¹Òª/v ÔÚ/p ÔÂµ×/t ÅËçâ°Ø/nr ÄÏ¾©/ns ÑÝ³ª»á/n ÉÏ/m ´ó/a Ï×/v ¸èÒÕ/n £¬/w ²¢/c ºÏ×÷/v Ò»/m Ê×/q ¡¶/w Ìý/v ÂèÂè/n µÄ/u »°/n ¡·/w £¬/w ÅËçâ°Ø/nr »¹/d ¿ªÍæÐ¦/v Ëµ/v £º/w ¡°/w Ã»/d ¿´µ½/v ÎÒÃÇ/r Á©/m ¶¼/d ³ö/v Ë«/m Èë/v ¶Ô/p µÄ/u Âð/y ¡£/w
+CHARACTERS = ÅËçâ°Ø;ÖÜ½ÜÂ×;
+RELWORD = ÂèÂè;
+RELCOMB = 
+-----------
+SENTENCE = ºÍÖÜ½ÜÂ×µÄË¬¿ì²»Í¬£¬ÅËçâ°Ø¾ÍÏñ¸ö´óÐ¡º¢£¬Ã¿¾ä»°¶¼Òª¿ª¸öÍæÐ¦£¬Âô¸ö¹Ø×Ó£¬´òÁËÒ»»áµçÍæ£¬Ò»±ß³é¿Õ³ÔÁË¿Ú¶«Î÷£¬Ò»ÊÖ¶Ë×ÅÒûÁÏ£¬¡°¸É±­¡­¡­¡±Ò»¿´Õâ±ßÖÜ½ÜÂ×µÄ·ÃÎÊ½áÊøÁË£¬Ëû¾Í¡°±Ä¡±ÁË¹ýÀ´£¬¡°¸Õ²Å½ÜÂ×ËµÒªºÍÄãºÏ³ª¡¶ÌýÂèÂèµÄ»°¡·£¿
+POS_TAG = ºÍ/c ÖÜ½ÜÂ×/nr µÄ/u Ë¬¿ì/a ²»Í¬/a £¬/w ÅËçâ°Ø/nr ¾Í/d Ïñ/v ¸ö/q ´ó/a Ð¡º¢/n £¬/w Ã¿/r ¾ä/q »°/n ¶¼/d Òª/v ¿ª/v ¸ö/q ÍæÐ¦/n £¬/w Âô/v ¸ö/q ¹Ø×Ó/n £¬/w ´ò/v ÁË/u Ò»/m »á/v µç/n Íæ/v £¬/w Ò»±ß/d ³é¿Õ/vd ³Ô/v ÁË/u ¿Ú/n ¶«Î÷/n £¬/w Ò»ÊÖ/d ¶Ë/v ×Å/u ÒûÁÏ/n £¬/w ¡°/w ¸É±­/v ¡­/w ¡­/w ¡±/w Ò»/m ¿´/v Õâ±ß/r ÖÜ½ÜÂ×/nr µÄ/u ·ÃÎÊ/vn ½áÊø/v ÁË/y £¬/w Ëû/r ¾Í/d ¡°/w ±Ä/v ¡±/w ÁË/u ¹ýÀ´/v £¬/w ¡°/w ¸Õ²Å/t ½ÜÂ×/nr Ëµ/v Òª/v ºÍ/c Äã/r ºÏ³ª/vn ¡¶/w Ìý/v ÂèÂè/n µÄ/u »°/n ¡·/w £¿/w
+CHARACTERS = ½ÜÂ×;ÅËçâ°Ø;ÖÜ½ÜÂ×;
+RELWORD = ÂèÂè;
+RELCOMB = 
+-----------
+SENTENCE = ÅËË§ÈÏÕæËµ£¬ÆäÊµ×Ô¼ºµÚÒ»ÕÅ×¨¼­¾ÍÓÐÖÜ½ÜÂ×Ð´µÄ¸è£¬·½ÎÄÉ½Ð´µÄ´Ê£¬¡°ÕâÊ×¸èº¦ÎÒÔÚÉÏº£³ªµÄÊ±ºò¿ÞµÃÒ»ËúºýÍ¿£¬ÒòÎªÄÇÊ×¸è¾ÍÊÇ½²Ò»¸öÈËÀë¿ªÁË£¬ÎÒÄÇÊ±ºòÒ»¸öºÃÅóÓÑÕýºÃÈ¥ÊÀÁË£¬ÎÒ¼ÇµÃÓÐÒ»Ìì»¹ÔÚicqÉÏÏë¸øËýÁôÑÔ£¬µ±Ê±¸Ï×Å³öÃÅ¾ÍÏëËµµÚ¶þÌìÔÙÁôÑÔ£¬½á¹û¾ÍÓÐÅóÓÑ´òµç»°À´ËµËýÈ¥ÊÀÁË£¬ÎÒºÜÄÑ¹ý£¬ËäÈ»ÖªµÀËý²»»áÔÙ³öÏÖÔÚicqÉÏ£¬»¹ÊÇÐ´ÁË·âÐÅsendµ½ËýµÄÐÅÏä£¬ËýÊÇÎÒ´ÓÐ¡µ½´óµÄºÃÅóÓÑ£¬ºóÀ´Ò»³ªÕâ¸ö¸è¾ÍÒ»Ö±¿Þ¡£
+POS_TAG = ÅËË§/nr ÈÏÕæ/ad Ëµ/v £¬/w ÆäÊµ/d ×Ô¼º/r µÚÒ»/m ÕÅ/q ×¨¼­/n ¾Í/d ÓÐ/v ÖÜ½ÜÂ×/nr Ð´/v µÄ/u ¸è/n £¬/w ·½ÎÄÉ½/nr Ð´/v µÄ/u ´Ê/n £¬/w ¡°/w Õâ/r Ê×/m ¸è/n º¦/v ÎÒ/r ÔÚ/p ÉÏº£/ns ³ª/v µÄ/u Ê±ºò/n ¿Þ/v µÃ/u Ò»ËúºýÍ¿/i £¬/w ÒòÎª/p ÄÇ/r Ê×/m ¸è/n ¾Í/d ÊÇ/v ½²/v Ò»¸ö/m ÈË/n Àë¿ª/v ÁË/y £¬/w ÎÒ/r ÄÇ/r Ê±ºò/n Ò»¸ö/m ºÃ/a ÅóÓÑ/n ÕýºÃ/z È¥ÊÀ/v ÁË/y £¬/w ÎÒ/r ¼ÇµÃ/v ÓÐ/v Ò»/m Ìì/q »¹/d ÔÚ/p icq/nx ÉÏ/m Ïë/v ¸ø/p Ëý/r ÁôÑÔ/v £¬/w µ±Ê±/t ¸Ï/v ×Å/u ³ö/v ÃÅ/n ¾Í/d Ïë/v Ëµ/v µÚ¶þ/m Ìì/q ÔÙ/d ÁôÑÔ/v £¬/w ½á¹û/n ¾Í/d ÓÐ/v ÅóÓÑ/n ´òµç»°/v À´/f Ëµ/v Ëý/r È¥ÊÀ/v ÁË/y £¬/w ÎÒ/r ºÜ/d ÄÑ¹ý/a £¬/w ËäÈ»/c ÖªµÀ/v Ëý/r ²»/d »á/v ÔÙ/d ³öÏÖ/v ÔÚ/p icq/nx ÉÏ/m £¬/w »¹ÊÇ/d Ð´/v ÁË/u ·â/q ÐÅ/n send/nx µ½/v Ëý/r µÄ/u ÐÅÏä/n £¬/w Ëý/r ÊÇ/v ÎÒ/r ´Ó/p Ð¡/a µ½/v ´ó/a µÄ/u ºÃ/a ÅóÓÑ/n £¬/w ºó/f À´/v Ò»/m ³ª/v Õâ/r ¸ö/q ¸è/n ¾Í/d Ò»Ö±/d ¿Þ/v ¡£/w
+CHARACTERS = ·½ÎÄÉ½;ÅËË§;ÖÜ½ÜÂ×;
+RELWORD = ÅóÓÑ;
+RELCOMB = 
+-----------
+SENTENCE = ÅËçâ°ØµÄÑÝ³ª»á»¹ÓÐ¸öÌØµã£¬¾ÍÊÇ¡°È«¼Ò×Ü¶¯Ô±¡±£¬µÜµÜ°Ö°ÖÂèÂè£¬Ò»¸ö¶¼²»ÄÜÉÙ£¬²»¹ýÕâ´Î£¬µÜµÜ¾Í²»À´ÁË£º¡°ÒòÎªËûÈ¥ÕÒ¹¤×÷ÁË£¬Ã»Ê±¼ä£¬¶øÇÒ°Ö°ÖÂèÂèÀ´ÁËÒ²²»È«ÊÇ¿´ÎÒÁË£¬¶¼ÊÇÎªÁË´óÕ¢Ð·Å¶£¬ËûÃÇËµ£¬ÏÖÔÚÊÇ´óÕ¢Ð·×î·ÊÃÀµÄÊ±ºò¡­¡­°¥¡­¡­¡±ËµµÃºÜ°§Ô¹µÄÑù×Ó£¬ÆäÊµ¼ÒÀïÈËÀ´¿´ËûÐÄÀï²»ÖªµÀ¶à¿ªÐÄ£º¡°½ÜÂ×µÄÊÂÊ²Ã´¶¼ÊÇÂèÂè¹Ü£¬ÎÒµÄÊÂ¶¼Ìý°Ö°ÖµÄ¡£
+POS_TAG = ÅËçâ°Ø/nr µÄ/u ÑÝ³ª»á/n »¹/d ÓÐ/v ¸ö/q ÌØµã/n £¬/w ¾Í/d ÊÇ/v ¡°/w È«¼Ò/n ×Ü¶¯Ô±/vn ¡±/w £¬/w µÜµÜ/n °Ö°Ö/n ÂèÂè/n £¬/w Ò»¸ö/m ¶¼/d ²»ÄÜ/v ÉÙ/a £¬/w ²»¹ý/c Õâ/r ´Î/q £¬/w µÜµÜ/n ¾Í/d ²»/d À´/v ÁË/y £º/w ¡°/w ÒòÎª/p Ëû/r È¥/v ÕÒ/v ¹¤×÷/vn ÁË/y £¬/w Ã»/v Ê±¼ä/n £¬/w ¶øÇÒ/c °Ö°Ö/n ÂèÂè/n À´/v ÁË/u Ò²/d ²»/d È«/d ÊÇ/v ¿´/v ÎÒ/r ÁË/y £¬/w ¶¼/d ÊÇ/v ÎªÁË/p ´ó/a Õ¢/n Ð·/ng Å¶/e £¬/w ËûÃÇ/r Ëµ/v £¬/w ÏÖÔÚ/t ÊÇ/v ´ó/a Õ¢/n Ð·/ng ×î/d ·ÊÃÀ/a µÄ/b Ê±ºò/n ¡­/w ¡­/w °¥/e ¡­/w ¡­/w ¡±/w Ëµ/v µÃ/u ºÜ/d °§Ô¹/a µÄ/u Ñù×Ó/n £¬/w ÆäÊµ/d ¼ÒÀïÈË/n À´/f ¿´/v Ëû/r ÐÄÀï/s ²»/d ÖªµÀ/v ¶à/m ¿ªÐÄ/a £º/w ¡°/w ½ÜÂ×/nr µÄ/u ÊÂ/n Ê²Ã´/r ¶¼/d ÊÇ/v ÂèÂè/n ¹Ü/v £¬/w ÎÒ/r µÄ/u ÊÂ/n ¶¼/d Ìý/v °Ö°Ö/n µÄ/u ¡£/w
+CHARACTERS = ½ÜÂ×;ÅËçâ°Ø;
+RELWORD = °Ö°Ö;µÜµÜ;ÂèÂè;
+RELCOMB = 
+-----------
+SENTENCE = ¡±½Ó×ÅÍ¸Â¶Ëµ»áºÍÅËË§ºÏ³ªÒ»Ê×¡¶ÌýÂèÂèµÄ»°¡·£¬ÎÊÆð³ªÆ¬Ô¼ÂúºóµÄÈ¥Ïò£¬Ëû»¹ºÜ¿É°®µØËµ£º¡°ÌýÂèÂèµÄ»°°¡£
+POS_TAG = ¡±/w ½Ó×Å/vd Í¸Â¶/v Ëµ/v »á/v ºÍ/c ÅËË§/nr ºÏ³ª/v Ò»/m Ê×/q ¡¶/w Ìý/v ÂèÂè/n µÄ/u »°/n ¡·/w £¬/w ÎÊ/v Æð/v ³ªÆ¬/n Ô¼/d Âú/v ºó/f µÄ/u È¥Ïò/n £¬/w Ëû/r »¹/d ºÜ/d ¿É°®/a µØ/u Ëµ/v £º/w ¡°/w Ìý/v ÂèÂè/n µÄ/u »°/n °¡/e £/m
+CHARACTERS = ÅËË§;
+RELWORD = ÂèÂè;
+RELCOMB = 
+-----------
+SENTENCE = ÈËºìÊÇ·Ç¶à£¬Ç°¼¸ÌìÎâ×ÚÏÜÔÚ½ÓÊÜÃ½Ìå²É·ÃÊ±Ëµ£¬¾õµÃÖÜ½ÜÂ×¶ÔËû¿ÉÄÜÓÐÐ©Îó»á£¬ÒòÎªÊ¦Í½Á½ÈËÖ®Ç°¹ØÏµ±È½Ï½ü£¬¶øÖÜ½ÜÂ×ÓÖÓÐÄÇÃ´¶à¸ÐÇé¾À¸ð£¬ºÜ¶àÈË¾Í¾õµÃÊÇËûÕâ¸ö×öÊ¦¸µµÄµ½´¦´ó×ì°ÍËµ³öÀ´µÄ£¬¶øÖÜ½ÜÂ×Ò²´ÓÀ´Ã»ÓÐÇ×¿ÚÎÊ¹ýËû£¬Ëû¾ÍÃ»ÓÐ»ú»á½âÊÍ£¬¾õµÃÕâÑù¿Ï¶¨Ôì³ÉÁËÖÜ½ÜÂ×¶ÔËûµÄÎó»á£¬²»¹ýÖÜ½ÜÂ×Ìýµ½ÕâÑùµÄÑÔÂÛÈ´ºÜ¾ªÑÈ£º¡°ÊÇÂð£¿
+POS_TAG = ÈË/n ºì/a ÊÇ·Ç/n ¶à/a £¬/w Ç°/h ¼¸/m Ìì/q Îâ×ÚÏÜ/nr ÔÚ/p ½ÓÊÜ/v Ã½Ìå/n ²É·Ã/v Ê±/ng Ëµ/v £¬/w ¾õµÃ/v ÖÜ½ÜÂ×/nr ¶Ô/p Ëû/r ¿ÉÄÜ/v ÓÐ/v Ð©/q Îó»á/vn £¬/w ÒòÎª/c Ê¦Í½/n Á½/m ÈË/n Ö®Ç°/f ¹ØÏµ/n ±È½Ï/d ½ü/a £¬/w ¶ø/c ÖÜ½ÜÂ×/nr ÓÖ/d ÓÐ/v ÄÇÃ´/r ¶à/m ¸ÐÇé/n ¾À¸ð/n £¬/w ºÜ¶à/m ÈË/n ¾Í/d ¾õµÃ/v ÊÇ/v Ëû/r Õâ¸ö/r ×ö/v Ê¦¸µ/n µÄ/u µ½´¦/d ´ó/a ×ì°Í/n Ëµ/v ³öÀ´/v µÄ/u £¬/w ¶ø/c ÖÜ½ÜÂ×/nr Ò²/d ´ÓÀ´/d Ã»ÓÐ/v Ç×¿Ú/d ÎÊ/v ¹ý/u Ëû/r £¬/w Ëû/r ¾Í/d Ã»/d ÓÐ/v »ú»á/n ½âÊÍ/vn £¬/w ¾õµÃ/v ÕâÑù/r ¿Ï¶¨/d Ôì³É/v ÁË/u ÖÜ½ÜÂ×/nr ¶Ô/p Ëû/r µÄ/u Îó»á/vn £¬/w ²»¹ý/c ÖÜ½ÜÂ×/nr Ìýµ½/v ÕâÑù/r µÄ/u ÑÔÂÛ/n È´/d ºÜ/d ¾ªÑÈ/a £º/w ¡°/w ÊÇ/v Âð/y £¿/w
+CHARACTERS = Îâ×ÚÏÜ;ÖÜ½ÜÂ×;
+RELWORD = Ê¦¸µ;Ê¦Í½;
+RELCOMB = Îâ×ÚÏÜ,ÖÜ½ÜÂ×->Ê¦¸µ;Îâ×ÚÏÜ,ÖÜ½ÜÂ×->Ê¦Í½;
+-----------
+SENTENCE = ÆäÊµ×òÌìºÍËûÃÇÁ½¸öÐ¡ÌìÍõÍ¬ÐÐµÄ»¹ÓÐS.
+POS_TAG = ÆäÊµ/d ×òÌì/t ºÍ/c ËûÃÇ/r Á½/m ¸ö/q Ð¡/a ÌìÍõ/n Í¬ÐÐ/n µÄ/u »¹ÓÐ/v S./nx
+CHARACTERS = 
+RELWORD = Í¬ÐÐ;
+RELCOMB = 
+-----------
+SENTENCE = EµÄÈý¸öÑ¾Í·£¬ËäÈ»¾­¼Í¹«Ë¾ÔÙÈý¶£Öö²»¿ÉÒÔÎÊç³ÎÅ£¬µ«¼ÇÕß»¹ÊÇ×¢Òâ¹Û²ìÁËÒ»ÏÂ£¬ÖÜ½ÜÂ×ºÍÅËçâ°ØÏÈ´Ó»ú³¡×ß³öÀ´£¬×ê½øÐÝÏ¢µÄµØ·½¾Í¿ªÊ¼ÍæµçÍæ£¬ÍêÈ«²»¹ËÒ»Â·Æ£ÀÍ£¬¹ýÁËÁ½·ÖÖÓ£¬Èý¸öÅ®º¢×ÓÒ²Ã»ÓÐ»¯×±Ò»Á³¾ëÈÝ×ßÁË½øÈ¥£¬ºÃ¶¯µÄEllaºÍHebe¿´ÁËÒ»ÑÛ£¬Ella´ó¸ÅÌ«ÀÛÁË¾Í×ß¿ªÁË£¬HebeÔÚÅËÉí±ß¿´ÁËÒ»»á£¬ÖÜ½ÜÂ×ÂñÍ·ÍæÃ»ÓÐÀíËý£¬Ëý¾ÍÒ»¸öÈËÔÚÅÔ±ßµÄÒ»Ì¨ÍæÁËÆðÀ´£¬SelinaÊÝÁËºÜ¶à£¬Ò»Â·´ò×ÅºÇÇ·ÔçÔç×øÏÂÐÝÏ¢ÁË£¬ºóÀ´½ÜÂ××öÍê·ÃÎÊ¾ÍºÍÖúÀí×øÒ»×À£¬²»ÖªµÀÊÇÎªÁË±ÜÏÓ»¹ÊÇÅ®º¢×ÓÃÇ¶¼ÀÛÁË£¬¼¸¸öÈËÒ²Ã»ÓÐÊ²Ã´½»Á÷¡£
+POS_TAG = E/nx µÄ/u Èý/m ¸ö/q Ñ¾Í·/n £¬/w ËäÈ»/c ¾­¼Í/vn ¹«Ë¾/n ÔÙÈý/d ¶£Öö/v ²»/d ¿ÉÒÔ/v ÎÊ/v ç³ÎÅ/n £¬/w µ«/c ¼ÇÕß/n »¹/d ÊÇ/v ×¢Òâ/v ¹Û²ì/v ÁË/u Ò»ÏÂ/m £¬/w ÖÜ½ÜÂ×/nr ºÍ/c ÅËçâ°Ø/nr ÏÈ/a ´Ó/c »ú³¡/n ×ß/v ³öÀ´/v £¬/w ×ê/v ½ø/v ÐÝÏ¢/v µÄ/u µØ·½/n ¾Í/d ¿ªÊ¼/v Íæ/v µç/n Íæ/v £¬/w ÍêÈ«/ad ²»¹Ë/v Ò»Â·/m Æ£ÀÍ/an £¬/w ¹ý/v ÁË/u Á½/m ·ÖÖÓ/q £¬/w Èý/m ¸ö/q Å®º¢×Ó/n Ò²/d Ã»ÓÐ/d »¯×±/v Ò»/m Á³/q ¾ë/a ÈÝ/ng ×ß/v ÁË/u ½øÈ¥/v £¬/w ºÃ¶¯/a µÄ/u Ella/nr ºÍ/c Hebe/nr ¿´/v ÁË/u Ò»/m ÑÛ/q £¬/w Ella/nr ´ó¸Å/d Ì«/d ÀÛ/v ÁË/u ¾Í/d ×ß¿ª/v ÁË/y £¬/w Hebe/nr ÔÚ/p ÅË/nr Éí±ß/s ¿´/v ÁË/u Ò»»á/m £¬/w ÖÜ½ÜÂ×/nr ÂñÍ·/vd Íæ/v Ã»ÓÐ/d Àí/v Ëý/r £¬/w Ëý/r ¾Í/d Ò»¸ö/m ÈË/n ÔÚ/p ÅÔ±ß/f µÄ/u Ò»/m Ì¨/q Íæ/v ÁË/u ÆðÀ´/v £¬/w Selina/nr ÊÝ/a ÁË/u ºÜ¶à/m £¬/w Ò»Â·/m ´ò/v ×Å/u ºÇÇ·/n ÔçÔç/ad ×øÏÂ/v ÐÝÏ¢/n ÁË/u £¬/w ºóÀ´/t ½ÜÂ×/nr ×ö/v Íê/v ·ÃÎÊ/v ¾Í/d ºÍ/c ÖúÀí/n ×ø/v Ò»/m ×À/q £¬/w ²»/d ÖªµÀ/v ÊÇ/v ÎªÁË/p ±ÜÏÓ/v »¹/c ÊÇ/a Å®º¢×Ó/n ÃÇ/k ¶¼/d ÀÛ/a ÁË/u £¬/w ¼¸/m ¸ö/q ÈË/n Ò²/d Ã»ÓÐ/v Ê²Ã´/r ½»Á÷/vn ¡£/w
+CHARACTERS = Ella;Hebe;Selina;½ÜÂ×;ÅË;ÅËçâ°Ø;ÖÜ½ÜÂ×;
+RELWORD = ÖúÀí;
+RELCOMB = 
+-----------
+SENTENCE = µ«Ö÷³ÖÈËÈ´ÒÅº¶µØÐû²¼£¬ÓÉÓÚÄ¸Ç×²¡ÖØ£¬¹®ÀþÁÙÊ±»Øµ½ÁËÉ½¶«ÀÏ¼ÒÕÕ¹ËÄ¸Ç×£¬ÎÞ·¨³öÏÖÔÚ»á³¡£
+POS_TAG = µ«/c Ö÷³ÖÈË/n È´/d ÒÅº¶/a µØ/u Ðû²¼/v £¬/w ÓÉÓÚ/c Ä¸Ç×/n ²¡/n ÖØ/a £¬/w ¹®Àþ/nr ÁÙÊ±/d »Øµ½/v ÁË/u É½¶«/ns ÀÏ¼Ò/n ÕÕ¹Ë/v Ä¸Ç×/n £¬/w ÎÞ·¨/vd ³öÏÖ/v ÔÚ/p »á³¡/n £/m
+CHARACTERS = ¹®Àþ;
+RELWORD = Ä¸Ç×;
+RELCOMB = 
+-----------
+SENTENCE = ÕûÌ¨Íí»á×î´óµÄÒâÍâ¾ÍÊÇ¹¦·ò»ÊµÛÀîÁ¬½ÜµÄÏÖÉí£¬ÀîÁ¬½Ü±íÊ¾£¬²Î¼Ó´Ë´Î»î¶¯³ýÁËÊÇ»Ø±¨ÖÜ½ÜÂ×ÔÚÌ¨Íå°ï×Ô¼ºµÄµçÓ°¡¶»ôÔª¼×¡·Õ¾Ì¨£¬¸üÓÐÖØÒªµÄÈÎÎñÔÚÉí¡£
+POS_TAG = Õû/m Ì¨/q Íí»á/n ×î/d ´ó/a µÄ/u ÒâÍâ/an ¾Í/d ÊÇ/v ¹¦·ò/n »ÊµÛ/n ÀîÁ¬½Ü/nr µÄ/u ÏÖÉí/v £¬/w ÀîÁ¬½Ü/nr ±íÊ¾/v £¬/w ²Î¼Ó/v ´Ë´Î/r »î¶¯/vn ³ýÁË/p ÊÇ/v »Ø±¨/v ÖÜ½ÜÂ×/nr ÔÚ/p Ì¨Íå/ns °ï/v ×Ô¼º/r µÄ/u µçÓ°/n ¡¶/w »ôÔª¼×/nr ¡·/w Õ¾/v Ì¨/q £¬/w ¸ü/d ÓÐ/v ÖØÒª/a µÄ/u ÈÎÎñ/n ÔÚ/p Éí/ng ¡£/w
+CHARACTERS = »ôÔª¼×;ÀîÁ¬½Ü;ÖÜ½ÜÂ×;
+RELWORD = »ÊµÛ;
+RELCOMB = 
+-----------
+SENTENCE = ¡°Á½ÄêÇ°ÔÚÓ¡Äáº£Ð¥ÖÐ£¬º£Ë®ÑÍµ½ÁËÎÒµÄ²±×Ó£¬ÎÒÊÖÉÏ±§×ÅÁ½¸öÅ®¶ù£¬ÕæÊÇ½ÄÐÒ°ÑÃü¼ñ»ØÀ´¡£
+POS_TAG = ¡°/w Á½/m Äê/q Ç°/f ÔÚ/p Ó¡Äá/ns º£Ð¥/n ÖÐ/f £¬/w º£Ë®/n ÑÍ/v µ½/v ÁË/u ÎÒ/r µÄ/u ²±×Ó/n £¬/w ÎÒ/r ÊÖÉÏ/s ±§/v ×Å/u Á½/m ¸ö/q Å®¶ù/n £¬/w Õæ/d ÊÇ/v ½ÄÐÒ/ad °Ñ/p Ãü/n ¼ñ/v »ØÀ´/v ¡£/w
+CHARACTERS = 
+RELWORD = Å®¶ù;
+RELCOMB = 
+-----------
+SENTENCE = ¼ÇÕß´ÓÏÖ³¡Í¬ÐÐ´¦»ñÏ¤£¬ÖÜ½ÜÂ×Í¸Â¶×Ô¼ºÔÚÇì¹¦ÑçÉÏ²»¶ÏÏò¸ÉµùÅã×ï£¬½á¹û»ÆÇïÉú³Ã»úÄÃÕâ¸öÀíÓÉÏòËû¡°¹à¾Æ¡±¡£
+POS_TAG = ¼ÇÕß/n ´Ó/p ÏÖ³¡/s Í¬ÐÐ/n ´¦/n »ñÏ¤/v £¬/w ÖÜ½ÜÂ×/nr Í¸Â¶/v ×Ô¼º/r ÔÚ/p Çì¹¦Ñç/n ÉÏ/m ²»¶Ï/a Ïò/dg ¸Éµù/n Åã/v ×ï/n £¬/w ½á¹û/d »ÆÇïÉú/nr ³Ã»ú/d ÄÃ/v Õâ¸ö/r ÀíÓÉ/n Ïò/p Ëû/r ¡°/w ¹à/j ¾Æ/n ¡±/w ¡£/w
+CHARACTERS = »ÆÇïÉú;ÖÜ½ÜÂ×;
+RELWORD = Í¬ÐÐ;
+RELCOMB = 
+-----------
+SENTENCE = ¾ÝÏ¤µ±Ê±´Ù³ÉË«JºÏ×÷×î´ó¹¦³¼£¬Ó¦ÊÇÀîÁ¬½ÜÀÏÆÅÀûÖÇ¡£
+POS_TAG = ¾ÝÏ¤/v µ±Ê±/t ´Ù³É/v Ë«/m J/nx ºÏ×÷/vn ×î/d ´ó/a ¹¦³¼/n £¬/w Ó¦/v ÊÇ/v ÀîÁ¬½Ü/nr ÀÏÆÅ/n ÀûÖÇ/nr ¡£/w
+CHARACTERS = ÀîÁ¬½Ü;ÀûÖÇ;
+RELWORD = ÀÏÆÅ;
+RELCOMB = ÀîÁ¬½Ü,ÀûÖÇ->ÀÏÆÅ;
+-----------
+SENTENCE = ÅäºÏ×¨¼­Ãû³ÆµÄÊ«Òâ£¬ÐÂ×¨¼­¶àÊ×¸èÇú¼«¸»Çï¶¬ÀËÂþÆø·Õ£¬³äÂúÇïÌì»ØÒäµÄ¡¶·ã¡·£¬ÊÇÄÏÈ­ÂèÂèµÄµ¯Í·ÎªÊ¦ÐÖÌî´ÊµÄÀËÂþÒ¡¹ö¼Ñ×÷£¬ÖÜ½ÜÂ×Ëµ£º¡°ÕâÊ×ÓÐµãÏñÊÇ¡¶¸éÇ³¡·µÄPart2¡£
+POS_TAG = ÅäºÏ/v ×¨¼­/n Ãû³Æ/n µÄ/u Ê«Òâ/n £¬/w ÐÂ/a ×¨¼­/n ¶à/m Ê×/q ¸èÇú/n ¼«¸»/v Çï/tg ¶¬/tg ÀËÂþ/a Æø·Õ/n £¬/w ³äÂú/v ÇïÌì/t »ØÒä/v µÄ/u ¡¶/w ·ã/ng ¡·/w £¬/w ÊÇ/v ÄÏÈ­ÂèÂè/nr µÄ/u µ¯Í·/nr Îª/p Ê¦ÐÖ/n Ìî´Ê/v µÄ/u ÀËÂþ/a Ò¡¹ö/n ¼Ñ×÷/n £¬/w ÖÜ½ÜÂ×/nr Ëµ/v £º/w ¡°/w Õâ/r Ê×/m ÓÐµã/d Ïñ/v ÊÇ/v ¡¶/w ¸éÇ³/v ¡·/w µÄ/u Part2/nx ¡£/w
+CHARACTERS = µ¯Í·;ÄÏÈ­ÂèÂè;ÖÜ½ÜÂ×;
+RELWORD = Ê¦ÐÖ;
+RELCOMB = µ¯Í·,ÖÜ½ÜÂ×->Ê¦ÐÖ;
+-----------
+SENTENCE = ¡±ºÍÊ¦ÃÃLaraºÏ³ªµÄ¡¶Éºº÷º£¡
+POS_TAG = ¡±/w ºÍ/c Ê¦ÃÃ/n Lara/nr ºÏ³ª/vn µÄ/u ¡¶/w Éºº÷/n º£/n
+CHARACTERS = Lara;
+RELWORD = Ê¦ÃÃ;
+RELCOMB = 
+-----------
+SENTENCE = ÊÂÒµÉú»îËäÈ»¾­ÀúÁË¾Þ±ä£¬ÖÜ½ÜÂ×È´ÓÐÒ»Ìõ²»±äµÄ×¼Ôò£ºÌýÂèÂèµÄ»°¡£
+POS_TAG = ÊÂÒµ/n Éú»î/vn ËäÈ»/c ¾­Àú/v ÁË/u ¾Þ±ä/vn £¬/w ÖÜ½ÜÂ×/nr È´/d ÓÐ/v Ò»/m Ìõ/q ²»/d ±ä/v µÄ/u ×¼Ôò/n £º/w Ìý/v ÂèÂè/n µÄ/u »°/n ¡£/w
+CHARACTERS = ÖÜ½ÜÂ×;
+RELWORD = ÂèÂè;
+RELCOMB = 
+-----------
+SENTENCE = ÈÕÇ°±¦±´¶ù×ÓÔÚÉÏº£F1Èü³µ³¡ÅÄÉãµÂ¶û»Ý¹ã¸æÊ±£¬Ò¶»ÝÃÀÇ××ÔÌ½°à£¬ÉÏº£¶«·½Ôç±¨¼ÇÕß×¥×¡ÄÑµÃµÄ»ú»áºÍÄ¸×ÓÁ©½øÐÐÁË¶Ô»°£¬ÖÜ½ÜÂ×»¹ÔÚÉÏº£¶«·½Ôç±¨¼ÇÕßÃæÇ°¶ÔÂèÂè½øÐÐÁËÒ»·¬¡°°®µÄ¸æ°×¡±¡£
+POS_TAG = ÈÕÇ°/t ±¦±´/n ¶ù×Ó/n ÔÚ/p ÉÏº£/ns F1/nx Èü³µ³¡/n ÅÄÉã/v µÂ¶û»Ý/n ¹ã¸æ/n Ê±/d £¬/w Ò¶»ÝÃÀ/nr Ç××Ô/d Ì½/v °à/n £¬/w ÉÏº£/ns ¶«·½/s Ôç±¨/n ¼ÇÕß/n ×¥×¡/v ÄÑµÃ/a µÄ/b »ú»á/n ºÍ/ag Ä¸×Ó/n Á©/m ½øÐÐ/v ÁË/u ¶Ô»°/n £¬/w ÖÜ½ÜÂ×/nr »¹/d ÔÚ/p ÉÏº£/ns ¶«·½/s Ôç±¨/n ¼ÇÕß/n ÃæÇ°/f ¶Ô/a ÂèÂè/n ½øÐÐ/v ÁË/u Ò»·¬/m ¡°/w °®/v µÄ/u ¸æ°×/n ¡±/w ¡£/w
+CHARACTERS = Ò¶»ÝÃÀ;ÖÜ½ÜÂ×;
+RELWORD = ¶ù×Ó;ÂèÂè;Ä¸×Ó;
+RELCOMB = Ò¶»ÝÃÀ,ÖÜ½ÜÂ×->¶ù×Ó;Ò¶»ÝÃÀ,ÖÜ½ÜÂ×->ÂèÂè;Ò¶»ÝÃÀ,ÖÜ½ÜÂ×->Ä¸×Ó;
+-----------
+SENTENCE = ÖÜ½ÜÂ×ÒòÎªÒôÀÖ³ÉÃû£¬¶øËû°®ÉÏÒôÀÖ»¹Òª¶à¿÷Ä¸Ç×µÄ¡°Íþ±Æ¡±¡£
+POS_TAG = ÖÜ½ÜÂ×/nr ÒòÎª/p ÒôÀÖ/n ³ÉÃû/vn £¬/w ¶ø/c Ëû/r °®/v ÉÏ/m ÒôÀÖ/n »¹Òª/v ¶à/ad ¿÷/v Ä¸Ç×/n µÄ/u ¡°/w Íþ±Æ/v ¡±/w ¡£/w
+CHARACTERS = ÖÜ½ÜÂ×;
+RELWORD = Ä¸Ç×;
+RELCOMB = 
+-----------
+SENTENCE = ÖÜ½ÜÂ×Í¸Â¶£¬1983Äê£¬4ËêµÄËûÔÚÄ¸Ç×Íþ±ÆÖ®ÏÂµÚÒ»´Î½Ó´¥¸ÖÇÙ£¬Æð³õ×Ô¼º²¢²»Ì«¿ìÀÖ£¬ÒòÎª¸ÖÇÙÀÏÊ¦¡°ºÜ»µ¡±£¬Ã¿ÌìÒªÁ·ÇÙÁ½Ð¡Ê±²Å¿É·ÅÑ§£¬ÆäËûÍ¬Ñ§ÔçÒÑÈ¥²Ù³¡ÍæÁË¡£
+POS_TAG = ÖÜ½ÜÂ×/nr Í¸Â¶/v £¬/w 1983Äê/t £¬/w 4/m Ëê/q µÄ/u Ëû/r ÔÚ/p Ä¸Ç×/n Íþ±Æ/v Ö®ÏÂ/f µÚÒ»/m ´Î/q ½Ó´¥/vn ¸ÖÇÙ/n £¬/w Æð³õ/d ×Ô¼º/r ²¢/d ²»/d Ì«/d ¿ìÀÖ/a £¬/w ÒòÎª/c ¸ÖÇÙ/n ÀÏÊ¦/n ¡°/w ºÜ/d »µ/a ¡±/w £¬/w Ã¿Ìì/r Òª/v Á·/v ÇÙ/n Á½/m Ð¡Ê±/n ²Å/d ¿É/v ·ÅÑ§/v £¬/w ÆäËû/r Í¬Ñ§/n ÔçÒÑ/d È¥/v ²Ù³¡/n Íæ/v ÁË/y ¡£/w
+CHARACTERS = ÖÜ½ÜÂ×;
+RELWORD = ÀÏÊ¦;Ä¸Ç×;Í¬Ñ§;
+RELCOMB = 
+-----------
+SENTENCE = ¡°ÎÒÖªµÀÂèÂèÈÃÎÒÑ§ÇÙ£¬ËýÒ²ºÜÐÁ¿à£¬»¹»áÅ¼¶ûÍ»»÷ÒªÎÒµ¯×à¸øËýÌý£¬ÎÒÔõ¸ÒÍµÀÁ£¿
+POS_TAG = ¡°/w ÎÒ/r ÖªµÀ/v ÂèÂè/n ÈÃ/v ÎÒ/r Ñ§ÇÙ/nr £¬/w Ëý/r Ò²/d ºÜ/d ÐÁ¿à/a £¬/w »¹/d »á/v Å¼¶û/d Í»»÷/vd Òª/v ÎÒ/r µ¯×à/v ¸ø/p Ëý/r Ìý/v £¬/w ÎÒ/r Ôõ/r ¸Ò/dg ÍµÀÁ/v £¿/w
+CHARACTERS = Ñ§ÇÙ;
+RELWORD = ÂèÂè;
+RELCOMB = 
+-----------
+SENTENCE = 14ËêµÄËû»¹ÔÚ¶Á³õÖÐÊ±£¬Ñ§ÓÑÒ»Çú¡¶ÎÇ±ð¡·ºìÍ¸¶«ÄÏÑÇ£¬Ëû¶Ô°®Çé»¹ÊÇÒ»Öª°ë½â£¬²»¹ý¶ÔÁÚ°àÒ»Î»Å®Í¬Ñ§µ¹ÊÇÒ»¼ûÖÓÇé£¬ºóÀ´ÒòÎª¼ÓÈëºÏ³ªÍÅ£¬ÖÕÓÚ¿ÉÒÔÈÏÊ¶Ëý£¬Õâ±ã³É¾ÍÁËÖÜ½ÜÂ×µÄ³õÁµ¡£
+POS_TAG = 14/m Ëê/q µÄ/u Ëû/r »¹/d ÔÚ/p ¶Á/v ³õÖÐ/n Ê±/ng £¬/w Ñ§ÓÑ/n Ò»/m Çú/q ¡¶/w ÎÇ/v ±ð/ng ¡·/w ºì/a Í¸/v ¶«ÄÏÑÇ/ns £¬/w Ëû/r ¶Ô/p °®Çé/n »¹/d ÊÇ/v Ò»Öª°ë½â/i £¬/w ²»¹ý/c ¶Ô/p ÁÚ/vg °à/n Ò»/m Î»/q Å®/b Í¬Ñ§/n µ¹/d ÊÇ/v Ò»¼ûÖÓÇé/i £¬/w ºóÀ´/t ÒòÎª/p ¼ÓÈë/v ºÏ³ªÍÅ/n £¬/w ÖÕÓÚ/d ¿ÉÒÔ/v ÈÏÊ¶/v Ëý/r £¬/w Õâ/r ±ã/d ³É¾Í/v ÁË/u ÖÜ½ÜÂ×/nr µÄ/u ³õÁµ/vn ¡£/w
+CHARACTERS = ÖÜ½ÜÂ×;
+RELWORD = Í¬Ñ§;
+RELCOMB = 
+-----------
+SENTENCE = ÓÐÕâÑùµÄ±¦±´¶ù×Ó£¬Ò¶»ÝÃÀµ±È»ºÜ×ÔºÀ£¬²»¹ýÃæ¶ÔÃ½ÌåÊ±µÄËýºÜµÍµ÷£¬ÉõÖÁ¿ÉÒÔËµÓÐµã¿¹¾Ü£¬Ö»¿Ï¸ú¼ÇÕßÏÐÁÄ¡£
+POS_TAG = ÓÐ/v ÕâÑù/r µÄ/u ±¦±´/n ¶ù×Ó/n £¬/w Ò¶»ÝÃÀ/nr µ±È»/d ºÜ/d ×ÔºÀ/a £¬/w ²»¹ý/c Ãæ¶Ô/v Ã½Ìå/n Ê±/ng µÄ/u Ëý/r ºÜ/d µÍ/a µ÷/v £¬/w ÉõÖÁ/d ¿ÉÒÔ/v Ëµ/v ÓÐµã/d ¿¹¾Ü/v £¬/w Ö»/d ¿Ï/v ¸ú/p ¼ÇÕß/n ÏÐÁÄ/v ¡£/w
+CHARACTERS = Ò¶»ÝÃÀ;
+RELWORD = ¶ù×Ó;
+RELCOMB = 
+-----------
+SENTENCE = ¶ÔÓÚµ±³õ±Æ¶ù×ÓÑ§ÒôÀÖ£¬Ôì¾ÍÁËÏÖÔÚµÄÑÇÖÞÐ¡ÌìÍõ£¬Ò¶»ÝÃÀÏÔµÃºÜ×ÔºÀ£º¡°ºÜÐÒ¸££¡
+POS_TAG = ¶ÔÓÚ/p µ±³õ/t ±Æ/v ¶ù×Ó/n Ñ§/v ÒôÀÖ/n £¬/w Ôì¾Í/v ÁË/u ÏÖÔÚ/t µÄ/u ÑÇÖÞ/ns Ð¡/a Ìì/n Íõ/nr £¬/w Ò¶»ÝÃÀ/nr ÏÔµÃ/v ºÜ/d ×ÔºÀ/a £º/w ¡°/w ºÜ/d ÐÒ¸£/a £¡/w
+CHARACTERS = Íõ;Ò¶»ÝÃÀ;
+RELWORD = ¶ù×Ó;
+RELCOMB = Íõ,Ò¶»ÝÃÀ->¶ù×Ó;
+-----------
+SENTENCE = ÎÒ¾õµÃÓÐÕâÑùµÄ¶ù×ÓÎÒºÜÐÒ¸£?
+
+POS_TAG = ÎÒ/r ¾õµÃ/v ÓÐ/v ÕâÑù/r µÄ/u ¶ù×Ó/n ÎÒ/r ºÜ/d ÐÒ/vg ¸£/n
+CHARACTERS = 
+RELWORD = ¶ù×Ó;
+RELCOMB = 
+-----------
+SENTENCE = ÎÒÃ÷Ìì¾Í»ØÌ¨ÍåÈ¥£¬ºÃºÃÐÝÏ¢ÐÝÏ¢£±Ò¶»ÝÃÀ¿´µ½¶ù×ÓÊÜÀÛÒ»ÑùºÜÐÄÌÛ£¬ÔÚÒ»¸öÀñ°ÝµÄÐÄÌÛºó£¬ËýÖ»ºÃÑ¡Ôñ»Ø¼ÒÈ¥¡°ÑÛ²»¼ûÎª¾»¡±¡£
+POS_TAG = ÎÒ/r Ã÷Ìì/t ¾Í/d »Ø/v Ì¨Íå/ns È¥/v £¬/w ºÃºÃ/d ÐÝÏ¢/v ÐÝÏ¢/v £±/m Ò¶»ÝÃÀ/nr ¿´µ½/v ¶ù×Ó/n ÊÜÀÛ/v Ò»Ñù/u ºÜ/d ÐÄÌÛ/v £¬/w ÔÚ/p Ò»¸ö/m Àñ°Ý/n µÄ/b ÐÄÌÛ/v ºó/f £¬/w Ëý/r Ö»ºÃ/d Ñ¡Ôñ/v »Ø/v ¼Ò/q È¥/v ¡°/w ÑÛ/n ²»/d ¼û/v Îª/v ¾»/a ¡±/w ¡£/w
+CHARACTERS = Ò¶»ÝÃÀ;
+RELWORD = ¶ù×Ó;
+RELCOMB = 
+-----------
+SENTENCE = ÖÁÓÚÂèÂèÊÇ·ñÔø¸ÉÉæ×Ô¼º½»Å®ÅóÓÑ£¬ÖÜ½ÜÂ×Ð¦×ÅËµ£º¡°ÎÒÂèÂèºÜ¿ªÃ÷£¬´ÓÀ´²»¹ÜÎÒ½»Å®ÅóÓÑ£¬¶ÔÓÚÎÒµÄÒ»Ð©ÔñÅ¼Ìõ¼þËýÒ²Ã»ÓÐÒâ¼û¡£
+POS_TAG = ÖÁÓÚ/p ÂèÂè/n ÊÇ·ñ/v Ôø/d ¸ÉÉæ/v ×Ô¼º/r ½»/v Å®ÅóÓÑ/n £¬/w ÖÜ½ÜÂ×/nr Ð¦/v ×Å/u Ëµ/v £º/w ¡°/w ÎÒ/r ÂèÂè/n ºÜ/d ¿ª/v Ã÷/ag £¬/w ´ÓÀ´/d ²»¹Ü/c ÎÒ/r ½»/v Å®ÅóÓÑ/n £¬/w ¶ÔÓÚ/p ÎÒ/r µÄ/u Ò»Ð©/m ÔñÅ¼/v Ìõ¼þ/n Ëý/r Ò²/c Ã»ÓÐ/d Òâ¼û/n ¡£/w
+CHARACTERS = ÖÜ½ÜÂ×;
+RELWORD = ÂèÂè;Å®ÅóÓÑ;
+RELCOMB = 
+-----------
+SENTENCE = ºÍËùÓÐÂèÂè¶¼Ò»Ñù£¬Ãæ¶ÔÈÕÒæ³ÉÊìµÄ¶ù×Ó£¬ÖÜ½ÜÂ×µÄÂèÂèÒ²¼±×Å¸ø¶ù×ÓÕÒ¸öºÃÅ®ÅóÓÑ¡£
+POS_TAG = ºÍ/c ËùÓÐ/b ÂèÂè/n ¶¼/d Ò»Ñù/a £¬/w Ãæ¶Ô/v ÈÕÒæ/d ³ÉÊì/a µÄ/u ¶ù×Ó/n £¬/w ÖÜ½ÜÂ×/nr µÄ/u ÂèÂè/n Ò²/d ¼±/v ×Å/u ¸ø/p ¶ù×Ó/n ÕÒ/v ¸ö/q ºÃ/a Å®ÅóÓÑ/n ¡£/w
+CHARACTERS = ÖÜ½ÜÂ×;
+RELWORD = ¶ù×Ó;ÂèÂè;Å®ÅóÓÑ;
+RELCOMB = 
+-----------
+SENTENCE = ¿´µ½µ¥ÉíµÄ¶ù×Ó²»Ê±ÓÐ»¨±ßÐÂÎÅÆØ³ö£¬Ò¶»ÝÃÀ·Ç³£ÄÖÐÄ¡£
+POS_TAG = ¿´µ½/v µ¥Éí/n µÄ/u ¶ù×Ó/n ²»Ê±/d ÓÐ/v »¨±ßÐÂÎÅ/n ÆØ/vg ³ö/q £¬/w Ò¶»ÝÃÀ/nr ·Ç³£/d ÄÖÐÄ/vn ¡£/w
+CHARACTERS = Ò¶»ÝÃÀ;
+RELWORD = ¶ù×Ó;
+RELCOMB = 
+-----------
+SENTENCE = ËýËµ£º¡°±ð¿´ºÜ¶à·ÛË¿¶¼³ç°ÝËû£¬¿ÉÎÒÒ»Ö±¶¼µ£ÐÄËûÕÒ²»µ½¸öºÃÀÏÆÅ¡£
+POS_TAG = Ëý/r Ëµ/v £º/w ¡°/w ±ð/d ¿´/v ºÜ¶à/m ·ÛË¿/n ¶¼/d ³ç°Ý/v Ëû/r £¬/w ¿É/v ÎÒ/r Ò»Ö±/d ¶¼/d µ£ÐÄ/v Ëû/r ÕÒ/v ²»/d µ½/v ¸ö/q ºÃ/a ÀÏÆÅ/n ¡£/w
+CHARACTERS = 
+RELWORD = ÀÏÆÅ;
+RELCOMB = 
+-----------
+SENTENCE = ¡±Ëý±§Ô¹Ëµ£¬¶ù×ÓÐ¡Ê±ºòÒòÎªÈ±ÉÙ¸¸°®£¬ÓÐÐ©È±·¦°²È«¸Ð£¬Ï²°®Äê³¤ÓÚ×Ô¼ºµÄÅ®º¢£¬¡°ÎÒÕýÔÚ°ïËûÎïÉ«Å®ÅóÓÑÀ²£¬Éí±ßÓÐ²»ÉÙºÏÊÊµÄ¶ÔÏó£¬¿ÉÓÖ²»ÖªµÀÈçºÎÑ¡Ôñ£¬ÏñËûÕâÑùµÄº¢×ÓºÜÅÅ³âÏàÇ×!
+POS_TAG = ¡±/w Ëý/r ±§Ô¹/vd Ëµ/v £¬/w ¶ù×Ó/n Ð¡Ê±ºò/n ÒòÎª/c È±ÉÙ/v ¸¸°®/n £¬/w ÓÐÐ©/r È±·¦/v °²È«¸Ð/n £¬/w Ï²°®/v Äê³¤/v ÓÚ/p ×Ô¼º/r µÄ/u Å®º¢/n £¬/w ¡°/w ÎÒ/r ÕýÔÚ/d °ï/v Ëû/r ÎïÉ«/v Å®ÅóÓÑ/n À²/y £¬/w Éí±ß/s ÓÐ/v ²»ÉÙ/m ºÏÊÊ/a µÄ/u ¶ÔÏó/n £¬/w ¿É/v ÓÖ/d ²»/d ÖªµÀ/v ÈçºÎ/r Ñ¡Ôñ/v £¬/w Ïñ/p Ëû/r ÕâÑù/r µÄ/u º¢×Ó/n ºÜ/d ÅÅ³â/v ÏàÇ×/v !/w
+CHARACTERS = 
+RELWORD = ¶ù×Ó;Å®ÅóÓÑ;
+RELCOMB = 
+-----------
+SENTENCE = Ì¸µ½¶ÔÎ´À´¶ùÏ±µÄÑ¡Ôñ£¬ÖÜÂèÂèËµ£º¡°¶ù×ÓÏ²»¶¾ÍºÃ!
+POS_TAG = Ì¸/v µ½/v ¶Ô/p Î´À´/t ¶ùÏ±/n µÄ/u Ñ¡Ôñ/vn £¬/w ÖÜ/nr ÂèÂè/n Ëµ/v £º/w ¡°/w ¶ù×Ó/n Ï²»¶/v ¾Í/d ºÃ/a !/w
+CHARACTERS = ÖÜ;
+RELWORD = ¶ù×Ó;ÂèÂè;
+RELCOMB = 
+-----------
+SENTENCE = ¡±ÖÜÂèÂèËµ¶ù×ÓÑ¡ÀÏÆÅÐ¢Ë³ÊÇÊ×ÒªÌõ¼þ£¬³ý´ËÖ®Íâ»¹ÒªÊÇÄÜ°ïËû·Öµ£¹¤×÷Ñ¹Á¦¡¢°ïËû´¦ÀíÊÂÎñµÄÏÍÄÚÖú²ÅÐÐ£¬¡°ËûÑ¡Ôñ°éÂÂ²»Ì«ÀíÖÇ£¬Ï²»¶¸ú×Å¸Ð¾õ×ß£¬Ö»ÓÐÒ»ÌõÒªÇó¾ÍÊÇ¶ÔÎÒºÃ¡£
+POS_TAG = ¡±/w ÖÜ/nr ÂèÂè/n Ëµ/v ¶ù×Ó/n Ñ¡/v ÀÏÆÅ/n Ð¢Ë³/an ÊÇ/v Ê×Òª/b Ìõ¼þ/n £¬/w ³ý/p ´Ë/r Ö®Íâ/f »¹/d ÒªÊÇ/v ÄÜ/v °ï/v Ëû/r ·Öµ£/v ¹¤×÷/vn Ñ¹Á¦/n ¡¢/w °ï/v Ëû/r ´¦Àí/v ÊÂÎñ/n µÄ/u ÏÍÄÚÖú/n ²Å/d ÐÐ/v £¬/w ¡°/w Ëû/r Ñ¡Ôñ/v °éÂÂ/n ²»/d Ì«/d ÀíÖÇ/a £¬/w Ï²»¶/v ¸ú/v ×Å/u ¸Ð¾õ/n ×ß/v £¬/w Ö»/d ÓÐ/v Ò»/m Ìõ/q ÒªÇó/n ¾Í/d ÊÇ/v ¶Ô/p ÎÒ/r ºÃ/a ¡£/w
+CHARACTERS = ÖÜ;
+RELWORD = °éÂÂ;¶ù×Ó;ÀÏÆÅ;ÂèÂè;
+RELCOMB = 
+-----------
+SENTENCE = ¸±¸è²¿·ÖµÄ¡°»ô»ô»ô»ô»ô»ô»ô£¬ÖÐ¹úÈËÓÀÔ¶¶¼²»µÍÍ·£¬×îÇ¿µÄ¶ÔÊÖ¾ÍÊÇ×Ô¼º¡£
+POS_TAG = ¸±/b ¸è/n ²¿·Ö/n µÄ/u ¡°/w »ô»ô»ô»ô»ô»ô»ô/nr £¬/w ÖÐ¹ú/ns ÈË/n ÓÀÔ¶/d ¶¼/d ²»/d µÍÍ·/v £¬/w ×î/d Ç¿/a µÄ/u ¶ÔÊÖ/n ¾Í/d ÊÇ/v ×Ô¼º/r ¡£/w
+CHARACTERS = »ô»ô»ô»ô»ô»ô»ô;
+RELWORD = ¶ÔÊÖ;
+RELCOMB = 
+-----------
+SENTENCE = Ò¶»ÝÃÀÊÇÖÜ½ÜÂ×µÄÂèÂè,ºîÅåá¯ÊÇÖÜ½ÜÂ×µÄÅ®ÓÑ£¬ÀûÓÃ·ÃÎÊÊ±£¬¸øÖÜ½ÜÂ×³ö¿¼Ìâ£¬¡°Èç¹û£¬ÂèÂèºÍºîÅåá¯¶¼×øÔÚÍ¬Ò»ËÒ´¬ÉÏ£¬·­´¬Ê±£¬ÖÜ½ÜÂ×ÏÈ¾ÈÄÇÒ»Î»£¿
+POS_TAG = Ò¶»ÝÃÀ/nr ÊÇ/v ÖÜ½ÜÂ×/nr µÄ/u ÂèÂè/n ,/w ºîÅåá¯/nr ÊÇ/v ÖÜ½ÜÂ×/nr µÄ/u Å®ÓÑ/n £¬/w ÀûÓÃ/v ·ÃÎÊ/v Ê±/ng £¬/w ¸ø/p ÖÜ½ÜÂ×/nr ³ö/v ¿¼Ìâ/n £¬/w ¡°/w Èç¹û/c £¬/w ÂèÂè/n ºÍ/c ºîÅåá¯/nr ¶¼/d ×ø/v ÔÚ/p Í¬Ò»/b ËÒ/q ´¬ÉÏ/s £¬/w ·­´¬/v Ê±/ng £¬/w ÖÜ½ÜÂ×/nr ÏÈ/d ¾È/v ÄÇ/r Ò»/m Î»/q £¿/w
+CHARACTERS = ºîÅåá¯;Ò¶»ÝÃÀ;ÖÜ½ÜÂ×;
+RELWORD = ÂèÂè;Å®ÓÑ;
+RELCOMB = Ò¶»ÝÃÀ,ÖÜ½ÜÂ×->ÂèÂè;ºîÅåá¯,ÖÜ½ÜÂ×->Å®ÓÑ;
+-----------
+SENTENCE = ¡±ÖÜ½ÜÂ×Ò»Ãë¶¼Ã»ÓÐ¶à¿¼ÂÇ£¬ÍÑ¿Ú¶ø³ö£º¡°µ±È»ÏÈ¾ÈÂèÂè£±´ÓËûÕâ¾ä»°£¬¿´³öÂèÂèÔÚËûÐÄÖÐµÄ·ÝÁ¿¡£
+POS_TAG = ¡±/w ÖÜ½ÜÂ×/nr Ò»Ãë/t ¶¼/d Ã»ÓÐ/v ¶à/ad ¿¼ÂÇ/v £¬/w ÍÑ¿Ú¶ø³ö/i £º/w ¡°/w µ±È»/d ÏÈ/d ¾È/v ÂèÂè/n £±/m ´Ó/p Ëû/r Õâ/r ¾ä/q »°/n £¬/w ¿´³ö/v ÂèÂè/n ÔÚ/p Ëû/r ÐÄÖÐ/s µÄ/u ·ÝÁ¿/nz ¡£/w
+CHARACTERS = ÖÜ½ÜÂ×;
+RELWORD = ÂèÂè;
+RELCOMB = 
+-----------
+SENTENCE = ×òÌì£¬½ÓÊÜ·ÃÎÊÊ±£¬ÌØ±ð´©ÁËÒ»¼þÂèÂèÔÚÍþÄáË¹Âò¸øËûµÄÀ¶¸ñ¼Ó»¨¶ä¡¢Éè¼ÆºÜ³öÉ«µÄ³ÄÉÀÅÄÕÕ£¬Ãæ¶ÔÉãÓ°»úÊ±£¬ÖÜ½ÜÂ×Ëµ£º¡°ÔçÉÏ£¬ÂèÂè´ø×ÅÔçµãµ½³ªÆ¬¹«Ë¾µÄÂ¼ÒôÊÒ¿´ÎÒ£¬Ò»¿´ÎÒ´©Õâ¼þÒÂ·þ£¬ºÙ£¡
+POS_TAG = ×òÌì/t £¬/w ½ÓÊÜ/v ·ÃÎÊ/v Ê±/ng £¬/w ÌØ±ð/d ´©/v ÁË/u Ò»/m ¼þ/q ÂèÂè/n ÔÚ/p ÍþÄáË¹/ns Âò/v ¸ø/p Ëû/r µÄ/u À¶/a ¸ñ/j ¼Ó/j »¨¶ä/n ¡¢/w Éè¼Æ/v ºÜ/d ³öÉ«/a µÄ/u ³ÄÉÀ/n ÅÄÕÕ/v £¬/w Ãæ¶Ô/v ÉãÓ°»ú/n Ê±/ng £¬/w ÖÜ½ÜÂ×/nr Ëµ/v £º/w ¡°/w ÔçÉÏ/t £¬/w ÂèÂè/n ´ø/v ×Å/u Ôçµã/d µ½/v ³ªÆ¬/n ¹«Ë¾/n µÄ/u Â¼ÒôÊÒ/n ¿´/a ÎÒ/r £¬/w Ò»/m ¿´/v ÎÒ/r ´©/v Õâ/r ¼þ/q ÒÂ·þ/n £¬/w ºÙ/e £¡/w
+CHARACTERS = ÖÜ½ÜÂ×;
+RELWORD = ÂèÂè;
+RELCOMB = 
+-----------
+SENTENCE = ÖÜ½ÜÂ×°ÑÂèÂèµÄ¡°°®¡±´©ÔÚÉíÉÏ£¬ËûËµ£º¡°Ç°Õó×Ó£¬ÂèÂèÅãÎÒµ½ÍþÄáË¹Ê±£¬ÎÒÈ¥ÅÄMV£¬ÂèÂè¾ÍÈ¥¹ä½Ö£¬ÌØ±ðÂòÁËÕâ¼þ³ÄÉÀ¸øÎÒ£¬ÆäËû¶¼ÊÇÂòËý×Ô¼ºµÄ¡£
+POS_TAG = ÖÜ½ÜÂ×/nr °Ñ/p ÂèÂè/n µÄ/u ¡°/w °®/v ¡±/w ´©/v ÔÚ/p ÉíÉÏ/s £¬/w Ëû/r Ëµ/v £º/w ¡°/w Ç°/f Õó×Ó/q £¬/w ÂèÂè/n Åã/v ÎÒ/r µ½/v ÍþÄáË¹/ns Ê±/ng £¬/w ÎÒ/r È¥/v ÅÄ/v MV/nx £¬/w ÂèÂè/n ¾Í/d È¥/v ¹ä/v ½Ö/n £¬/w ÌØ±ð/d Âò/v ÁË/u Õâ/r ¼þ/q ³ÄÉÀ/n ¸ø/p ÎÒ/r £¬/w ÆäËû/r ¶¼/d ÊÇ/v Âò/v Ëý/r ×Ô¼º/r µÄ/u ¡£/w
+CHARACTERS = ÖÜ½ÜÂ×;
+RELWORD = ÂèÂè;
+RELCOMB = 
+-----------
+SENTENCE = ¡±ËûÁË½âÂèÂè¶ÔËûµÄ°®£¬ÌØ±ð´©À´ÅÄÕÕ£¬»¹×¼±¸ÅÄÉã¡°ËÄÃæ³þ¸è¡±Ê±£¬Ò²»á´©Õâ¼þÒÂ·þ¡£
+POS_TAG = ¡±/w Ëû/r ÁË½â/v ÂèÂè/n ¶Ô/p Ëû/r µÄ/u °®/vn £¬/w ÌØ±ð/d ´©/v À´/f ÅÄÕÕ/v £¬/w »¹/d ×¼±¸/v ÅÄÉã/v ¡°/w ËÄÃæ³þ¸è/i ¡±/c Ê±/ng £¬/w Ò²/d »á/v ´©/v Õâ/r ¼þ/q ÒÂ·þ/n ¡£/w
+CHARACTERS = 
+RELWORD = ÂèÂè;
+RELCOMB = 
+-----------
+SENTENCE = ÖÜÂèÂèÊÇ¹úÖÐÃÀÊõÀÏÊ¦£¬²»Ö»ÌôÒÂ·þÑÛ¹â¶ÀÌØ£¬ÖÜ½ÜÂ×Ó¡Ïó×îÉîµÄÊÇ¡°Ð¡Ê±ºò£¬ÂèÂèÖ¯Ò»¼þÃ«ÒÂ£¬Ðä×ÓÉÏ»¹ÓÐ±ªµÄÍ¼ÐÍ£¬ÄÇ¼þÒÂ·þ£¬ÊÜµ½ºÃ¶àÍ¬Ñ§µÄÔÞÉÍ¡£
+POS_TAG = ÖÜ/nr ÂèÂè/n ÊÇ/v ¹ú/n ÖÐ/f ÃÀÊõ/n ÀÏÊ¦/n £¬/w ²»Ö»/c Ìô/v ÒÂ·þ/n ÑÛ¹â/n ¶ÀÌØ/a £¬/w ÖÜ½ÜÂ×/nr Ó¡Ïó/n ×î/d Éî/a µÄ/u ÊÇ/v ¡°/w Ð¡Ê±ºò/n £¬/w ÂèÂè/n Ö¯/v Ò»/m ¼þ/q Ã«/n ÒÂ/ng £¬/w Ðä×Ó/n ÉÏ/m »¹/d ÓÐ/v ±ª/ng µÄ/u Í¼/n ÐÍ/k £¬/w ÄÇ/r ¼þ/q ÒÂ·þ/n £¬/w ÊÜµ½/v ºÃ¶à/m Í¬Ñ§/n µÄ/u ÔÞÉÍ/vn ¡£/w
+CHARACTERS = ÖÜ;ÖÜ½ÜÂ×;
+RELWORD = ÀÏÊ¦;ÂèÂè;Í¬Ñ§;
+RELCOMB = 
+-----------
+SENTENCE = ÖÜ½ÜÂ×¶ÔÂèÂèÍ¶×¢¸ÐÇé»áÕâÃ´Éî£¬ºÍËûµÄ³É³¤±³¾°ÓÐ¹Ø£¬¡°ÎÒÐ¡µ½´ó£¬ÎÒµÄ¹¦¿ÎÒ»Ö±ºÜ²î£¬³ýÁË¹úÎÄºÃ£¬ÒôÀÖ°ô£¬ÆäËû¶¼²»ÐÐ£¬´óÑ§Áª¿¼¿¼ÒôÀÖÏµÊ±£¬µ¯¸ÖÇÙÊõ¿Æ¶¼¿¼µÃºÜºÃ£¬¾ÍÊÇÓ¢ÎÄ²»ºÃ£¬Áª¿¼¿¼ÁËÁ½´Î£¬¶¼¿¼²»ÉÏ£¬ÄÇÊ±ºò£¬ÎÒÖªµÀµ±ÀÏÊ¦µÄÂèÂèºÜÉËÐÄ£¬¿ÉÊÇ£¬Ëý´ÓÃ»ÓÐÂî¹ýÎÒ£¬Ò²Ã»ÓÐ·ÅÆúÎÒ¡£
+POS_TAG = ÖÜ½ÜÂ×/nr ¶Ô/p ÂèÂè/n Í¶/v ×¢/v ¸ÐÇé/n »á/v ÕâÃ´/r Éî/a £¬/w ºÍ/c Ëû/r µÄ/u ³É³¤/vn ±³¾°/n ÓÐ¹Ø/vn £¬/w ¡°/w ÎÒ/r Ð¡/a µ½/v ´ó/a £¬/w ÎÒ/r µÄ/u ¹¦¿Î/n Ò»Ö±/d ºÜ/d ²î/a £¬/w ³ýÁË/p ¹úÎÄ/n ºÃ/a £¬/w ÒôÀÖ/n °ô/ng £¬/w ÆäËû/r ¶¼/d ²»ÐÐ/a £¬/w ´ó/a Ñ§Áª/j ¿¼¿¼/v ÒôÀÖ/n Ïµ/v Ê±/ng £¬/w µ¯/ng ¸ÖÇÙ/n Êõ¿Æ/n ¶¼/d ¿¼/ng µÃ/e ºÜ/d ºÃ/a £¬/w ¾Í/d ÊÇ/v Ó¢ÎÄ/nz ²»ºÃ/a £¬/w Áª/vg ¿¼¿¼/n ÁË/u Á½/m ´Î/q £¬/w ¶¼/d ¿¼/v ²»/d ÉÏ/m £¬/w ÄÇ/r Ê±ºò/n £¬/w ÎÒ/r ÖªµÀ/v µ±/ ÀÏÊ¦/n µÄ/u ÂèÂè/n ºÜ/d ÉËÐÄ/a £¬/w ¿ÉÊÇ/c £¬/w Ëý/r ´Ó/p Ã»ÓÐ/d Âî/v ¹ý/u ÎÒ/r £¬/w Ò²/d Ã»ÓÐ/d ·ÅÆú/v ÎÒ/r ¡£/w
+CHARACTERS = ÖÜ½ÜÂ×;
+RELWORD = ÀÏÊ¦;ÂèÂè;
+RELCOMB = 
+-----------
+SENTENCE = ÏÖÔÚ£¬ÖÜ½ÜÂ×³ÉÁËÑÇÖÞ¾ÞÐÇ£¬ÖÜÂèÂèÐÐÊÂ·ç¸ñÒÀ¾ÉµÍµ÷£¬²»ÏñÓÐÐ©¡°ÐÇÂè¡±µÄÒ«ÎäÑïÍþ£¬ÖÜÂèÂè³£´ø×ÅÏ´ºÃµÄ»»Ï´ÒÂÎï£¬ËÍµ½Â¼ÒôÊÒ¸ø¶ù×Ó£¬³Ô¡¢´©Ò²±£³ÖÆÓÊµ·ç¸ñ¡£
+POS_TAG = ÏÖÔÚ/t £¬/w ÖÜ½ÜÂ×/nr ³É/m ÁË/u ÑÇÖÞ/ns ¾ÞÐÇ/n £¬/w ÖÜ/nr ÂèÂè/n ÐÐÊÂ/v ·ç¸ñ/n ÒÀ¾É/z µÍµ÷/n £¬/w ²»/d Ïñ/v ÓÐÐ©/r ¡°/w ÐÇ/n Âè/n ¡±/w µÄ/u Ò«ÎäÑïÍþ/i £¬/w ÖÜ/nr ÂèÂè/n ³£/d ´ø/v ×Å/u Ï´/v ºÃ/a µÄ/u »»Ï´/v ÒÂÎï/n £¬/w ËÍ/v µ½/v Â¼ÒôÊÒ/n ¸ø/p ¶ù×Ó/n £¬/w ³Ô/v ¡¢/w ´©/v Ò²/d ±£³Ö/v ÆÓÊµ/a ·ç¸ñ/n ¡£/w
+CHARACTERS = ÖÜ;ÖÜ½ÜÂ×;
+RELWORD = ¶ù×Ó;ÂèÂè;
+RELCOMB = 
+-----------
+SENTENCE = ¡°ÎÒÂèºÜÉÙ¸ÉÉæÎÒµÄÒôÀÖ¡¢¹¤×÷£¬Ö»ÓÐÎÒ¶Ô¹·×Ð±ÈÖÐÖ¸Ê±£¬ÂèÂè²Å»áÂîÎÒ£¬¶ÔÈËÒªÓÐÀñÃ²£¬ÄãÊÇÅ¼Ïñ£¬Òª×÷ÕýÈ·µÄÊ¾·¶¡£
+POS_TAG = ¡°/w ÎÒ/r Âè/n ºÜ/d ÉÙ/ad ¸ÉÉæ/v ÎÒ/r µÄ/u ÒôÀÖ/n ¡¢/w ¹¤×÷/vn £¬/w Ö»/d ÓÐ/v ÎÒ/r ¶Ô/p ¹·/n ×Ð/ng ±È/p ÖÐÖ¸/n Ê±/ng £¬/w ÂèÂè/n ²Å/d »á/v Âî/v ÎÒ/r £¬/w ¶Ô/p ÈË/n Òª/v ÓÐ/v ÀñÃ²/an £¬/w Äã/r ÊÇ/v Å¼Ïñ/n £¬/w Òª/v ×÷/v ÕýÈ·/a µÄ/u Ê¾·¶/vn ¡£/w
+CHARACTERS = 
+RELWORD = ÂèÂè;
+RELCOMB = 
+-----------
+SENTENCE = ¡±ÖÜ½ÜÂ×¾õµÃ×Ô¼ººÍÂèÂèµÄÏà´¦£¬¾ÍÏñÅóÓÑÒ»°ã¡£
+POS_TAG = ¡±/w ÖÜ½ÜÂ×/nr ¾õµÃ/v ×Ô¼º/r ºÍ/c ÂèÂè/n µÄ/u Ïà´¦/vn £¬/w ¾Í/d Ïñ/v ÅóÓÑ/n Ò»°ã/a ¡£/w
+CHARACTERS = ÖÜ½ÜÂ×;
+RELWORD = ÂèÂè;ÅóÓÑ;
+RELCOMB = 
+-----------
+SENTENCE = ¿´µ½ÂèÂè³£³£´ÓÁÖ¿Ú¼ÒÖÐ¿ª³µµ½Ì¨±±ÊÐÇø£¬ÎªËûËÍ»»Ï´ÒÂ·þ¡¢ËÍ³ÔµÄ£¬Ïëµ½ÂèÂè½»Í¨Íù·µÐÁ¿à£¬Ëû²Å»¨ÎåÇ§Íò£¬ÔÚêôÁë½ÖÂòÁËÒ»¶°ºÀÕ¬£¬¡°·¿×ÓÉè¼Æ£¬Ò»ÇÐ¶¼½»¸øÂèÂè£¬ÒÔºó£¬ÕâÊÇËýÒª×¡µÄ·¿×Ó¡£
+POS_TAG = ¿´µ½/v ÂèÂè/n ³£³£/d ´Ó/p ÁÖ/ng ¿Ú/n ¼ÒÖÐ/s ¿ª³µ/v µ½/v Ì¨±±/ns ÊÐÇø/s £¬/w Îª/p Ëû/r ËÍ/v »»Ï´/v ÒÂ·þ/n ¡¢/w ËÍ/v ³Ô/v µÄ/u £¬/w Ïëµ½/v ÂèÂè/n ½»Í¨/n Íù·µ/vd ÐÁ¿à/v £¬/w Ëû/r ²Å/d »¨/v ÎåÇ§Íò/m £¬/w ÔÚ/d êô/ng Áë/ng ½Ö/n Âò/v ÁË/u Ò»/m ¶°/q ºÀ/ag Õ¬/ng £¬/w ¡°/w ·¿×Ó/n Éè¼Æ/vn £¬/w Ò»ÇÐ/r ¶¼/d ½»¸ø/v ÂèÂè/n £¬/w ÒÔºó/f £¬/w Õâ/r ÊÇ/v Ëý/r Òª/v ×¡/v µÄ/u ·¿×Ó/n ¡£/w
+CHARACTERS = 
+RELWORD = ÂèÂè;
+RELCOMB = 
+-----------
+SENTENCE = ÖÜ½ÜÂ×ÊÇ¸öÐ¢Ë³µÄº¢×Ó£¬9ÔÂ15ÈÕÊÇËûµÄÂèÂèÒ¶»ÝÃÀÉúÈÕ£¬ËûÏÈÓÃÐÄÁ¼¿à¸ãÀËÂþ°ÑÂèÂè¶º¿Þ£¬ÓÖ±äÄ§Êõ¶ºµÃÊÙÐÇ¿ª»³´óÐ¦£¬ÕâÐ©¡°°ÑÃÃ¡±ÕÐÊý¸ÄÓÃÔÚÂèÂèÉíÉÏ£¬ÈÃÖÜ½ÜÂ×¸úÂèÂèµÄ¹ØÏµ£¬ÏñÄ¸×ÓÒ²ÏñÇéÈË£¡
+POS_TAG = ÖÜ½ÜÂ×/nr ÊÇ/v ¸ö/q Ð¢Ë³/a µÄ/u º¢×Ó/n £¬/w 9ÔÂ/t 15ÈÕ/t ÊÇ/v Ëû/r µÄ/u ÂèÂè/n Ò¶»ÝÃÀ/nr ÉúÈÕ/n £¬/w Ëû/r ÏÈ/d ÓÃÐÄ/v Á¼/ag ¿à/v ¸ã/v ÀËÂþ/an °Ñ/p ÂèÂè/n ¶º/v ¿Þ/v £¬/w ÓÖ/d ±ä/v Ä§Êõ/n ¶º/v µÃ/e ÊÙÐÇ/n ¿ª»³´óÐ¦/l £¬/w ÕâÐ©/r ¡°/w °Ñ/p ÃÃ/n ¡±/w ÕÐÊý/n ¸ÄÓÃ/v ÔÚ/p ÂèÂè/n ÉíÉÏ/s £¬/w ÈÃ/v ÖÜ½ÜÂ×/nr ¸ú/p ÂèÂè/n µÄ/u ¹ØÏµ/n £¬/w Ïñ/p Ä¸×Ó/n Ò²/d Ïñ/v ÇéÈË/n £¡/w
+CHARACTERS = Ò¶»ÝÃÀ;ÖÜ½ÜÂ×;
+RELWORD = ÂèÂè;Ä¸×Ó;
+RELCOMB = Ò¶»ÝÃÀ,ÖÜ½ÜÂ×->ÂèÂè;Ò¶»ÝÃÀ,ÖÜ½ÜÂ×->Ä¸×Ó;
+-----------
+SENTENCE = ÖÜ½ÜÂ×ÂèÂèµÄÉúÈÕÇ¡ÇÉ¸úÆäÇ°Å®ÓÑJolin²ÌÒÀÁÖÍ¬ÔÚÒ»Ìì¡£
+POS_TAG = ÖÜ½ÜÂ×/nr ÂèÂè/n µÄ/u ÉúÈÕ/n Ç¡ÇÉ/d ¸ú/p Æä/r Ç°/h Å®ÓÑ/n Jolin/nr ²ÌÒÀÁÖ/nr Í¬/p ÔÚ/p Ò»/m Ìì/q ¡£/w
+CHARACTERS = Jolin;²ÌÒÀÁÖ;ÖÜ½ÜÂ×;
+RELWORD = ÂèÂè;Å®ÓÑ;
+RELCOMB = Jolin,ÖÜ½ÜÂ×->Å®ÓÑ;²ÌÒÀÁÖ,ÖÜ½ÜÂ×->Å®ÓÑ;
+-----------
+SENTENCE = JolinÉúÈÕÇ°Ò»ÍíÔÚ·¹µê°ì¡°ÌØÎñÅÉ¶Ô¡±£¬ÒòÎªÅÂÖÆÔìÂé·³£¬Ã»ÑûÇëÖÜ½ÜÂ×²Î¼Ó£¬µ«ÄÇÍíÖÜ½ÜÂ×Ò²¡°Ã»¿Õ¡±£¬ËûÃ¦×ÅÔÚ¼Ò°ïÂèÂèÇìÉú¡£
+POS_TAG = Jolin/nx ÉúÈÕ/n Ç°/f Ò»/m Íí/tg ÔÚ/p ·¹µê/n °ì/v ¡°/w ÌØÎñ/n ÅÉ¶Ô/n ¡±/w £¬/w ÒòÎª/c ÅÂ/v ÖÆÔì/v Âé·³/an £¬/w Ã»/d ÑûÇë/v ÖÜ½ÜÂ×/nr ²Î¼Ó/v £¬/w µ«/c ÄÇ/r Íí/tg ÖÜ½ÜÂ×/nr Ò²/d ¡°/w Ã»/d ¿Õ/a ¡±/w £¬/w Ëû/r Ã¦/v ×Å/u ÔÚ¼Ò/v °ï/v ÂèÂè/n Çì/vg Éú/v ¡£/w
+CHARACTERS = ÖÜ½ÜÂ×;
+RELWORD = ÂèÂè;
+RELCOMB = 
+-----------
+SENTENCE = ÖÜ½ÜÂ×ÎªÂèÂèµÄÉúÈÕÓÃ¾¡ÐÄË¼£¬9ÔÂ14ÈÕ»Ø¼ÒºóÑð×°¶Ç×Ó¶ö£¬°ÑÂèÂèÖ§¿ª£¬µÈµ½ÂèÂè×ß³ö³ø·¿£¬ÖÜ½ÜÂ×Åõ×ÅÉúÈÕµ°¸â£¬ÈÃÊÙÐÇ¾ªÏ²²»ÒÑ¡£
+POS_TAG = ÖÜ½ÜÂ×/nr Îª/p ÂèÂè/n µÄ/u ÉúÈÕ/n ÓÃ¾¡/v ÐÄË¼/n £¬/w 9ÔÂ/t 14ÈÕ/t »Ø¼Ò/v ºó/f Ñð×°/v ¶Ç×Ó/n ¶ö/a £¬/w °Ñ/p ÂèÂè/n Ö§/q ¿ª/v £¬/w µÈµ½/v ÂèÂè/n ×ß/v ³ö/v ³ø·¿/n £¬/w ÖÜ½ÜÂ×/nr Åõ/v ×Å/u ÉúÈÕ/n µ°¸â/n £¬/w ÈÃ/v ÊÙÐÇ/n ¾ªÏ²/an ²»ÒÑ/v ¡£/w
+CHARACTERS = ÖÜ½ÜÂ×;
+RELWORD = ÂèÂè;
+RELCOMB = 
+-----------
+SENTENCE = ¾ÝËµµ±ÍíÖÜÂèÂèÌ«¹ý¸Ð¶¯£¬»¹¶ãµ½²ÞËùÍµ¿Þ¡£
+POS_TAG = ¾ÝËµ/v µ±Íí/t ÖÜ/ng ÂèÂè/n Ì«/d ¹ý/v ¸Ð¶¯/v £¬/w »¹/d ¶ã/v µ½/v ²ÞËù/n Íµ/v ¿Þ/v ¡£/w
+CHARACTERS = 
+RELWORD = ÂèÂè;
+RELCOMB = 
+-----------
+SENTENCE = ÒîÈÕÖÜ½ÜÂ×´ø×ÅÂèÂè£¬µ½Ì¨±±ÐÅÒåÉÌÈ¦¹ä½Ö£¬¾ÝµêÔ±½²Êö£¬Â·ÈË·¢ÏÖÊÇÖÜ½ÜÂ×£¬ÉÏÇ°Ë÷È¡Ç©Ãû£¬ÖÜ½ÜÂ×Ç×ÇÐ»ØÓ¦£¬ÒýÆð²»Ð¡É§¶¯£¬»¹ÓÐÂ·ÈËÔÞÖÜ½ÜÂ×£º¡°ÕâÄêÍ·¶ù×ÓÅãÂèÂè¹ä½Ö£¬ºÜÄÑµÃ¡£
+POS_TAG = ÒîÈÕ/t ÖÜ½ÜÂ×/nr ´ø/v ×Å/u ÂèÂè/n £¬/w µ½/v Ì¨±±/ns ÐÅÒå/n ÉÌ/j È¦/n ¹ä/v ½Ö/n £¬/w ¾Ý/p µêÔ±/n ½²/v Êö/vg £¬/w Â·ÈË/n ·¢ÏÖ/v ÊÇ/v ÖÜ½ÜÂ×/nr £¬/w ÉÏÇ°/v Ë÷È¡/v Ç©Ãû/v £¬/w ÖÜ½ÜÂ×/nr Ç×ÇÐ/ad »ØÓ¦/v £¬/w ÒýÆð/v ²»/d Ð¡/a É§¶¯/vn £¬/w »¹/d ÓÐ/v Â·ÈË/n ÔÞ/vg ÖÜ½ÜÂ×/nr £º/w ¡°/w Õâ/r ÄêÍ·/n ¶ù×Ó/n Åã/v ÂèÂè/n ¹ä/v ½Ö/n £¬/w ºÜ/d ÄÑµÃ/a ¡£/w
+CHARACTERS = ÖÜ½ÜÂ×;
+RELWORD = ¶ù×Ó;ÂèÂè;
+RELCOMB = 
+-----------
+SENTENCE = ¾ÝÏ¤£¬ÖÜ½ÜÂ×°ïÂèÂèÂòÍêÉúÈÕÀñÎïºó£¬ÍíÉÏ»¹ÑûÍâÆÅÒ»Æð³Ô·¹£¬ÒòÎªÂèÂèÉúÈÕ£¬ËãÊÇÍâÆÅµÄ¡°ÊÜÄÑÈÕ¡±£¬ÖÜ½ÜÂ×ÔÚ·¹¾ÖÉÏÌØµØ±äÄ§ÊõÓéÇ×£¬¶ºµÃÂèÂè¡¢ÍâÆÅÀÖÌÕÌÕ¡£
+POS_TAG = ¾ÝÏ¤/v £¬/w ÖÜ½ÜÂ×/nr °ï/v ÂèÂè/n Âò/v Íê/v ÉúÈÕ/n ÀñÎï/n ºó/f £¬/w ÍíÉÏ/t »¹/d Ñû/v ÍâÆÅ/n Ò»Æð/s ³Ô·¹/v £¬/w ÒòÎª/c ÂèÂè/n ÉúÈÕ/n £¬/w ËãÊÇ/v ÍâÆÅ/n µÄ/u ¡°/w ÊÜÄÑ/v ÈÕ/ng ¡±/w £¬/w ÖÜ½ÜÂ×/nr ÔÚ/p ·¹¾Ö/n ÉÏ/m ÌØµØ/d ±ä/a Ä§Êõ/n Óé/vg Ç×/a £¬/w ¶º/v µÃ/e ÂèÂè/n ¡¢/w ÍâÆÅ/n ÀÖÌÕÌÕ/z ¡£/w
+CHARACTERS = ÖÜ½ÜÂ×;
+RELWORD = ÂèÂè;ÍâÆÅ;
+RELCOMB = 
+-----------
+SENTENCE = ¾ÝÏ¤£¬ÉÏÐÇÆÚÃØÃÜµ½Ïã¸ÛÅÄMVµÄÖÜ½ÜÂ×±ã´ø×ÅÍõË¼Æ½¼ûÁËÄ¸Ç×Ò¶»ÝÃÀ£¬ÈýÈËÔÚÉ½¶¥ÓÃ²Í²¢ÐÀÉÍÏã¸ÛÃÀ¾°¡£
+POS_TAG = ¾ÝÏ¤/v £¬/w ÉÏÐÇÆÚ/t ÃØÃÜ/ad µ½/v Ïã¸Û/ns ÅÄ/v MV/nx µÄ/u ÖÜ½ÜÂ×/nr ±ã/d ´ø/v ×Å/u ÍõË¼Æ½/nr ¼û/v ÁË/u Ä¸Ç×/n Ò¶»ÝÃÀ/nr £¬/w Èý/m ÈË/n ÔÚ/p É½¶¥/n ÓÃ²Í/v ²¢/c ÐÀÉÍ/v Ïã¸Û/ns ÃÀ¾°/n ¡£/w
+CHARACTERS = ÍõË¼Æ½;Ò¶»ÝÃÀ;ÖÜ½ÜÂ×;
+RELWORD = Ä¸Ç×;
+RELCOMB = Ò¶»ÝÃÀ,ÖÜ½ÜÂ×->Ä¸Ç×;
+-----------
+SENTENCE = ÕâÎ»±»Ö¸ÊÇ¡°ÖÜ½ÜÂ×ÐÂÅ®ÓÑ¡±µÄÍõË¼Æ½£¬ÔøÒÔÈýµãÊ½Ó¾×°ÔÚÖÜ½ÜÂ×¡¶Ñô¹âÕ¬ÄÐ¡·MVÖÐÁÁÏà¡£
+POS_TAG = Õâ/r Î»/q ±»/p Ö¸/v ÊÇ/v ¡°/w ÖÜ½ÜÂ×/nr ÐÂ/a Å®ÓÑ/n ¡±/w µÄ/u ÍõË¼Æ½/nr £¬/w Ôø/d ÒÔ/p Èýµã/t Ê½/ng Ó¾×°/n ÔÚ/p ÖÜ½ÜÂ×/nr ¡¶/w Ñô¹â/n Õ¬/ng ÄÐ/ng ¡·/w MV/nx ÖÐ/f ÁÁÏà/v ¡£/w
+CHARACTERS = ÍõË¼Æ½;ÖÜ½ÜÂ×;
+RELWORD = Å®ÓÑ;
+RELCOMB = ÍõË¼Æ½,ÖÜ½ÜÂ×->Å®ÓÑ;
+-----------
+SENTENCE = ÔÚÍõË¼Æ½ÉÏÔØµ½²©¿ÍµÄÕÕÆ¬ÖÐ£¬ÖÜ½ÜÂ×ÓëÍõË¼Æ½ÅäºÏ´ó°ÚÇ×ÃÜPOSE£¬ÄÑÃâÁîÈË¾õµÃÁ½ÈËÇé·Ç·º·º£¬³¬Ô½Ò»°ã¹¤×÷»ï°é¹ØÏµ¡£
+POS_TAG = ÔÚ/p ÍõË¼Æ½/nr ÉÏ/m ÔØ/q µ½/v ²©¿Í/n µÄ/u ÕÕÆ¬/n ÖÐ/f £¬/w ÖÜ½ÜÂ×/nr Óë/p ÍõË¼Æ½/nr ÅäºÏ/v ´ó/a °Ú/v Ç×ÃÜ/a POSE/nx £¬/w ÄÑÃâ/vd Áî/v ÈË/n ¾õµÃ/v Á½/m ÈËÇé/n ·Ç/d ·º·º/d £¬/w ³¬Ô½/v Ò»°ã/a ¹¤×÷/vn »ï°é/n ¹ØÏµ/n ¡£/w
+CHARACTERS = ÍõË¼Æ½;ÖÜ½ÜÂ×;
+RELWORD = »ï°é;
+RELCOMB = 
+-----------
+SENTENCE = µ±ÈÕÍíÉÏ£¬ÖÜ½ÜÂ×·µ»Ø¾Æµê½ÓÄ¸Ç×ºÍÍõË¼Æ½µ½É½¶¥¹ã³¡³Ô·¹£¬ÒòÎªÖÜ½ÜÂ×Ò»Ïò×ðÖØÄ¸Ç×£¬Ê®·ÖÐ¢Ë³£¬ÓÈÆäÔÚÑ¡Å®ÓÑ»·½ÚÉÏ¸ü¶ÔÄ¸Ç×µÄÒâ¼ûÑÔÌý¼Æ´Ó£¬ËùÒÔÃ¿´ÎÅÄÍÏ±Ø´øÅ®ÓÑ¸úÄ¸Ç×¼ûÃæ£¬ÓÐ´«²ÌÒÀÁÖºÍHebeÒò¹ý²»ÁËÖÜÂèÂèÄÇ¹Ø£¬ÁµÇé²ÅÖÕÖ¹£¬¹Ê½ñ´ÎÖÜ½ÜÂ×¿ÌÒâ°²ÅÅÐÂ»¶¸úÄ¸Ç×¼ûÃæ£¬»¹´øËýÃÇµ½²ÍÌü±ß³ÔÅ£°Ç±ßºÈºì¾Æ¡¢ÐÀÉÍÒ¹¾°¡£
+POS_TAG = µ±ÈÕ/t ÍíÉÏ/t £¬/w ÖÜ½ÜÂ×/nr ·µ»Ø/v ¾Æµê/n ½Ó/v Ä¸Ç×/n ºÍ/c ÍõË¼Æ½/nr µ½/v É½¶¥/n ¹ã³¡/n ³Ô·¹/v £¬/w ÒòÎª/c ÖÜ½ÜÂ×/nr Ò»Ïò/d ×ðÖØ/v Ä¸Ç×/n £¬/w Ê®·Ö/d Ð¢Ë³/an £¬/w ÓÈÆä/d ÔÚ/p Ñ¡/v Å®ÓÑ/n »·½Ú/n ÉÏ/m ¸ü/d ¶Ô/p Ä¸Ç×/n µÄ/u Òâ¼û/n ÑÔÌý¼Æ´Ó/i £¬/w ËùÒÔ/c Ã¿´Î/r ÅÄ/v ÍÏ/v ±Ø/d ´ø/v Å®ÓÑ/n ¸ú/p Ä¸Ç×/n ¼ûÃæ/v £¬/w ÓÐ/v ´«/v ²ÌÒÀÁÖ/nr ºÍ/c Hebe/nx Òò/p ¹ý/v ²»/d ÁË/u ÖÜ/nr ÂèÂè/n ÄÇ/r ¹Ø/v £¬/w ÁµÇé/n ²Å/d ÖÕÖ¹/v £¬/w ¹Ê/c ½ñ/tg ´Î/q ÖÜ½ÜÂ×/nr ¿ÌÒâ/d °²ÅÅ/v ÐÂ/a »¶/vg ¸ú/p Ä¸Ç×/n ¼ûÃæ/v £¬/w »¹/d ´ø/v Ëý/r ÃÇ/k µ½/v ²ÍÌü/n ±ß/k ³Ô/v Å£/ag °Ç/v ±ß/k ºÈ/v ºì/a ¾Æ/n ¡¢/w ÐÀÉÍ/v Ò¹/tg ¾°/ng ¡£/w
+CHARACTERS = ²ÌÒÀÁÖ;ÍõË¼Æ½;ÖÜ;ÖÜ½ÜÂ×;
+RELWORD = ÂèÂè;Ä¸Ç×;Å®ÓÑ;
+RELCOMB = 
+-----------
+SENTENCE = ÖÁÓÚÑÝ³ª»á¼Î±ö£¬Ö÷°ì·½¸æËß¼ÇÕß£¬ÖÜ½ÜÂ×Á¦Í¦µÄÄÏÈ­ÂèÂè¡¢¾­³£½èÅ®ÓÑ¸øÖÜ½ÜÂ×ÅÄMVµÄÁõ®uºê¼°ÓëÖÜ½ÜÂ×ºÏ×÷¾ÅÄêµÄ»ìÒôÊ¦ÑîÈð´ú£¬¶¼ÓÐÍûÏÖÉí£¬¾ßÌåÊÇË­À´»¹²»ÖªµÀ£¬½ìÊ±ºÜ¿ÉÄÜ³öÏÖ¼Î±ö³ÉÈº½á¶ÓµÄÏÖÏó£¬×ã¼ûÖÜ½ÜÂ×µÄºÃÈËÔµÓë´óÅÅ³£
+POS_TAG = ÖÁÓÚ/p ÑÝ³ª»á/n ¼Î±ö/n £¬/w Ö÷°ì/v ·½/ng ¸æËß/v ¼ÇÕß/n £¬/w ÖÜ½ÜÂ×/nr Á¦/dg Í¦/ag µÄ/u ÄÏÈ­ÂèÂè/nr ¡¢/w ¾­³£/d ½è/v Å®ÓÑ/n ¸ø/p ÖÜ½ÜÂ×/nr ÅÄ/v MV/nx µÄ/u Áõ®uºê/nr ¼°/c Óë/p ÖÜ½ÜÂ×/nr ºÏ×÷/v ¾Å/m Äê/q µÄ/u »ìÒôÊ¦/n ÑîÈð´ú/nr £¬/w ¶¼/d ÓÐÍû/v ÏÖÉí/v £¬/w ¾ßÌå/ad ÊÇ/v Ë­/r À´/v »¹/d ²»/d ÖªµÀ/v £¬/w ½ìÊ±/d ºÜ/d ¿ÉÄÜ/v ³öÏÖ/v ¼Î±ö/n ³ÉÈº½á¶Ó/i µÄ/u ÏÖÏó/n £¬/w ×ã/d ¼û/v ÖÜ½ÜÂ×/nr µÄ/u ºÃ/a ÈËÔµ/n Óë/c ´ó/d ÅÅ/v ³£/ag
+CHARACTERS = Áõ®uºê;ÄÏÈ­ÂèÂè;ÑîÈð´ú;ÖÜ½ÜÂ×;
+RELWORD = Å®ÓÑ;
+RELCOMB = 
+-----------
+SENTENCE = Ö÷°ì·½½âÊÍ£¬ÊÇÒò¿¼ÂÇµ½ÎäººÖÜ½ÜÂ×¸èÃÔ¶àÊÇÑ§Éú£¬¾­¼ÃÄÜÁ¦ÓÐÏÞ£¬µ«ÑÝ³ª»á×ÜÍ¶Èë²¢Î´Òò´Ë¼õËõ£¬ÖÜ½ÜÂ×Îäºº¸ö³ªÎèÌ¨¿í´ï93Ã×£¬Ôì¼Û¹ýÇ§Íò£¬ÊÇ½üÄêÎäººÑÝ³öÊÐ³¡ÖÐ×î´óµÄ¡£
+POS_TAG = Ö÷°ì/v ·½/ng ½âÊÍ/v £¬/w ÊÇ/v Òò/p ¿¼ÂÇ/v µ½/v Îäºº/ns ÖÜ½ÜÂ×/nr ¸èÃÔ/n ¶à/a ÊÇ/a Ñ§Éú/n £¬/w ¾­¼Ã/n ÄÜÁ¦/n ÓÐÏÞ/a £¬/w µ«/c ÑÝ³ª»á/n ×Ü/b Í¶Èë/vn ²¢Î´/d Òò´Ë/c ¼õËõ/v £¬/w ÖÜ½ÜÂ×/nr Îäºº/ns ¸ö/q ³ª/v ÎèÌ¨/n ¿í/ad ´ï/v 93/m Ã×/q £¬/w Ôì¼Û/n ¹ý/u Ç§Íò/m £¬/w ÊÇ/v ½üÄê/t Îäºº/ns ÑÝ³ö/v ÊÐ³¡/n ÖÐ/f ×î/d ´ó/a µÄ/u ¡£/w
+CHARACTERS = ÖÜ½ÜÂ×;
+RELWORD = Ñ§Éú;
+RELCOMB = 
+-----------
+SENTENCE = ´ËÍâ£¬Ö÷°ì·½»¹Í¸Â¶£¬¡°´Ë´ÎÑ²ÑÝ£¬ÖÜÂèÂèÃ¿Õ¾¶¼ÎªÖÜ½ÜÂ×´òÏÈ·æ£¬ÌáÇ°µ½Ñ²ÑÝ³ÇÊÐ¿´ºÃ³Ô×¡Çé¿ö£¬ÖÜ½ÜÂ×ÔÙµÖ´ï¡£
+POS_TAG = ´ËÍâ/c £¬/w Ö÷°ì/v ·½/k »¹/d Í¸Â¶/v £¬/w ¡°/w ´Ë´Î/r Ñ²ÑÝ/v £¬/w ÖÜ/nr ÂèÂè/n Ã¿/r Õ¾/v ¶¼/d Îª/v ÖÜ½ÜÂ×/nr ´ò/v ÏÈ·æ/nz £¬/w ÌáÇ°/vd µ½/v Ñ²ÑÝ/v ³ÇÊÐ/j ¿´/a ºÃ/a ³Ô/v ×¡/v Çé¿ö/n £¬/w ÖÜ½ÜÂ×/nr ÔÙ/d µÖ´ï/v ¡£/w
+CHARACTERS = ÖÜ;ÖÜ½ÜÂ×;
+RELWORD = ÂèÂè;
+RELCOMB = 
+-----------
+SENTENCE = ÑÝ³öµ±ÌìÖÜÂèÂè¿Ï¶¨»áÔÚÏÖ³£?
+POS_TAG = ÑÝ³ö/v µ±Ìì/t ÖÜ/ng ÂèÂè/n ¿Ï¶¨/d »á/v ÔÚ/p ÏÖ/tg ³£/d
+CHARACTERS = 
+RELWORD = ÂèÂè;
+RELCOMB = 
+-----------
+SENTENCE = ·½ÎÄÉ½×òÈÕ£¨9ÔÂ2ÈÕ£©ÎªÎèÌ¨¾ç¡¶ÁùÒå°ï¡·ÅÅÁ·£¬ºÃÓÑÖÜ½ÜÂ×Ç××Ôµ½³¡¼ÓÓÍ´òÆø£¬ÖÐÍ¾»¹ËÍÉÏÒ©ÓÃ½º²¼×÷ÎªÀñÎï£¬»¹Ðã³ö¶Ô·½ÒòÑÝÏ·¿àÁ·¶øÀ­ÉËµÄÍÈ¡£
+POS_TAG = ·½ÎÄÉ½/nr ×òÈÕ/t £¨/w 9ÔÂ/t 2ÈÕ/t £©/w Îª/p ÎèÌ¨¾ç/n ¡¶/w Áù/m Òå/ng °ï/v ¡·/w ÅÅÁ·/v £¬/w ºÃÓÑ/n ÖÜ½ÜÂ×/nr Ç××Ô/d µ½/v ³¡/q ¼ÓÓÍ/v ´ò/v Æø/n £¬/w ÖÐÍ¾/d »¹/d ËÍ/v ÉÏ/m Ò©ÓÃ/b ½º²¼/n ×÷Îª/n ÀñÎï/n £¬/w »¹/d Ðã/ag ³ö/v ¶Ô·½/n Òò/p ÑÝÏ·/v ¿àÁ·/v ¶ø/c À­/v ÉË/v µÄ/u ÍÈ/n ¡£/w
+CHARACTERS = ·½ÎÄÉ½;ÖÜ½ÜÂ×;
+RELWORD = ºÃÓÑ;
+RELCOMB = ·½ÎÄÉ½,ÖÜ½ÜÂ×->ºÃÓÑ;
+-----------
+SENTENCE = ÏÖ³¡±ãÓÐÈËÆðºå£¬ÒªÁ½ÈËÀ´Ò»¶Î¶ÔÊÖÏ·£¬Á½ÈË½«Ì¨´ÊËµµÃº¬ºý£¬ÈÃÖÜ½ÜÂ×Ð¦³¡Á¬Á¬£¬»¹×Ô³°ÔÚ¹«Ë¾°ï·½ÎÄÉ½¶Ô´ÊµÄÊ±ºòµÄÈ·¡°¿Ú³Ý²»Çåµ«»¹ÊÇ½ÓµÃÏÂÈ¥À²£±´ËÍâ£¬ÔçÇ°±»ÖÜ¿¯ÅÄµ½JÅ®ÀÉ½­Óï³¿¿ª×ÅBMW³öÈëÖÜ½ÜÂ×µÄºÀÕ¬³µ¿â£¬Ëû½èÌ½°àµÄ»ú»áÖ£ÖØ·ñÈÏ£¬¡°²»Òª¿´µ½ºÚÓ°¾Í¿ªÇ¹£±Ã÷ÏÔµÀ¾¡ÖÜ½ÜÂ×¸Ðµ½ÎÞÄÎµÄÐÄÇé¡£
+POS_TAG = ÏÖ³¡/s ±ã/d ÓÐ/v ÈË/n Æðºå/vn £¬/w Òª/v Á½/m ÈË/n À´/v Ò»/m ¶Î/q ¶ÔÊÖ/n Ï·/n £¬/w Á½/m ÈË/n ½«/p Ì¨´Ê/n Ëµ/v µÃ/u º¬ºý/a £¬/w ÈÃ/v ÖÜ½ÜÂ×/nr Ð¦/v ³¡/q Á¬Á¬/d £¬/w »¹/d ×Ô³°/v ÔÚ/p ¹«Ë¾/n °ï/v ·½ÎÄÉ½/nr ¶Ô/p ´Ê/n µÄ/u Ê±ºò/n µÄÈ·/d ¡°/w ¿Ú³Ý/n ²»/a Çå/a µ«/c »¹/c ÊÇ/a ½Ó/c µÃ/e ÏÂÈ¥/v À²/y £±/m ´ËÍâ/c £¬/w Ôç/tg Ç°/f ±»/p ÖÜ¿¯/n ÅÄ/v µ½/v J/nx Å®ÀÉ/n ½­Óï³¿/nr ¿ª/v ×Å/u BMW/nx ³öÈë/n ÖÜ½ÜÂ×/nr µÄ/u ºÀÕ¬/n ³µ¿â/n £¬/w Ëû/r ½è/v Ì½/v °à/n µÄ/u »ú»á/n Ö£ÖØ/ad ·ñÈÏ/v £¬/w ¡°/w ²»/d Òª/v ¿´µ½/v ºÚÓ°/n ¾Í/c ¿ªÇ¹/v £±/m Ã÷ÏÔ/a µÀ/j ¾¡/ag ÖÜ½ÜÂ×/nr ¸Ðµ½/v ÎÞÄÎ/a µÄ/b ÐÄÇé/n ¡£/w
+CHARACTERS = ·½ÎÄÉ½;½­Óï³¿;ÖÜ½ÜÂ×;
+RELWORD = ¶ÔÊÖ;
+RELCOMB = 
+-----------
+SENTENCE = ³¬ÈËÆøÅ¼ÏñÑÔ³ÐÐñ½«³ÉÎª¸èÌ³¾ÞÐÇÖÜ½ÜÂ×(Q°É)µÄÍ¬ÃÅÊ¦µÜ¡£
+POS_TAG = ³¬ÈË/b Æø/n Å¼Ïñ/n ÑÔ³ÐÐñ/nr ½«/d ³ÉÎª/v ¸èÌ³/n ¾ÞÐÇ/n ÖÜ½ÜÂ×/nr (/w Q/nx °É/y )/w µÄ/u Í¬/p ÃÅ/n Ê¦µÜ/n ¡£/w
+CHARACTERS = ÑÔ³ÐÐñ;ÖÜ½ÜÂ×;
+RELWORD = Ê¦µÜ;
+RELCOMB = ÑÔ³ÐÐñ,ÖÜ½ÜÂ×->Ê¦µÜ;
+-----------
+SENTENCE = ×òÈÕ£¨30ÈÕ£©ÓÐ±¨µÀÖ¸£¬ÖÜ½ÜÂ×µÄ¾­¼ÍÈËÑî¾þÈÙÕýÔÚÓëÑÔ³ÐÐñÃÜÌ¸ÖÐ£¬ÈôºÏ×÷ÇÃ¶¨£¬Ñî¾þÈÙ½«ÓµÓÐ÷ÈÁ¦ºáÉ¨ÑÇÖÞµÄÁ½´óÌìÍõ¾ÞÐÇ¡£
+POS_TAG = ×òÈÕ/t £¨/w 30ÈÕ/t £©/w ÓÐ/v ±¨µÀ/v Ö¸/v £¬/w ÖÜ½ÜÂ×/nr µÄ/u ¾­¼ÍÈË/n Ñî¾þÈÙ/nr ÕýÔÚ/d Óë/p ÑÔ³ÐÐñ/nr ÃÜÌ¸/v ÖÐ/a £¬/w Èô/dg ºÏ×÷/v ÇÃ¶¨/v £¬/w Ñî¾þÈÙ/nr ½«/d ÓµÓÐ/v ÷ÈÁ¦/n ºáÉ¨/v ÑÇÖÞ/ns µÄ/u Á½/m ´ó/a ÌìÍõ/n ¾ÞÐÇ/n ¡£/w
+CHARACTERS = ÑÔ³ÐÐñ;Ñî¾þÈÙ;ÖÜ½ÜÂ×;
+RELWORD = ¾­¼ÍÈË;
+RELCOMB = Ñî¾þÈÙ,ÖÜ½ÜÂ×->¾­¼ÍÈË;
+-----------
+SENTENCE = ¾ÝÎÅ£¬ÑÔ³ÐÐñµ¥·ÉÕâÁ½Äê£¬ÏòËûÕÐÊÖµÄ´óÅÆ¾­¼ÍÈË²»¼ÆÆäÊý£¬ÖÁÓÚÎªÊ²Ã´»áÑ¡ÔñÓëÑî¾þÈÙºÏ×÷£¬ÓÐÏûÏ¢Ö¸ÊÇ¿´ÖÐÆäÔÚÀÖÌ³ÒÔ¼°Õû¸ö»ªÓïÊÐ³¡µÄÔË×÷ÄÜÁ¦¡£
+POS_TAG = ¾Ý/p ÎÅ/v £¬/w ÑÔ³ÐÐñ/nr µ¥·É/v Õâ/r Á½/m Äê/q £¬/w Ïò/p Ëû/r ÕÐÊÖ/v µÄ/u ´ó/a ÅÆ/n ¾­¼ÍÈË/n ²»¼ÆÆäÊý/i £¬/w ÖÁÓÚ/p ÎªÊ²Ã´/r »á/v Ñ¡Ôñ/v Óë/p Ñî¾þÈÙ/nr ºÏ×÷/v £¬/w ÓÐ/v ÏûÏ¢/n Ö¸/v ÊÇ/v ¿´ÖÐ/v Æä/r ÔÚ/p ÀÖÌ³/n ÒÔ¼°/c Õû¸ö/b »ªÓï/nz ÊÐ³¡/n µÄ/u ÔË×÷/vn ÄÜÁ¦/n ¡£/w
+CHARACTERS = ÑÔ³ÐÐñ;Ñî¾þÈÙ;
+RELWORD = ¾­¼ÍÈË;
+RELCOMB = ÑÔ³ÐÐñ,Ñî¾þÈÙ->¾­¼ÍÈË;
+-----------
+SENTENCE = Ç°Íí£¬ÖÜ½ÜÂ×(Jay)ËùÊô²¢²ÎÓëÍ¶×ÊµÄ½ÜÍþ¶û¹«Ë¾¶ÔÍâ¹«²¼£¬´Ó¼´ÈÕÆð¿ªÊ¼Ð­Öú´¦ÀíÑÔ³ÐÐñ(Jerry)ËùÓÐµÄ¾­¼ÍÊÂÎñ£¬¶øÑÔ³ÐÐñµÄ¾­¼ÍÈË½«ÊÇÒ»ÊÖÅõºìÖÜ½ÜÂ×µÄÑî¾þÈÙ¡£
+POS_TAG = Ç°/v Íí/tg £¬/w ÖÜ½ÜÂ×/nr (/w Jay/nx )/w ËùÊô/n ²¢/c ²ÎÓë/v Í¶×Ê/v µÄ/u ½ÜÍþ¶û/n ¹«Ë¾/n ¶ÔÍâ/vd ¹«²¼/v £¬/w ´Ó/p ¼´ÈÕ/t Æð/f ¿ªÊ¼/v Ð­Öú/vd ´¦Àí/v ÑÔ³ÐÐñ/nr (/w Jerry/nx )/w ËùÓÐ/b µÄ/u ¾­¼Í/vn ÊÂÎñ/n £¬/w ¶ø/c ÑÔ³ÐÐñ/nr µÄ/u ¾­¼ÍÈË/n ½«/d ÊÇ/v Ò»/m ÊÖ/n Åõ/v ºì/a ÖÜ½ÜÂ×/nr µÄ/u Ñî¾þÈÙ/nr ¡£/w
+CHARACTERS = ÑÔ³ÐÐñ;Ñî¾þÈÙ;ÖÜ½ÜÂ×;
+RELWORD = ¾­¼ÍÈË;
+RELCOMB = ÑÔ³ÐÐñ,Ñî¾þÈÙ->¾­¼ÍÈË;Ñî¾þÈÙ,ÖÜ½ÜÂ×->¾­¼ÍÈË;
+-----------
+SENTENCE = ×òÈÕÈ«ÌìËû¶¼ÔÚËù×¡µÄ¾ÆµêÅÄÉãÄÚ¾°Ï·£¬²»Ô¸Òâ½ÓÊÜÈÎºÎÃ½Ìå¹ØÓÚËû³ÉÎªÖÜ½ÜÂ×Ê¦µÜµÄ²É·Ã¡£
+POS_TAG = ×òÈÕ/t È«/a Ìì/n Ëû/r ¶¼/d ÔÚ/p Ëù/u ×¡/v µÄ/u ¾Æµê/n ÅÄÉã/v ÄÚ¾°/n Ï·/n £¬/w ²»/d Ô¸Òâ/v ½ÓÊÜ/v ÈÎºÎ/r Ã½Ìå/n ¹ØÓÚ/p Ëû/r ³ÉÎª/v ÖÜ½ÜÂ×/nr Ê¦µÜ/n µÄ/u ²É·Ã/vn ¡£/w
+CHARACTERS = ÖÜ½ÜÂ×;
+RELWORD = Ê¦µÜ;
+RELCOMB = 
+-----------
+SENTENCE = ÆäÊµ£¬ÑÔ³ÐÐñ×Ô¼ºÒ²ÒâÊ¶µ½ËûµÄÐÔ¸ñ¶ÔÆäÔÚÓéÀÖÈ¦µÄ·¢Õ¹·Ç³£²»Àû£¬ÓÚÊÇ¾ö¶¨ÕÒÒ»¸öºÃµÄ¾­¼ÍÈËÀ´°ïÃ¦´òÀí¡£
+POS_TAG = ÆäÊµ/d £¬/w ÑÔ³ÐÐñ/nr ×Ô¼º/r Ò²/d ÒâÊ¶/v µ½/v Ëû/r µÄ/u ÐÔ¸ñ/n ¶Ô/p Æä/r ÔÚ/p ÓéÀÖ/vn È¦/n µÄ/u ·¢Õ¹/vn ·Ç³£/d ²»Àû/a £¬/w ÓÚÊÇ/c ¾ö¶¨/v ÕÒ/v Ò»¸ö/m ºÃ/a µÄ/u ¾­¼ÍÈË/n À´/f °ïÃ¦/v ´ò/v Àí/n ¡£/w
+CHARACTERS = ÑÔ³ÐÐñ;
+RELWORD = ¾­¼ÍÈË;
+RELCOMB = 
+-----------
+SENTENCE = ÔÚÈ¥ÄêµÄÒ»´Î¾Û»áÖÐ£¬ÑÔ³ÐÐñÈÏÊ¶ÁËÖÜ½ÜÂ×µÄ¾­¼ÍÈËÑî¾þÈÙ£¬µ±Ê±Ñî¾þÈÙ½²ÁËÒ»¾ä»°´ò¶¯ÁËËû£¬ÄÇ¾ÍÊÇ¡°ÌìÍõÊÇ³è³öÀ´µÄ¡±£¬±íÊ¾×Ô¼ººÜ×ðÖØÖÜ½ÜÂ×£¬ÍêÈ«°´ÕÕÖÜ½ÜÂ×µÄ¸öÐÔÈÎÆä·¢»Ó¡£
+POS_TAG = ÔÚ/p È¥Äê/t µÄ/u Ò»/m ´Î/q ¾Û»á/v ÖÐ/f £¬/w ÑÔ³ÐÐñ/nr ÈÏÊ¶/v ÁË/u ÖÜ½ÜÂ×/nr µÄ/u ¾­¼ÍÈË/n Ñî¾þÈÙ/nr £¬/w µ±Ê±/t Ñî¾þÈÙ/nr ½²/v ÁË/u Ò»/m ¾ä/q »°/n ´ò¶¯/v ÁË/u Ëû/r £¬/w ÄÇ/r ¾Í/d ÊÇ/v ¡°/w ÌìÍõ/n ÊÇ/v ³è/v ³öÀ´/v µÄ/u ¡±/w £¬/w ±íÊ¾/v ×Ô¼º/r ºÜ/d ×ðÖØ/v ÖÜ½ÜÂ×/nr £¬/w ÍêÈ«/ad °´ÕÕ/p ÖÜ½ÜÂ×/nr µÄ/u ¸öÐÔ/n ÈÎ/v Æä/r ·¢»Ó/v ¡£/w
+CHARACTERS = ÑÔ³ÐÐñ;Ñî¾þÈÙ;ÖÜ½ÜÂ×;
+RELWORD = ¾­¼ÍÈË;
+RELCOMB = Ñî¾þÈÙ,ÖÜ½ÜÂ×->¾­¼ÍÈË;
+-----------
+SENTENCE = ¾ÝÄÚ²¿ÈËÊ¿Í¸Â¶£¬¸Õ¿ªÊ¼Ñî¾þÈÙÊÇ¶àÓÐ¹ËÂÇµÄ£¬ÒòÎªËûÒ²ÁË½âÑÔ³ÐÐñ×ÔÁ¢ÃÅ»§ÈýÄêÀ´£¬Á¬Ðø»»ÁË6¸ö¾­¼ÍÈË£¬ËùÒÔË«·½¾ÍºÏ×÷ÊÂÒËÌÖÂÛÁËºÜ¾Ã£¬Ö±µ½×î½ü²Å´ï³É¹²Ê¶¡£
+POS_TAG = ¾Ý/p ÄÚ²¿/f ÈËÊ¿/n Í¸Â¶/v £¬/w ¸Õ/d ¿ªÊ¼/v Ñî¾þÈÙ/nr ÊÇ/v ¶à/ad ÓÐ/v ¹ËÂÇ/n µÄ/u £¬/w ÒòÎª/p Ëû/r Ò²/d ÁË½â/v ÑÔ³ÐÐñ/nr ×ÔÁ¢/v ÃÅ»§/n Èý/m Äê/q À´/f £¬/w Á¬Ðø/ad »»/v ÁË/u 6/m ¸ö/q ¾­¼ÍÈË/n £¬/w ËùÒÔ/c Ë«·½/n ¾Í/d ºÏ×÷/v ÊÂÒË/n ÌÖÂÛ/v ÁË/u ºÜ/d ¾Ã/a £¬/w Ö±/d µ½/v ×î½ü/t ²Å/d ´ï³É/v ¹²Ê¶/n ¡£/w
+CHARACTERS = ÑÔ³ÐÐñ;Ñî¾þÈÙ;
+RELWORD = ¾­¼ÍÈË;
+RELCOMB = ÑÔ³ÐÐñ,Ñî¾þÈÙ->¾­¼ÍÈË;
+-----------
+SENTENCE = ÕâÒ»´ÎÖÜ½ÜÂ×Çëµ½ºÃÓÑÅËçâ°Ø(Ìý¸è,blog)¡¢¿ÂÓÐÂÚµ£ÈÎ¼Î±ö£¬Îèµ¸½»ÓÉÅËçâ°Ø¸ºÔð£¬RapÈÃ¿ÂÓÐÂÚ·¢»Ó£¬¿ÂÓÐÂÚËµ£º¡®½Óµ½ÖÜ½ÜÂ×µÄÑûÔ¼£¬ÎÒ»¹²îµãÅçÀáÄØ£¯°üº¬·ÑÓñÇå(Ìý¸è)ÔÚÄÚµÄ¼Î±ö£¬È«ÎÞ³êÀÍ¡£
+POS_TAG = Õâ/r Ò»/m ´Î/q ÖÜ½ÜÂ×/nr Çë/v µ½/v ºÃÓÑ/n ÅËçâ°Ø/nr (/w Ìý/v ¸è/vg ,/w blog/nx )/w ¡¢/w ¿ÂÓÐÂÚ/nr µ£ÈÎ/v ¼Î±ö/n £¬/w Îèµ¸/n ½»/v ÓÉ/p ÅËçâ°Ø/nr ¸ºÔð/v £¬/w Rap/nx ÈÃ/v ¿ÂÓÐÂÚ/nr ·¢»Ó/v £¬/w ¿ÂÓÐÂÚ/nr Ëµ/n £º/w ¡®/w ½Óµ½/v ÖÜ½ÜÂ×/nr µÄ/u Ñû/vn Ô¼/d £¬/w ÎÒ/r »¹/d ²îµã/d Åç/v Àá/n ÄØ/y £¯/w °üº¬/v ·ÑÓñÇå/nr (/w Ìý/v ¸è/vg )/w ÔÚÄÚ/u µÄ/u ¼Î±ö/n £¬/w È«/d ÎÞ/v ³êÀÍ/vn ¡£/w
+CHARACTERS = ·ÑÓñÇå;¿ÂÓÐÂÚ;ÅËçâ°Ø;ÖÜ½ÜÂ×;
+RELWORD = ºÃÓÑ;
+RELCOMB = ·ÑÓñÇå,ÖÜ½ÜÂ×->ºÃÓÑ;¿ÂÓÐÂÚ,ÖÜ½ÜÂ×->ºÃÓÑ;ÅËçâ°Ø,ÖÜ½ÜÂ×->ºÃÓÑ;
+-----------
+SENTENCE = Ñî¾þÈÙÔøÈÎÖÜ½ÜÂ×µÄ¾­¼ÍÈË£¬¾ÝÌ¨ÍåÃ½Ìå·ÖÎö£¬ÔÚ°¢¶û·¢ÒôÀÖ¸±×Ü¾­ÀíÎâÇå¿¡ºÍÆä²¢ÁÐ×Ü¾­Àí£¬Ã÷ÏÔÈ¨Á¦Ôâµ½¼Ü¿Õ¡£
+POS_TAG = Ñî¾þÈÙ/nr Ôø/d ÈÎ/v ÖÜ½ÜÂ×/nr µÄ/u ¾­¼ÍÈË/n £¬/w ¾Ý/p Ì¨Íå/ns Ã½Ìå/n ·ÖÎö/vn £¬/w ÔÚ/p °¢¶û·¢ÒôÀÖ/nt ¸±/b ×Ü¾­Àí/n ÎâÇå¿¡/nr ºÍ/c Æä/r ²¢ÁÐ/v ×Ü¾­Àí/n £¬/w Ã÷ÏÔ/a È¨Á¦/n Ôâµ½/v ¼Ü¿Õ/vn ¡£/w
+CHARACTERS = ÎâÇå¿¡;Ñî¾þÈÙ;ÖÜ½ÜÂ×;
+RELWORD = ¾­¼ÍÈË;
+RELCOMB = Ñî¾þÈÙ,ÖÜ½ÜÂ×->¾­¼ÍÈË;
+-----------
+SENTENCE = ¡±¶ÔÓÚÀÏ»ï°éÑî¾þÈÙµÄÀë¿ª£¬×òÈÕ±¾±¨ÖÂµç°¢¶û·¢Ê±µÃµ½µÄ´ð¸´ÊÇ£¬ÖÜ½ÜÂ×ÒÑÖªµÀËûÀë¿ª£¬µ«ÔÝÊ±²»¶ÔÃ½Ìå»ØÓ¦¡£
+POS_TAG = ¡±/w ¶ÔÓÚ/p ÀÏ/a »ï°é/n Ñî¾þÈÙ/nr µÄ/u Àë¿ª/v £¬/w ×òÈÕ/t ±¾±¨/r ÖÂµç/v °¢¶û·¢/nt Ê±/ng µÃµ½/v µÄ/u ´ð¸´/vd ÊÇ/v £¬/w ÖÜ½ÜÂ×/nr ÒÑ/d ÖªµÀ/v Ëû/r Àë¿ª/v £¬/w µ«/c ÔÝÊ±/d ²»/d ¶Ô/p Ã½Ìå/n »ØÓ¦/vn ¡£/w
+CHARACTERS = Ñî¾þÈÙ;ÖÜ½ÜÂ×;
+RELWORD = »ï°é;
+RELCOMB = Ñî¾þÈÙ,ÖÜ½ÜÂ×->»ï°é;
+-----------
+SENTENCE = ¡±ÎâÇå¿¡Í¬Ê±»¹Í¸Â¶£º¡°ÖÜ½ÜÂ×µÄÐøÔ¼ÎÊÌâ£¬Ä¿Ç°Ö÷Òª¶¼ÊÇÓÉÖÜÂèÂèÔÚ¸ú¹«Ë¾¸ß²ãÌ¸£¬¹«Ë¾·½Ãæ³ÏÒâÊ®×ã£¬ÓÉºÃÀÖµÏ¼¯ÍÅµÄÁ½Î»¶­ÊÂ³¤Ç××Ô³ö¶¯Ç¢Ì¸£¬Ï£ÍûÄÜÁô×¡½ÜÂ×¡£
+POS_TAG = ¡±/w ÎâÇå¿¡/nr Í¬Ê±/c »¹/d Í¸Â¶/v £º/w ¡°/w ÖÜ½ÜÂ×/nr µÄ/u Ðø/v Ô¼/j ÎÊÌâ/n £¬/w Ä¿Ç°/t Ö÷Òª/d ¶¼/d ÊÇ/v ÓÉ/p ÖÜ/nr ÂèÂè/n ÔÚ/p ¸ú/v ¹«Ë¾/n ¸ß²ã/n Ì¸/v £¬/w ¹«Ë¾/n ·½Ãæ/n ³ÏÒâ/n Ê®×ã/z £¬/w ÓÉ/p ºÃÀÖµÏ¼¯ÍÅ/nt µÄ/u Á½/m Î»/q ¶­ÊÂ³¤/n Ç××Ô/d ³ö¶¯/v Ç¢Ì¸/v £¬/w Ï£Íû/v ÄÜ/v Áô×¡/v ½ÜÂ×/nr ¡£/w
+CHARACTERS = ½ÜÂ×;ÎâÇå¿¡;ÖÜ;ÖÜ½ÜÂ×;
+RELWORD = ÂèÂè;
+RELCOMB = 
+-----------
+SENTENCE = ¾ÝÁË½â£¬ËäÈ»¸÷·½ÇÀ¶áÖÜ½ÜÂ×£¬µ«ËûÓë°¢¶û·¢µÄÐøÔ¼Ö»Ê£×îºóÇ©×Ö£¬µ«´ËÊ±£¬ËûµÄ¡°Õ½ÓÑ¡±Ñî¾þÈÙÈ¨Á¦¶¯Ò¡?
+POS_TAG = ¾Ý/p ÁË½â/v £¬/w ËäÈ»/c ¸÷·½/r ÇÀ¶á/v ÖÜ½ÜÂ×/nr £¬/w µ«/c Ëû/r Óë/p °¢¶û·¢/nt µÄ/u Ðø/v Ô¼/d Ö»/d Ê£/v ×îºó/f Ç©×Ö/v £¬/w µ«/c ´ËÊ±/r £¬/w Ëû/r µÄ/u ¡°/w Õ½ÓÑ/n ¡±/w Ñî¾þÈÙ/nr È¨Á¦/n ¶¯Ò¡/v ?m
+CHARACTERS = Ñî¾þÈÙ;ÖÜ½ÜÂ×;
+RELWORD = Õ½ÓÑ;
+RELCOMB = Ñî¾þÈÙ,ÖÜ½ÜÂ×->Õ½ÓÑ;
+-----------
+SENTENCE = ÖÜ½ÜÂ×µÄ¾­¼ÍÈËÑî¾þÈÙ×òÌì±íÊ¾£º¡°ÖÜ½ÜÂ×ÓµÓÐ7ÕÅ×¨¼­¸èÇúµÄ°æÈ¨£¬ÕâÔÚ8ÄêÇ°Ëû×÷ÎªÒ»¸öÐÂÈËÓë°¢¶û·¢Ç©Ô¼Ê±¾ÍÊÇÕâÑùÇ©µÄ£¬µ±Ê±¼×·½ÊÇÎâ×ÚÏÜ£¬ÒÒ·½ÊÇÖÜ½ÜÂ×¡£
+POS_TAG = ÖÜ½ÜÂ×/nr µÄ/u ¾­¼ÍÈË/n Ñî¾þÈÙ/nr ×òÌì/t ±íÊ¾/v £º/w ¡°/w ÖÜ½ÜÂ×/nr ÓµÓÐ/v 7/m ÕÅ/q ×¨¼­/n ¸èÇú/n µÄ/u °æÈ¨/n £¬/w Õâ/r ÔÚ/p 8/m Äê/q Ç°/f Ëû/r ×÷Îª/v Ò»¸ö/m ÐÂ/a ÈË/n Óë/p °¢¶û·¢/nt Ç©Ô¼/v Ê±/ng ¾Í/d ÊÇ/v ÕâÑù/r Ç©/v µÄ/u £¬/w µ±Ê±/t ¼×·½/n ÊÇ/v Îâ×ÚÏÜ/nr £¬/w ÒÒ·½/n ÊÇ/v ÖÜ½ÜÂ×/nr ¡£/w
+CHARACTERS = Îâ×ÚÏÜ;Ñî¾þÈÙ;ÖÜ½ÜÂ×;
+RELWORD = ¾­¼ÍÈË;
+RELCOMB = Ñî¾þÈÙ,ÖÜ½ÜÂ×->¾­¼ÍÈË;
+-----------
+SENTENCE = Ñî¾þÈÙÖúÀí¹ÅÐ¡½ã×òÈÕ¸æËß±¾±¨£¬¡°Ä¿Ç°ÈÔÔÚºÍ¶Ô·½¹µÍ¨£¬µ«ÔÚ±¾ÖÜÄÚ²»·½±ã×ö³ö»ØÓ¦¡£
+POS_TAG = Ñî¾þÈÙ/nr ÖúÀí/n ¹ÅÐ¡½ã/nr ×òÈÕ/t ¸æËß/v ±¾±¨/r £¬/w ¡°/w Ä¿Ç°/t ÈÔ/d ÔÚ/p ºÍ/c ¶Ô·½/n ¹µÍ¨/v £¬/w µ«/c ÔÚ/p ±¾/r ÖÜ/q ÄÚ/f ²»/d ·½±ã/v ×ö³ö/v »ØÓ¦/vn ¡£/w
+CHARACTERS = ¹ÅÐ¡½ã;Ñî¾þÈÙ;
+RELWORD = ÖúÀí;
+RELCOMB = ¹ÅÐ¡½ã,Ñî¾þÈÙ->ÖúÀí;
+-----------

@@ -1,0 +1,1237 @@
+SENTENCE = 正值寒假期间，图书馆里仍然有不少学生在埋头读书，总理的到来给他们带来一阵惊喜。
+POS_TAG = 正值/v 寒假/t 期间/f ，/w 图书馆/n 里/f 仍然/d 有/v 不少/m 学生/n 在/p 埋头/vd 读书/v ，/w 总理/nr 的/u 到来/vn 给/p 他们/r 带来/v 一阵/m 惊喜/an 。/w
+CHARACTERS = 总理;
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = 温家宝和同学们热烈讨论起师范教育问题。
+POS_TAG = 温家宝/nr 和/c 同学/n 们/k 热烈/ad 讨论/v 起/v 师范/n 教育/vn 问题/n 。/w
+CHARACTERS = 温家宝;
+RELWORD = 同学;
+RELCOMB = 
+-----------
+SENTENCE = 国家将加大对师范院校的改革和扶持力度，把最优秀的学生吸引到师范院校来，把最有才华的学生培养成人民教师，在全社会树立尊师重教的社会风尚。
+POS_TAG = 国家/n 将/d 加大/v 对/p 师范/n 院校/n 的/u 改革/vn 和/c 扶持/v 力度/n ，/w 把/p 最/d 优秀/a 的/u 学生/n 吸引/v 到/v 师范/n 院校/n 来/f ，/w 把/p 最/d 有/v 才华/n 的/u 学生/n 培养/v 成/m 人民/n 教师/n ，/w 在/p 全/a 社会/n 树立/v 尊师重教/l 的/u 社会/n 风尚/n 。/w
+CHARACTERS = 
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = 他走进电脑动画设计室、机械加工培训中心、汽车学院，观看了各个专业学生的课程学习情况，和他们亲切交谈。
+POS_TAG = 他/r 走/v 进/v 电脑/n 动画/b 设计/vn 室/n 、/w 机械/n 加工/vn 培训/vn 中心/n 、/w 汽车/n 学院/n ，/w 观看/v 了/u 各个/r 专业/n 学生/n 的/u 课程/n 学习/v 情况/n ，/w 和/c 他们/r 亲切/ad 交谈/v 。/w
+CHARACTERS = 
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = 他对师生们说，职业教育不仅要教育学生掌握技能，还要引导学生独立钻研，鼓励学生发明创造。
+POS_TAG = 他/r 对/p 师生/n 们/k 说/v ，/w 职业/n 教育/vn 不仅/c 要/v 教育/vn 学生/n 掌握/v 技能/n ，/w 还/d 要/v 引导/v 学生/n 独立/vd 钻研/v ，/w 鼓励/v 学生/n 发明/v 创造/v 。/w
+CHARACTERS = 
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = 一个国家经济能否持续发展，除了其它因素以外，教育能否得到长足的发展，而教育的发展取决于有没有高素质的教师，而能否培养更多高素质的教师，取决于更多的学生是否愿意报考师范院校?
+POS_TAG = 一个/m 国家/n 经济/n 能否/v 持续/vd 发展/v ，/w 除了/p 其它/r 因素/n 以外/f ，/w 教育/vn 能否/v 得到/v 长足/a 的/u 发展/vn ，/w 而/c 教育/vn 的/u 发展/vn 取决/v 于/p 有/v 没/d 有/v 高/a 素质/n 的/u 教师/n ，/w 而/c 能否/v 培养/v 更/d 多/a 高/a 素质/n 的/u 教师/n ，/w 取决/v 于/p 更/d 多/a 的/u 学生/n 是否/v 愿意/vd 报考/v 师范/n 院/n 校/ng
+CHARACTERS = 
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = 虽然，这些年来，中央和各级政府加大了教育投资，学校的硬件设施得到了改善，但教师的地位和待遇仍然不高，优秀学生愿意做教师而报考师范学校的人仍然不多，教师队伍的整体素质仍然得不到提高。
+POS_TAG = 虽然/c ，/w 这些/r 年/q 来/f ，/w 中央/n 和/c 各级/r 政府/n 加大/v 了/u 教育/vn 投资/vn ，/w 学校/n 的/u 硬件/n 设施/n 得到/v 了/u 改善/vn ，/w 但/c 教师/n 的/u 地位/n 和/c 待遇/n 仍然/d 不/d 高/a ，/w 优秀/a 学生/n 愿意/vd 做/v 教师/n 而/c 报考/v 师范学校/l 的/u 人/n 仍然/d 不/d 多/a ，/w 教师/n 队伍/n 的/u 整体/n 素质/n 仍然/d 得不到/v 提高/v 。/w
+CHARACTERS = 
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = 国家将加大对师范院校的改革和扶持力度，把最优秀的学生吸引到师范院校来，把最有才华的学生培养成人民教师，在全社会树立尊师重教的社会风尚。
+POS_TAG = 国家/n 将/d 加大/v 对/p 师范/n 院校/n 的/u 改革/vn 和/c 扶持/v 力度/n ，/w 把/p 最/d 优秀/a 的/u 学生/n 吸引/v 到/v 师范/n 院校/n 来/f ，/w 把/p 最/d 有/v 才华/n 的/u 学生/n 培养/v 成/m 人民/n 教师/n ，/w 在/p 全/a 社会/n 树立/v 尊师重教/l 的/u 社会/n 风尚/n 。/w
+CHARACTERS = 
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = 中国教师有望，中国的学生们有望，中国教育有望。
+POS_TAG = 中国/ns 教师/n 有/v 望/v ，/w 中国/ns 的/u 学生/n 们/k 有/v 望/v ，/w 中国/ns 教育/vn 有望/v 。/w
+CHARACTERS = 
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = 这是一个振奋人心的信号，中国的教师职业将会得到全社会的仰慕，越来越多的优秀学生将争相报考师范院校，中国教育将会得到史无前例的高速发展。
+POS_TAG = 这/r 是/v 一个/m 振奋人心/i 的/u 信号/n ，/w 中国/ns 的/u 教师/n 职业/n 将/d 会/v 得到/v 全/a 社会/n 的/u 仰慕/vn ，/w 越来越/d 多/a 的/u 优秀/a 学生/n 将/d 争相/d 报考/v 师范/n 院校/n ，/w 中国/ns 教育/vn 将/d 会/v 得到/v 史无前例/i 的/b 高速/b 发展/an 。/w
+CHARACTERS = 
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = 转载自“无为博客”，原文“温总理一句“把最优秀的学生吸引到师范院校来”让人振奋”
+POS_TAG = 转载/v 自/p “/w 无/v 为/p 博客/n ”/w ，/w 原文/n “/w 温总理/nr 一/m 句/q “/w 把/p 最/d 优秀/a 的/u 学生/n 吸引/v 到/v 师范/n 院校/n 来/v ”/w 让/v 人/n 振奋/v ”/w
+CHARACTERS = 温总理;
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = 我们来看看，温总理听说北京社区成功推行“一老一小”医疗保险，受到群众欢迎时，是满意的笑（图二）；抱着云南地震期间出生的孩子时，是慈爱的笑（图四）；与工人们庆祝五一共进午餐时，是自然的笑（图六）；和大学生畅谈理想得到共鸣时，是开怀大笑（图八）；走进农家和主人欢度春节时，是开心的笑。
+POS_TAG = 我们/r 来/v 看看/v ，/w 温总理/nr 听说/v 北京/ns 社区/n 成功/ad 推行/v “/w 一/m 老/a 一/m 小/a ”/w 医疗/n 保险/n ，/w 受到/v 群众/n 欢迎/v 时/ng ，/w 是/v 满意/v 的/u 笑/vn （/w 图/n 二/m ）/w ；/w 抱/v 着/u 云南/ns 地震/n 期间/f 出生/v 的/u 孩子/n 时/ng ，/w 是/v 慈爱/a 的/u 笑/vn （/w 图/n 四/m ）/w ；/w 与/p 工人/n 们/k 庆祝/v 五/m 一共/d 进/v 午餐/v 时/ng ，/w 是/v 自然/a 的/u 笑/vn （/w 图/n 六/m ）/w ；/w 和/c 大/a 学生/n 畅谈/v 理想/n 得到/v 共鸣/v 时/ng ，/w 是/v 开怀大笑/l （/w 图/n 八/m ）/w ；/w 走/v 进/v 农家/n 和/c 主人/n 欢度/v 春节/t 时/ng ，/w 是/v 开心/a 的/u 笑/vn 。/w
+CHARACTERS = 温总理;
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = １、总理和赶往灾区的登机部队领导讲话：“我就一句话，是人民在养你们，你们自己看着办！
+POS_TAG = １/m 、/w 总理/n 和/c 赶往/v 灾区/n 的/u 登机/vn 部队/n 领导/n 讲话/n ：/w “/w 我/r 就/d 一/m 句/q 话/n ，/w 是/v 人民/n 在/p 养/v 你们/r ，/w 你们/r 自己/r 看/v 着/u 办/v ！/w
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 忙碌的一天:除了参加/主持会议本身之外，还要做不少人物专访，有像摩根斯坦利的史蒂芬罗奇（StephenRoach)，WPP的马丁索罗爵士（SirMartinSorrell)这样的CCTV的老朋友,也有像TNT的全球CEO这样从未谋面的工商领袖。
+POS_TAG = 忙碌/a 的/u 一/m 天/q :/nx 除/p 了/u 参加/v / 主持/v 会议/n 本身/r 之外/f ，/w 还/d 要/v 做/v 不/d 少/a 人物/n 专访/vn ，/w 有/v 像/v 摩根斯坦利/nr 的/u 史蒂芬罗奇/ns （/w StephenRoach/nr )/w ，/w WPP/nr 的/u 马丁索罗/nr 爵士/n （/w SirMartinSorrell/nr )/w 这样/r 的/u CCTV/nt 的/u 老/a 朋友/n ,/w 也/d 有/v 像/v TNT/nt 的/u 全球/n CEO/nx 这样/r 从未/d 谋/v 面/n 的/u 工商/n 领袖/n 。/w
+CHARACTERS = SirMartinSorrell;StephenRoach;WPP;马丁索罗;摩根斯坦利;
+RELWORD = 朋友;
+RELCOMB = 
+-----------
+SENTENCE = 和同事们一起为了这场电视辩论工作了很长时间。
+POS_TAG = 和/c 同事/n 们/k 一起/d 为了/p 这/r 场/q 电视/n 辩论/v 工作/v 了/u 很/d 长/a 时间/n 。/w
+CHARACTERS = 
+RELWORD = 同事;
+RELCOMB = 
+-----------
+SENTENCE = 他是人民的儿子
+POS_TAG = 他/r 是/v 人民/n 的/u 儿子/n
+CHARACTERS = 
+RELWORD = 儿子;
+RELCOMB = 
+-----------
+SENTENCE = 这是温家宝从都江堰市一所学校的废墟中捡起学生的鞋子和书包，心情沉重。
+POS_TAG = 这/r 是/v 温家宝/nr 从/p 都江堰/ns 市/n 一/m 所/q 学校/n 的/u 废墟/n 中/f 捡/v 起/v 学生/n 的/u 鞋子/n 和/c 书包/n ，/w 心情/n 沉重/an 。/w
+CHARACTERS = 温家宝;
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = 我记得今年五四青年节那天，总理来到中国政法大学和学生们谈心，那天他在中国政法大学说：“如果说发展经济、改善民生是政府的天职，那么推进社会公平正义就是政府的良心。
+POS_TAG = 我/r 记得/v 今年/t 五四/m 青年节/t 那天/r ，/w 总理/nr 来到/v 中国政法大学/nt 和/c 学生/n 们/k 谈心/v ，/w 那天/r 他/r 在/p 中国政法大学/nt 说/v ：/w “/w 如果/c 说/v 发展/vn 经济/n 、/w 改善/v 民生/nz 是/v 政府/n 的/u 天职/n ，/w 那么/r 推进/v 社会/n 公平/a 正义/n 就/d 是/v 政府/n 的/u 良心/n 。/w
+CHARACTERS = 总理;
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = ”他对法律的理解、阐释令所有学者、学生心服。
+POS_TAG = ”/w 他/r 对/p 法律/n 的/u 理解/vn 、/w 阐释/v 令/v 所有/b 学者/n 、/w 学生/n 心服/vn 。/w
+CHARACTERS = 
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = 在鼓楼大街附近的一家小餐馆里，我和一位好友涮着羊肉聊着天。
+POS_TAG = 在/p 鼓楼/ns 大街/n 附近/f 的/u 一/m 家/q 小/a 餐馆/n 里/f ，/w 我/r 和/c 一/m 位/q 好友/n 涮/v 着/u 羊肉/n 聊/v 着/u 天/q 。/w
+CHARACTERS = 
+RELWORD = 好友;
+RELCOMB = 
+-----------
+SENTENCE = 来不及带换洗衣服和洗漱用品，车子已经在门口等着，我和同行的文字记者赵承一起火速赶到了西郊机场。
+POS_TAG = 来不及/v 带/v 换洗/v 衣服/n 和/c 洗/v 漱/v 用品/n ，/w 车子/n 已经/d 在/p 门口/s 等/v 着/u ，/w 我/r 和/c 同行/n 的/u 文字/n 记者/n 赵承/nr 一起/s 火速/d 赶到/v 了/u 西郊/s 机场/n 。/w
+CHARACTERS = 赵承;
+RELWORD = 同行;
+RELCOMB = 
+-----------
+SENTENCE = 温家宝饶有兴趣地观看了大学生创新成果展览，电动汽车、污水净化装置、热水器节水技术……温家宝鼓励学生们多搞创新、多出成果。
+POS_TAG = 温家宝/nr 饶有兴趣/l 地/u 观看/v 了/u 大/a 学生/n 创新/v 成果/n 展览/vn ，/w 电动/b 汽车/n 、/w 污水/n 净化/vn 装置/n 、/w 热水器/n 节水/vn 技术/n …/w …/w 温家宝/nr 鼓励/v 学生/n 们/k 多/ad 搞/v 创新/v 、/w 多/ad 出/v 成果/n 。/w
+CHARACTERS = 温家宝;
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = 看到学生们编制的新农村人居环境建设规划时，温家宝高兴地说，如果你们把规划搞好了，农民的房子就不会建了拆、拆了建，可以省不少钱。
+POS_TAG = 看到/v 学生/n 们/k 编制/v 的/u 新/a 农村/n 人居/j 环境/n 建设/n 规划/n 时/d ，/w 温家宝/nr 高兴/a 地/u 说/v ，/w 如果/c 你们/r 把/p 规划/n 搞好/v 了/y ，/w 农民/n 的/u 房子/n 就/d 不/d 会/v 建/v 了/u 拆/v 、/w 拆/v 了/u 建/v ，/w 可以/v 省/n 不少/m 钱/n 。/w
+CHARACTERS = 温家宝;
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = 我们的民族是大有希望的民族，希望同学们经常地仰望天空，学会做人，学会思考，学会知识和技能，做一个关心国家命运的人。
+POS_TAG = 我们/r 的/u 民族/n 是/v 大/a 有/v 希望/v 的/u 民族/n ，/w 希望/v 同学/n 们/k 经常/d 地/u 仰望/v 天空/n ，/w 学会/v 做人/v ，/w 学会/n 思考/vn ，/w 学会/v 知识/n 和/c 技能/n ，/w 做/v 一个/m 关心/v 国家/n 命运/n 的/u 人/n 。/w
+CHARACTERS = 
+RELWORD = 同学;
+RELCOMB = 
+-----------
+SENTENCE = 还有个别的局级以上的地方领导，已经有两套房子了（妻子分一套，自己单位分一套），加上自己又想方设法的搞上几套，结果一个局长可能有上10套住房，他们不是存在手中，而是经常光顾与中介公司，他们经过“炒房”而成为了第一批富有的人们。
+POS_TAG = 还/d 有/v 个别/a 的/u 局级/b 以上/f 的/u 地方/n 领导/n ，/w 已经/d 有/v 两/m 套/q 房子/n 了/y （/w 妻子/n 分/dg 一/m 套/q ，/w 自己/r 单位/n 分/dg 一/m 套/q ）/w ，/w 加上/v 自己/r 又/d 想方设法/i 的/u 搞/v 上/m 几/m 套/q ，/w 结果/n 一个/m 局长/n 可能/v 有/v 上/m 10/m 套/q 住房/n ，/w 他们/r 不/d 是/v 存在/v 手中/s ，/w 而是/c 经常/d 光顾/v 与/p 中介/n 公司/n ，/w 他们/r 经过/v “/w 炒/v 房/n ”/w 而/c 成为/v 了/u 第一/m 批/q 富有/a 的/u 人们/n 。/w
+CHARACTERS = 
+RELWORD = 领导;妻子;
+RELCOMB = 
+-----------
+SENTENCE = 录冶α私饬擞泄厍榭龊蠖缘钡馗刹克担鼻暗谝晃坏幕故且热耍械顾姆课荻家沟准觳椋幸幌呦Ｍ鸵η谰?第二要立即普查清楚死亡人数、掩埋人数、失踪人数，有关部门和学校要做好学生家长的工作;第三要把群众生活安置好，食品、帐篷、医护人员和药品等要及时到位。
+POS_TAG = / 录/ng 冶/vg α/vg 私/ag 饬/g 擞/x 泄/vg 厍/g 榭/g 龊/x 蠖/x 缘/n 钡/n 馗/g 刹/v 克/j 担/ng /ng 鼻/ng 暗/a 谝/g 晃/v 坏/a 幕/n 故/c 且/c /c 热/a 耍/v /v /v 械/nr 顾/ng /ng 姆/x 课/n 荻/n 家/k /k 沟/n 准/a 觳/x 椋/x /x 幸/dg 幌/dg 呦/e Ｍ/nx /nx 鸵/nx /nx /nx η/nx 谰/n ?/k 第二/m 要/v 立即/d 普查/v 清楚/ad 死亡/v 人数/n 、/w 掩埋/v 人数/n 、/w 失踪/vn 人数/n ，/w 有关/vn 部门/n 和/c 学校/n 要/v 做/v 好/a 学生/n 家长/n 的/u 工作/vn ;/nx 第三/m 要/v 把/p 群众/n 生活/vn 安置/v 好/a ，/w 食品/n 、/w 帐篷/n 、/w 医护/vn 人员/n 和/c 药品/n 等/u 要/v 及时/ad 到位/v 。/w
+CHARACTERS = 械;
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = ”总理向前往汶川的登机部队领导发出指示。
+POS_TAG = ”/w 总理/n 向/p 前往/v 汶川/ns 的/u 登机/vn 部队/n 领导/n 发出/v 指示/n 。/w
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = ”对抗震救灾的领导群众讲话。
+POS_TAG = ”/w 对/p 抗震救灾/l 的/u 领导/n 群众/n 讲话/n 。/w
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = “我是温家宝爷爷，孩子们一定要挺住?
+
+POS_TAG = “/w 我/r 是/v 温家宝/nr 爷爷/n ，/w 孩子/n 们/k 一定/d 要/v 挺/ag 住/v ?m
+CHARACTERS = 温家宝;
+RELWORD = 爷爷;
+RELCOMB = 
+-----------
+SENTENCE = 温总理等领导认真听取了携程旅行网CEO范敏关于携程旅行网以及国内在线旅游业的汇报，仔细询问了携程的业务范围、运营规模?
+POS_TAG = 温总理/nr 等/u 领导/n 认真/ad 听取/v 了/u 携程旅行网/nt CEO/nx 范敏/nr 关于/p 携/v 程/q 旅行/vn 网/n 以及/c 国内/s 在线/b 旅游业/n 的/u 汇报/vn ，/w 仔细/ad 询问/v 了/u 携/v 程/q 的/u 业务/n 范围/n 、/w 运营/v 规/vg 模/ng
+CHARACTERS = 范敏;温总理;
+RELWORD = 领导;
+RELCOMB = 范敏,温总理->领导;
+-----------
+SENTENCE = 温总理是以文学艺术家的朋友身份与大家思想见面的。
+POS_TAG = 温总理/nr 是/v 以/p 文学/n 艺术家/n 的/u 朋友/n 身份/n 与/p 大家/r 思想/n 见面/v 的/u 。/w
+CHARACTERS = 温总理;
+RELWORD = 朋友;
+RELCOMB = 
+-----------
+SENTENCE = 5、温总理写诗通过范敬宜求教于并没谋面的李瑛老师，并给其写信，表达早已景仰之情。
+POS_TAG = 5/m 、/w 温总理/nr 写/v 诗/n 通过/p 范敬宜/nr 求教/v 于/p 并/c 没/d 谋/v 面/n 的/u 李瑛/nr 老师/n ，/w 并/c 给/p 其/r 写信/v ，/w 表达/v 早已/d 景仰/v 之/u 情/ng 。/w
+CHARACTERS = 范敬宜;李瑛;温总理;
+RELWORD = 老师;
+RELCOMB = 
+-----------
+SENTENCE = 我的祖父、父亲和母亲都是教员。
+POS_TAG = 我/r 的/u 祖父/n 、/w 父亲/n 和/c 母亲/n 都/d 是/v 教员/n 。/w
+CHARACTERS = 
+RELWORD = 父亲;母亲;祖父;
+RELCOMB = 
+-----------
+SENTENCE = 战火烧毁了我的全家，包括爷爷亲手办的那座小学。
+POS_TAG = 战火/n 烧毁/v 了/u 我/r 的/u 全家/n ，/w 包括/v 爷爷/n 亲手/d 办/v 的/u 那/r 座/q 小学/n 。/w
+CHARACTERS = 
+RELWORD = 爷爷;
+RELCOMB = 
+-----------
+SENTENCE = 我目睹了在邓小平同志和江泽民同志的领导下，中国改革开放和现代化建设所取得的巨大成就，中国面貌发生的历史性变化。
+POS_TAG = 我/r 目睹/v 了/u 在/p 邓小平/nr 同志/n 和/c 江泽民/nr 同志/n 的/u 领导/n 下/f ，/w 中国/ns 改革/vn 开放/vn 和/c 现代化/vn 建设/vn 所/u 取得/v 的/u 巨大/a 成就/n ，/w 中国/ns 面貌/n 发生/v 的/u 历史性/n 变化/vn 。/w
+CHARACTERS = 邓小平;江泽民;
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 中国的建设事业是非常伟大也非常艰巨的，惟有在中国共产党的领导下，坚持改革开放，走中国特色社会主义道路，国家才能繁荣富强；惟有坚持民主、科学和负责任的精神，才能实现我们的目标。
+POS_TAG = 中国/ns 的/u 建设/vn 事业/n 是/v 非常/d 伟大/a 也/d 非常/d 艰巨/a 的/u ，/w 惟有/v 在/p 中国/ns 共产党/n 的/u 领导/n 下/f ，/w 坚持/v 改革/vn 开放/vn ，/w 走/v 中国/ns 特色/n 社会主义/n 道路/n ，/w 国家/n 才/d 能/v 繁荣富强/i ；/w 惟有/v 坚持/v 民主/an 、/w 科学/n 和/c 负/v 责任/n 的/u 精神/n ，/w 才能/v 实现/v 我们/r 的/u 目标/n 。/w
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 过去，中国国家领导人很难在社交网站上进入我们的视线，不过最近，温家宝的名字却出现在了美国知名社交网站Facebook中，并且在短期内迅速走红，成为了最受欢迎的政治名人之一。
+POS_TAG = 过去/t ，/w 中国/ns 国家/n 领导/n 人/n 很/d 难/a 在/p 社交/n 网站/n 上/m 进入/v 我们/r 的/u 视线/n ，/w 不过/c 最近/t ，/w 温家宝/nr 的/u 名字/n 却/d 出现/v 在/p 了/u 美国/ns 知名/a 社交/n 网站/n Facebook/nx 中/f ，/w 并且/c 在/p 短期/b 内/f 迅速/ad 走红/v ，/w 成为/v 了/u 最/d 受/v 欢迎/v 的/u 政治/n 名人/n 之一/r 。/w
+CHARACTERS = 温家宝;
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 据天津日报的报道，14日早晨，温总理在一所垮塌的学校组织营救300名被埋学生时，不慎摔倒在瓦砾上，手臂受伤出血，但他几次拒绝治疗，坚持让医生先救别人。
+POS_TAG = 据/p 天津/ns 日报/n 的/u 报道/n ，/w 14日/t 早晨/t ，/w 温/ag 总理/n 在/p 一/m 所/q 垮/ag 塌/v 的/u 学校/n 组织/v 营救/v 300/m 名/q 被/p 埋/v 学生/n 时/ng ，/w 不慎/d 摔倒/v 在/p 瓦砾/n 上/m ，/w 手臂/n 受伤/v 出/v 血/n ，/w 但/c 他/r 几/m 次/q 拒绝/v 治疗/vn ，/w 坚持/v 让/v 医生/n 先/d 救/v 别人/r 。/w
+CHARACTERS = 
+RELWORD = 学生;医生;
+RELCOMB = 
+-----------
+SENTENCE = 在中央电视台的一段画面上，温总理穿着一双灰色运动鞋，蹲在废墟上，大声安慰被压学生：“我是温家宝爷爷，孩子们一定要挺住?
+POS_TAG = 在/p 中央/n 电视台/n 的/u 一/m 段/q 画面/n 上/m ，/w 温总理/nr 穿/v 着/u 一/m 双/q 灰色/n 运动鞋/n ，/w 蹲/v 在/p 废墟/n 上/m ，/w 大声/d 安慰/v 被/p 压/v 学生/n ：/w “/w 我/r 是/v 温家宝/nr 爷爷/n ，/w 孩子/n 们/k 一定/d 要/v 挺/ag 住/v ?m
+CHARACTERS = 温家宝;温总理;
+RELWORD = 学生;爷爷;
+RELCOMB = 
+-----------
+SENTENCE = 在大陆最大的大学生社交网站校内网上，许多网友开始上传温总理在灾区的照片，并为温总理加油。
+POS_TAG = 在/p 大陆/n 最/d 大/a 的/u 大/a 学生/n 社交/n 网站/n 校内/s 网上/s ，/w 许多/m 网友/n 开始/n 上/f 传/v 温总理/nr 在/c 灾区/n 的/b 照片/n ，/w 并/c 为/v 温总理/nr 加油/v 。/w
+CHARACTERS = 温总理;
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = 哈佛大学的中国留学生KaiWang说：“请大家广泛地邀请自己的朋友，特别是在国内的朋友，来加入这个网址。
+POS_TAG = 哈佛/ns 大学/n 的/u 中国/ns 留学生/n KaiWang/nr 说/v ：/w “/w 请/v 大家/r 广泛/a 地/u 邀请/v 自己/r 的/u 朋友/n ，/w 特别/d 是/v 在/p 国内/s 的/u 朋友/n ，/w 来/v 加入/v 这/r 个/q 网址/n 。/w
+CHARACTERS = KaiWang;
+RELWORD = 朋友;
+RELCOMB = 
+-----------
+SENTENCE = 由于连绵的大雨导致救援行动受阻，在废墟下的民众急需救助，心系民众、心急如焚的温总理面对空降部队的领导说出“我就一句话，是人民在养你们，你们自已看着办”的话语是自然而然的。
+POS_TAG = 由于/p 连绵/z 的/u 大雨/n 导致/v 救援/vn 行动/vn 受阻/vn ，/w 在/p 废墟/n 下/f 的/u 民众/n 急需/v 救助/vn ，/w 心/n 系/v 民众/n 、/w 心急如焚/i 的/u 温总理/nr 面对/v 空降/vn 部队/n 的/u 领导/n 说/v 出/v “/w 我/r 就/d 一/m 句/q 话/n ，/w 是/v 人民/n 在/p 养/v 你们/r ，/w 你们/r 自已/r 看/v 着/u 办/v ”/w 的/u 话语/n 是/v 自然而然/i 的/u 。/w
+CHARACTERS = 温总理;
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 温总理发怒时的一句话说给谁听无须多讲，当然是说给在场的部队领导们听的，他要用这句话鞭策军人们克服困难勇往直前，他要用这句话为灾区百姓赢得宝贵的时间。
+POS_TAG = 温总理/nr 发怒/v 时/d 的/b 一/m 句/n 话/m 说/n 给/p 谁/r 听/n 无须/d 多/a 讲/ng ，/w 当然/d 是/v 说/v 给/p 在场/v 的/u 部队/n 领导/n 们/k 听/v 的/u ，/w 他/r 要/v 用/p 这/r 句/q 话/n 鞭策/vn 军人/n 们/k 克服/v 困难/an 勇往直前/i ，/w 他/r 要/v 用/p 这/r 句/q 话/n 为/p 灾区/n 百姓/n 赢/v 得/u 宝贵/a 的/u 时间/n 。/w
+CHARACTERS = 温总理;
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 他和同龄人之间是兄弟，他和年轻人之间就是老百姓的叔叔和爷爷。
+POS_TAG = 他/r 和/c 同龄人/n 之间/f 是/v 兄弟/n ，/w 他/r 和/c 年轻人/n 之间/f 就/d 是/v 老百姓/n 的/u 叔叔/n 和/c 爷爷/n 。/w
+CHARACTERS = 
+RELWORD = 叔叔;兄弟;爷爷;
+RELCOMB = 
+-----------
+SENTENCE = 唐朝皇帝李世民说：水可载舟亦可覆舟，温习这句话使我们明白来自上面政权的明智认识是多么可贵！
+POS_TAG = 唐朝/t 皇帝/n 李世民/nr 说/v ：/w 水/n 可/v 载/v 舟/n 亦可/v 覆/vg 舟/n ，/w 温习/v 这/r 句/n 话/m 使/j 我们/r 明白/a 来自/p 上面/f 政权/n 的/b 明智/a 认识/c 是/a 多么/a 可贵/a ！/w
+CHARACTERS = 李世民;
+RELWORD = 皇帝;
+RELCOMB = 
+-----------
+SENTENCE = 在绵阳美瑞纺织公司安置点，12岁的小学六年级学生王师晨说：“我还有一个小小的要求。
+POS_TAG = 在/p 绵阳/ns 美/j 瑞/j 纺织/n 公司/n 安置/v 点/t ，/w 12/m 岁/q 的/u 小学/n 六/m 年级/n 学生/n 王师晨/nr 说/v ：/w “/w 我/r 还/d 有/v 一个/m 小小/z 的/u 要求/n 。/w
+CHARACTERS = 王师晨;
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = 在实地考察抢救因地震被掩埋在废墟里的小学生们情况时，温总理大声告诉孩子：“我是温家宝爷爷，孩子们一定要挺住?
+POS_TAG = 在/p 实地/d 考察/v 抢救/v 因/p 地震/n 被/p 掩埋/v 在/p 废墟/n 里/f 的/u 小/a 学生/n 们/k 情况/n 时/ng ，/w 温总理/nr 大声/d 告诉/v 孩子/n ：/w “/w 我/r 是/v 温家宝/nr 爷爷/n ，/w 孩子/n 们/k 一定/d 要/v 挺/ag 住/v ?m
+CHARACTERS = 温家宝;温总理;
+RELWORD = 学生;爷爷;
+RELCOMB = 
+-----------
+SENTENCE = ”在聚源镇中学，他弯腰从废墟中捡起学生的鞋子和书包，脸色凝重。
+POS_TAG = ”/w 在/p 聚/v 源镇/ns 中学/n ，/w 他/r 弯腰/v 从/p 废墟/n 中/f 捡/v 起/v 学生/n 的/u 鞋子/n 和/c 书包/n ，/w 脸色/n 凝重/z 。/w
+CHARACTERS = 
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = ”一国总理用爷爷的身份与孩子们沟通，用平民的感情去安慰鼓励灾难中的民众，亲切中拉近了距离，悲痛中感受到温暖，困境中增添了信心。
+POS_TAG = ”/w 一/m 国/n 总理/n 用/p 爷爷/n 的/u 身份/n 与/c 孩子/n 们/k 沟通/v ，/w 用/p 平民/n 的/u 感情/n 去/v 安慰/vd 鼓励/v 灾难/n 中/f 的/u 民众/n ，/w 亲切/a 中/f 拉/v 近/a 了/u 距离/n ，/w 悲痛/an 中/f 感受/v 到/v 温暖/an ，/w 困境/n 中/f 增添/v 了/u 信心/n 。/w
+CHARACTERS = 
+RELWORD = 爷爷;
+RELCOMB = 
+-----------
+SENTENCE = 而传统意义上的“亲民”，更多表现为礼贤下士、仁者爱人式的明主贤君政治。
+POS_TAG = 而/c 传统/n 意义/n 上/m 的/u “/w 亲/ng 民/ng ”/w ，/w 更/d 多/ad 表现/v 为/v 礼贤下士/i 、/w 仁/ag 者/ng 爱人/n 式/k 的/u 明/ag 主/n 贤/ag 君/ng 政治/n 。/w
+CHARACTERS = 
+RELWORD = 爱人;
+RELCOMB = 
+-----------
+SENTENCE = 说实在的，那样的“亲民”，有时太容易了，只需作出一个姿态（比如皇帝下一道“罪己诏”），就可以接受万民礼拜、叨颂圣恩了。
+POS_TAG = 说/v 实在/a 的/u ，/w 那样/r 的/u “/w 亲/ng 民/ng ”/w ，/w 有时/d 太/d 容易/a 了/y ，/w 只/d 需/v 作出/v 一个/m 姿态/n （/w 比如/v 皇帝/n 下/f 一/m 道/q “/w 罪/vg 己/r 诏/ng ”/c ）/w ，/w 就/d 可以/v 接受/v 万民/n 礼拜/n 、/w 叨颂圣恩了/nr 。/w
+CHARACTERS = 叨颂圣恩了;
+RELWORD = 皇帝;
+RELCOMB = 
+-----------
+SENTENCE = 2006年12月1日，温家宝总理邀请部分艾滋病致孤儿童和患者到中南海参观，“孩子们，你们到家了。
+POS_TAG = 2006年/t 12月/t 1日/t ，/w 温家宝/nr 总理/n 邀请/vn 部分/n 艾滋病/n 致/v 孤/ag 儿童/n 和/c 患者/n 到/v 中南海/ns 参观/v ，/w “/w 孩子/n 们/k ，/w 你们/r 到/v 家/n 了/y 。/w
+CHARACTERS = 温家宝;
+RELWORD = 患者;
+RELCOMB = 
+-----------
+SENTENCE = ”温总理对随行的山东省和中石化领导说：“石油勘探工人风餐露宿，工作生活都十分艰苦。
+POS_TAG = ”/w 温/ag 总理/n 对/p 随行/v 的/u 山东省/ns 和/c 中石化/j 领导/n 说/n ：/w “/w 石油/n 勘探/vn 工人/n 风餐露宿/i ，/w 工作/vn 生活/vn 都/d 十分/d 艰苦/a 。/w
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 8、关键词：地震、学生
+POS_TAG = 8/m 、/w 关键/a 词/n ：/w 地震/n 、/w 学生/n
+CHARACTERS = 
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = 2005年1月2日，陕西省铜川市，温总理在遇难的陈家山矿副总工程师牛铁奇家慰问时，把牛铁奇的儿子抱在怀里，与他同悲同泣。
+POS_TAG = 2005年/t 1月/t 2日/t ，/w 陕西省/ns 铜川市/ns ，/w 温总理/nr 在/p 遇难/v 的/u 陈家山/ns 矿/n 副/b 总工程师/n 牛铁奇/nr 家/n 慰问/v 时/ng ，/w 把/p 牛铁奇/nr 的/u 儿子/n 抱/v 在/p 怀里/s ，/w 与/p 他/r 同悲/v 同/c 泣/ng 。/w
+CHARACTERS = 牛铁奇;温总理;
+RELWORD = 儿子;
+RELCOMB = 
+-----------
+SENTENCE = 他叮嘱牛铁奇的妻子：要坚强地挺过这场灾难，把孩子教育好，把生活安排好。
+POS_TAG = 他/r 叮嘱/v 牛铁奇/nr 的/u 妻子/n ：/w 要/v 坚强/a 地/u 挺/v 过/u 这/r 场/q 灾难/n ，/w 把/p 孩子/n 教育/vn 好/a ，/w 把/p 生活/vn 安排/v 好/a 。/w
+CHARACTERS = 牛铁奇;
+RELWORD = 妻子;
+RELCOMB = 
+-----------
+SENTENCE = 甘宇平委员说，国务院领导和各部委的负责同志每年都要来和政协委员面对面地交流，听取委员们对政府工作的意见。
+POS_TAG = 甘宇平/nr 委员/n 说/v ，/w 国务院/nt 领导/n 和/c 各/r 部委/j 的/u 负责/vn 同志/n 每年/r 都/d 要/v 来/v 和/c 政协/j 委员/n 面对面/l 地/u 交流/v ，/w 听取/v 委员/n 们/k 对/p 政府/n 工作/vn 的/u 意见/n 。/w
+CHARACTERS = 甘宇平;
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 他注意到，在政协委员的发言时，温总理带头，所有随行前来的部委领导们都在认真记录。
+POS_TAG = 他/r 注意/v 到/v ，/w 在/p 政协/j 委员/n 的/u 发言/vn 时/ng ，/w 温总理/nr 带头/v ，/w 所有/b 随行/vn 前/f 来/v 的/u 部委/j 领导/n 们/k 都/d 在/p 认真/ad 记录/v 。/w
+CHARACTERS = 温总理;
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 这次旅程除了参观考察一些预定的项目之外，还有一项特别任务，就是访问中日青年交流中心的老朋友、去年为温家宝总理访日提供35号球衣的日本迪桑特集团。
+POS_TAG = 这次/r 旅程/n 除了/p 参观/v 考察/v 一些/m 预定/v 的/u 项目/n 之外/f ，/w 还有/v 一/m 项/q 特别/a 任务/n ，/w 就/d 是/v 访问/v 中/j 日/j 青年/n 交流/vn 中心/n 的/u 老/a 朋友/n 、/w 去年/t 为/p 温家宝/nr 总理/n 访/v 日/j 提供/v 35/m 号/q 球衣/n 的/b 日本/ns 迪桑特/nr 集团/n 。/w
+CHARACTERS = 迪桑特;温家宝;
+RELWORD = 朋友;
+RELCOMB = 迪桑特,温家宝->朋友;
+-----------
+SENTENCE = 而是以真实和淳朴的手法，将故事展开的焦点深化集中到了在这次“两国国事访问”中，相对来说的一个“小人物”——日本棒球教练身上拉开了序幕。
+POS_TAG = 而是/c 以/p 真实/a 和/c 淳朴/a 的/u 手法/n ，/w 将/p 故事/n 展开/v 的/u 焦点/n 深化/v 集中/ad 到/v 了/u 在/p 这次/r “/w 两/m 国/n 国事访问/l ”/w 中/f ，/w 相对/d 来说/v 的/u 一个/m “/w 小/a 人物/n ”/w ——/w 日本/ns 棒球/n 教练/n 身上/s 拉开/v 了/u 序幕/n 。/w
+CHARACTERS = 
+RELWORD = 教练;
+RELCOMB = 
+-----------
+SENTENCE = 他曾是一位日本棒球少年，但今日是负责“秘密准备”接待中国总理国事之后与日本大学生打一场棒球的日本教练。
+POS_TAG = 他/r 曾/d 是/v 一/m 位/q 日本/ns 棒球/n 少年/n ，/w 但/c 今日/t 是/v 负责/v “/w 秘密/ad 准备/v ”/w 接待/v 中国/ns 总理/n 国事/n 之后/f 与/c 日本/ns 大/a 学生/n 打/p 一/m 场/k 棒球/n 的/b 日本/ns 教练/n 。/w
+CHARACTERS = 
+RELWORD = 教练;学生;
+RELCOMB = 
+-----------
+SENTENCE = ”当听说她的丈夫去年有3万元的收入时，温家宝高兴地祝愿他们日子越过越好。
+POS_TAG = ”/w 当/p 听说/v 她/r 的/u 丈夫/n 去年/t 有/v 3万/m 元/q 的/u 收入/n 时/ng ，/w 温家宝/nr 高兴/a 地/u 祝愿/v 他们/r 日子/n 越/d 过/v 越/d 好/a 。/w
+CHARACTERS = 温家宝;
+RELWORD = 丈夫;
+RELCOMB = 
+-----------
+SENTENCE = 当时在接种室的高井幼儿园老师陈爱民回忆，她抱着自己班上一个4岁的小女孩，温家宝总理就给小女孩喂服预防脊髓灰质炎的糖丸。
+POS_TAG = 当时/t 在/p 接种室/n 的/u 高井幼儿园/nt 老师/n 陈爱民/nr 回忆/v ，/w 她/r 抱/v 着/u 自己/r 班/n 上/f 一个/m 4/m 岁/q 的/u 小/a 女孩/n ，/w 温家宝/nr 总理/n 就/d 给/v 小/a 女孩/n 喂/v 服/v 预防/v 脊髓/n 灰质炎/n 的/u 糖丸/n 。/w
+CHARACTERS = 陈爱民;温家宝;
+RELWORD = 老师;
+RELCOMB = 
+-----------
+SENTENCE = 陈爱民说，当时，总理问她是不是孩子的家长，她说是孩子的老师，孩子的父母都是河南来京务工人员，平常工作比较忙。
+POS_TAG = 陈爱民/nr 说/v ，/w 当时/t ，/w 总理/n 问/v 她/r 是/v 不/d 是/v 孩子/n 的/u 家/n 长/a ，/w 她/r 说/v 是/v 孩子/n 的/u 老师/n ，/w 孩子/n 的/u 父母/n 都/d 是/v 河南/ns 来京/v 务工人员/n ，/w 平常/a 工作/vn 比较/d 忙/v 。/w
+CHARACTERS = 陈爱民;
+RELWORD = 老师;
+RELCOMB = 
+-----------
+SENTENCE = 鼓励大学生多接触社会
+POS_TAG = 鼓励/v 大/a 学生/n 多/ad 接触/v 社会/n
+CHARACTERS = 
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = 在三层理科阅览室，温家宝一一与学生们握手，仔细询问他们的学习、家庭和生活情况。
+POS_TAG = 在/p 三/m 层/q 理科/n 阅览室/n ，/w 温家宝/nr 一一/m 与/p 学生/n 们/k 握手/v ，/w 仔细/ad 询问/v 他们/r 的/u 学习/vn 、/w 家庭/n 和/c 生活/vn 情况/n 。/w
+CHARACTERS = 温家宝;
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = 学理工的学生，要学一点文史、艺术，学文史和艺术的学生，也要学一点理工。
+POS_TAG = 学理/n 工/a 的/b 学生/n ，/w 要/v 学/v 一点/t 文史/n 、/w 艺术/n ，/w 学/v 文史/n 和/c 艺术/n 的/u 学生/n ，/w 也/d 要/v 学/v 一点/t 理/n 工/ag 。/w
+CHARACTERS = 
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = 有学生问总理，应该如何处理在校学习与社会实践的关系。
+POS_TAG = 有/v 学生/n 问/v 总理/n ，/w 应该/v 如何/r 处理/v 在校/b 学习/vn 与/c 社会/n 实践/vn 的/u 关系/n 。/w
+CHARACTERS = 
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = 温家宝结合自己的经历说，青年学生肩负改造社会的重任，要经常走出校门，利用回家、勤工俭学等机会接触社会、了解社会。
+POS_TAG = 温家宝/nr 结合/v 自己/r 的/u 经历/n 说/v ，/w 青年/n 学生/n 肩负/v 改造/vn 社会/n 的/u 重任/n ，/w 要/v 经常/d 走/v 出/v 校门/n ，/w 利用/v 回/v 家/q 、/w 勤工俭学/l 等/u 机会/n 接触/vn 社会/n 、/w 了解/v 社会/n 。/w
+CHARACTERS = 温家宝;
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = 离开图书馆，温家宝先后来到学生宿舍看望青年学生。
+POS_TAG = 离开/v 图书馆/n ，/w 温家宝/nr 先后/d 来到/v 学生/n 宿舍/n 看望/v 青年/n 学生/n 。/w
+CHARACTERS = 温家宝;
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = 对来自困难家庭的学生，温家宝更是关切地询问他们的学费和生活费有没有保障。
+POS_TAG = 对/p 来自/v 困难/an 家庭/n 的/u 学生/n ，/w 温家宝/nr 更/d 是/v 关切/a 地/u 询问/v 他们/r 的/u 学费/n 和/c 生活费/n 有/v 没有/d 保障/v 。/w
+CHARACTERS = 温家宝;
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = 当听到同学们说通过助学贷款、奖学金等方式，能够解决上学费用问题时，温家宝十分欣慰，再三叮嘱教育部负责人，一定要帮助困难学生解决问题。
+POS_TAG = 当/p 听到/v 同学/n 们/k 说/v 通过/p 助学/vn 贷款/n 、/w 奖学金/n 等/u 方式/n ，/w 能够/v 解决/v 上学/v 费用/n 问题/n 时/ng ，/w 温家宝/nr 十分/d 欣慰/a ，/w 再三/d 叮嘱/v 教育部/nt 负责人/n ，/w 一定/d 要/v 帮助/v 困难/an 学生/n 解决/v 问题/n 。/w
+CHARACTERS = 温家宝;
+RELWORD = 同学;学生;
+RELCOMB = 
+-----------
+SENTENCE = 【背景】去年5月4日，国务院总理温家宝专程来到北京师范大学，亲切看望青年学生，与大家共度五四青年节。
+POS_TAG = 【/w 背景/n 】/w 去年/t 5月/t 4日/t ，/w 国务院/nt 总理/n 温家宝/nr 专程/d 来到/v 北京师范大学/nt ，/w 亲切/ad 看望/v 青年/n 学生/n ，/w 与/p 大家/r 共度/v 五四/m 青年/n 节/vg 。/w
+CHARACTERS = 温家宝;
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = ”3月16日，西城区黄城根小学语文老师陈胜昔这样描述总理给她留下的印象。
+POS_TAG = ”/w 3月/t 16日/t ，/w 西城区/ns 黄城根/ns 小学/n 语文/n 老师/n 陈胜昔/nr 这样/r 描述/v 总理/n 给/p 她/r 留下/v 的/b 印象/n 。/w
+CHARACTERS = 陈胜昔;
+RELWORD = 老师;
+RELCOMB = 
+-----------
+SENTENCE = “以前，只有教育系统的老师、专家、领导听过我的课，总理来听课我是头一回遇到。
+POS_TAG = “/w 以前/f ，/w 只/d 有/v 教育/vn 系统/n 的/u 老师/n 、/w 专家/n 、/w 领导/n 听/v 过/u 我/r 的/u 课/n ，/w 总理/n 来/f 听课/v 我/r 是/v 头/m 一/m 回/q 遇到/v 。/w
+CHARACTERS = 
+RELWORD = 老师;领导;
+RELCOMB = 
+-----------
+SENTENCE = 总理进入班里后，同学们都起立鼓掌。
+POS_TAG = 总理/n 进入/v 班/n 里/f 后/f ，/w 同学/n 们/k 都/d 起立/v 鼓掌/v 。/w
+CHARACTERS = 
+RELWORD = 同学;
+RELCOMB = 
+-----------
+SENTENCE = 陈胜昔说，正当总理准备起身离开，一位小同学勇敢地挤到桌前，请他写几句话。
+POS_TAG = 陈胜昔/nr 说/n ，/w 正当/a 总理/n 准备/vd 起身/v 离开/v ，/w 一/m 位/q 小/a 同学/n 勇敢/a 地/u 挤/v 到/v 桌前/s ，/w 请/v 他/r 写/v 几/m 句/q 话/n 。/w
+CHARACTERS = 陈胜昔;
+RELWORD = 同学;
+RELCOMB = 
+-----------
+SENTENCE = 【背景】去年9月7日，第22个教师节前夕，国务院总理温家宝来到黄城根小学，亲切看望师生，并和五年级学生一起上课。
+POS_TAG = 【/w 背景/n 】/w 去年/t 9月/t 7日/t ，/w 第/m 22/m 个/q 教师节/t 前夕/f ，/w 国务院/nt 总理/n 温家宝/nr 来到/v 黄/a 城根/n 小学/n ，/w 亲切/ad 看望/v 师生/n ，/w 并/c 和/c 五/m 年级/n 学生/n 一起/s 上课/v 。/w
+CHARACTERS = 温家宝;
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = 特别是我们的温家宝总理在地震现场丝毫没有任何官威派头，相反却不顾危险奔波忙碌于废墟瓦砾之间，所展现出的沉着自信的领导风格和亲民爱民的领袖风采，让世界钦佩、令世人感喟。
+POS_TAG = 特别/d 是/v 我们/r 的/u 温家宝/nr 总理/n 在/p 地震/n 现场/s 丝毫/m 没有/v 任何/r 官/n 威/ag 派头/n ，/w 相反/vd 却/d 不顾/v 危险/an 奔波/v 忙碌/a 于/p 废墟/n 瓦砾/n 之间/f ，/w 所/u 展现/v 出/v 的/u 沉着/ad 自信/v 的/u 领导/n 风格/n 和/c 亲/v 民/ng 爱/v 民/ng 的/u 领袖/n 风采/n ，/w 让/v 世界/n 钦佩/v 、/w 令/v 世人/n 感喟/v 。/w
+CHARACTERS = 温家宝;
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 这一点值得我们所有的党员领导干部好好学习和体会。
+POS_TAG = 这/r 一点/t 值得/v 我们/r 所有/b 的/u 党员/n 领导/n 干部/n 好好/d 学习/v 和/c 体会/vn 。/w
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 个别领导成天借口自己公务繁忙，对于老百姓的诉求、需求不以为然；对于老百姓的困难、困苦不当回事。
+POS_TAG = 个别/a 领导/n 成天/d 借口/n 自己/r 公务/n 繁忙/a ，/w 对于/p 老百姓/n 的/u 诉/vg 求/v 、/w 需求/n 不以为然/i ；/w 对于/p 老百姓/n 的/u 困难/an 、/w 困苦/an 不当/ad 回/v 事/n 。/w
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 上天就这样不近人情的把那些无辜的生命夺走了,可是我无力去支援解救那些灾民们,但我会用我的心来为那些灾民们真诚的祈祷和祈福;用我现有的能力去支援他们,我的朋友们让我们一起行动起来吧.
+POS_TAG = 上/m 天/q 就/p 这样/r 不近人情/i 的/b 把/m 那些/r 无辜/a 的/b 生命/n 夺/v 走/v 了/u ,/w 可/v 是/v 我/r 无力/vd 去/v 支援/v 解救/v 那些/r 灾民/n 们/k ,/w 但/c 我/r 会/v 用/p 我/r 的/u 心/n 来/v 为/p 那些/r 灾民/n 们/k 真诚/a 的/u 祈祷/vn 和/c 祈福/v ;/nx 用/p 我/r 现有/v 的/u 能力/n 去/v 支援/v 他们/r ,/w 我/r 的/u 朋友/n 们/k 让/v 我们/r 一起/s 行动/vn 起来/v 吧/y ./w
+CHARACTERS = 
+RELWORD = 朋友;
+RELCOMB = 
+-----------
+SENTENCE = 多少年了，国内的新闻媒体总是在这种八股文的僵化模式里运行，国家领导人出访时的花絮，到基层与民众交流时的风趣语言，从媒体里面一报道出来，就变成了严肃得让人害怕的行政公文，就是见到领导人与民众亲热的场面，除了让你听到与台上讲话时一样的话语，除此之外，领导人不拘一格的民众式语言总是让媒体剪辑得不见了踪影。
+POS_TAG = 多少/r 年/q 了/y ，/w 国内/s 的/u 新闻/n 媒体/n 总是/d 在/p 这种/r 八股文/n 的/b 僵化/v 模式/n 里/f 运行/n ，/w 国家/n 领导人/n 出访/v 时/ng 的/u 花絮/n ，/w 到/v 基层/n 与/c 民众/n 交流/vn 时/ng 的/u 风趣/a 语言/n ，/w 从/p 媒体/n 里面/f 一/m 报道/v 出来/v ，/w 就/d 变成/v 了/u 严肃/a 得/u 让/v 人/n 害怕/v 的/u 行政/n 公文/n ，/w 就/d 是/v 见到/v 领导/n 人/n 与/c 民众/n 亲热/a 的/u 场面/n ，/w 除了/p 让/v 你/r 听到/v 与/p 台上/s 讲话/n 时/ng 一样/a 的/u 话语/n ，/w 除此之外/l ，/w 领导人/n 不拘一格/i 的/u 民众/n 式/k 语言/n 总是/d 让/v 媒体/n 剪辑/vn 得/e 不见/d 了/u 踪影/n 。/w
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 可以预料，在各级领导的高度重视下，50年一遇的罕见春运麻烦将会大大化解。
+POS_TAG = 可以/v 预料/v ，/w 在/p 各级/r 领导/n 的/u 高度/d 重视/v 下/f ，/w 50年/t 一/m 遇/v 的/u 罕见/a 春运/n 麻烦/an 将/d 会/v 大大/d 化解/v 。/w
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 不久后小桦的父母找到了，只是外婆和表弟却不幸遇难了，现在她也顺利小学毕业。
+POS_TAG = 不久/m 后/f 小桦/nr 的/u 父母/n 找到/v 了/y ，/w 只/d 是/v 外婆/n 和/c 表弟/n 却/d 不/d 幸/dg 遇/v 难/a 了/y ，/w 现在/t 她/r 也/d 顺利/a 小学/n 毕业/vn 。/w
+CHARACTERS = 小桦;
+RELWORD = 表弟;外婆;
+RELCOMB = 
+-----------
+SENTENCE = 几位叔叔把一封用宣纸和毛笔写的信件送到她手上，告诉她，温爷爷给她回信了！
+POS_TAG = 几/m 位/q 叔叔/n 把/p 一/m 封/q 用/p 宣纸/n 和/ag 毛笔/n 写/j 的/b 信件/n 送/v 到/c 她/r 手上/s ，/w 告诉/v 她/r ，/w 温爷爷/nr 给/p 她/r 回信/n 了/y ！/w
+CHARACTERS = 温爷爷;
+RELWORD = 叔叔;
+RELCOMB = 
+-----------
+SENTENCE = 小桦颤抖着地伸出双手接过信，看到是温爷爷的回信，激动万分的小桦一口气就把信读完了。
+POS_TAG = 小/a 桦/nr 颤抖/v 着/u 地/n 伸出/v 双手/n 接/v 过/u 信/n ，/w 看到/v 是/v 温/ag 爷爷/n 的/u 回/v 信/ag ，/w 激动/an 万分/d 的/u 小/a 桦/nr 一口气/d 就/d 把/p 信/n 读/v 完/v 了/y 。/w
+CHARACTERS = 桦;
+RELWORD = 爷爷;
+RELCOMB = 
+-----------
+SENTENCE = 小桦给温爷爷写信后，一直期盼能够收到的回信，但又怕温爷爷日理万机，没时间给自己回信。
+POS_TAG = 小桦/nr 给/v 温/ag 爷爷/n 写信/v 后/f ，/w 一直/d 期盼/v 能够/v 收到/v 的/u 回/v 信/ag ，/w 但/c 又/d 怕/v 温/ag 爷爷/n 日理万机/i ，/w 没/v 时间/n 给/p 自己/r 回信/n 。/w
+CHARACTERS = 小桦;
+RELWORD = 爷爷;
+RELCOMB = 
+-----------
+SENTENCE = 向你的同学问好，向你的家人问好，向乡亲们问好。
+POS_TAG = 向/p 你/r 的/u 同学/n 问好/v ，/w 向/p 你/r 的/u 家人/n 问好/v ，/w 向/p 乡亲/n 们/k 问好/v 。/w
+CHARACTERS = 
+RELWORD = 同学;
+RELCOMB = 
+-----------
+SENTENCE = 温总理给灾区小朋友刘小桦的亲笔回信，寄托着对灾区小朋友挚爱无比的深厚情感，意义远大于信的本身。
+POS_TAG = 温/ag 总理/n 给/p 灾区/n 小/h 朋友/n 刘小桦/nr 的/u 亲笔/d 回/v 信/ag ，/w 寄托/v 着/u 对/p 灾区/n 小/h 朋友/n 挚爱/n 无比/z 的/u 深厚/a 情感/n ，/w 意义/n 远/a 大/a 于信/ns 的/u 本身/r 。/w
+CHARACTERS = 刘小桦;
+RELWORD = 朋友;
+RELCOMB = 
+-----------
+SENTENCE = 当地震中心区暴雨连天，抢救生命的时间窗越来越小时，温总理对空降部队领导说了一句生硬却深情的话:“是人民养活了你们，你们自己看着办”。
+POS_TAG = 当/p 地震/n 中心/n 区/n 暴雨/n 连天/vd ，/w 抢救/v 生命/n 的/u 时间/n 窗/ng 越来越/d 小时/n ，/w 温总理/nr 对/p 空降/vn 部队/n 领导/n 说/v 了/u 一/m 句/q 生硬/a 却/d 深情/a 的/u 话/n :/nx “/w 是/v 人民/n 养活/v 了/u 你们/r ，/w 你们/r 自己/r 看/v 着/u 办/v ”/w 。/w
+CHARACTERS = 温总理;
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 在都江堰市的聚源学校，24个班级的近千名学生埋在废墟里，一位年逾花甲的爷爷，正从废墟里拣起孙子遗下的鞋子和书包，他的那双手微微颤抖，他的脸满是刀刻般的皱纹，他的腰似乎在悲伤的压力下努力地挺着，两片镜片后，热泪滚动。
+POS_TAG = 在/p 都江堰/ns 市/n 的/u 聚源学校/nt ，/w 24/m 个/q 班级/n 的/u 近/a 千/m 名/q 学生/n 埋/v 在/p 废墟/n 里/f ，/w 一/m 位/q 年逾花甲/l 的/u 爷爷/n ，/w 正/d 从/p 废墟/n 里/f 拣/v 起/v 孙子/n 遗/vg 下/f 的/u 鞋子/n 和/c 书包/n ，/w 他/r 的/u 那/r 双手/n 微微/d 颤抖/v ，/w 他/r 的/u 脸/n 满/d 是/v 刀/n 刻/v 般/u 的/u 皱纹/n ，/w 他/r 的/u 腰/n 似乎/d 在/p 悲伤/a 的/u 压力/n 下/f 努力/a 地/u 挺/v 着/u ，/w 两/m 片/q 镜片/n 后/f ，/w 热泪/n 滚动/vd 。/w
+CHARACTERS = 
+RELWORD = 孙子;学生;爷爷;
+RELCOMB = 
+-----------
+SENTENCE = 四川七点八级地震发生后，温家宝赶到都江堰市聚源镇中学校，当了解到学校有上百学生被埋在废墟下，他说，我知道消息后第一时间就赶来了，人命关天，我的心情和大家一样难过。
+POS_TAG = 四川/ns 七点八/m 级/q 地震/n 发生/v 后/f ，/w 温家宝/nr 赶到/v 都江堰/ns 市/n 聚/v 源/ng 镇/n 中/f 学校/n ，/w 当/ 了解/vn 到/v 学校/n 有/v 上百/m 学生/n 被/p 埋/v 在/p 废墟/n 下/f ，/w 他/r 说/v ，/w 我/r 知道/v 消息/n 后/f 第一/m 时间/n 就/d 赶来/v 了/y ，/w 人命关天/i ，/w 我/r 的/u 心情/n 和/c 大家/r 一样/u 难/a 过/u 。/w
+CHARACTERS = 温家宝;
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = 温家宝强调，各级领导干部要站在抗震救灾的第一线，身先士卒，带领广大群众做好抗震救灾工作。
+POS_TAG = 温家宝/nr 强调/v ，/w 各级/r 领导/n 干部/n 要/v 站/v 在/p 抗震救灾/l 的/u 第一线/n ，/w 身先士卒/i ，/w 带领/v 广大/b 群众/n 做好/v 抗震救灾/l 工作/vn 。/w
+CHARACTERS = 温家宝;
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 他表示相信，在党中央和国务院的坚强领导下，广大军民团结一致，众志成城，我们一定能够战胜这场特别重大的地震灾害。
+POS_TAG = 他/r 表示/v 相信/v ，/w 在/p 党中央/nt 和/c 国务院/nt 的/u 坚强/a 领导/n 下/f ，/w 广大/b 军民/n 团结/an 一致/an ，/w 众志成城/i ，/w 我们/r 一定/d 能够/v 战胜/v 这/r 场/q 特别/d 重大/a 的/u 地震/n 灾害/n 。/w
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = ”这位网名为绮梦(360327959)的记者透露，被压在废墟下的300多学生很危险，在一
+POS_TAG = ”/w 这/r 位/q 网/n 名/q 为/v 绮梦/nr (/w 360327959/m )/w 的/u 记者/n 透露/v ，/w 被/p 压/v 在/p 废墟/n 下/f 的/u 300/m 多/m 学生/n 很/d 危险/an ，/w 在/p 一/m
+CHARACTERS = 绮梦;
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = 他非让当地领导把群众调过来背风站，自己迎风讲。
+POS_TAG = 他/r 非/h 让/v 当地/s 领导/n 把/p 群众/n 调/v 过来/v 背风/v 站/n ，/w 自己/r 迎风/vd 讲/v 。/w
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 总理在对前往汶川的登机部队领导发出指示时坚定的说，“我就一句话，是人民在养你们，你们自己看着办。
+POS_TAG = 总理/n 在/p 对/p 前往/v 汶川/ns 的/u 登机/vn 部队/n 领导/n 发出/v 指示/n 时/ng 坚定/a 的/u 说/v ，/w “/w 我/r 就/d 一/m 句/q 话/n ，/w 是/v 人民/n 在/p 养/v 你们/r ，/w 你们/r 自己/r 看/v 着/u 办/v 。/w
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 最近，我看了有一则关于温总理在地震灾区“摔电话”的传闻，通过网络和人们口耳相授，被讲述得绘声绘色，说是总理冲着电话怒斥空降部队领导说：“我就一句话：是人民在养你们，你们自己看着办！
+POS_TAG = 最近/t ，/w 我/r 看/v 了/u 有/v 一/m 则/q 关于/p 温/ag 总理/n 在/p 地震/n 灾区/n “/w 摔/v 电话/n ”/w 的/u 传闻/n ，/w 通过/p 网络/n 和/c 人们/n 口/q 耳/n 相/d 授/vg ，/w 被/p 讲述/v 得/u 绘声绘色/i ，/w 说/v 是/v 总理/n 冲/v 着/u 电话/n 怒斥/vn 空降/vn 部队/n 领导/n 说/v ：/w “/w 我/r 就/d 一/m 句/q 话/n ：/w 是/v 人民/n 在/p 养/v 你们/r ，/w 你们/r 自己/r 看/v 着/u 办/v ！/w
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 虽然有处事谨慎的朋友已经查到该传闻的出处，用事实道破了其真伪(见下，附录）。
+POS_TAG = 虽然/c 有/v 处事/v 谨慎/a 的/u 朋友/n 已经/d 查/v 到/v 该/r 传闻/n 的/u 出/v 处/n ，/w 用/p 事实/n 道/v 破/v 了/u 其/r 真伪/n (/w 见/v 下/f ，/w 附录/n ）/w 。/w
+CHARACTERS = 
+RELWORD = 朋友;
+RELCOMB = 
+-----------
+SENTENCE = 但我仍然觉得，如果我们不是智障儿童，仅凭常识就能推断出，这不过是一厢情愿的虚构罢了，理由是：只有中央军委才有权调动部队，没有中央军委的授权，温总理绝不可能对部队发号施令，而他有了中央军委的授权，部队领导也绝不会推诿不从。
+POS_TAG = 但/c 我/r 仍然/d 觉得/v ，/w 如果/c 我们/r 不/d 是/v 智/ag 障/ng 儿童/n ，/w 仅/d 凭/p 常识/n 就/d 能/v 推断/v 出/v ，/w 这/r 不过/d 是/v 一厢情愿/i 的/u 虚构/vn 罢了/y ，/w 理由/n 是/v ：/w 只/d 有/v 中央军委/nt 才/d 有/v 权/n 调动/v 部队/n ，/w 没有/v 中央军委/nt 的/u 授权/vn ，/w 温/ag 总理/n 绝/d 不/d 可能/v 对/p 部队/n 发号施令/i ，/w 而/c 他/r 有/v 了/u 中央军委/nt 的/u 授权/vn ，/w 部队/n 领导/n 也/d 绝不/d 会/v 推诿/v 不/d 从/p 。/w
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 通过学习报纸、电视和领导的讲话，我知道了当此“万众一心、众志成城”的时刻，不应该听信谣言，要坚决相信地震中学校?
+POS_TAG = 通过/p 学习/v 报纸/n 、/w 电视/n 和/c 领导/n 的/u 讲话/n ，/w 我/r 知道/v 了/u 当/p 此/r “/w 万众一心/l 、/w 众志成城/i ”/c 的/u 时刻/n ，/w 不/d 应该/v 听信/v 谣言/n ，/w 要/v 坚决/ad 相信/v 地震/n 中/f 学校/n 磕/v ?/v #/nx 末/f
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 当温总理听到一位双手沾满青草的中年妇女反映说：“俺丈夫在县城打工的2300多块工钱，一年多了，要不回来，娃上学都没有钱交学费。
+POS_TAG = 当/p 温总理/nr 听到/v 一/m 位/q 双手/n 沾满/v 青草/n 的/u 中年/b 妇女/n 反映/v 说/v ：/w “/w 俺/r 丈夫/n 在/p 县城/n 打工/v 的/u 2300/m 多/m 块/q 工钱/n ，/w 一/m 年/q 多/a 了/y ，/w 要/v 不/d 回来/v ，/w 娃/ng 上/m 学/v 都/d 没有/v 钱/n 交/v 学费/n 。/w
+CHARACTERS = 温总理;
+RELWORD = 丈夫;
+RELCOMB = 
+-----------
+SENTENCE = 参观过后，总理来到了餐厅，与那里的孤儿、老人一起包饺子，孩子们给总理表演节目，并一边跳一边唱：“我们时常在梦中呼唤爸妈，今天终于能和温家宝爷爷在这里过大年。
+POS_TAG = 参观/v 过后/t ，/w 总理/n 来到/v 了/u 餐厅/n ，/w 与/p 那里/r 的/u 孤儿/n 、/w 老人/n 一起/s 包/v 饺子/n ，/w 孩子/n 们/k 给/p 总理/n 表演/vn 节目/n ，/w 并/c 一边/d 跳/v 一/m 边/k 唱/v ：/w “/w 我们/r 时/ng 常/d 在/p 梦/n 中/f 呼唤/v 爸/n 妈/n ，/w 今天/t 终于/d 能/v 和/c 温家宝/nr 爷爷/n 在/p 这里/r 过/d 大/a 年/q 。/w
+CHARACTERS = 温家宝;
+RELWORD = 爷爷;
+RELCOMB = 
+-----------
+SENTENCE = “头上的星空”自然是指代祖国母亲。
+POS_TAG = “/w 头/m 上/m 的/u 星空/n ”/w 自然/d 是/v 指/v 代/q 祖国/n 母亲/n 。/w
+CHARACTERS = 
+RELWORD = 母亲;
+RELCOMB = 
+-----------
+SENTENCE = 在农村，不但在中国这样一个古老的国家，首开先河减免“三税”，而且，为老百开办农村医疗保险、为低收入农户补济生活费，试问，开天劈地以来，有那个皇帝能真正想到老百姓呢，既是中国盛唐时期的李世民，还不是落得个暴君的名声。
+POS_TAG = 在/p 农村/n ，/w 不但/c 在/p 中国/ns 这样/r 一个/m 古老/a 的/u 国家/n ，/w 首/m 开/v 先河/n 减免/v “/w 三/m 税/n ”/w ，/w 而且/c ，/w 为/p 老/a 百/m 开办/v 农村/n 医疗/n 保险/n 、/w 为/p 低收入/n 农户/n 补/v 济/vg 生活费/n ，/w 试问/v ，/w 开/v 天/q 劈/v 地/n 以来/f ，/w 有/v 那个/r 皇帝/n 能/v 真正/d 想到/v 老百姓/n 呢/y ，/w 既/c 是/v 中国/ns 盛/v 唐/tg 时期/n 的/u 李世民/nr ，/w 还/d 不/d 是/v 落/v 得/u 个/q 暴君/n 的/b 名声/n 。/w
+CHARACTERS = 李世民;
+RELWORD = 皇帝;
+RELCOMB = 
+-----------
+SENTENCE = 在城市，胡总书记、温总理首先想到的是低收入人群，不但为低收入人口提供最低生活保障，而且写在纸上，形成制度，试想，一个国家书记、总理能想得如此周倒，在我们国家那个朝代能找出这样的好书记（皇帝）、好总理（宰相）。
+POS_TAG = 在/p 城市/n ，/w 胡/nr 总书记/n 、/w 温/ag 总理/n 首先/d 想到/v 的/u 是/v 低收入/n 人群/n ，/w 不但/c 为/p 低收入/n 人口/n 提供/v 最低/a 生活/vn 保障/vn ，/w 而且/c 写/v 在/p 纸/n 上/m ，/w 形成/v 制度/n ，/w 试想/v ，/w 一个/m 国家/n 书记/n 、/w 总理/n 能/v 想/v 得/u 如此/r 周/q 倒/v ，/w 在/p 我们/r 国家/n 那个/r 朝代/n 能/v 找/v 出/v 这样/r 的/u 好/a 书记/n （/w 皇帝/n ）/w 、/w 好/a 总理/n （/w 宰相/n ）/w 。/w
+CHARACTERS = 胡;
+RELWORD = 皇帝;
+RELCOMB = 
+-----------
+SENTENCE = 在贫富悬殊越来越大的中国，普通群众尤其是广大的弱势群体最应该感谢的是温总理，在他和他的政府领导下，许多面临辍学贫困家庭的孩子得以重返校园，广大农村教师的待遇开始缩小和城市的差距，看不起病的农民完善了医保制度.
+POS_TAG = 在/p 贫富悬殊/l 越来越/d 大/a 的/u 中国/ns ，/w 普通/a 群众/n 尤其/d 是/v 广大/b 的/u 弱势/n 群体/n 最/d 应该/v 感谢/v 的/u 是/v 温/ag 总理/n ，/w 在/p 他/r 和/c 他/r 的/u 政府/n 领导/n 下/f ，/w 许多/m 面临/v 辍学/v 贫困/a 家庭/n 的/u 孩子/n 得以/v 重返/v 校园/n ，/w 广大/b 农村/n 教师/n 的/u 待遇/n 开始/v 缩小/v 和/c 城市/n 的/u 差距/n ，/w 看不起/v 病/n 的/u 农民/n 完善/v 了/u 医/ng 保/v 制度/n ./w
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 在聚源中学,瓦砾堆上散落着学生的作业本.
+POS_TAG = 在/p 聚/v 源/ng 中学/n ,/w 瓦砾/n 堆/v 上/m 散落/v 着/u 学生/n 的/u 作业本/n ./w
+CHARACTERS = 
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = 操场上摆了几十具学生的遗体.
+POS_TAG = 操场/n 上/m 摆/v 了/u 几十/m 具/vg 学生/n 的/u 遗体/n ./w
+CHARACTERS = 
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = 这些年来,我们都能感觉到温总理老了,他是个用心在做事情的领导,是个善良的老人。
+POS_TAG = 这些/r 年/q 来/f ,/w 我们/r 都/d 能/v 感觉/n 到/v 温/ag 总理/n 老/a 了/y ,/w 他/r 是/v 个/q 用心/n 在/p 做/v 事情/n 的/u 领导/n ,/w 是/v 个/q 善良/a 的/u 老人/n 。/w
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 可现在却不同了，在我的印象里他不仅仅是一位有卓越领导才能的党和国家领导人，更像一位久别家乡回村的长辈。
+POS_TAG = 可/v 现在/t 却/d 不同/a 了/y ，/w 在/p 我/r 的/u 印象/n 里/f 他/r 不仅仅/d 是/v 一/m 位/q 有/v 卓越/a 领导/n 才能/v 的/u 党/n 和/c 国家/n 领导人/n ，/w 更/d 像/v 一/m 位/q 久别/v 家乡/n 回/j 村/n 的/b 长辈/n 。/w
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = ”总理听了深表同情，他告诉省里来的主要领导：“他提到的问题很实际，你们要记下来回去研究帮助解决。
+POS_TAG = ”/w 总理/n 听/v 了/u 深表/v 同情/vn ，/w 他/r 告诉/v 省里/n 来/f 的/u 主要/b 领导/n ：/w “/w 他/r 提到/v 的/u 问题/n 很/d 实际/a ，/w 你们/r 要/v 记/v 下来/v 回去/v 研究/v 帮助/v 解决/v 。/w
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 总理回北京了，可他留给我们的印象是那样地深刻——他的慈祥像长辈；他的真诚像朋友；他的热情像亲人。
+POS_TAG = 总理/n 回/v 北京/ns 了/y ，/w 可/v 他/r 留给/v 我们/r 的/u 印象/n 是/v 那样/r 地/u 深刻/a ——/w 他/r 的/u 慈祥/a 像/p 长辈/n ；/w 他/r 的/u 真诚/ad 像/v 朋友/n ；/w 他/r 的/u 热情/an 像/v 亲人/n 。/w
+CHARACTERS = 
+RELWORD = 朋友;
+RELCOMB = 
+-----------
+SENTENCE = 更有一些国外媒体干脆以“温爷爷”和“亲民总理抚慰灾区”为标题，将温总理的亲民、爱民形象展现无余。
+POS_TAG = 更/d 有/v 一些/m 国外/s 媒体/n 干脆/d 以/p “/w 温/ag 爷爷/n ”/w 和/c “/w 亲/ng 民/ng 总理/n 抚慰/vn 灾区/n ”/w 为/p 标题/n ，/w 将/d 温/ag 总理/n 的/u 亲/ng 民/ng 、/w 爱民/nz 形象/n 展现/v 无/v 余/ 。/w
+CHARACTERS = 
+RELWORD = 爷爷;
+RELCOMB = 
+-----------
+SENTENCE = 我们庆幸有着伟大中国共产党的领导，我们欣慰有着以“立党为公、执政为民”为理念的党和政府，我们更欣喜中国有这样一位亲民、爱民的好总理。
+POS_TAG = 我们/r 庆幸/v 有着/v 伟大/a 中国/ns 共产党/n 的/u 领导/n ，/w 我们/r 欣慰/an 有着/v 以/p “/w 立/v 党/n 为/v 公/ng 、/w 执政/v 为民/v ”/w 为/p 理念/n 的/u 党/n 和/c 政府/n ，/w 我们/r 更/d 欣喜/a 中国/ns 有/v 这样/r 一/m 位/q 亲/ng 民/ng 、/w 爱/v 民/ng 的/u 好/a 总理/n 。/w
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 我们抗灾、救灾工作要有坚强的领导、有力的指挥，也要有群众的支持、配合和理解。
+POS_TAG = 我们/r 抗灾/vn 、/w 救灾/vn 工作/vn 要/v 有/v 坚强/a 的/u 领导/n 、/w 有力/a 的/u 指挥/vn ，/w 也/d 要/v 有/v 群众/n 的/u 支持/vn 、/w 配合/v 和/c 理解/vn 。/w
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = “师傅们辛苦了！
+POS_TAG = “/w 师傅/n 们/k 辛苦/v 了/y ！/w
+CHARACTERS = 
+RELWORD = 师傅;
+RELCOMB = 
+-----------
+SENTENCE = ”温总理一下车就招呼着司机师傅们。
+POS_TAG = ”/w 温总理/nr 一/m 下车/v 就/d 招呼/v 着/u 司机/n 师傅/n 们/k 。/w
+CHARACTERS = 温总理;
+RELWORD = 师傅;
+RELCOMB = 
+-----------
+SENTENCE = ”……来自全国各地的司机师傅们在这里看到温总理，非常惊喜。
+POS_TAG = ”/w …/w …/w 来自/v 全国/n 各地/r 的/u 司机/n 师傅/n 们/k 在/p 这里/r 看到/v 温/ag 总理/n ，/w 非常/d 惊喜/a 。/w
+CHARACTERS = 
+RELWORD = 师傅;
+RELCOMB = 
+-----------
+SENTENCE = ”司机师傅们听到这一消息十分兴奋。
+POS_TAG = ”/w 司机/n 师傅/n 们/k 听到/v 这/r 一/m 消息/n 十分/d 兴奋/v 。/w
+CHARACTERS = 
+RELWORD = 师傅;
+RELCOMB = 
+-----------
+SENTENCE = 温家宝说，三位烈士都是人民的好儿子。
+POS_TAG = 温家宝/nr 说/v ，/w 三/m 位/q 烈士/n 都/d 是/v 人民/n 的/u 好/a 儿子/n 。/w
+CHARACTERS = 温家宝;
+RELWORD = 儿子;
+RELCOMB = 
+-----------
+SENTENCE = 温家宝：他们是为抢修电网而牺牲的，为人民的利益而牺牲的，你们应该因为有这样的好儿子、好丈夫、好父亲而感到自豪。
+POS_TAG = 温家宝/nr ：/w 他们/r 是/v 为/v 抢修/vn 电网/n 而/c 牺牲/v 的/u ，/w 为/p 人民/n 的/u 利益/n 而/c 牺牲/v 的/u ，/w 你们/r 应该/v 因为/c 有/v 这样/r 的/u 好/a 儿子/n 、/w 好/a 丈夫/n 、/w 好/a 父亲/n 而/c 感到/v 自豪/an 。/w
+CHARACTERS = 温家宝;
+RELWORD = 儿子;父亲;丈夫;
+RELCOMB = 
+-----------
+SENTENCE = 温家宝叮嘱湖南省和国家电网公司的领导，一定要照顾好这三位烈士的亲属。
+POS_TAG = 温家宝/nr 叮嘱/v 湖南省/ns 和/c 国家/n 电网/n 公司/n 的/u 领导/n ，/w 一定/d 要/v 照顾/v 好/a 这/r 三/m 位/q 烈士/n 的/u 亲属/n 。/w
+CHARACTERS = 温家宝;
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = １1月29日下午，红网网友“想念母亲”压抑不住他激动的心情，跑到长沙火车站附近的网吧，登录红网百姓呼声栏目，写下：“温总理在火车站给我们拜年时，我流眼泪了……”
+POS_TAG = １1月/t 29日/t 下午/t ，/w 红/a 网/n 网友/n “/w 想念/v 母亲/n ”/w 压抑/an 不/d 住/v 他/r 激动/a 的/u 心情/n ，/w 跑/v 到/v 长沙/ns 火车站/n 附近/f 的/u 网/n 吧/y ，/w 登录/v 红/a 网/n 百姓/n 呼声/n 栏目/n ，/w 写/v 下/f ：/w “/w 温总理/nr 在/p 火车站/n 给/p 我们/r 拜年/v 时/ng ，/w 我/r 流/v 眼泪/n 了/y …/w …/w ”/w
+CHARACTERS = 温总理;
+RELWORD = 母亲;
+RELCOMB = 
+-----------
+SENTENCE = 即将踏上列车前的这几个小时，已经在长沙火车站等待了6天的“想念母亲”，洋洋洒洒、真情流露，写下了29日上午在长沙火车站，亲历温家宝总理看望慰问滞留旅客的情形。
+POS_TAG = 即将/d 踏/v 上/m 列车/n 前/f 的/u 这/r 几/m 个/q 小时/n ，/w 已经/d 在/p 长沙/ns 火车站/n 等待/v 了/u 6/m 天/q 的/u “/w 想念/v 母亲/n ”/w ，/w 洋洋洒洒/i 、/w 真情/n 流露/vn ，/w 写/v 下/v 了/u 29日/t 上午/t 在/p 长沙/ns 火车站/n ，/w 亲历/v 温家宝/nr 总理/n 看望/v 慰问/v 滞留/v 旅客/n 的/u 情形/n 。/w
+CHARACTERS = 温家宝;
+RELWORD = 母亲;
+RELCOMB = 
+-----------
+SENTENCE = ”“想念母亲”在贴子中详细地写下了温家宝总理看望旅客时的情景。
+POS_TAG = ”/w “/w 想念/v 母亲/n ”/w 在/p 贴/v 子/ng 中/f 详细/a 地/u 写/v 下/v 了/u 温家宝/nr 总理/n 看望/v 旅客/n 时/ng 的/u 情景/n 。/w
+CHARACTERS = 温家宝;
+RELWORD = 母亲;
+RELCOMB = 
+-----------
+SENTENCE = 总理的话，“想念母亲”听得真切：“他说特大冰雪把交通给堵塞了，把电网中断了，但政府部门正在加紧抢修，到时候电通了，火车就通了，大家就可以回家过年了。
+POS_TAG = 总理/n 的/u 话/n ，/w “/w 想念/v 母亲/n ”/w 听/v 得/u 真切/a ：/w “/w 他/r 说/v 特/ag 大/a 冰雪/n 把/p 交通/n 给/p 堵塞/v 了/y ，/w 把/p 电网/n 中/f 断/v 了/y ，/w 但/c 政府部门/n 正在/d 加紧/vd 抢修/v ，/w 到/v 时候/n 电/n 通/v 了/y ，/w 火车/n 就/d 通/v 了/y ，/w 大家/r 就/d 可以/v 回家/v 过年/v 了/y 。/w
+CHARACTERS = 
+RELWORD = 母亲;
+RELCOMB = 
+-----------
+SENTENCE = “想念母亲”因此想起了偏僻的大山深处等候他回家的妈妈、患病的老父亲，想起自己从坐车到长沙、排队买票、等待上车的一系列艰难的过程和在火车站的无数个回家的期待……“想念母亲”写道：“在这寒冷的冬天，经历过漫长的等待，能亲眼见到温总理来看望我们，好暖和！
+POS_TAG = “/w 想念/v 母亲/n ”/w 因此/c 想起/v 了/u 偏僻/a 的/u 大山/n 深处/s 等候/v 他/r 回家/v 的/u 妈妈/n 、/w 患病/v 的/u 老/a 父亲/n ，/w 想起/v 自己/r 从/p 坐/v 车/n 到/v 长沙/ns 、/w 排队/vd 买/v 票/n 、/w 等待/v 上车/v 的/u 一/m 系列/q 艰难/a 的/u 过程/n 和/c 在/p 火车站/n 的/u 无数/m 个/q 回家/v 的/u 期待/vn …/w …/w “/w 想念/v 母亲/n ”/w 写道/v ：/w “/w 在/p 这/r 寒冷/a 的/u 冬天/t ，/w 经历/v 过/u 漫长/a 的/u 等待/vn ，/w 能/v 亲眼/d 见到/v 温/ag 总理/n 来/f 看望/v 我们/r ，/w 好/a 暖和/a ！/w
+CHARACTERS = 
+RELWORD = 父亲;妈妈;母亲;
+RELCOMB = 
+-----------
+SENTENCE = “想念母亲”在文章的最后表达了一个普通老百姓的心愿：“尊敬的温总理：这么冷的天气，您也辛苦了，多保重！
+POS_TAG = “/w 想念/v 母亲/n ”/w 在/p 文章/n 的/u 最后/f 表达/v 了/u 一个/m 普通/a 老百姓/n 的/u 心愿/n ：/w “/w 尊敬/v 的/u 温/ag 总理/n ：/w 这么/r 冷/a 的/u 天气/n ，/w 您/r 也/d 辛苦/v 了/y ，/w 多/ad 保重/v ！/w
+CHARACTERS = 
+RELWORD = 母亲;
+RELCOMB = 
+-----------
+SENTENCE = 国务院办公厅的一位领导同志带人从都江堰紫坪铺水库坐了四十多分钟的冲锋舟，登岸以后再徒步艰难行走了两个多小时终于到达汶川县的水磨镇。
+POS_TAG = 国务院/nt 办公厅/n 的/u 一/m 位/q 领导/n 同志/n 带/v 人/n 从/p 都江堰/ns 紫坪铺/ns 水库/n 坐/v 了/u 四十/m 多/m 分钟/q 的/u 冲锋/vn 舟/n ，/w 登岸/v 以后/f 再/b 徒步/d 艰难/a 行走/v 了/u 两/m 个/n 多/a 小时/n 终于/d 到达/v 汶川县/ns 的/b 水磨/n 镇/n 。/w
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 在北川中学、都江堰聚源中学，在新建小学教学楼的废墟旁，他冒着微微细雨爬上断墙，含着眼泪向埋在废墟里的孩子喊道“我是温家宝爷爷，孩子们一定要挺住?
+POS_TAG = 在/p 北川/ns 中学/n 、/w 都江堰/ns 聚/v 源/ng 中学/n ，/w 在/p 新建/v 小学/n 教学楼/n 的/u 废墟/n 旁/f ，/w 他/r 冒/v 着/u 微微/b 细雨/n 爬/v 上/m 断/v 墙/n ，/w 含/v 着/u 眼泪/n 向/p 埋/v 在/p 废墟/n 里/f 的/u 孩子/n 喊/v 道/q “/w 我/r 是/v 温家宝/nr 爷爷/n ，/w 孩子/n 们/k 一定/d 要/v 挺/ag 住/v ?m
+CHARACTERS = 温家宝;
+RELWORD = 爷爷;
+RELCOMB = 
+-----------
+SENTENCE = ”“同学们，加油！
+POS_TAG = ”/w “/w 同学/n 们/k ，/w 加油/v ！/w
+CHARACTERS = 
+RELWORD = 同学;
+RELCOMB = 
+-----------
+SENTENCE = ”这是温总理勉励北川中学学生的一句话。
+POS_TAG = ”/w 这/r 是/v 温总理/nr 勉励/v 北川/ns 中学/n 学生/n 的/b 一/m 句/n 话/m 。/w
+CHARACTERS = 温总理;
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = 有这样贴心的温爷爷，孩子们怎能不感到欣慰！
+POS_TAG = 有/v 这样/r 贴心/a 的/u 温/ag 爷爷/n ，/w 孩子/n 们/k 怎/r 能/v 不/d 感到/v 欣慰/an ！/w
+CHARACTERS = 
+RELWORD = 爷爷;
+RELCOMB = 
+-----------
+SENTENCE = 这正如12岁羌族女孩刘小桦在写给温家宝爷爷的信中所说的，“地震无情，人有情，它夺走了我们的校园，夺走了家园，夺走了辛勤的园丁?
+POS_TAG = 这/r 正/d 如/v 12/m 岁/q 羌族/nz 女孩/n 刘小桦/nr 在/p 写/v 给/p 温家宝/nr 爷爷/n 的/u 信/n 中/f 所/u 说/v 的/u ，/w “/w 地震/n 无/v 情/n ，/w 人/n 有/v 情/n ，/w 它/r 夺/v 走/v 了/u 我们/r 的/u 校园/n ，/w 夺/v 走/v 了/u 家园/n ，/w 夺/v 走/v 了/u 辛勤/a 的/u 园丁/n ?m
+CHARACTERS = 刘小桦;温家宝;
+RELWORD = 爷爷;
+RELCOMB = 刘小桦,温家宝->爷爷;
+-----------
+SENTENCE = 以会议贯彻会议，以开会代替工作，是部分地方政府和领导干部最让老百姓不满意的形式主义官僚主义。
+POS_TAG = 以/p 会议/n 贯彻/v 会议/n ，/w 以/p 开会/v 代替/v 工作/vn ，/w 是/v 部分/m 地方/n 政府/n 和/c 领导/n 干部/n 最/d 让/v 老百姓/n 不/d 满意/v 的/u 形式主义/n 官僚主义/n 。/w
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 多少年了，国内的新闻媒体总是在这种八股文的僵化模式里运行，国家领导人出访时的花絮，到基层与民众交流时的风趣语言，从媒体里面一报道出来，就变成了严肃得让人害怕的行政公文，就是见到领导人与民众亲热的场面，除了让你听到与台上讲话时一样的话语，除此之外，领导人不拘一格的民众式语言总是让媒体剪辑得不见了踪影。
+POS_TAG = 多少/r 年/q 了/y ，/w 国内/s 的/u 新闻/n 媒体/n 总是/d 在/p 这种/r 八股文/n 的/b 僵化/v 模式/n 里/f 运行/n ，/w 国家/n 领导人/n 出访/v 时/ng 的/u 花絮/n ，/w 到/v 基层/n 与/c 民众/n 交流/vn 时/ng 的/u 风趣/a 语言/n ，/w 从/p 媒体/n 里面/f 一/m 报道/v 出来/v ，/w 就/d 变成/v 了/u 严肃/a 得/u 让/v 人/n 害怕/v 的/u 行政/n 公文/n ，/w 就/d 是/v 见到/v 领导/n 人/n 与/c 民众/n 亲热/a 的/u 场面/n ，/w 除了/p 让/v 你/r 听到/v 与/p 台上/s 讲话/n 时/ng 一样/a 的/u 话语/n ，/w 除此之外/l ，/w 领导人/n 不拘一格/i 的/u 民众/n 式/k 语言/n 总是/d 让/v 媒体/n 剪辑/vn 得/e 不见/d 了/u 踪影/n 。/w
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 温家宝在陆浩、徐守盛、刘巨魁、冯健身、姜信治等省领导的陪同下，先后深入康县平洛镇、豆坪乡和成县黄陈镇一些受灾严重的村庄，走访受灾农户，深入察看灾情，同当地干部群众一同筹划恢复生产、重建家园的根本大计，把党中央、国务院的关怀与温暖送到了灾区群众的心坎上。
+POS_TAG = 温家宝/nr 在/p 陆浩/nr 、/w 徐守盛/nr 、/w 刘巨魁/nr 、/w 冯健身/nr 、/w 姜信治/nr 等/u 省/n 领导/n 的/u 陪同/vn 下/f ，/w 先后/d 深入/v 康县/ns 平洛镇/ns 、/w 豆/n 坪乡/ns 和/c 成县/ns 黄陈镇/ns 一些/m 受灾/v 严重/a 的/u 村庄/n ，/w 走访/v 受灾/vn 农户/n ，/w 深入/ad 察看/v 灾情/n ，/w 同/p 当地/s 干部/n 群众/n 一同/d 筹划/v 恢复/v 生产/vn 、/w 重建/v 家园/n 的/u 根本/a 大计/n ，/w 把/p 党中央/nt 、/w 国务院/nt 的/u 关怀/vn 与/c 温暖/an 送/v 到/v 了/u 灾区/n 群众/n 的/u 心坎/n 上/m 。/w
+CHARACTERS = 冯健身;姜信治;刘巨魁;陆浩;温家宝;徐守盛;
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 温家宝说，中希在政治上相互信赖，在经济上加强合作，在社会文化领域开展丰富多彩的交流，增进了两国全面战略伙伴关系。
+POS_TAG = 温家宝/nr 说/v ，/w 中希/j 在/p 政治/n 上/m 相互/d 信赖/v ，/w 在/p 经济/n 上/m 加强/v 合作/vn ，/w 在/p 社会/n 文化/n 领域/n 开展/v 丰富多彩/i 的/u 交流/vn ，/w 增进/v 了/u 两/m 国/n 全面/a 战略/n 伙伴/n 关系/n 。/w
+CHARACTERS = 温家宝;
+RELWORD = 伙伴;
+RELCOMB = 
+-----------
+SENTENCE = 中方为在欧盟中有希腊这样的好朋友感到高兴。
+POS_TAG = 中方/n 为/v 在/p 欧盟/j 中/f 有/v 希腊/ns 这样/r 的/u 好/a 朋友/n 感到/v 高兴/a 。/w
+CHARACTERS = 
+RELWORD = 朋友;
+RELCOMB = 
+-----------
+SENTENCE = 这是温总理从都江堰市一所学校的废墟中捡起学生的鞋子和书包，心情沉重。
+POS_TAG = 这/r 是/v 温总理/nr 从/p 都江堰/ns 市/n 一/m 所/q 学校/n 的/u 废墟/n 中/f 捡/v 起/v 学生/n 的/u 鞋子/n 和/c 书包/n ，/w 心情/n 沉重/an 。/w
+CHARACTERS = 温总理;
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = 温家宝蹲坐在废墟上对着孩子说，我是温家宝爷爷，孩子们一定要挺住?
+POS_TAG = 温家宝/nr 蹲/v 坐/v 在/p 废墟/n 上/m 对/p 着/u 孩子/n 说/v ，/w 我/r 是/v 温家宝/nr 爷爷/n ，/w 孩子/n 们/k 一定/d 要/v 挺/ag 住/v ?m
+CHARACTERS = 温家宝;
+RELWORD = 爷爷;
+RELCOMB = 
+-----------
+SENTENCE = 这是温总理从都江堰市一所学校的废墟中捡起学生的鞋子和书包，心情沉重。
+POS_TAG = 这/r 是/v 温总理/nr 从/p 都江堰/ns 市/n 一/m 所/q 学校/n 的/u 废墟/n 中/f 捡/v 起/v 学生/n 的/u 鞋子/n 和/c 书包/n ，/w 心情/n 沉重/an 。/w
+CHARACTERS = 温总理;
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = 温家宝蹲坐在废墟上对着孩子说，我是温家宝爷爷，孩子们一定要挺住?
+POS_TAG = 温家宝/nr 蹲/v 坐/v 在/p 废墟/n 上/m 对/p 着/u 孩子/n 说/v ，/w 我/r 是/v 温家宝/nr 爷爷/n ，/w 孩子/n 们/k 一定/d 要/v 挺/ag 住/v ?m
+CHARACTERS = 温家宝;
+RELWORD = 爷爷;
+RELCOMB = 
+-----------
+SENTENCE = 这是在绵阳美瑞纺织公司安置点，12岁的小学六年级学生王师晨说：“我还有一个小小的要求。
+POS_TAG = 这/r 是/v 在/p 绵阳/ns 美/j 瑞/j 纺织/n 公司/n 安置/v 点/t ，/w 12/m 岁/q 的/u 小学/n 六/m 年级/n 学生/n 王师晨/nr 说/v ：/w “/w 我/r 还/d 有/v 一个/m 小小/z 的/u 要求/n 。/w
+CHARACTERS = 王师晨;
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = 潭千秋、王周明、汤鸿、向倩、杜正香等英雄老师名字，在山崩地裂的生死关头以生命捍卫生与死的真正含义！
+POS_TAG = 潭千秋/nr 、/w 王周明/nr 、/w 汤鸿/nr 、/w 向倩/nr 、/w 杜正香/nr 等/u 英雄/n 老师/n 名字/n ，/w 在/p 山崩/v 地/j 裂/v 的/b 生死/n 关头/n 以/c 生命/n 捍卫/v 生/a 与/c 死/a 的/b 真正/a 含义/n ！/w
+CHARACTERS = 杜正香;潭千秋;汤鸿;王周明;向倩;
+RELWORD = 老师;
+RELCOMB = 
+-----------
+SENTENCE = 8级地震，琼库尔恰克乡党支部书记达吾提一家六口仅剩他自己；当天您站在废墟上告诉达吾提·阿西木：我们是一家人，五十六个民族是中华民族大家庭同甘共苦的姐妹兄弟！
+POS_TAG = 8/m 级/q 地震/n ，/w 琼/ng 库尔恰克乡/ns 党支部/n 书记/n 达吾提/nr 一/m 家/q 六/m 口/q 仅/d 剩/v 他/r 自己/r ；/w 当天/t 您/r 站/v 在/p 废墟/n 上/m 告诉/v 达吾提·阿西木/nr ：/w 我们/r 是/v 一家/n 人/n ，/w 五十六/m 个/q 民族/n 是/v 中华民族/n 大/a 家庭/n 同甘共苦/i 的/u 姐妹/n 兄弟/n ！/w
+CHARACTERS = 达吾提;达吾提·阿西木;
+RELWORD = 姐妹;兄弟;
+RELCOMB = 达吾提,达吾提·阿西木->姐妹;达吾提,达吾提·阿西木->兄弟;
+-----------
+SENTENCE = 孩子说：温爷爷太累了，我要搬把凳子请爷爷休息休息，您忘我工作的精神永远激励着我今后更加要好好学习；老师说：中国不会忘记，历史车轮已经留下您深深足迹，世界上没有任何国家的总理能比得上您对人民的情谊！
+POS_TAG = 孩子/n 说/v ：/w 温/nr 爷爷/n 太/d 累/a 了/y ，/w 我/r 要/v 搬/v 把/p 凳子/n 请/v 爷爷/n 休息/v 休息/v ，/w 您/r 忘我工作/l 的/u 精神/n 永远/d 激励/v 着/u 我/r 今后/t 更加/d 要/v 好好/d 学习/v ；/w 老师/n 说/v ：/w 中国/ns 不/d 会/v 忘记/v ，/w 历史/n 车轮/n 已经/d 留下/v 您/r 深深/a 足迹/n ，/w 世界/n 上/m 没有/v 任何/r 国家/n 的/u 总理/n 能/v 比/v 得/u 上/m 您/r 对/p 人民/n 的/u 情谊/n ！/w
+CHARACTERS = 温;
+RELWORD = 老师;爷爷;
+RELCOMB = 
+-----------
+SENTENCE = 灾后短时间内，就从各方汇集了上百位心理学家和心理医生，对灾民开展心理救援，把心理干预纳入救灾轨道。
+POS_TAG = 灾/n 后/f 短/a 时间/n 内/f ，/w 就/d 从/p 各方/r 汇集/v 了/u 上百/m 位/q 心理学/n 家/n 和/c 心理/n 医生/n ，/w 对/p 灾民/n 开展/v 心理/n 救援/vn ，/w 把/p 心理/n 干预/v 纳入/v 救灾/vn 轨道/n 。/w
+CHARACTERS = 
+RELWORD = 医生;
+RELCOMB = 
+-----------
+SENTENCE = 这位专家动情地说：“温总理是最好的心理医生。
+POS_TAG = 这/r 位/q 专家/n 动情/v 地/u 说/v ：/w “/w 温/ag 总理/n 是/v 最/d 好/a 的/u 心理/n 医生/n 。/w
+CHARACTERS = 
+RELWORD = 医生;
+RELCOMB = 
+-----------
+SENTENCE = 灾后不到四小时就飞抵灾区；两次亲临灾区指挥抗震救灾；面对遇难群众遗体三鞠躬；“我是温家宝爷爷，孩子们一定要挺住?
+POS_TAG = 灾/n 后/f 不/d 到/v 四/m 小时/n 就/d 飞/dg 抵/v 灾区/n ；/w 两/m 次/q 亲临/v 灾区/n 指挥/v 抗震救灾/l ；/w 面对/v 遇难/v 群众/n 遗体/n 三/m 鞠躬/v ；/w “/w 我/r 是/v 温家宝/nr 爷爷/n ，/w 孩子/n 们/k 一定/d 要/v 挺/ag 住/v ?m
+CHARACTERS = 温家宝;
+RELWORD = 爷爷;
+RELCOMB = 
+-----------
+SENTENCE = 总书记、温总理等中央领导战斗在一线，为救援人员和受灾群众送来温暖和力量；人民子弟兵用锹、用镐、用血肉之躯，坚强地技撑起灾区群众生命的空间；全国各行各业迅速启动应急预案支援灾区，社会各界献血的献血、捐款的捐款，众志成诚、万众一心的民族精神得到了最完美的体现。
+POS_TAG = 总书记/n 、/w 温总理/nr 等/u 中央/n 领导/n 战斗/v 在/p 一线/n ，/w 为/p 救援/vn 人员/n 和/c 受灾/vn 群众/n 送/v 来/v 温暖/an 和/c 力量/n ；/w 人民/n 子弟兵/n 用/p 锹/n 、/w 用/v 镐/n 、/w 用/v 血肉/n 之/u 躯/ng ，/w 坚强/a 地/n 技/ng 撑/v 起/v 灾区/n 群众/n 生命/n 的/u 空间/n ；/w 全国/n 各行各业/l 迅速/ad 启动/v 应急/vn 预案/n 支援/v 灾区/n ，/w 社会/n 各界/r 献血/v 的/u 献血/vn 、/w 捐款/v 的/u 捐款/n ，/w 众/ag 志/vg 成/m 诚/an 、/w 万众一心/l 的/u 民族/n 精神/n 得到/v 了/u 最/d 完美/a 的/u 体现/vn 。/w
+CHARACTERS = 温总理;
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = “孩子，听爷爷的话，要挺住?
+POS_TAG = “/w 孩子/n ，/w 听/v 爷爷/n 的/u 话/n ，/w 要/v 挺/ag 住/v ?m
+CHARACTERS = 
+RELWORD = 爷爷;
+RELCOMB = 
+-----------
+SENTENCE = ”他来到都江堰市小学生王佳淇的病床前，俯下身子拿起佳淇的小手说道：“来，摸摸爷爷的脸。
+POS_TAG = ”/w 他/r 来到/v 都江堰/ns 市/n 小学生/n 王佳淇/nr 的/u 病床/n 前/f ，/w 俯/vg 下/v 身子/n 拿/v 起/v 佳/a 淇/g 的/b 小/a 手/d 说道/v ：/w “/w 来/f ，/w 摸摸/v 爷爷/n 的/u 脸/n 。/w
+CHARACTERS = 王佳淇;
+RELWORD = 爷爷;
+RELCOMB = 
+-----------
+SENTENCE = 我曾经说，领导力最好译作领袖力。
+POS_TAG = 我/r 曾经/d 说/v ，/w 领导/n 力/dg 最/d 好/a 译作/n 领袖/n 力/an 。/w
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 因为我们通常所说的领导，是那些担任领导职务的人。
+POS_TAG = 因为/p 我们/r 通常/d 所/u 说/v 的/u 领导/n ，/w 是/v 那些/r 担任/v 领导/n 职务/n 的/u 人/n 。/w
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 而领袖是真正发挥了领导作用的人。
+POS_TAG = 而/c 领袖/n 是/v 真正/d 发挥/v 了/u 领导/n 作用/n 的/u 人/n 。/w
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 领导有职位，领袖有成果。
+POS_TAG = 领导/n 有/v 职位/n ，/w 领袖/n 有/v 成果/n 。/w
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 领导有下属，领袖有追随者。
+POS_TAG = 领导/n 有/v 下属/n ，/w 领袖/n 有/v 追随者/n 。/w
+CHARACTERS = 
+RELWORD = 领导;下属;
+RELCOMB = 
+-----------
+SENTENCE = 领导使用权力，领袖使用领导力。
+POS_TAG = 领导/n 使用/v 权力/n ，/w 领袖/n 使用/v 领导/n 力/vg 。/w
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 总理当然是领导，省长、县长也是领导。
+POS_TAG = 总理/n 当然/d 是/v 领导/n ，/w 省长/n 、/w 县长/n 也/d 是/v 领导/n 。/w
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = CEO当然是领导，经理、主管也是领导。
+POS_TAG = CEO/nx 当然/d 是/v 领导/n ，/w 经理/n 、/w 主管/vn 也/d 是/v 领导/n 。/w
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 如果领导发挥了领导作用，把下属变成了追随者，领导也就成为了领袖。
+POS_TAG = 如果/c 领导/n 发挥/v 了/u 领导/n 作用/n ，/w 把/p 下属/n 变成/v 了/u 追随者/n ，/w 领导/n 也/d 就/d 成为/v 了/u 领袖/n 。/w
+CHARACTERS = 
+RELWORD = 领导;下属;
+RELCOMB = 
+-----------
+SENTENCE = 但组织中更常见的情形，是只有领导，没有领袖。
+POS_TAG = 但/c 组织/n 中/f 更/d 常见/a 的/u 情形/n ，/w 是/v 只/d 有/v 领导/n ，/w 没有/v 领袖/n 。/w
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 其中之一，就是在“震中”领导的温总理身上，我们看到了更多的领袖成分。
+POS_TAG = 其中/r 之一/r ，/w 就是/d 在/p “/w 震中/n ”/w 领导/n 的/u 温总理/nr 身上/s ，/w 我们/r 看到/v 了/u 更/d 多/a 的/u 领袖/n 成分/n 。/w
+CHARACTERS = 温总理;
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 温总理在抗震救灾中的表现，怎样发挥了领导力？
+POS_TAG = 温/ag 总理/n 在/p 抗震救灾/l 中/f 的/u 表现/vn ，/w 怎样/r 发挥/v 了/u 领导/n 力/vg ？/w
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 我借用领导力大师本尼斯跟人合著的《领导者》（可以译作《领袖们》）的框架，概括为三个方面。
+POS_TAG = 我/r 借用/v 领导/n 力/vg 大师/n 本尼斯/nr 跟/c 人/n 合著/v 的/b 《/w 领导者/n 》/w （/w 可以/v 译作/n 《/w 领袖/n 们/k 》/w ）/w 的/u 框架/n ，/w 概括/vd 为/v 三/m 个/q 方面/n 。/w
+CHARACTERS = 本尼斯;
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 《领导者》一书通过对90位领袖的访谈，总结出四大领导力策略，第一条就是“以愿景唤起注意”。
+POS_TAG = 《/w 领导者/n 》/w 一/m 书/n 通过/p 对/p 90/m 位/q 领袖/n 的/u 访谈/vn ，/w 总结/vd 出/v 四/m 大/a 领导/n 力/vg 策略/n ，/w 第一/m 条/q 就/d 是/v “/w 以/p 愿/v 景/ng 唤起/v 注意/v ”/w 。/w
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 另一位领导力大师科特总结了领导者和管理者的不同，第一个就是领导者“制定并沟通愿景”。
+POS_TAG = 另/r 一/m 位/q 领导/n 力/vg 大师/n 科特/nr 总结/v 了/u 领导者/n 和/c 管理者/n 的/u 不同/a ，/w 第一/m 个/q 就/d 是/v 领导者/n “/w 制定/v 并/c 沟通/v 愿/v 景/ng ”/w 。/w
+CHARACTERS = 科特;
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = ”温总理的领导力的一大体现，就是确定了“正确的事”——救人。
+POS_TAG = ”/w 温总理/nr 的/u 领导/n 力/n 的/u 一/m 大/a 体现/vn ，/w 就/d 是/v 确定/v 了/y “/w 正确/a 的/u 事/n ”/w ——/w 救人/v 。/w
+CHARACTERS = 温总理;
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 那不是领导，是误导。
+POS_TAG = 那/r 不/d 是/v 领导/n ，/w 是/v 误导/vn 。/w
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 这是《领导者》书中说的第二点领导力策略，也就是科特说的领导者“激励与鼓舞”。
+POS_TAG = 这/r 是/v 《/w 领导者/n 》/w 书/n 中/f 说/v 的/u 第二点/t 领导/n 力/vg 策略/n ，/w 也/d 就/d 是/v 科特/nr 说/v 的/u 领导者/n “/w 激励/v 与/c 鼓舞/v ”/w 。/w
+CHARACTERS = 科特;
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 这是《领导者》总结的第三种领导力策略，就是言行一致，而且坚持不渝。
+POS_TAG = 这/r 是/v 《/w 领导者/n 》/w 总结/v 的/u 第三/m 种/q 领导/n 力/vg 策略/n ，/w 就/d 是/v 言行一致/i ，/w 而且/c 坚持不渝/i 。/w
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 其实也就是“以身作则”，这是另外两位领导力大师库泽斯和波斯纳总结的五种领导力行为中的第一种。
+POS_TAG = 其实/d 也/d 就/d 是/v “/w 以身作则/i ”/w ，/w 这/r 是/v 另外/c 两/m 位/q 领导/n 力/vg 大师/n 库泽斯/nr 和/c 波斯纳/nr 总结/n 的/b 五/m 种/m 领导/n 力/an 行为/n 中/a 的/b 第一/m 种/m 。/w
+CHARACTERS = 波斯纳;库泽斯;
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 有个朋友，认为应该更理性地看待救灾以及救灾引出的问题。
+POS_TAG = 有/v 个/q 朋友/n ，/w 认为/v 应该/v 更/d 理性/n 地/u 看待/v 救灾/vn 以及/c 救灾/vn 引出/v 的/u 问题/n 。/w
+CHARACTERS = 
+RELWORD = 朋友;
+RELCOMB = 
+-----------
+SENTENCE = 当然，地震灾难提出来的领导力挑战并没有结束。
+POS_TAG = 当然/d ，/w 地震/n 灾难/n 提/v 出来/v 的/u 领导/n 力/dg 挑战/v 并/c 没有/d 结束/v 。/w
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 人民仍然在期待、在召唤领导力。
+POS_TAG = 人民/n 仍然/d 在/p 期待/v 、/w 在/p 召唤/vn 领导/n 力/vg 。/w
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 震中领导，相对容易，因为地震已经自然而然地吸引了注意力。
+POS_TAG = 震中/n 领导/n ，/w 相对/d 容易/a ，/w 因为/c 地震/n 已经/d 自然而然/i 地/u 吸引/v 了/u 注意力/n 。/w
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 震后领导，才是对领导力的更严峻考验。
+POS_TAG = 震后/t 领导/n ，/w 才/d 是/v 对/p 领导/n 力/n 的/u 更/d 严峻/a 考验/vn 。/w
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 温家宝总理那十足的底气，来自于优秀的中华民族数千年来与自然灾害做斗争而蓄积起来的自强不息的力量和智慧，来自于伟大的中国人民在党和政府的领导下所表现出来的万众一心、众志成城的抗灾行动和英雄气概，来自于我们的国家，特别是改革开放以来所建立起来的雄厚的物质技术基础?
+POS_TAG = 温家宝/nr 总理/n 那/r 十足/z 的/u 底/f 气/n ，/w 来自/v 于/p 优秀/a 的/u 中华民族/n 数千/m 年/q 来/f 与/p 自然/n 灾害/n 做/v 斗争/vn 而/c 蓄积/v 起来/v 的/u 自强不息/i 的/u 力量/n 和/c 智慧/n ，/w 来自/v 于/p 伟大/a 的/u 中国/ns 人民/n 在/p 党/n 和/c 政府/n 的/u 领导/n 下/f 所/u 表现/v 出来/v 的/u 万众一心/l 、/w 众志成城/i 的/b 抗灾/v 行动/v 和/ag 英雄/a 气概/n ，/w 来自/v 于/p 我们/r 的/u 国家/n ，/w 特别/d 是/v 改革/v 开放/v 以来/f 所/u 建立/v 起来/v 的/u 雄厚/a 的/u 物质/n 技术/n 基础/n ?m
+CHARACTERS = 温家宝;
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 这段谈话，虽然是对从灾难中走来的同学们讲的，然而，又何尝不是这种不可抗拒的力量的最佳注解呢？
+POS_TAG = 这/r 段/q 谈话/vn ，/w 虽然/c 是/v 对/p 从/p 灾难/n 中/f 走/v 来/f 的/u 同学/n 们/k 讲/v 的/u ，/w 然而/c ，/w 又/d 何尝/d 不/d 是/v 这种/r 不/d 可/v 抗拒/v 的/u 力量/n 的/u 最佳/z 注解/n 呢/y ？/w
+CHARACTERS = 
+RELWORD = 同学;
+RELCOMB = 
+-----------
+SENTENCE = 我们不曾忘记，2007年五四青年节期间，温总理兴致勃勃地来到清华大学、同济大学等多所大学的同学们中间，看望广大青年学生，表示节日的问候和祝贺并与同学们一起亲切座谈，他殷切地“希望同学们经常地仰望天空，学会做人，学会思考，学会知识和技能，做一个关心世界和国家命运的人。
+POS_TAG = 我们/r 不曾/d 忘记/v ，/w 2007年/t 五四/m 青年节/t 期间/f ，/w 温总理/nr 兴致勃勃/i 地/u 来到/v 清华大学/nt 、/w 同济/nz 大学/n 等/u 多/m 所/q 大学/n 的/u 同学/n 们/k 中间/f ，/w 看望/v 广大/b 青年/n 学生/n ，/w 表示/v 节日/n 的/u 问候/vn 和/c 祝贺/vn 并/c 与/p 同学/n 们/k 一起/d 亲切/a 座谈/vn ，/w 他/r 殷切/a 地/u “/w 希望/v 同学/n 们/k 经常/d 地/u 仰望/v 天空/n ，/w 学会/v 做人/v ，/w 学会/n 思考/vn ，/w 学会/v 知识/n 和/c 技能/n ，/w 做/v 一个/m 关心/v 世界/n 和/c 国家/n 命运/n 的/u 人/n 。/w
+CHARACTERS = 温总理;
+RELWORD = 同学;学生;
+RELCOMB = 
+-----------
+SENTENCE = 这两个小学生，就是都江堰市新建小学的赵其松和王佳淇。
+POS_TAG = 这/r 两/m 个/q 小/a 学生/n ，/w 就/d 是/v 都江堰/ns 市/n 新建/v 小学/n 的/u 赵其松/nr 和/c 王佳淇/nr 。/w
+CHARACTERS = 王佳淇;赵其松;
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = 中央领导对抗震救灾的高度重视、对灾区人民的深情厚意、亲切关怀，感动了国人、震动了世界。
+POS_TAG = 中央/n 领导/n 对/p 抗震救灾/l 的/u 高度/d 重视/v 、/w 对/p 灾区/n 人民/n 的/u 深情厚意/n 、/w 亲切/a 关怀/vn ，/w 感动/v 了/u 国人/n 、/w 震动/v 了/u 世界/n 。/w
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 我们有党中央、国务院的坚强领导，有任何困难都难不倒英雄的中国人民，目前全国上下，万众一心、众志成城、顽强拼搏，正在把我们的血肉，筑成我们新的长城。
+POS_TAG = 我们/r 有/v 党中央/nt 、/w 国务院/nt 的/u 坚强/a 领导/n ，/w 有/v 任何/r 困难/an 都/d 难/a 不/d 倒/v 英雄/n 的/u 中国/ns 人民/n ，/w 目前/t 全国/n 上下/f ，/w 万众一心/l 、/w 众志成城/i 、/w 顽强/ad 拼搏/v ，/w 正/d 在/p 把/p 我们/r 的/u 血肉/n ，/w 筑/v 成/m 我们/r 新/a 的/u 长城/ns 。/w
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = “孩子，听爷爷的话，要挺住?
+POS_TAG = “/w 孩子/n ，/w 听/v 爷爷/n 的/u 话/n ，/w 要/v 挺/ag 住/v ?m
+CHARACTERS = 
+RELWORD = 爷爷;
+RELCOMB = 
+-----------
+SENTENCE = ”在温家宝爷爷的亲切话语鼓舞下，坚强的孩子挺住了、得救了，可是总理的心还没有放下，仍然惦记着孩子们。
+POS_TAG = ”/w 在/p 温家宝/nr 爷爷/n 的/u 亲切/a 话语/n 鼓舞/v 下/f ，/w 坚强/a 的/u 孩子/n 挺/ag 住/v 了/y 、/w 得救/v 了/y ，/w 可是/c 总理/n 的/u 心/n 还/d 没有/d 放/v 下/f ，/w 仍然/d 惦记/v 着/u 孩子/n 们/k 。/w
+CHARACTERS = 温家宝;
+RELWORD = 爷爷;
+RELCOMB = 
+-----------
+SENTENCE = 温家宝对小其松的妈妈说，“我惦记着他，这次来了以后就打听。
+POS_TAG = 温家宝/nr 对/p 小/a 其松/nr 的/u 妈妈/n 说/v ，/w “/w 我/r 惦记/v 着/u 他/r ，/w 这次/r 来/v 了/u 以后/f 就/d 打听/v 。/w
+CHARACTERS = 其松;温家宝;
+RELWORD = 妈妈;
+RELCOMB = 其松,温家宝->妈妈;
+-----------
+SENTENCE = ”温家宝俯下身去，拿起王佳淇的小手，“来，摸摸爷爷的脸。
+POS_TAG = ”/w 温家宝/nr 俯/vg 下身/n 去/v ，/w 拿/v 起/v 王佳淇/nr 的/u 小/a 手/n ，/w “/w 来/f ，/w 摸摸/v 爷爷/n 的/u 脸/n 。/w
+CHARACTERS = 王佳淇;温家宝;
+RELWORD = 爷爷;
+RELCOMB = 王佳淇,温家宝->爷爷;
+-----------
+SENTENCE = 在北川中学的所有班级中，高三(一)班是最幸运的——在5月12日那场罕见的大地震中，除了教学楼垮塌外，该班没有一个学生遇难。
+POS_TAG = 在/p 北川/nr 中学/n 的/b 所有/b 班级/n 中/a ，/w 高三/n (/w 一/m )/w 班/n 是/v 最/d 幸运/a 的/u ——/w 在/p 5月/t 12日/t 那场/r 罕见/a 的/u 大/a 地震/n 中/f ，/w 除了/p 教学楼/n 垮/ag 塌/v 外/f ，/w 该/r 班/n 没有/v 一个/m 学生/n 遇难/vn 。/w
+CHARACTERS = 北川;
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = 这位专家动情地说：“温总理是最好的心理医生！
+POS_TAG = 这/r 位/q 专家/n 动情/v 地/u 说/v ：/w “/w 温总理/nr 是/v 最/d 好/a 的/u 心理/n 医生/n ！/w
+CHARACTERS = 温总理;
+RELWORD = 医生;
+RELCOMB = 
+-----------
+SENTENCE = “我是温家宝爷爷，孩子们一定要挺住?
+POS_TAG = “/w 我/r 是/v 温家宝/nr 爷爷/n ，/w 孩子/n 们/k 一定/d 要/v 挺/ag 住/v ?m
+CHARACTERS = 温家宝;
+RELWORD = 爷爷;
+RELCOMB = 
+-----------
+SENTENCE = 昨天，温家宝在监护室看望在地震中受伤的小朋友郎铮，称赞他很坚强。
+POS_TAG = 昨天/t ，/w 温家宝/nr 在/p 监护/vn 室/n 看望/v 在/p 地震/n 中/f 受伤/v 的/u 小/a 朋友/n 郎铮/nr ，/w 称赞/v 他/r 很/d 坚强/a 。/w
+CHARACTERS = 郎铮;温家宝;
+RELWORD = 朋友;
+RELCOMB = 
+-----------
+SENTENCE = 郎铮的父亲郎洪东是北川县小坝镇的民警，地震发生后，一直坚守在抗震救灾一线。
+POS_TAG = 郎铮/nr 的/u 父亲/n 郎洪东/nr 是/v 北川/ns 县/n 小坝镇/ns 的/b 民警/n ，/w 地震/n 发生/v 后/f ，/w 一直/d 坚守/v 在/p 抗震救灾/l 一线/n 。/w
+CHARACTERS = 郎洪东;郎铮;
+RELWORD = 父亲;
+RELCOMB = 郎洪东,郎铮->父亲;
+-----------
+SENTENCE = 由于通讯和交通中断，郎洪东直至19日才得知儿子获救，20日经部队直升机运送，才赶到404医院见了儿子一面，随即又赶赴救灾一线。
+POS_TAG = 由于/p 通讯/n 和/c 交通/n 中断/v ，/w 郎洪东/nr 直至/v 19日/t 才/d 得知/v 儿子/n 获救/v ，/w 20日/t 经/p 部队/n 直升机/n 运送/v ，/w 才/d 赶到/v 404/m 医院/n 见/v 了/u 儿子/n 一/m 面/q ，/w 随即/d 又/d 赶赴/v 救灾/v 一/m 线/q 。/w
+CHARACTERS = 郎洪东;
+RELWORD = 儿子;
+RELCOMB = 
+-----------
+SENTENCE = 昨天早上7点多，郎铮的母亲吴晓红接到医院的消息，说温总理半个小时后到病房看望郎铮?
+POS_TAG = 昨天/t 早上/t 7/m 点/q 多/a ，/w 郎铮/nr 的/u 母亲/n 吴晓红/nr 接/v 到/v 医院/n 的/u 消息/n ，/w 说/v 温/ag 总理/n 半/m 个/q 小时/n 后/f 到/v 病房/n 看望/v 郎/ng 铮/ng
+CHARACTERS = 郎铮;吴晓红;
+RELWORD = 母亲;
+RELCOMB = 郎铮,吴晓红->母亲;
+-----------
+SENTENCE = 我们有这样的一心为民的好政府,有这样时时深深爱民的好领导人,是我们全国人民的福,我们一定要服从领导,鼓起斗志,挺起脊梁,高喊“中国加油”,勇往直前。
+POS_TAG = 我们/r 有/v 这样/r 的/u 一心/d 为/v 民/ng 的/u 好/a 政府/n ,/w 有/v 这样/r 时时/d 深深/d 爱/v 民/ng 的/u 好/a 领导/n 人/n ,/w 是/v 我们/r 全国/n 人民/n 的/u 福/n ,/w 我们/r 一定/d 要/v 服从/v 领导/n ,/w 鼓/vg 起/v 斗志/n ,/w 挺起/v 脊梁/n ,/w 高/ad 喊/v “/w 中国/ns 加油/v ”/w ,/w 勇往直前/i 。/w
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 面对灾魔，我们有以胡锦涛为首的党中央的正确领导，有战斗在抗震救灾第一线的温总理，胜利就必将属于全体中国人民.
+POS_TAG = 面对/v 灾/n 魔/ag ，/w 我们/r 有/v 以/p 胡锦涛/nr 为首/v 的/u 党中央/nt 的/u 正确/a 领导/n ，/w 有/v 战斗/v 在/p 抗震救灾/l 第一线/n 的/u 温总理/nr ，/w 胜利/vd 就/d 必将/d 属于/v 全体/n 中国/ns 人民/n ./w
+CHARACTERS = 胡锦涛;温总理;
+RELWORD = 领导;
+RELCOMB = 胡锦涛,温总理->领导;
+-----------
+SENTENCE = 一所学校的废墟下压着300多名学生。
+POS_TAG = 一/m 所/q 学校/n 的/u 废墟/n 下/f 压/v 着/u 300/m 多/m 名/q 学生/n 。/w
+CHARACTERS = 
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = 他对前往汶川的登机部队领导说，“我就一句话，是人民在养你们，你们自己看着办。
+POS_TAG = 他/r 对/p 前往/v 汶川/ns 的/u 登机/vn 部队/n 领导/n 说/v ，/w “/w 我/r 就/d 一/m 句/q 话/n ，/w 是/v 人民/n 在/p 养/v 你们/r ，/w 你们/r 自己/r 看/v 着/u 办/v 。/w
+CHARACTERS = 
+RELWORD = 领导;
+RELCOMB = 
+-----------
+SENTENCE = 如今我们的四川汶川地震了，特大地震，我们的亲人温总理亲自在灾区指挥，我们的四川同胞，我们的兄弟姐妹，他们正处在危难之中，他们的生活状态和心态一定也像几年前的我们一样，那里的震级还比我们这里的要大很多，我决定把今年5月到明年5月一年的工资，总共17000元全部捐赠给四川灾区，我们要尽自己的所能帮助四川灾区人民”。
+POS_TAG = 如今/t 我们/r 的/u 四川/ns 汶川/ns 地震/n 了/y ，/w 特/ag 大/a 地震/n ，/w 我们/r 的/u 亲人/n 温总理/nr 亲自/d 在/p 灾区/n 指挥/vn ，/w 我们/r 的/u 四川/ns 同胞/n ，/w 我们/r 的/u 兄弟/n 姐妹/n ，/w 他们/r 正/d 处在/v 危难/n 之中/f ，/w 他们/r 的/u 生活/vn 状态/n 和/c 心态/n 一定/d 也/d 像/v 几/m 年/q 前/f 的/u 我们/r 一样/u ，/w 那里/r 的/u 震级/n 还/d 比/p 我们/r 这里/r 的/u 要/v 大/a 很多/m ，/w 我/r 决定/v 把/p 今年/t 5月/t 到/p 明年/t 5月/t 一/m 年/q 的/u 工资/n ，/w 总共/d 17000/m 元/q 全部/m 捐赠/v 给/p 四川/ns 灾区/n ，/w 我们/r 要/v 尽/v 自己/r 的/u 所/u 能/v 帮助/v 四川/ns 灾区/n 人民/n ”/w 。/w
+CHARACTERS = 温总理;
+RELWORD = 姐妹;兄弟;
+RELCOMB = 
+-----------
+SENTENCE = ”据记者透露，被压在废墟下的300多学生很危险，在一次营救失败后，总理冒雨攀上瓦砾堆，组织再次营救。
+POS_TAG = ”/w 据/p 记者/n 透露/v ，/w 被/p 压/v 在/p 废墟/n 下/f 的/u 300/m 多/m 学生/n 很/d 危险/an ，/w 在/p 一/m 次/q 营救/v 失败/v 后/f ，/w 总理/n 冒雨/vd 攀/v 上/m 瓦砾/n 堆/k ，/w 组织/n 再次/d 营救/v 。/w
+CHARACTERS = 
+RELWORD = 学生;
+RELCOMB = 
+-----------
+SENTENCE = 在这场地震灾难中，经历过地震险情，但有惊无险的女儿说：“爸，地震发生时，我们班主任张老师是最后一个走出教室的”。
+POS_TAG = 在/p 这/r 场/q 地震/n 灾难/n 中/f ，/w 经历/v 过/u 地震/n 险情/n ，/w 但/c 有惊无险/l 的/u 女儿/n 说/v ：/w “/w 爸/n ，/w 地震/n 发生/v 时/ng ，/w 我们/r 班主任/n 张/q 老师/n 是/v 最后/f 一个/m 走/v 出/v 教室/n 的/u ”/w 。/w
+CHARACTERS = 
+RELWORD = 老师;女儿;
+RELCOMB = 
+-----------
+SENTENCE = 女儿还说：“爸，我用小灵通向中国红十字会捐款2元钱”。
+POS_TAG = 女儿/n 还/d 说/v ：/w “/w 爸/n ，/w 我/r 用/v 小/a 灵通/a 向/dg 中国/n 红十字会/b 捐款/n 2/m 元/n 钱/n ”/c 。/w
+CHARACTERS = 
+RELWORD = 女儿;
+RELCOMB = 
+-----------
+SENTENCE = 为女儿有这样的好老师而动容，也为女儿的幸福成长而欣慰。
+POS_TAG = 为/p 女儿/n 有/v 这样/r 的/u 好/a 老师/n 而/c 动容/v ，/w 也/d 为/v 女儿/n 的/u 幸福/a 成/m 长/a 而/c 欣慰/an 。/w
+CHARACTERS = 
+RELWORD = 老师;女儿;
+RELCOMB = 
+-----------
